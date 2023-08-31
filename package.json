@@ -1,0 +1,37 @@
+{
+  "name": "psm_web_site_v2",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+    "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "react-easy-swipe": "^0.0.23",
+    "react-slick": "^0.29.0",
+    "react-modal-video": "^2.0.1",
+    "slick-carousel": "^1.8.1",
+    "moment": "^2.29.4",
+    "prop-types": "^15.8.1",
+    "eslint": "^8.48.0",
+    "next-themes": "^0.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}
