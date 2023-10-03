@@ -9,7 +9,7 @@ const Principal = () => {
           id="principal"
           className="relative z-10 overflow-hidden pb-10 md:pb-[10px] xl:pb-[10px]"
           // relative z-10 overflow-hidden pb-16 md:pb-[120px] xl:pb-[160px] 2xl:pb-[200px]
-          style={{ paddingTop: "98px" }}
+          style={{ paddingTop: "80px" }}
         >
           {principalData.data.active_carousel ? (
             <CarouselWithContent data={principalData.data.carousel_data} />
