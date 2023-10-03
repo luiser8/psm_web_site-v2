@@ -3,7 +3,7 @@ const SectionTitle = ({
     paragraph,
     width = "570px",
     center,
-    mb = "100px",
+    mb = "20px",
   }) => {
     return (
       <>
