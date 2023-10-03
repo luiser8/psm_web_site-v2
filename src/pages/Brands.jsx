@@ -17,18 +17,18 @@ const brandsData = [
     href: "https://lineicons.com",
     image: "/images/brands/lineicons.svg",
   },
-  {
-    id: 4,
-    name: "GrayGrids",
-    href: "https://graygrids.com",
-    image: "/images/brands/graygrids.svg",
-  },
-  {
-    id: 5,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
+  // {
+  //   id: 4,
+  //   name: "GrayGrids",
+  //   href: "https://graygrids.com",
+  //   image: "/images/brands/graygrids.svg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "TailAdmin",
+  //   href: "https://tailadmin.com",
+  //   image: "/images/brands/tailadmin.svg",
+  // },
 ];
 
 const Brands = () => {
