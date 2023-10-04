@@ -19,25 +19,31 @@ const SingleCarrera = ({ carreras }) => {
     //     </p>
     //   </div>
     // </div>
-  //   <div class="bg-white py-24 sm:py-32">
-  //   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-  //     <div class="mx-auto max-w-2xl lg:mx-0">
-  //       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
-  //       <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
-  //     </div>
-  //   </div>
-  // </div>
-  <Link to={`/carrera/${detail}`}>
-    <div className="bg-transparent p-4 rounded-lg">
-      <img className="h-56 rounded w-full object-cover object-center mb-2" src={`${image}`} alt="content" />
-      {/* <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3> */}
-      {/* <h2 class="text-lg text-gray-900 font-medium title-font mb-4">{detail}</h2> */}
-      <p className="leading-relaxed text-base">{name}</p>
-    </div>
-  </Link>
-  // <a href={`/carrera/${detail}`}>
+    //   <div class="bg-white py-24 sm:py-32">
+    //   <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    //     <div class="mx-auto max-w-2xl lg:mx-0">
+    //       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
+    //       <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
+    //     </div>
+    //   </div>
+    // </div>
+    <Link to={`/carrera/${detail}`}>
+      <div className="bg-transparent h-auto w-auto transition-all  rounded-lg border-gray-500 hover:border-orange-400  border-2 text-center flex flex-col items-center content-center justify-between">
+        <img
+          className="h-auto  w-full object-cover object-center rounded mb-5"
+          src={`${image}`}
+          alt="content"
+        />
+        {/* <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3> */}
+        {/* <h2 class="text-lg text-gray-900 font-medium title-font mb-4">{detail}</h2> */}
 
-  // </a>
+        <p className="leading-relaxed text-xl font-semibold">{name}</p>
+        <button className="text-orange-400 mb-5">Más detalles</button>
+      </div>
+    </Link>
+    // <a href={`/carrera/${detail}`}>
+
+    // </a>
   );
 };
 
