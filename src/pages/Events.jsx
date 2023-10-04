@@ -7,10 +7,17 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import SectionTitle from "../components/common/SectionTitle";
 
 const Events = () => {
   return (
-    <>
+    <section className="relative z-10 py-6 md:py-10 lg:py-10">
+    <div className="">
+      <SectionTitle
+        title="Eventos"
+        paragraph="Ponencias"
+        center
+      />
       <Swiper
         slidesPerView={1}
         spaceBetween={45}
@@ -62,7 +69,8 @@ const Events = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+      </div>
+    </section>
   );
 };
 
