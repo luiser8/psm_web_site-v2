@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import eventosData from "../utils/mock/eventosData";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
+// import "../tailwind.css" importar en caso de cambiar el color de la paginación del carousel
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -23,6 +25,10 @@ const Events = () => {
         spaceBetween={45}
         pagination={{
           clickable: true,
+          // para cambiar color de la paginación
+          // renderBullet: function (index, className) {
+          //   return '<span class="' + className + '">' + (index + 1) + '</span>';
+          // },
         }}
         autoplay={{
           delay: 2500,
