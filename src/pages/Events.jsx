@@ -29,7 +29,7 @@ const Events = () => {
           disableOnInteraction: false,
         }}
         navigation={{
-          enabled: true,
+          enabled: false,
         }}
         breakpoints={{
           640: {
