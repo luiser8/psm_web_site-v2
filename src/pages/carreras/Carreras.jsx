@@ -43,11 +43,11 @@ const Carreras = () => {
                 },
                 1024: {
                   slidesPerView: 3,
-                  spaceBetween: 20,
+                  spaceBetween: 30,
                 },
               }}
               modules={[Autoplay, Pagination, Navigation]}
-              className=" w-[90%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent"
+              className=" w-[95%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent"
             >
               {carrerasData.data.map((carrera) => (
                 <SwiperSlide className=" my-10 overflow-hidden" key={carrera.id}>

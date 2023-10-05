@@ -16,6 +16,7 @@ import Contact from '../../pages/Contact';
 import Carreras from '../../pages/carreras/Carreras';
 import Events from '../../pages/Events';
 import Saia from '../../pages/saia/Saia';
+import EventsDetails from './EventsDetails';
 
 const Layout = () => {
   return (
@@ -24,6 +25,7 @@ const Layout = () => {
           <Header />
           <ScrollUp />
           <Principal />
+          {/* <EventsDetails/> */}
           <Events />
           {/* <Features /> */}
           <Carreras />

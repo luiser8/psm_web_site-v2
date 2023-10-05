@@ -25,10 +25,10 @@ const Events = () => {
             //   return '<span class="' + className + '">' + (index + 1) + '</span>';
             // },
           }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
           navigation={{
             enabled: false,
           }}
@@ -43,7 +43,7 @@ const Events = () => {
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween: 50,
+              spaceBetween: 40,
             },
           }}
           modules={[Autoplay, Pagination, Navigation]}
@@ -51,14 +51,14 @@ const Events = () => {
         >
           {eventosData.data.map((events, index) => (
             <SwiperSlide className="mx-auto my-10" key={index}>
-              <div className=" border-2 border-gray-500 rounded-lg overflow-hidden hover:border-orange-400 transition-all cursor-pointer">
+              <div className=" border-2 border-gray-500 rounded-lg w-full overflow-hidden hover:border-orange-400 transition-all cursor-pointer">
                 <img
                   className="lg:h-full md:h-full w-full object-cover object-center"
                   src={events.image}
                   alt="image"
                 />
-                <div className="p-6">
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                <div className="p-5">
+                  <h1 className="title-font text-center font-bold text-gray-900 mb-3 lg:text-base">
                     {events.name}
                   </h1>
                   <p className="leading-relaxed mb-3">{events.description}</p>
