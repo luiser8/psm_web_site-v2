@@ -25,10 +25,10 @@ const Carreras = () => {
                 //   return '<span class="' + className + '">' + (index + 1) + '</span>';
                 // },
               }}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
               navigation={{
                 enabled: false,
               }}
@@ -39,18 +39,18 @@ const Carreras = () => {
                 },
                 768: {
                   slidesPerView: 2,
-                  spaceBetween: 40,
+                  spaceBetween: 30,
                 },
                 1024: {
                   slidesPerView: 3,
-                  spaceBetween: 50,
+                  spaceBetween: 20,
                 },
               }}
               modules={[Autoplay, Pagination, Navigation]}
               className=" w-[90%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent"
             >
               {carrerasData.data.map((carrera) => (
-                <SwiperSlide className=" my-10" key={carrera.id}>
+                <SwiperSlide className=" my-10 overflow-hidden" key={carrera.id}>
                   <SingleCarrera carreras={carrera} />
                 </SwiperSlide>
               ))}

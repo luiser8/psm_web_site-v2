@@ -28,17 +28,21 @@ const SingleCarrera = ({ carreras }) => {
     //   </div>
     // </div>
     <Link to={`/carrera/${detail}`}>
-      <div className="bg-transparent h-auto w-auto transition-all  rounded-lg border-gray-500 hover:border-orange-400  border-2 text-center flex flex-col items-center content-center justify-between">
+      <div className="bg-transparent  w-auto transition-all  rounded-lg border-gray-500 hover:border-orange-400  border-2 text-center flex flex-col items-center content-center justify-between">
         <img
-          className="h-auto  w-full object-cover object-center rounded mb-5"
+          className="h-auto  w-full object-cover object-center rounded-t-lg mb-5"
           src={`${image}`}
           alt="content"
         />
         {/* <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3> */}
         {/* <h2 class="text-lg text-gray-900 font-medium title-font mb-4">{detail}</h2> */}
 
-        <p className="leading-relaxed text-xl font-semibold">{name}</p>
-        <button className="text-orange-400 mb-5">Más detalles</button>
+        <p className=" font-semibold text-xl  lg:text-lg sm:md:leading-2 md:leading-4 lg:whitespace-pre-wrap">
+          {name}
+        </p>
+        <button className="text-blue-gray-900 mb-5 md:text-base">
+          Más detalles
+        </button>
       </div>
     </Link>
     // <a href={`/carrera/${detail}`}>
