@@ -25,7 +25,7 @@ const Layout = () => {
           <Header />
           <ScrollUp />
           <Principal />
-          {/* <EventsDetails/> */}
+          <EventsDetails/> 
           <Events />
           {/* <Features /> */}
           <Carreras />
