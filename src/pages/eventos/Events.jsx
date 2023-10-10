@@ -1,12 +1,12 @@
 import React from "react";
-import eventosData from "../utils/mock/eventosData";
+import eventosData from "../../utils/mock/eventosData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import SectionTitle from "../components/common/SectionTitle";
+import SectionTitle from "../../components/common/SectionTitle";
 
 // import "../tailwind.css" importar en caso de cambiar el color de la paginación del carousel
 
@@ -25,10 +25,10 @@ const Events = () => {
             //   return '<span class="' + className + '">' + (index + 1) + '</span>';
             // },
           }}
-          // autoplay={{
-          //   delay: 2500,
-          //   disableOnInteraction: false,
-          // }}
+           autoplay={{
+             delay: 2500,
+             disableOnInteraction: false,
+           }}
           navigation={{
             enabled: false,
           }}

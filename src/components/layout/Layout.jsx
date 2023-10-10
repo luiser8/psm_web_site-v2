@@ -14,9 +14,9 @@ import { ThemeProviders } from '../../utils/providers/ThemeProviders';
 import Blog from '../../pages/Blog';
 import Contact from '../../pages/Contact';
 import Carreras from '../../pages/carreras/Carreras';
-import Events from '../../pages/Events';
+import Events from '../../pages/eventos/Events';
+import EventsDetails from '../../pages/eventos/EventsDetails';
 import Saia from '../../pages/saia/Saia';
-import EventsDetails from './EventsDetails';
 
 const Layout = () => {
   return (
@@ -25,7 +25,7 @@ const Layout = () => {
           <Header />
           <ScrollUp />
           <Principal />
-          {/* <EventsDetails/> */}
+          <EventsDetails />
           <Events />
           {/* <Features /> */}
           <Carreras />
