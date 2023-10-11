@@ -1,17 +1,16 @@
 import { useState } from "react";
-
 import ModalVideo from "react-modal-video";
-import SectionTitle from "../components/common/SectionTitle";
+import SectionTitle from "../../components/common/SectionTitle";
 
-const Video = () => {
+const Saia = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Sistema de aprendizaje interactivo a distancia SAIA"
+          paragraph="La Educación a distancia es una modalidad de enseñanza y aprendizaje cuya característica principal es la separación física de los participantes y facilitadores."
           center
           mb="80px"
         />
@@ -55,10 +54,10 @@ const Video = () => {
       />
 
       {isOpen ? <><div className="absolute bottom-0 left-0 right-0 z-[-1]">
-        <img src="/images/video/shape.svg" alt="shape" className="w-full" />
+        {/* <img src="/images/video/shape.svg" alt="shape" className="w-full" /> */}
       </div></> : <></>}
     </section>
   );
 };
 
-export default Video;
+export default Saia;
