@@ -7,19 +7,11 @@ const Saia = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
-      <div className="container">
+    <section className="py-5">
+      <div className="w-[95%] mx-auto">
         <section className="w-full h-full">
-          <SectionTitle
-            title="Sistema de aprendizaje interactivo a distancia SAIA"
-            paragraph="La Educación a distancia es una modalidad de enseñanza y aprendizaje cuya característica principal es la separación física de los participantes y facilitadores."
-            center
-            mb="80px"
-          />
-
           {componentSaiaData.active ? (
             <section className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 rounded-lg  mx-auto md:flex-row-reverse md:gap-x-5  lg:mt-10 mb-20">
-
               <div className="overflow-hidden h-full ">
                 <img
                   src={componentSaiaData.image}
@@ -46,6 +38,9 @@ const Saia = () => {
           className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
           data-wow-delay=".15s"
         >
+          <h1 className="text-2xl mb-4 font-bold text-center md:text-3xl xl:text-3xl">
+            Instrucciones de como acceder a nuestro portal
+          </h1>
           <div className="relative aspect-[77/40] items-center justify-center">
             <img src="/images/video/video.jpg" alt="video image" />
             <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
