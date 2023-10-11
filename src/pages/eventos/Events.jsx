@@ -13,7 +13,7 @@ import SectionTitle from "../../components/common/SectionTitle";
 const Events = () => {
   return (
     <section className="relative z-10 py-6 md:py-10 lg:py-10">
-      <div className="">
+      <div className="w-full h-full">
         <SectionTitle title="Eventos" paragraph="Ponencias" center />
         <Swiper
           slidesPerView={1}
@@ -25,10 +25,10 @@ const Events = () => {
             //   return '<span class="' + className + '">' + (index + 1) + '</span>';
             // },
           }}
-           autoplay={{
-             delay: 2500,
-             disableOnInteraction: false,
-           }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           navigation={{
             enabled: false,
           }}
@@ -47,7 +47,7 @@ const Events = () => {
             },
           }}
           modules={[Autoplay, Pagination, Navigation]}
-          className=" w-[90%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent  my-5"
+          className=" w-[95%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent  my-5"
         >
           {eventosData.data.map((events, index) => (
             <SwiperSlide className="mx-auto my-10" key={index}>
