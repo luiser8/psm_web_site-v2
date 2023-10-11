@@ -25,10 +25,10 @@ const Carreras = () => {
                 //   return '<span class="' + className + '">' + (index + 1) + '</span>';
                 // },
               }}
-               autoplay={{
+              autoplay={{
                 delay: 2500,
-                 disableOnInteraction: false,
-               }}
+                disableOnInteraction: false,
+              }}
               navigation={{
                 enabled: false,
               }}
@@ -50,7 +50,10 @@ const Carreras = () => {
               className=" w-[95%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent"
             >
               {carrerasData.data.map((carrera) => (
-                <SwiperSlide className=" my-10 overflow-hidden" key={carrera.id}>
+                <SwiperSlide
+                  className=" my-10 overflow-hidden"
+                  key={carrera.id}
+                >
                   <SingleCarrera carreras={carrera} />
                 </SwiperSlide>
               ))}
