@@ -23,10 +23,14 @@ export default function SaiaDetails() {
               />
             </div>
             <div className="h-full md:w-full lg:w-[50%] flex items-center flex-col justify-start">
-              <h1 className="text-xl mb-5 font-bold text-start md:text-2xl xl:text-4xl">
-                {detallesSaiaData.title}
-              </h1>
-              <p className="lg:text-lg mb-4">{detallesSaiaData.description}</p>
+              <span className="w-full">
+                <h1 className="text-xl mb-2 font-bold text-start md:text-2xl xl:text-4xl">
+                  {detallesSaiaData.title}
+                </h1>
+                <p className="lg:text-lg mb-4">
+                  {detallesSaiaData.description}
+                </p>
+              </span>
 
               {detallesSaiaData.data.map((text) => (
                 <span key={text.id}>
