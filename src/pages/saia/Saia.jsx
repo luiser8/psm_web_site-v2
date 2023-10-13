@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import SectionTitle from "../../components/common/SectionTitle";
 import componentSaiaData from "../../utils/mock/componentSaiaData";
+import { NavLink as Link } from "react-router-dom";
 
 const Saia = () => {
   const [isOpen, setOpen] = useState(false);
@@ -27,6 +27,7 @@ const Saia = () => {
                 <span className="text-base font-normal leading-6 text-start xl:leading-8 ">
                   {componentSaiaData.data}
                 </span>
+                <Link to={"/saia/detalles"} className="mt-5 font-semibold text-base md:text-xl">Mostrar más</Link>
               </div>
             </section>
           ) : (
