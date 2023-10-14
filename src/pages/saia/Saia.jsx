@@ -30,7 +30,7 @@ const Saia = () => {
                   </span>
                 </div>
               </section>
-              <span className="w-full flex justify-center mt-8">
+              <span className="w-full flex justify-center mt-1">
                 <Link
                   to={"/saia/detalles"}
                   className={"font-semibold text-xl md:text-2xl"}
