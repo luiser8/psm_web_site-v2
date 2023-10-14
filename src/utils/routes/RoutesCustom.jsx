@@ -3,6 +3,7 @@ import { Navigate, useRoutes } from "react-router-dom";
 import Error from "../../components/Errors/Error";
 import DetallesCarrera from "../../pages/carreras/DetallesCarrera";
 import Layout from "../../components/layout/Layout";
+import SaiaDetails from "../../pages/saia/SaiaDetails";
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -13,6 +14,10 @@ export default function RoutesCustom() {
     {
       path: "/carrera/:id",
       element: <DetallesCarrera />,
+    },
+    {
+      path: "/saia/detalles",
+      element: <SaiaDetails />,
     },
     {
       path: "/404",

@@ -1,34 +1,44 @@
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import SectionTitle from "../../components/common/SectionTitle";
 import componentSaiaData from "../../utils/mock/componentSaiaData";
+import { NavLink as Link } from "react-router-dom";
 
 const Saia = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="py-5">
+    <section className="mt-32">
       <div className="w-[95%] mx-auto">
-        <section className="w-full h-full">
+        <section className="w-full h-full mb-32">
           {componentSaiaData.active ? (
-            <section className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 rounded-lg  mx-auto md:flex-row-reverse md:gap-x-5  lg:mt-10 mb-20">
-              <div className="overflow-hidden h-full ">
-                <img
-                  src={componentSaiaData.image}
-                  alt="eventos"
-                  className=" mx-auto w-full h-full object-contain object-center"
-                />
-              </div>
+            <div className="w-full h-full">
+              <section className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 rounded-lg  mx-auto md:flex-row-reverse md:gap-x-5  lg:mt-10">
+                <div className="overflow-hidden h-full ">
+                  <img
+                    src={componentSaiaData.image}
+                    alt="eventos"
+                    className=" mx-auto w-full h-full object-contain object-center"
+                  />
+                </div>
 
-              <div className="h-full md:w-1/2 flex items-center flex-col justify-center">
-                <h1 className="text-xl mb-4 font-bold text-start md:text-lg xl:text-3xl">
-                  {componentSaiaData.title}
-                </h1>
-                <span className="text-base font-normal leading-6 text-start xl:leading-8 ">
-                  {componentSaiaData.data}
-                </span>
-              </div>
-            </section>
+                <div className="h-full md:w-1/2 flex items-center flex-col justify-center">
+                  <h1 className="text-xl mb-4 font-bold text-start md:text-lg xl:text-3xl">
+                    {componentSaiaData.title}
+                  </h1>
+                  <span className="text-base font-normal leading-6 text-start xl:leading-8 ">
+                    {componentSaiaData.data}
+                  </span>
+                </div>
+              </section>
+              <span className="w-full flex justify-center mt-1">
+                <Link
+                  to={"/saia/detalles"}
+                  className={"font-semibold text-xl md:text-2xl"}
+                >
+                  Más detalles
+                </Link>
+              </span>
+            </div>
           ) : (
             <></>
           )}
