@@ -20,6 +20,10 @@ export default function RoutesCustom() {
       element: <SaiaDetails />,
     },
     {
+      path: "/noticias/:id",
+      element: <Layout />,
+    },
+    {
       path: "/404",
       element: <Error />,
     },

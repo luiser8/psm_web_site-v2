@@ -4,10 +4,10 @@ import blogData from "../utils/mock/blogData";
 
 const Blog = () => {
   return (
-    <section id="blog" className="bg-primary/5 py-16 md:py-20 lg:py-28">
+    <section id="blog" className="bg-primary/5 py-14 md:py-16 lg:py-20 w-[95%] mx-auto border-red-500 border-2">
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
+          title="Noticias destacadas"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />

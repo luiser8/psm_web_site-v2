@@ -32,11 +32,11 @@ const Layout = () => {
           <Carreras />
           <Saia />
           <Testimonials />
+          <Blog />
           <Brands />
           <AboutSectionOne />
           <AboutSectionTwo />
           <Pricing />
-          <Blog />
           <Contact />
           <Footer />
           <ScrollToTop />
