@@ -4,7 +4,7 @@ import blogData from "../utils/mock/blogData";
 
 const Blog = () => {
   return (
-    <section id="blog" className="bg-primary/5 py-14 md:py-16 lg:py-20 w-[95%] mx-auto border-red-500 border-2">
+    <section id="blog" className="bg-primary/5 py-14 md:py-16 lg:py-20 w-full mx-auto">
       <div className="container">
         <SectionTitle
           title="Noticias destacadas"
