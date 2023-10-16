@@ -31,10 +31,10 @@ const Layout = () => {
           {/* <Features /> */}
           <Carreras />
           <Saia />
+          <Testimonials />
           <Brands />
           <AboutSectionOne />
           <AboutSectionTwo />
-          <Testimonials />
           <Pricing />
           <Blog />
           <Contact />
