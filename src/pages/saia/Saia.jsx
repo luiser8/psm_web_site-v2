@@ -7,7 +7,7 @@ const Saia = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="mt-32">
+    <section className="mt-32 mb-10">
       <div className="w-[95%] mx-auto">
         <section className="w-full h-full mb-32">
           {componentSaiaData.active ? (

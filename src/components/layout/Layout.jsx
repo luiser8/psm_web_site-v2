@@ -11,7 +11,7 @@ import AboutSectionTwo from '../../pages/AboutSectionTwo';
 import Testimonials from '../../pages/Testimonials';
 import Pricing from '../../pages/Pricing';
 import { ThemeProviders } from '../../utils/providers/ThemeProviders';
-import Blog from '../../pages/Blog';
+import News from '../../pages/noticias/News';
 import Contact from '../../pages/Contact';
 import Carreras from '../../pages/carreras/Carreras';
 import Events from '../../pages/eventos/Events';
@@ -32,7 +32,7 @@ const Layout = () => {
           <Carreras />
           <Saia />
           <Testimonials />
-          <Blog />
+          <News/>
           <Brands />
           <AboutSectionOne />
           <AboutSectionTwo />

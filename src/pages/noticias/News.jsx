@@ -1,10 +1,10 @@
-import SectionTitle from "../components/common/SectionTitle";
-import SingleBlog from "../components/common/SingleBlog";
-import blogData from "../utils/mock/blogData";
+import SectionTitle from "../../components/common/SectionTitle";
+import SingleNews from "../../components/common/SingleNews";
+import blogData from "../../utils/mock/newsData";
 
-const Blog = () => {
+const News = () => {
   return (
-    <section id="blog" className="bg-primary/5 py-14 md:py-16 lg:py-20 w-full mx-auto">
+    <section id="blog" className="bg-primary/5 py-10 w-full mx-auto">
       <div className="container">
         <SectionTitle
           title="Noticias destacadas"
@@ -15,7 +15,7 @@ const Blog = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
           {blogData.map((blog) => (
             <div key={blog.id} className="w-full">
-              <SingleBlog blog={blog} />
+              <SingleNews blog={blog} />
             </div>
           ))}
         </div>
@@ -24,4 +24,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default News;

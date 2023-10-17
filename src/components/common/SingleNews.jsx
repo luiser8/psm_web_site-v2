@@ -1,6 +1,6 @@
 import { NavLink as Link } from "react-router-dom";
 
-const SingleBlog = ({ blog }) => {
+const SingleNews = ({ blog }) => {
   const { title, image, paragraph, author, tags, publishDate } = blog;
   return (
     <>
@@ -63,4 +63,4 @@ const SingleBlog = ({ blog }) => {
   );
 };
 
-export default SingleBlog;
+export default SingleNews;
