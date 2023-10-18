@@ -1,7 +1,7 @@
 import { NavLink as Link } from "react-router-dom";
 
 const SingleNews = ({ blog }) => {
-  const { title, image, paragraph, author, tags, publishDate } = blog;
+  const { title, image, paragraph, author, tags, publishDate,id } = blog;
   return (
     <>
       <div
@@ -17,21 +17,20 @@ const SingleNews = ({ blog }) => {
         </div>
 
         <div className="p-6 sm:p-8 md:py-4 md:px-6 lg:p-8 xl:py-4 xl:px-5 2xl:p-8">
-          <Link to={`/noticias/${tags}`}>
+          <Link to={`/noticias/${id}`}>
             <span
-              onClick={() => console.log(tags)}
               className="inline-block rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-white"
             >
               {tags[0]}
             </span>
           </Link>
           <h3>
-            <a
-              href="/"
+            <Link
+              to={`/noticias/${id}`}
               className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
             >
               {title}
-            </a>
+            </Link>
           </h3>
           <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
