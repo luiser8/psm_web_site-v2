@@ -1,7 +1,7 @@
 import { NavLink as Link } from "react-router-dom";
 
 const SingleNews = ({ blog }) => {
-  const { title, image, paragraph, author, tags, publishDate } = blog;
+  const { title, image, paragraph, author, tags, publishDate,id } = blog;
   return (
     <>
       <div
@@ -17,9 +17,8 @@ const SingleNews = ({ blog }) => {
         </div>
 
         <div className="p-6 sm:p-8 md:py-4 md:px-6 lg:p-8 xl:py-4 xl:px-5 2xl:p-8">
-          <Link to={`/noticias/${tags}`}>
+          <Link to={`/noticias/${id}`}>
             <span
-              onClick={() => console.log(tags)}
               className="inline-block rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-white"
             >
               {tags[0]}
