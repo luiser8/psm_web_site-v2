@@ -25,12 +25,12 @@ const SingleNews = ({ blog }) => {
             </span>
           </Link>
           <h3>
-            <a
-              href="/"
+            <Link
+              to={`/noticias/${id}`}
               className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
             >
               {title}
-            </a>
+            </Link>
           </h3>
           <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
