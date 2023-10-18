@@ -18,12 +18,12 @@ export default function NewsDetails() {
   return (
     <>
       {news.length !== 0 ? (
-        <section className=" bg-[#fff] w-[90%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
+        <section className=" bg-[#fff] w-[80%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
           <Link to={"/"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
               alt="arrow"
-              className="w-8 mb-4"
+              className="w-9 mb-4"
             />
           </Link>
           <section className="flex items-center">
