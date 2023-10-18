@@ -1,6 +1,7 @@
 import SectionTitle from "../../components/common/SectionTitle";
 import SingleNews from "../../components/common/SingleNews";
 import blogData from "../../utils/mock/newsData";
+import Maps from "../Maps";
 
 const News = () => {
   return (
@@ -19,6 +20,7 @@ const News = () => {
             </div>
           ))}
         </div>
+        <Maps/>
       </div>
     </section>
   );
