@@ -1,6 +1,7 @@
 const newsData = [
   {
     id: 1,
+    principal:true,
     title: "Best UI components for modern websites",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
@@ -20,6 +21,7 @@ const newsData = [
   },
   {
     id: 2,
+    principal:true,
     title: "9 simple ways to improve your design skills",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
@@ -39,6 +41,7 @@ const newsData = [
   },
   {
     id: 3,
+    principal:true,
     title: "Tips to quickly improve your coding speed.",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
@@ -55,6 +58,131 @@ const newsData = [
       paragraph:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     },
+  },
+
+  {
+    id: 4,
+    principal:false,
+    title: "Material UI",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    image: "/images/blog/blog-01.jpg",
+    author: {
+      name: "Samuyl Joshi",
+      image: "/images/blog/author-01.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["programación"],
+    publishDate: "2025",
+    details: {
+      subTitle: "Tips to quickly improve your coding speed.",
+      paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+  },
+  },
+
+  {
+    id: 5,
+    principal:false,
+    title: "React",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    image: "/images/blog/blog-01.jpg",
+    author: {
+      name: "Samuyl Joshi",
+      image: "/images/blog/author-01.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["programación"],
+    publishDate: "2025",
+    details: {
+      subTitle: "Tips to quickly improve your coding speed.",
+      paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+  },
+  },
+  {
+    id: 6,
+    principal:false,
+    title: "JavaScript",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    image: "/images/blog/blog-01.jpg",
+    author: {
+      name: "Samuyl Joshi",
+      image: "/images/blog/author-01.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["programación"],
+    publishDate: "2025",
+    details: {
+      subTitle: "Tips to quickly improve your coding speed.",
+      paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+  },
+  },
+
+  {
+    id: 7,
+    principal:false,
+    title: "Typescript",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    image: "/images/blog/blog-01.jpg",
+    author: {
+      name: "Samuyl Joshi",
+      image: "/images/blog/author-01.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["programación"],
+    publishDate: "2025",
+    details: {
+      subTitle: "Tips to quickly improve your coding speed.",
+      paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+  },
+  },
+
+  {
+    id: 8,
+    principal:false,
+    title: "Linux",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    image: "/images/blog/blog-01.jpg",
+    author: {
+      name: "Samuyl Joshi",
+      image: "/images/blog/author-01.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["programación"],
+    publishDate: "2025",
+    details: {
+      subTitle: "Tips to quickly improve your coding speed.",
+      paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+  },
+  },
+
+  {
+    id: 9,
+    principal:false,
+    title: "Mac",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    image: "/images/blog/blog-01.jpg",
+    author: {
+      name: "Samuyl Joshi",
+      image: "/images/blog/author-01.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["programación"],
+    publishDate: "2025",
+    details: {
+      subTitle: "Tips to quickly improve your coding speed.",
+      paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+  },
   },
 ];
 export default newsData;

@@ -5,6 +5,7 @@ import DetallesCarrera from "../../pages/carreras/DetallesCarrera";
 import Layout from "../../components/layout/Layout";
 import SaiaDetails from "../../pages/saia/SaiaDetails";
 import NewsDetails from "../../pages/noticias/NewsDetails";
+import NewsAll from "../../pages/noticias/NewsAll"
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -23,6 +24,10 @@ export default function RoutesCustom() {
     {
       path: "/noticias/:id",
       element: <NewsDetails />,
+    },
+    {
+      path: "/noticias",
+      element: <NewsAll />,
     },
     {
       path: "/404",
