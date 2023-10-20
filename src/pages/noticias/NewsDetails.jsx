@@ -8,19 +8,17 @@ export default function NewsDetails() {
   const [news, setNews] = useState({});
   const filterNews = (id) => {
     let list = newsData.find(x => x.id === id);
-    console.log(list)
     setNews(list);
   };
 
   useEffect(() => {
     filterNews(Number(newsId.id));
-    console.log(newsId)
-    console.log(newsId)
   }, []);
 
   return (
     <>
-        <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
+    {Object.keys(news).length > 0 ? (
+              <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
           <Link to={news.principal ? "/" : "/noticias"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
@@ -73,6 +71,8 @@ export default function NewsDetails() {
             </span>
           </section>
         </section>
+    ) : (<></>)}
+
     </>
   );
 }
