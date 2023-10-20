@@ -5,21 +5,23 @@ import { NavLink as Link } from "react-router-dom";
 
 export default function NewsDetails() {
   let newsId = useParams();
-  const [news, setNews] = useState([]);
+  const [news, setNews] = useState({});
   const filterNews = (id) => {
-    let list = newsData.filter((x) => x.id === id);
+    let list = newsData.find(x => x.id === id);
+    console.log(list)
     setNews(list);
   };
 
   useEffect(() => {
     filterNews(Number(newsId.id));
+    console.log(newsId)
+    console.log(newsId)
   }, []);
 
   return (
     <>
-      {news.length !== 0 ? (
         <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
-          <Link to={"/"}>
+          <Link to={news.principal ? "/" : "/noticias"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
               alt="arrow"
@@ -31,7 +33,7 @@ export default function NewsDetails() {
               <div className="mr-4">
                 <div className="relative h-12 w-12 overflow-hidden rounded-full">
                   <img
-                    src={news[0].author.image}
+                    src={news.author.image}
                     alt="author"
                     className="object-cover object-center w-full h-full"
                   />
@@ -39,10 +41,10 @@ export default function NewsDetails() {
               </div>
               <div className="w-full">
                 <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                  By {news[0].author.name}
+                  By {news.author.name}
                 </h4>
                 <p className="text-xs text-body-color">
-                  {news[0].author.designation}
+                  {news.author.designation}
                 </p>
               </div>
             </div>
@@ -50,30 +52,27 @@ export default function NewsDetails() {
               <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
                 Date
               </h4>
-              <p className="text-xs text-body-color">{news[0].publishDate}</p>
+              <p className="text-xs text-body-color">{news.publishDate}</p>
             </div>
           </section>
 
           <section>
             <img
-              src={news[0].image}
+              src={news.image}
               alt="photo"
               className="w-full h-[80%] mb-5 rounded"
             />
             <span className="flex flex-col gap-y-3">
               <h1 className="font-bold text-2xl md:text-3xl">
-                {news[0].title}
+                {news.title}
               </h1>
               <h2 className="font-semibold text-lg md:text-xl">
-                {news[0].details.subTitle}
+                {news.details.subTitle}
               </h2>
-              <p>{news[0].details.paragraph}</p>
+              <p>{news.details.paragraph}</p>
             </span>
           </section>
         </section>
-      ) : (
-        <></>
-      )}
     </>
   );
 }
