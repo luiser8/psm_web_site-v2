@@ -15,8 +15,9 @@ const Footer = () => {
         data-wow-delay=".1s"
       >
         <div className="container">
-          <div className="flex w-full p-2  flex-col justify-center items-center md:items-start md:flex-row md:justify-evenly">
-            <div className="mb-5 max-w-[400px] sm:w-1/2 md:w-1/2">
+          <div className="flex w-full p-2 flex-col justify-center items-start md:items-start md:flex-row md:justify-evenly">
+
+            <div className="mb-5 max-w-[400px] col-span-1 md:w-1/2">
               <NavLink to="/" className="mb-3 inline-block">
                 <img
                   src="images/logo/logo-2.svg"
@@ -49,31 +50,30 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 ">
+            <div className="w-full px-4 col-span-1 md:w-1/2 ">
               <div className="mb-5 lg:mb-16">
-                <h2 className="mb-5 text-xl font-bold text-black dark:text-white uppercase text-center md:text-start md:text-base">
+                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
                   {institution.name}
                 </h2>
-                {
-                  <ul>
-                    {institution.elements.map((item) => (
-                      <li key={item.id}>
-                        <a
-                          href={item.link}
-                          className="mb-5 inline-block text-base font-medium text-body-color hover:text-primary text-start md:text-start"
-                        >
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                }
+                <ul>
+                  {institution.elements.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={item.link}
+                        className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary text-start md:text-start"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
 
+
             {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 ">
               <div className="mb-5 lg:mb-16">
-                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white uppercase  text-start md:text-base">
+                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
                   {sede.name}
                 </h2>
 
@@ -92,9 +92,9 @@ const Footer = () => {
               </div>
             </div> */}
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2">
+            <div className="w-full col-span-1 px-4 md:w-1/2">
               <div className="mb-5 lg:mb-16">
-                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white uppercase  text-start md:text-base">
+                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
                   {poliza.name}
                 </h2>
                 <ul>
@@ -112,9 +112,9 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2">
+            <div className="w-full col-span-1 px-4 md:w-1/2">
               <div className="mb-8 lg:mb-16">
-                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white uppercase  text-start md:text-base">
+                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
                   {orientacion.name}
                 </h2>
                 {
