@@ -34,11 +34,10 @@ const Layout = () => {
         <Saia />
         <Testimonials />
         <News />
-        <Brands />
+        {/* <Brands />
         <AboutSectionOne />
         <AboutSectionTwo />
-        <Pricing />
-        <Contact />
+        <Pricing /> */}
         <Footer />
         <ScrollToTop />
       </ThemeProviders>

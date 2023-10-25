@@ -12,7 +12,7 @@ export default [
       {
         id: 2,
         name: "Planes de estudio",
-        link: "planes_estudio",
+        link: "/institucion/planes_estudio",
       },
       {
         id: 3,
