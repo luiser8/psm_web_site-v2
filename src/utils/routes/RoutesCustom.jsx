@@ -6,7 +6,7 @@ import Layout from "../../components/layout/Layout";
 import SaiaDetails from "../../pages/saia/SaiaDetails";
 import NewsDetails from "../../pages/noticias/NewsDetails";
 import NewsAll from "../../pages/noticias/NewsAll"
-import Contact from "../../pages/Contact";
+import Contact from "../../pages/contact/Contact";
 
 export default function RoutesCustom() {
   return useRoutes([

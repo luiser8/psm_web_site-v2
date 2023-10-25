@@ -17,7 +17,7 @@ export default [
       {
         id: 3,
         name: "Trabaja con nosotros",
-        link: "empleo",
+        link: "/institucion/empleo",
       },
       {
         id: 4,
