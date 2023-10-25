@@ -37,9 +37,8 @@ const Footer = () => {
 
               <div className="flex items-center w-full gap-x-4">
                 {socialNetworks.elements.map((element) => (
-                  <div>
+                  <div key={element.id}>
                     <a
-                      key={element.id}
                       className="mr-6 text-[#CED3F6] hover:text-primary"
                       href={element.link} target="_blank"
                     >

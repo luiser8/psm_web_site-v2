@@ -12,12 +12,12 @@ export default [
       {
         id: 2,
         name: "Planes de estudio",
-        link: "planes_estudio",
+        link: "/institucion/planes_estudio",
       },
       {
         id: 3,
         name: "Trabaja con nosotros",
-        link: "empleo",
+        link: "/institucion/empleo",
       },
       {
         id: 4,

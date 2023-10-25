@@ -12,7 +12,7 @@ import Testimonials from "../../pages/Testimonials";
 import Pricing from "../../pages/Pricing";
 import { ThemeProviders } from "../../utils/providers/ThemeProviders";
 import News from "../../pages/noticias/News";
-import Contact from "../../pages/Contact";
+import Contact from "../../pages/contact/Contact";
 import Carreras from "../../pages/carreras/Carreras";
 import Events from "../../pages/eventos/Events";
 import EventsDetails from "../../pages/eventos/EventsDetails";
@@ -34,11 +34,10 @@ const Layout = () => {
         <Saia />
         <Testimonials />
         <News />
-        <Brands />
+        {/* <Brands />
         <AboutSectionOne />
         <AboutSectionTwo />
-        <Pricing />
-        <Contact />
+        <Pricing /> */}
         <Footer />
         <ScrollToTop />
       </ThemeProviders>
