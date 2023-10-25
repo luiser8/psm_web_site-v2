@@ -4,11 +4,11 @@ import { NavLink as Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section className="overflow-hidden py-16 flex justify-center items-center">
+    <section className="overflow-hidden flex justify-center">
       <div className="flex flex-wrap mx-auto">
         <div className="w-full px-4 lg:w-7/12 xl:w-[55%] mx-auto">
           <div
-            className="wow fadeInUp mb-12 rounded-md bg-transparent py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
+            className="wow fadeInUp mb-12 rounded-md bg-transparent px-8 py-10 dark:bg-dark"
             data-wow-delay=".15s
               "
           >
