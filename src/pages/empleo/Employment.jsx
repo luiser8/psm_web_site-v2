@@ -6,7 +6,7 @@ const Employment = () => {
   return (
     <section className="overflow-hidden flex justify-center">
       <div className="flex flex-wrap mx-auto">
-        <div className="w-full px-4 lg:w-7/12 xl:w-[52%] mx-auto">
+        <div className="w-full px-4 lg:w-7/12 xl:w-[53%] mx-auto">
           <div
             className="wow fadeInUp mb-12 rounded-md bg-transparent px-8 py-10 dark:bg-dark"
             data-wow-delay=".15s
@@ -19,7 +19,7 @@ const Employment = () => {
                 className="w-12"
               />
             </Link>
-            <h2 className="mb-3 mt-5 text-center text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">
+            <h2 className="mb-3 text-center text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">
               Trabaja con nosotros
             </h2>
             <p className="mb-2 sm:mb-5 md:mb-10 text-lg font-medium text-body-color text-center">

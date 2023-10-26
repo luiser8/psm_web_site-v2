@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="overflow-hidden flex justify-center">
       <div className="flex flex-wrap mx-auto">
-        <div className="w-full px-4 lg:w-7/12 xl:w-[52%] mx-auto">
+        <div className="w-full px-4 lg:w-7/12 xl:w-[53%] mx-auto">
           <div
             className="wow fadeInUp mb-12 rounded-md bg-transparent px-8 py-10 dark:bg-dark"
             data-wow-delay=".15s
