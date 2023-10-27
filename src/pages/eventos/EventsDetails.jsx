@@ -5,8 +5,8 @@ export default function EventsDetails() {
   return (
     <>
       {detallesEventosData.active ? (
-        <section className="mt-10  w-[90%] xl:w-[80%] h-full  flex justify-center items-center gap-y-6 flex-col p-2  xl:p-3 rounded-lg  mx-auto md:flex-row md:gap-x-24  lg:mt-10  ">
-          <div className=" mb-5 overflow-hidden h-screen md:w-1/2 justify-end">
+        <section className="mt-5  w-[90%] xl:w-[80%] h-full  flex justify-center items-center gap-y-6 flex-col p-2  xl:p-3 rounded-lg  mx-auto md:flex-row md:gap-x-24">
+          <div className=" mb-5 overflow-hidden h-screen md:w-1/2 justify-end ">
             <img
               src={detallesEventosData.image}
               alt="eventos"
