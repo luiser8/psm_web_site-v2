@@ -9,7 +9,7 @@ const Saia = () => {
   return (
     <section className="mt-32 mb-10">
       <div className="w-[95%] mx-auto">
-        <section className="w-full h-full mb-32">
+        <section className="w-full h-full mb-16">
           {componentSaiaData.active ? (
             <div className="w-full h-full">
               <section className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 rounded-lg  mx-auto md:flex-row-reverse md:gap-x-5  lg:mt-10">
@@ -48,7 +48,7 @@ const Saia = () => {
           className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
           data-wow-delay=".15s"
         >
-          <h1 className="text-2xl mb-4 font-bold text-center md:text-3xl xl:text-3xl">
+          <h1 className="text-2xl mb-4 font-bold text-start md:text-3xl xl:text-3xl">
             Instrucciones de como acceder a nuestro portal
           </h1>
           <div className="relative aspect-[77/40] items-center justify-center">

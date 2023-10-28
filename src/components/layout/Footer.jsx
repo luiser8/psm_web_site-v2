@@ -2,6 +2,7 @@ import footerData from "../../utils/mock/footerData";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+  const year = new Date
   const institution = footerData.find((x) => x.id === 1);
   // const sede = footerData.find((x) => x.id === 2);
   const poliza = footerData.find((x) => x.id === 3);
@@ -137,7 +138,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              ©2023 - Politécnico Santiago Mariño.
+              {`${year.getFullYear()} © - Politécnico Santiago Mariño.`}
             </p>
           </div>
         </div>
