@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import SectionTitle from "../../components/common/SectionTitle";
+import SlideNextButton from "./SlideNextButton";
+import SlidePrevButton from "./SlidePrevButton";
 
 // import "../tailwind.css" importar en caso de cambiar el color de la paginación del carousel
 
@@ -70,6 +72,10 @@ const Events = () => {
                   </div>
                 </SwiperSlide>
               ))}
+              <div className="w-full h-auto flex justify-end flex-row gap-x-3 lg:gap-x-5">
+                <SlidePrevButton />
+                <SlideNextButton />
+              </div>
             </Swiper>
           </div>
         </section>
