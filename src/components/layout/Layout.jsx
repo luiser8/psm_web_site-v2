@@ -17,8 +17,6 @@ import Carreras from "../../pages/carreras/Carreras";
 import Events from "../../pages/eventos/Events";
 import EventsDetails from "../../pages/eventos/EventsDetails";
 import Saia from "../../pages/saia/Saia";
-import SaiaDetails from "../../pages/saia/SaiaDetails";
-import Maps from "../../pages/Maps";
 
 const Layout = () => {
   return (
