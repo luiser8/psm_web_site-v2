@@ -8,12 +8,23 @@ import NewsDetails from "../../pages/noticias/NewsDetails";
 import NewsAll from "../../pages/noticias/NewsAll"
 import Contact from "../../pages/contact/Contact";
 import Employment from "../../pages/empleo/Employment";
+import EventsAll from "../../pages/eventos/EventsAll";
+import EventsDetails from "../../pages/eventos/EventsDetails";
+import Events from "../../pages/eventos/Events";
 
 export default function RoutesCustom() {
   return useRoutes([
     {
       path: "/",
       element: <Layout />,
+    },
+    {
+      path: "/eventos/:id",
+      element:<><EventsDetails /> <Events /></> ,
+    },
+    {
+      path: "/eventos",
+      element: <EventsAll />,
     },
     {
       path: "/carrera/:id",

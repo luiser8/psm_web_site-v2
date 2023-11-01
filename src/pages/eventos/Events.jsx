@@ -6,7 +6,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import SectionTitle from "../../components/common/SectionTitle";
+import SingleEventsPrincipal from "./SingleEventsPrincipal";
 
 // import "../tailwind.css" importar en caso de cambiar el color de la paginación del carousel
 
@@ -16,7 +16,6 @@ const Events = () => {
       {eventosData.active ? (
         <section className="relative z-10 py-6 md:py-10 lg:py-10">
           <div className="w-full h-full">
-            <SectionTitle title="Eventos" paragraph="Ponencias" center />
             <Swiper
               slidesPerView={1}
               spaceBetween={45}
@@ -53,21 +52,7 @@ const Events = () => {
             >
               {eventosData.data.map((events, index) => (
                 <SwiperSlide className="mx-auto my-10" key={index}>
-                  <div className=" border-2 border-gray-500 rounded-lg w-full overflow-hidden hover:border-orange-400 transition-all cursor-pointer">
-                    <img
-                      className="lg:h-full md:h-full w-full object-cover object-center"
-                      src={events.image}
-                      alt="image"
-                    />
-                    <div className="p-5">
-                      <h1 className="title-font text-center font-bold text-gray-900 mb-3 lg:text-base">
-                        {events.name}
-                      </h1>
-                      <p className="leading-relaxed mb-3">
-                        {events.description}
-                      </p>
-                    </div>
-                  </div>
+                  <SingleEventsPrincipal events={events} />
                 </SwiperSlide>
               ))}
             </Swiper>

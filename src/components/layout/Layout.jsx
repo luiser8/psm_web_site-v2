@@ -17,6 +17,7 @@ import Carreras from "../../pages/carreras/Carreras";
 import Events from "../../pages/eventos/Events";
 import EventsDetails from "../../pages/eventos/EventsDetails";
 import Saia from "../../pages/saia/Saia";
+import EventsPrincipal from "../../pages/eventos/EventsPrincipal";
 
 const Layout = () => {
   return (
@@ -25,7 +26,7 @@ const Layout = () => {
         <Header />
         <ScrollUp />
         <Principal />
-        <EventsDetails />
+        <EventsPrincipal />
         <Events />
         {/* <Features /> */}
         <Carreras />
