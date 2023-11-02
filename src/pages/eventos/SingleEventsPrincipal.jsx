@@ -10,7 +10,7 @@ export default function SingleEventsPrincipal({ events }) {
           alt="image"
         />
         <div className="p-5">
-          <h1 className="title-font text-center font-bold text-gray-900 mb-3 lg:text-base">
+          <h1 className="title-font text-center font-bold text-gray-900 mb-3 lg:text-base uppercase">
             {events.name}
           </h1>
         </div>

@@ -67,7 +67,7 @@ export default {
       id: 2,
       active: false,
       date: "01-11-2023",
-      name: "DR. NÉSTOR LEÓN",
+      name: "Congreso estudiantil",
       image: "/images/events/event_details.avif",
       detail: "1",
       description:
@@ -104,7 +104,7 @@ export default {
       id: 3,
       active: false,
       date: "03-11-2023",
-      name: "ESP. ISRAEL SÁNCHEZ PEÑA",
+      name: "Feria informática",
       image: "/images/events/event_details.avif",
       detail: "2",
       description:
@@ -134,7 +134,7 @@ export default {
       id: 4,
       active: false,
       date: "05-11-2023",
-      name: "MSc PEDRO DÍAZ",
+      name: "Expociencia de carreras",
       image: "/images/events/event_details.avif",
       detail: "3",
       description:
@@ -166,7 +166,7 @@ export default {
       id: 5,
       active: false,
       date: "07-11-2023",
-      name: "DR. NÉSTOR LEÓN",
+      name: "Feria tecnológica",
       image: "/images/events/event_details.avif",
       detail: "1",
       description:
@@ -203,7 +203,7 @@ export default {
       id: 6,
       active: false,
       date: "09-11-2023",
-      name: "ESP. ISRAEL SÁNCHEZ PEÑA",
+      name: "Recorrido estudiantil",
       image: "/images/events/event_details.avif",
       detail: "2",
       description:
@@ -233,7 +233,7 @@ export default {
       id: 7,
       active: false,
       date: "12-11-2023",
-      name: "MSc PEDRO DÍAZ",
+      name: "Debate estudiantil",
       image: "/images/events/event_details.avif",
       detail: "3",
       description:

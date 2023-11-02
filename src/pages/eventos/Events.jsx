@@ -11,6 +11,7 @@ import SingleEventsPrincipal from "./SingleEventsPrincipal";
 // import "../tailwind.css" importar en caso de cambiar el color de la paginación del carousel
 
 const Events = () => {
+  const otherEvents = eventosData.data.filter((x) => x.active === false);
   return (
     <>
       {eventosData.active ? (
@@ -50,7 +51,7 @@ const Events = () => {
               modules={[Autoplay, Pagination, Navigation]}
               className=" w-[95%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent  my-5"
             >
-              {eventosData.data.map((events, index) => (
+              {otherEvents.map((events, index) => (
                 <SwiperSlide className="mx-auto my-10" key={index}>
                   <SingleEventsPrincipal events={events} />
                 </SwiperSlide>
