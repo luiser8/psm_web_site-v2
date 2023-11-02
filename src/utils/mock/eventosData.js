@@ -3,10 +3,38 @@ export default {
   data: [
     {
       id: 1,
-      name: "DR. NÉSTOR LEÓN",
-      image: "/images/events/ponente1.jpg",
+      active: true,
+      date: "01-11-2023",
+      name: "Congreso Internacional Sostenibilidad Económica, Social y Medio Ambiental",
+      image: "/images/events/event_details.avif",
       detail: "1",
-      description: "",
+      description: [
+        {
+          id: 1,
+          description:
+            "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+        },
+        {
+          id: 2,
+          description:
+            "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+        },
+        {
+          id: 3,
+          description:
+            "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+        },
+        {
+          id: 4,
+          description:
+            "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+        },
+        {
+          id: 5,
+          description:
+            "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+        },
+      ],
       professions: [
         {
           name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
@@ -37,10 +65,50 @@ export default {
     },
     {
       id: 2,
-      name: "ESP. ISRAEL SÁNCHEZ PEÑA",
-      image: "/images/events/ponente2.jpg",
+      active: false,
+      date: "01-11-2023",
+      name: "Congreso estudiantil",
+      image: "/images/events/event_details.avif",
+      detail: "1",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+      professions: [
+        {
+          name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+        },
+        { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+        {
+          name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+        },
+        {
+          name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+        },
+      ],
+      experiences: [
+        { name: "Gerente General de grupo depanel (actualmente)" },
+        {
+          name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+        },
+        {
+          name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+        },
+        {
+          name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+        },
+        {
+          name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+        },
+      ],
+    },
+    {
+      id: 3,
+      active: false,
+      date: "03-11-2023",
+      name: "Feria informática",
+      image: "/images/events/event_details.avif",
       detail: "2",
-      description: "",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       professions: [
         { name: "Ing. civil - Politécnico Santiago Mariño" },
         {
@@ -63,11 +131,14 @@ export default {
       ],
     },
     {
-      id: 3,
-      name: "MSc PEDRO DÍAZ",
-      image: "/images/events/ponente3.jpg",
+      id: 4,
+      active: false,
+      date: "05-11-2023",
+      name: "Expociencia de carreras",
+      image: "/images/events/event_details.avif",
       detail: "3",
-      description: "",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       professions: [
         { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
         { name: "Ing. en telecomunicaciones - Universidad Nacional" },
@@ -92,11 +163,14 @@ export default {
       ],
     },
     {
-      id: 1,
-      name: "DR. NÉSTOR LEÓN",
-      image: "/images/events/ponente1.jpg",
+      id: 5,
+      active: false,
+      date: "07-11-2023",
+      name: "Feria tecnológica",
+      image: "/images/events/event_details.avif",
       detail: "1",
-      description: "",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       professions: [
         {
           name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
@@ -126,11 +200,14 @@ export default {
       ],
     },
     {
-      id: 2,
-      name: "ESP. ISRAEL SÁNCHEZ PEÑA",
-      image: "/images/events/ponente2.jpg",
+      id: 6,
+      active: false,
+      date: "09-11-2023",
+      name: "Recorrido estudiantil",
+      image: "/images/events/event_details.avif",
       detail: "2",
-      description: "",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       professions: [
         { name: "Ing. civil - Politécnico Santiago Mariño" },
         {
@@ -153,11 +230,14 @@ export default {
       ],
     },
     {
-      id: 3,
-      name: "MSc PEDRO DÍAZ",
-      image: "/images/events/ponente3.jpg",
+      id: 7,
+      active: false,
+      date: "12-11-2023",
+      name: "Debate estudiantil",
+      image: "/images/events/event_details.avif",
       detail: "3",
-      description: "",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       professions: [
         { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
         { name: "Ing. en telecomunicaciones - Universidad Nacional" },
