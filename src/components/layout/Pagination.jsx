@@ -4,6 +4,10 @@ import { Link, NavLink } from "react-router-dom";
 export default function Pagination({ handleNext, handlePrev, currentPage }) {
   const [items, setItems] = useState([
     {
+      value: 0,
+    },
+
+    {
       value: 1,
     },
 
@@ -13,10 +17,6 @@ export default function Pagination({ handleNext, handlePrev, currentPage }) {
 
     {
       value: 3,
-    },
-
-    {
-      value: 4,
     },
   ]);
 
@@ -40,12 +40,16 @@ export default function Pagination({ handleNext, handlePrev, currentPage }) {
             />
           </svg>
         </button>
-
-        <div
-          className="relative inline-flex items-center px-5 py-2 md:py-4 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
-        >
-          {currentPage + 1}
-        </div>
+        {items.map((x) => (
+          <div
+            key={x.value}
+            className={` ${
+              currentPage === x.value ? "bg-primary text-white" : "bg-white"
+            } relative inline-flex items-center px-5 py-2 md:py-4 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300  focus:z-20 focus:outline-offset-0`}
+          >
+            {x.value + 1}
+          </div>
+        ))}
 
         <button
           onClick={handleNext}
