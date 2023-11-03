@@ -261,5 +261,599 @@ export default {
         { name: "Coordinador de planta interna" },
       ],
     },
+
+    {
+      id: 8,
+      active: false,
+      date: "12-11-2023",
+      name: "Noticias sobre react",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 9,
+      active: false,
+      date: "13-11-2023",
+      name: "Feria de turismo",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 10,
+      active: false,
+      date: "14-11-2023",
+      name: "Debate estudiantil",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 11,
+      active: false,
+      date: "15-11-2023",
+      name: "Competencia de programación",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 12,
+      active: false,
+      date: "16-11-2023",
+      name: "Debate de contadores",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 13,
+      active: false,
+      date: "17-11-2023",
+      name: "Feria de ciencias",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 14,
+      active: false,
+      date: "18-11-2023",
+      name: "Noticias sobre sql",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 15,
+      active: false,
+      date: "19-11-2023",
+      name: "Semana de inscripciones",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 16,
+      active: false,
+      date: "20-11-2023",
+      name: "Graduación 2023-2024",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 17,
+      active: false,
+      date: "21-11-2023",
+      name: "inscripciones - resagados 2023-2024",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 18,
+      active: false,
+      date: "22-11-2023",
+      name: "Inicio de clases 2024-2025",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 19,
+      active: false,
+      date: "23-11-2023",
+      name: "Congreso internacional",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 20,
+      active: false,
+      date: "24-11-2023",
+      name: "Reunión de profesores",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 21,
+      active: false,
+      date: "25-11-2023",
+      name: "Convocatoria",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 22,
+      active: false,
+      date: "26-11-2023",
+      name: "Feria de carreras",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 23,
+      active: false,
+      date: "27-11-2023",
+      name: "Competencia tecnológica",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 24,
+      active: false,
+      date: "27-11-2023",
+      name: "Congreso de turismo",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
+
+    {
+      id: 25,
+      active: false,
+      date: "27-11-2023",
+      name: "Competencia bakend",
+      image: "/images/events/event_details.avif",
+      detail: "3",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      professions: [
+        { name: "Profesor Especialidad Educación Integral (UPEL-IMPM)" },
+        { name: "Ing. en telecomunicaciones - Universidad Nacional" },
+        {
+          name: "Experimental de las telecomunicaciones e informática Maestría en educación Superior - UNEFA",
+        },
+      ],
+      experiences: [
+        {
+          name: "Cuarenta y dos años de trabajo en la empresa CANTV, en el area de operación y mantenimiento de transmisión, ejerciendo como técnico de la red urbana e interurbana, entre otras funciones",
+        },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control PSM San Cristóbal",
+        },
+        { name: "Docente I IUTEPAL San Cristóbal" },
+        {
+          name: "Docente de diplomado en telecomunicaciones y control IUT San Cristóbal",
+        },
+        { name: "Supervisor O&M de la red" },
+        { name: "Coordinador de planta externa" },
+        { name: "Coordinador de planta interna" },
+      ],
+    },
   ],
 };
