@@ -7,7 +7,7 @@ export default [
       {
         id: 1,
         name: "Acerca de",
-        link: "acerca_de",
+        link: "/institucion/acerca_de",
       },
       {
         id: 2,
