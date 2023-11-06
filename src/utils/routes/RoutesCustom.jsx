@@ -11,6 +11,7 @@ import Employment from "../../pages/empleo/Employment";
 import EventsAll from "../../pages/eventos/EventsAll";
 import EventsDetails from "../../pages/eventos/EventsDetails";
 import Events from "../../pages/eventos/Events";
+import About from "../../pages/About/About";
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -50,6 +51,10 @@ export default function RoutesCustom() {
     {
       path: "/institucion/empleo",
       element: <Employment/>,
+    },
+    {
+      path: "/institucion/acerca_de",
+      element: <About/>,
     },
     {
       path: "/404",
