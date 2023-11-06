@@ -12,6 +12,7 @@ import EventsAll from "../../pages/eventos/EventsAll";
 import EventsDetails from "../../pages/eventos/EventsDetails";
 import Events from "../../pages/eventos/Events";
 import About from "../../pages/About/About";
+import PersonalAccidents from "../../pages/personal_accidents/PersonalAccidents";
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -47,6 +48,10 @@ export default function RoutesCustom() {
     {
       path: "/institucion/planes_estudio",
       element: <Contact/>,
+    },
+    {
+      path: "/institucion/polizas/accidentes_personales",
+      element: <PersonalAccidents/>,
     },
     {
       path: "/institucion/empleo",
