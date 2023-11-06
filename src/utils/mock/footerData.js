@@ -96,7 +96,7 @@ export default [
       {
         id: 1,
         name: "Accidentes personales",
-        link: "accidentes",
+        link: "/institucion/polizas/accidentes_personales",
       },
       {
         id: 2,
