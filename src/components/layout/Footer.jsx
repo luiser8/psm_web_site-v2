@@ -18,21 +18,12 @@ const Footer = () => {
         <div className="container">
           <div className="flex w-full p-2 flex-col justify-center items-start md:items-start md:flex-row md:justify-evenly">
 
-            <div className="mb-5 max-w-[400px] col-span-1 md:w-1/2">
+            <div className="mb-5 max-w-[200px] col-span-1 md:w-1/ md:mr-5">
               <NavLink to="/" className="mb-3 inline-block">
                 <img
-                  src="images/logo/logo-2.svg"
+                  src="images/logo/logo.png"
                   alt="logo"
-                  className="w-full dark:hidden"
-                  width={140}
-                  height={30}
-                />
-                <img
-                  src="images/logo/logo.svg"
-                  alt="logo"
-                  className="hidden w-full dark:block"
-                  width={140}
-                  height={30}
+                  className="w-full  object-fill dark:bg-white dark:rounded"
                 />
               </NavLink>
 
