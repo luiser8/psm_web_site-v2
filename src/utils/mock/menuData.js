@@ -8,7 +8,7 @@ const menuData = [
     {
         id: 2,
         title: "La Institución",
-        path: "/about",
+        path: "/institucion/acerca_de",
         newTab: false,
     },
     // {
@@ -20,19 +20,19 @@ const menuData = [
     {
         id: 4,
         title: "Educación a distancia",
-        path: "/contact",
+        path: "/saia/detalles",
         newTab: false,
     },
     {
         id: 5,
         title: "Servicios",
-        path: "/contact",
+        path: "/",
         newTab: false,
     },
     {
         id: 6,
         title: "Contáctenos",
-        path: "/contact",
+        path: "/institucion/planes_estudio",
         newTab: false,
     },
     {

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import menuData from "../../utils/mock/menuData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   // Navbar toggle
@@ -43,28 +44,19 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
-              <a
-                href="/"
+            <div className="w-[140px] h-auto max-w-full px-4 xl:mr-12 overflow-hidden">
+              <NavLink
+                to="/"
                 className={`header-logo block w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
                 <img
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo.png"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
+                  className="w-full  object-fill dark:bg-white dark:rounded"
                 />
-                <img
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
-              </a>
+              </NavLink>
             </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>
@@ -102,12 +94,12 @@ const Header = () => {
                     {menuData.map((menuItem, index) => (
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
-                          <a
-                            href={menuItem.path}
+                          <NavLink
+                            to={menuItem.path}
                             className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
-                          </a>
+                          </NavLink>
                         ) : (
                           <>
                             {/* <a
