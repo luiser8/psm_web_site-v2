@@ -58,12 +58,17 @@ const Footer = () => {
                 <ul>
                   {institution.elements.map((item) => (
                     <li key={item.id}>
-                      <a
+                      <NavLink
+                        to={item.link}
+                        className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary text-start md:text-start">
+                        {item.name}
+                      </NavLink>
+                      {/* <a
                         href={item.link}
                         className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary text-start md:text-start"
                       >
                         {item.name}
-                      </a>
+                      </a> */}
                     </li>
                   ))}
                 </ul>
