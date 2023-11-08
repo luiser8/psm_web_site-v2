@@ -2,7 +2,7 @@ import React from "react";
 import SedesData from "../../utils/mock/SedesData";
 import { NavLink } from "react-router-dom";
 
-export default function DropDow({ open }) {
+export default function DropDown({ open }) {
   return (
     <>
       <div
