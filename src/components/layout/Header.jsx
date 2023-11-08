@@ -2,12 +2,18 @@ import { useEffect, useState } from "react";
 import menuData from "../../utils/mock/menuData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
 import { NavLink } from "react-router-dom";
+import DropDow from "./DropDow";
 
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [sedesOpen, setSedesOpen] = useState(false);
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
+  };
+
+  const sedesToggleHandler = () => {
+    setSedesOpen(!sedesOpen);
   };
 
   // Sticky Navbar
@@ -88,7 +94,7 @@ const Header = () => {
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
-                  }`}
+                  } `}
                 >
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
@@ -96,6 +102,11 @@ const Header = () => {
                         {menuItem.path ? (
                           <NavLink
                             to={menuItem.path}
+                            onClick={() => {
+                              if (index === 3) {
+                                sedesToggleHandler();
+                              }
+                            }}
                             className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
@@ -136,6 +147,8 @@ const Header = () => {
                       </li>
                     ))}
                   </ul>
+                  <DropDow open={sedesOpen} />
+
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">

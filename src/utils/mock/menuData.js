@@ -24,19 +24,25 @@ const menuData = [
         newTab: false,
     },
     {
-        id: 5,
+        id: 6,
         title: "Servicios",
         path: "/",
         newTab: false,
     },
     {
-        id: 6,
+        id: 7,
+        title: "Sedes",
+        path: "/",
+        newTab: false,
+    },
+    {
+        id: 8,
         title: "Contáctenos",
         path: "/institucion/planes_estudio",
         newTab: false,
     },
     {
-        id: 7,
+        id: 9,
         title: "Pages",
         newTab: false,
         submenu: [
