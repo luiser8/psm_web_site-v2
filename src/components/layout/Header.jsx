@@ -116,7 +116,8 @@ const Header = () => {
                               viewBox="0 0 20 20"
                               fill="currentColor"
                               aria-hidden="true"
-                              className={`transition-rotate duration-300 text-dark ${
+                              onClick={sedesToggleHandler}
+                              className={`transition-rotate duration-300 text-dark dark:text-white cursor-pointer ${
                                 index === 3 ? "block w-6" : "hidden"
                               } ${sedesOpen ? "rotate-180 " : "rotate-0"}`}
                             >
