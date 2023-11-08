@@ -100,17 +100,33 @@ const Header = () => {
                     {menuData.map((menuItem, index) => (
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
-                          <NavLink
-                            to={menuItem.path}
-                            onClick={() => {
-                              if (index === 3) {
-                                sedesToggleHandler();
-                              }
-                            }}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
-                          >
-                            {menuItem.title}
-                          </NavLink>
+                          <div className="flex flex-row gap-x-2">
+                            <NavLink
+                              to={menuItem.path}
+                              onClick={() => {
+                                if (index === 3) {
+                                  sedesToggleHandler();
+                                }
+                              }}
+                              className={`flex py-2 text-base group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            >
+                              {menuItem.title}
+                            </NavLink>
+                            <svg
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              aria-hidden="true"
+                              className={`transition-rotate duration-300 text-dark ${
+                                index === 3 ? "block w-6" : "hidden"
+                              } ${sedesOpen ? "rotate-180 " : "rotate-0"}`}
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </div>
                         ) : (
                           <>
                             {/* <a
@@ -148,7 +164,6 @@ const Header = () => {
                     ))}
                   </ul>
                   <DropDow open={sedesOpen} />
-
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">

@@ -44,6 +44,10 @@ export default function RoutesCustom() {
       path: "/noticias",
       element: <NewsAll />,
     },
+    {
+      path: "/sedes/:id",
+      element:<Layout/> ,
+    },
 
     {
       path: "/institucion/planes_estudio",
