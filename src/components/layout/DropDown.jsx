@@ -2,7 +2,7 @@ import React from "react";
 import SedesData from "../../utils/mock/SedesData";
 import { NavLink } from "react-router-dom";
 
-export default function DropDown({ open }) {
+export default function DropDown({ open,setSedesOpen }) {
   return (
     <>
       <div
@@ -19,6 +19,7 @@ export default function DropDown({ open }) {
                   key={item.id}
                 >
                   <NavLink
+                  onClick={()=> setSedesOpen(!open)}
                    to={`/sedes/${item.link}`}
                     className={
                       "py-2 text- lg:text-lg text-dark hover:opacity-70 dark:text-white"
