@@ -36,6 +36,7 @@ export default function EventsAll() {
     <>
       <section id="eventos" className="bg-primary/5 py-10 w-full mx-auto">
         <div className="container">
+          <div className="flex flex-row mb-10 mx-auto">
           <Link to={"/"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
@@ -48,6 +49,7 @@ export default function EventsAll() {
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
           />
+          </div>
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 md:grid-cols-2 md:gap-x-6 lg:gap-x-20 xl:grid-cols-3 justify-center">
             {pages.map((events) => (

@@ -32,7 +32,7 @@ export default function EventsDetails() {
               <img
                 src="\images\carreras\arrows\arrow-left.png"
                 alt="arrow"
-                className="w-14"
+                className="w-9 xl:w-14"
               />
             </Link>
           </div>

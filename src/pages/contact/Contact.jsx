@@ -1,6 +1,7 @@
 import react from "react";
 import countryCodesMock from "../../utils/mock/countryCodesMock";
 import { NavLink as Link } from "react-router-dom";
+import SectionTitle from "../../components/common/SectionTitle";
 
 const Contact = () => {
   return (
@@ -12,19 +13,23 @@ const Contact = () => {
             data-wow-delay=".15s
               "
           >
-            <Link to={"/"}>
-              <img
-                src="\images\carreras\arrows\arrow-left.png"
-                alt="arrow"
-                className="w-12"
+            <div className="flex flex-row  mb-10 w-full">
+              <Link to={"/"}>
+                <img
+                  src="\images\carreras\arrows\arrow-left.png"
+                  alt="arrow"
+                  className="w-12"
+                />
+              </Link>
+
+              <SectionTitle
+                center={"center"}
+                title={"Contacto"}
+                paragraph={
+                  " Información de contacto acerca de las carreras y planes de estudio"
+                }
               />
-            </Link>
-            <h2 className="mb-3 text-center text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">
-              Contacto
-            </h2>
-            <p className="mb-2 sm:mb-5 md:mb-10 text-lg font-medium text-body-color text-center">
-              Información de contacto acerca de las carreras y planes de estudio
-            </p>
+            </div>
             <form>
               <div className="flex flex-wrap">
                 <div className="w-full px-4 md:w-1/2">

@@ -22,9 +22,20 @@ const Header = () => {
       setSticky(false);
     }
   };
-  useEffect(() => {
-    window.addEventListener("scroll", handleStickyNavbar);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleStickyNavbar);
+  //   const handleOutSideClick = (event) => {
+  //     if (!refElement.current?.contains(event.target)) {
+  //       setSedesOpen(false);
+  //     }
+  //   };
+
+  //   window.addEventListener("mousedown", handleOutSideClick);
+
+  //   return () => {
+  //     window.removeEventListener("mousedown", handleOutSideClick);
+  //   };
+  // }, [refElement]);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);

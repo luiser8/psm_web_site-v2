@@ -1,11 +1,11 @@
 import react from "react";
 import countryCodesMock from "../../utils/mock/countryCodesMock";
 import { NavLink as Link } from "react-router-dom";
+import SectionTitle from "../../components/common/SectionTitle";
 
 const Employment = () => {
   return (
     <section className="overflow-hidden flex justify-center">
-
       <div className="flex flex-wrap mx-auto">
         <div className="w-full px-4 lg:w-7/12 xl:w-[53%] 2xl:w-[51%] mx-auto">
           <div
@@ -13,19 +13,21 @@ const Employment = () => {
             data-wow-delay=".15s
               "
           >
-            <Link to={"/"}>
-              <img
-                src="\images\carreras\arrows\arrow-left.png"
-                alt="arrow"
-                className="w-12"
+            <div className="flex flex-row  mb-10 w-full">
+              <Link to={"/"}>
+                <img
+                  src="\images\carreras\arrows\arrow-left.png"
+                  alt="arrow"
+                  className="w-12"
+                />
+              </Link>
+
+              <SectionTitle
+                center={"center"}
+                title={"Trabaja con nosotros"}
+                paragraph={"¿Quieres formar parte de nuestro equipo?"}
               />
-            </Link>
-            <h2 className="mb-3 text-center text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">
-              Trabaja con nosotros
-            </h2>
-            <p className="mb-2 sm:mb-5 md:mb-10 text-lg font-medium text-body-color text-center">
-              ¿Quieres formar parte de nuestro equipo?
-            </p>
+            </div>
             <form>
               <div className="flex flex-wrap">
                 <div className="w-full px-4 md:w-1/2">

@@ -9,14 +9,16 @@ export default function PersonalAccidents() {
       {PersonalAccidentData.active ? (
         <section className="text-gray-600 body-font overflow-hidden mt-5">
           <div className="container px-5 py-16 mx-auto">
-          <SectionTitle title={PersonalAccidentData.name} center={"center"} />
+          <span className="w-[100%] flex mx-auto">
           <Link to={"/"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
               alt="arrow"
-              className="w-12"
+              className="w-12 mb-5"
             />
           </Link>
+          <SectionTitle title={PersonalAccidentData.name} center={"center"} />
+          </span>
             {PersonalAccidentData.data.accidents.map((item) => (
               <div className="-my-8 divide-y-2 divide-gray-100 mt-5" key={item.id}>
                 <div className="py-8 flex flex-wrap md:flex-nowrap">

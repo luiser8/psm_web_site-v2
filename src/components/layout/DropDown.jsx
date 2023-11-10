@@ -45,4 +45,4 @@ const clickOutsideConfig = {
   handleClickOutside: () => DropDown.handleClickOutside,
 };
 
-export default onClickOutside(DropDown, clickOutsideConfig);
+export default onClickOutside(DropDown, clickOutsideConfig)

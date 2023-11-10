@@ -7,7 +7,7 @@ export default function NewsDetails() {
   let newsId = useParams();
   const [news, setNews] = useState({});
   const filterNews = (id) => {
-    let list = newsData.find(x => x.id === id);
+    let list = newsData.find((x) => x.id === id);
     setNews(list);
   };
 
@@ -17,19 +17,19 @@ export default function NewsDetails() {
 
   return (
     <>
-    {Object.keys(news).length > 0 ? (
-              <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
-          <Link to={news.principal ? "/" : "/noticias"}>
-            <img
-              src="\images\carreras\arrows\arrow-left.png"
-              alt="arrow"
-              className="w-9 mb-4"
-            />
-          </Link>
+      {Object.keys(news).length > 0 ? (
+        <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
           <section className="flex items-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
-              <div className="mr-4">
-                <div className="relative h-12 w-12 overflow-hidden rounded-full">
+              <div className="mr-4 flex flex-row items-start gap-x-10">
+              <Link to={news.principal ? "/" : "/noticias"}>
+                    <img
+                      src="\images\carreras\arrows\arrow-left.png"
+                      alt="arrow"
+                      className="w-32 mb-4"
+                    />
+                  </Link>
+                <div className="relative h-12 w-full overflow-hidden rounded-full">
                   <img
                     src={news.author.image}
                     alt="author"
@@ -61,9 +61,7 @@ export default function NewsDetails() {
               className="w-full h-[80%] mb-5 rounded"
             />
             <span className="flex flex-col gap-y-3">
-              <h1 className="font-bold text-2xl md:text-3xl">
-                {news.title}
-              </h1>
+              <h1 className="font-bold text-2xl md:text-3xl">{news.title}</h1>
               <h2 className="font-semibold text-lg md:text-xl">
                 {news.details.subTitle}
               </h2>
@@ -71,8 +69,9 @@ export default function NewsDetails() {
             </span>
           </section>
         </section>
-    ) : (<></>)}
-
+      ) : (
+        <></>
+      )}
     </>
   );
 }
