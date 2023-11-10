@@ -8,7 +8,6 @@ const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [sedesOpen, setSedesOpen] = useState(false);
-  const refElement = useRef(null);
 
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
@@ -25,18 +24,7 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
-    const handleOutSideClick = (event) => {
-      if (!refElement.current?.contains(event.target)) {
-        setSedesOpen(false);
-      }
-    };
-
-    window.addEventListener("mousedown", handleOutSideClick);
-
-    return () => {
-      window.removeEventListener("mousedown", handleOutSideClick);
-    };
-  }, [refElement]);
+  }, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -111,11 +99,10 @@ const Header = () => {
                         {menuItem.path ? (
                           <div className="flex flex-row gap-x-2" >
                             <NavLink
-                              ref={index === 3 ? refElement : null}
                               to={menuItem.path}
                               onClick={() => {
                                 if (index === 3) {
-                                  setSedesOpen(true);
+                                  setSedesOpen(!sedesOpen);
                                 }
                               }}
                               className={`flex py-2 text-base group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
@@ -126,7 +113,7 @@ const Header = () => {
                               viewBox="0 0 20 20"
                               fill="currentColor"
                               aria-hidden="true"
-                              onClick={() => setSedesOpen(true)}
+                              onClick={() => setSedesOpen(!sedesOpen)}
                               className={`transition-rotate duration-300 text-dark dark:text-white cursor-pointer ${
                                 index === 3 ? "block w-6" : "hidden"
                               } ${sedesOpen ? "rotate-180 " : "rotate-0"}`}
@@ -174,7 +161,7 @@ const Header = () => {
                       </li>
                     ))}
                   </ul>
-                  <DropDown open={sedesOpen} />
+                  <DropDown open={sedesOpen} setSedesOpen={setSedesOpen} />
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
