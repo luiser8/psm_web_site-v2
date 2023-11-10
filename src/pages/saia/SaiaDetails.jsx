@@ -6,13 +6,6 @@ export default function SaiaDetails() {
   return (
     <>
       <div className="w-[95%] h-full mx-auto">
-        <Link to={"/"}>
-          <img
-            src="\images\carreras\arrows\arrow-left.png"
-            alt="arrow"
-            className="w-14 relative top-8"
-          />
-        </Link>
         {detallesSaiaData.data ? (
           <section className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 rounded-lg  mx-auto lg:flex-row-reverse md:gap-x-5  lg:mt-10 mb-0">
             <div className="overflow-hidden h-full ">
@@ -24,6 +17,13 @@ export default function SaiaDetails() {
             </div>
             <div className="h-full md:w-full lg:w-[50%] flex items-center flex-col justify-start">
               <span className="w-full">
+                <Link to={"/"}>
+                  <img
+                    src="\images\carreras\arrows\arrow-left.png"
+                    alt="arrow"
+                    className="w-12 right-20 relative top-10"
+                  />
+                </Link>
                 <h1 className="text-xl mb-2 font-bold text-start md:text-2xl xl:text-4xl">
                   {detallesSaiaData.title}
                 </h1>

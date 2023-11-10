@@ -1,8 +1,12 @@
 import React from "react";
+import onClickOutside from "react-onclickoutside";
 import SedesData from "../../utils/mock/SedesData";
 import { NavLink } from "react-router-dom";
 
-export default function DropDown({ open,setSedesOpen }) {
+function DropDown({ open, setSedesOpen }) {
+  DropDown.handleClickOutside = () => {
+    setSedesOpen(false);
+  };
   return (
     <>
       <div
@@ -36,3 +40,9 @@ export default function DropDown({ open,setSedesOpen }) {
     </>
   );
 }
+
+const clickOutsideConfig = {
+  handleClickOutside: () => DropDown.handleClickOutside,
+};
+
+export default onClickOutside(DropDown, clickOutsideConfig)

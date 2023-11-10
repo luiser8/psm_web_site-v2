@@ -8,7 +8,6 @@ const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [sedesOpen, setSedesOpen] = useState(false);
-  const refElement = useRef(null);
 
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
@@ -111,7 +110,6 @@ const Header = () => {
                         {menuItem.path ? (
                           <div className="flex flex-row gap-x-2" >
                             <NavLink
-                              ref={index === 3 ? refElement : null}
                               to={menuItem.path}
                               onClick={() => {
                                 if (index === 3) {
