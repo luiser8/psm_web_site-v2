@@ -101,7 +101,7 @@ export default [
       {
         id: 2,
         name: "Programa de culminación de estudios",
-        link: "programa",
+        link: "/institucion/polizas/programa_de_culminación",
       },
     ],
   },
@@ -113,12 +113,12 @@ export default [
       {
         id: 1,
         name: "Académica",
-        link: "academica",
+        link: "/institucion/programas_de_orientación/academica",
       },
       {
         id: 2,
         name: "Vocacional y Psicológica",
-        link: "vocacional",
+        link: "/institucion/programas_de_orientación/vocacional_psicológica",
       },
     ],
   },
