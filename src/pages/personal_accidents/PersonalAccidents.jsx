@@ -9,7 +9,7 @@ export default function PersonalAccidents() {
       {PersonalAccidentData.active ? (
         <section className="text-gray-600 body-font overflow-hidden mt-5">
           <div className="container px-5 py-16 mx-auto">
-          <span className="w-[80%] flex mx-auto">
+          <span className="w-[100%] flex mx-auto">
           <Link to={"/"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
