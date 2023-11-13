@@ -12,7 +12,7 @@ const Carreras = () => {
   return (
     <>
       {carrerasData.active ? (
-        <section id="carreras" className="bg-primary/[.03] py-16 md:py-2">
+        <section id="carreras" className="bg-white dark:bg-transparent py-16 md:py-2">
           <div className="w-full h-full">
             <SectionTitle title="Carreras" paragraph="" center />
             <Swiper

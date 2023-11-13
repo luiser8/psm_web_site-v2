@@ -19,7 +19,7 @@ const SingleNews = ({ blog }) => {
         <div className="p-6 sm:p-8 md:py-4 md:px-6 lg:p-8 xl:py-4 xl:px-5 2xl:p-8">
           <Link to={`/noticias/${id}`}>
             <span
-              className="inline-block rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-white"
+              className="inline-block rounded-full bg-grey py-2 px-4 text-sm font-semibold capitalize text-white"
             >
               {tags[0]}
             </span>
@@ -27,7 +27,7 @@ const SingleNews = ({ blog }) => {
           <h3>
             <Link
               to={`/noticias/${id}`}
-              className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
+              className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-2xl"
             >
               {title}
             </Link>

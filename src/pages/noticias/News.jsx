@@ -15,16 +15,25 @@ const News = () => {
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
-          {newsData.filter((x) => x.principal === true).map((blog) => (
-            <div key={blog.id} className="w-full">
-              <SingleNews blog={blog} />
-            </div>
-          ))}
+          {newsData
+            .filter((x) => x.principal === true)
+            .map((blog) => (
+              <div key={blog.id} className="w-full">
+                <SingleNews blog={blog} />
+              </div>
+            ))}
         </div>
         <span className="w-full flex flex-row justify-end mt-5">
-        <Link to={"/noticias"} className={"font-semibold text-lg md:text-xl"}>Ver más noticias</Link>
+          <Link
+            to={"/noticias"}
+            className={
+              "font-semibold text-lg md:text-xl hover:text-primary transition-all ease-linear"
+            }
+          >
+            Ver más noticias
+          </Link>
         </span>
-        <Maps/>
+        <Maps />
       </div>
     </section>
   );

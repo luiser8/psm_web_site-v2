@@ -33,7 +33,7 @@ const Saia = () => {
               <span className="w-full flex justify-center mt-1">
                 <Link
                   to={"/saia/detalles"}
-                  className={"font-semibold text-xl md:text-2xl"}
+                  className={"font-semibold text-xl md:text-2xl hover:text-primary transition-all ease-linear"}
                 >
                   Más detalles
                 </Link>

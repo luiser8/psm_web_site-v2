@@ -20,7 +20,7 @@ export default function EventsDetails() {
   return (
     <>
       {eventosData.active ? (
-        <section className="w-full h-full mt-5 md:mt-16">
+        <section className="w-full h-full mt-5 md:mt-16 bg-white">
           <div className="w-[100%] md:w-[80%] flex flex-row-reverse justify-center mx-auto overflow-hidden">
             <SectionTitle
               title={eventList[0]?.name}

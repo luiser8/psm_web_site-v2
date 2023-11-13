@@ -6,7 +6,7 @@ import newsData from "../../utils/mock/newsData";
 
 export default function NewsAll() {
   return (
-    <section id="blog" className="bg-primary/5 py-10 w-full mx-auto">
+    <section id="blog" className="bg-white py-10 w-full mx-auto">
       <div className="container">
         <div className="flex flex-row mb-10 mx-auto">
           <Link to={"/"}>

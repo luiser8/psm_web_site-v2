@@ -31,7 +31,7 @@ export default function EventsPrincipal() {
                     {detail.description}
                   </p>
                 ))}
-                <Link to={"/eventos"} className={"mt-5 font-semibold text-lg"}>
+                <Link to={"/eventos"} className={"mt-5 font-semibold text-lg hover:text-primary transition-all ease-linear"}>
                   Ver más eventos
                 </Link>
               </span>

@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="wow fadeInUp relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
+        className="relative z-10 bg-[#4A6CF7] bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -82,7 +82,7 @@ const Footer = () => {
               </div>
             </div> */}
 
-            <div className="w-full col-span-1 px-4 md:w-1/2">
+            <div className="w-full col-span-1 px-4 md:w-1/2 ">
               <div className="mb-5 lg:mb-16">
                 <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
                   {poliza.name}
@@ -123,9 +123,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-primary/10 py-8">
+        <div className="bg-transparent py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="text-center text-base text-black dark:text-white">
               {`${year.getFullYear()} © - Politécnico Santiago Mariño.`}
             </p>
           </div>
