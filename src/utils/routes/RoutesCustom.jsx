@@ -13,6 +13,9 @@ import EventsDetails from "../../pages/eventos/EventsDetails";
 import Events from "../../pages/eventos/Events";
 import About from "../../pages/About/About";
 import PersonalAccidents from "../../pages/personal_accidents/PersonalAccidents";
+import Culmination from "../../pages/culmination/Culmination";
+import Academic from "../../pages/orientación_program/Academic";
+import Vocational from "../../pages/orientación_program/Vocational";
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -56,6 +59,20 @@ export default function RoutesCustom() {
     {
       path: "/institucion/polizas/accidentes_personales",
       element: <PersonalAccidents/>,
+    },
+
+    {
+      path: "/institucion/polizas/programa_de_culminación",
+      element: <Culmination/>,
+    },
+
+    {
+      path: "/institucion/programas_de_orientación/academica",
+      element: <Academic/>,
+    },
+    {
+      path: "/institucion/programas_de_orientación/vocacional_psicológica",
+      element: <Vocational/>,
     },
     {
       path: "/institucion/empleo",
