@@ -34,7 +34,7 @@ export default function EventsAll() {
 
   return (
     <>
-      <section id="eventos" className="bg-primary/5 py-10 w-full mx-auto">
+      <section id="eventos" className="bg-white py-10 w-full mx-auto">
         <div className="container">
           <div className="flex flex-row mb-10 mx-auto">
           <Link to={"/"}>

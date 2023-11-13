@@ -6,9 +6,8 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "../../styles/CarouselEvent.css"
 import SingleEventsPrincipal from "./SingleEventsPrincipal";
-
-// import "../tailwind.css" importar en caso de cambiar el color de la paginación del carousel
 
 const Events = () => {
   const otherEvents = eventosData.data.filter((x) => x.active === false);
@@ -23,9 +22,9 @@ const Events = () => {
               pagination={{
                 clickable: true,
                 // para cambiar color de la paginación
-                // renderBullet: function (index, className) {
-                //   return '<span class="' + className + '">' + (index + 1) + '</span>';
-                // },
+                 renderBullet: function (index, className) {
+                   return '<span class="' + className + '">'  + '</span>';
+                 },
               }}
               autoplay={{
                 delay: 2500,

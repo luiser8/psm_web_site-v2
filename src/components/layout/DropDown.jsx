@@ -26,7 +26,7 @@ function DropDown({ open, setSedesOpen }) {
                   onClick={()=> setSedesOpen(!open)}
                    to={`/sedes/${item.link}`}
                     className={
-                      "py-2 text- lg:text-lg text-dark hover:opacity-70 dark:text-white"
+                      "py-2 text- lg:text-lg text-dark hover:text-primary dark:text-white"
                     }
                   >
                     {item.name}
