@@ -2,17 +2,24 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import componentSaiaData from "../../utils/mock/componentSaiaData";
 import { NavLink as Link } from "react-router-dom";
+import SectionTitle from "../../components/common/SectionTitle";
 
 const Saia = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="mt-32 mb-10">
-      <div className="w-[95%] mx-auto">
+    <section className="bg-white/5 py-10 w-full mx-auto mt-10">
+      <div className="container">
+      <SectionTitle
+          title="S.A.I.A"
+          paragraph=""
+          center
+        />
+      <div className="w-[100%] mx-auto">
         <section className="w-full h-full mb-16">
           {componentSaiaData.active ? (
             <div className="w-full h-full">
-              <section className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 rounded-lg  mx-auto md:flex-row-reverse md:gap-x-5  lg:mt-10">
+              <section className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-0 rounded-lg mx-auto md:flex-row-reverse lg:gap-x-20 lg:mt-10">
                 <div className="overflow-hidden h-full ">
                   <img
                     src={componentSaiaData.image}
@@ -30,7 +37,7 @@ const Saia = () => {
                   </span>
                 </div>
               </section>
-              <span className="w-full flex justify-center mt-1">
+              <span className="w-full flex justify-items-start mt-1">
                 <Link
                   to={"/saia/detalles"}
                   className={"font-semibold text-xl md:text-2xl hover:text-primary transition-all ease-linear"}
@@ -48,8 +55,8 @@ const Saia = () => {
           className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
           data-wow-delay=".15s"
         >
-          <h1 className="text-2xl mb-4 font-bold text-start md:text-3xl xl:text-3xl">
-            Instrucciones de como acceder a nuestro portal
+          <h1 className="text-2xl mb-4 font-bold text-start md:text-2xl xl:text-2xl">
+            Video: Instrucciones de como acceder a nuestro portal
           </h1>
           <div className="relative aspect-[77/40] items-center justify-center">
             <img src="/images/video/video.jpg" alt="video image" />
@@ -90,6 +97,7 @@ const Saia = () => {
       ) : (
         <></>
       )}
+      </div>
     </section>
   );
 };

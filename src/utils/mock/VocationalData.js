@@ -1,6 +1,6 @@
 export default {
     active: true,
-    name: "Programa de orienación vocacional y psicológica",
+    name: "Programa de orientación vocacional y psicológica",
     data: {
       accidents: [
         {

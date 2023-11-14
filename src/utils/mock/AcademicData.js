@@ -1,6 +1,6 @@
 export default {
     active: true,
-    name: "Programa de orienación academica",
+    name: "Programa de orientación académica",
     data: {
       accidents: [
         {

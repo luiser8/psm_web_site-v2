@@ -11,9 +11,10 @@ export default function EventsPrincipal() {
     <>
       {eventosData.active ? (
         <section className="w-full h-full mt-5 md:mt-16">
-          <SectionTitle title="Eventos" paragraph="Ponencias" center />
-          <div className=" w-[90%] xl:w-[80%] h-full  flex justify-center items-center gap-y-6 flex-col p-2  xl:p-3 rounded-lg  mx-auto md:flex-row md:gap-x-24">
-            <div className=" mb-5 h-full md:w-1/2 overflow-hidden">
+          <div className="container">
+          <SectionTitle title="Eventos" paragraph="" center />
+          <div className="w-[100%] xl:w-[100%] h-full flex justify-center items-center gap-y-6 flex-col p-2 xl:p-0 rounded-lg mx-auto md:flex-row md:gap-x-24">
+            <div className="mb-5 h-full md:w-1/2 overflow-hidden">
               <img
                 src={eventPrincipal.image}
                 alt="eventos"
@@ -36,6 +37,7 @@ export default function EventsPrincipal() {
                 </Link>
               </span>
             </div>
+          </div>
           </div>
         </section>
       ) : (
