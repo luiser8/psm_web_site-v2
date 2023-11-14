@@ -16,15 +16,15 @@ export default function SaiaDetails() {
               />
             </div>
             <div className="h-full xl:w-1/2 flex items-center flex-col justify-start">
-              <span className="w-full flex flex-row items-center gap-x-10 mb-5">
+              <span className="w-full flex flex-row items-center mb-5">
                 <Link to={"/"}>
                   <img
                     src="\images\carreras\arrows\arrow-left.png"
                     alt="arrow"
-                    className="w-14 h-10"
+                    className="w-10 h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 object-cover mr-10 lg:mr-14"
                   />
                 </Link>
-                <h1 className="text-xl mb-2 font-bold text-start md:text-2xl xl:text-4xl">
+                <h1 className="text-xl sm:text-2xl mb-2 font-bold text-start md:text-2xl xl:text-4xl">
                   {detallesSaiaData.title}
                 </h1>
                 

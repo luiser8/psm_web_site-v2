@@ -8,11 +8,11 @@ const Saia = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="bg-white/5 w-full mx-auto py-10 xl:py-20">
-      <div className="container mt-10 xl:mt-40">
+    <section className="bg-white/5 w-full mx-auto overflow-hidden mt-10">
+      <div className="container">
         <SectionTitle title="S.A.I.A" paragraph="" center />
         <div className="w-[100%] h-full mx-auto">
-          <section className="w-full h-full mb-16 xl:mt-10">
+          <section className="w-full h-full mb-16">
             {componentSaiaData.active ? (
               <div className="w-full h-auto">
                 <section className="w-full h-auto flex justify-center items-center gap-y-10 flex-col rounded-lg mx-auto xl:flex-row-reverse lg:gap-x-20 xl:mt-10">
@@ -20,7 +20,7 @@ const Saia = () => {
                     <img
                       src={componentSaiaData.image}
                       alt="eventos"
-                      className=" mx-auto w-full  min-h-96  object-fill object-center"
+                      className=" mx-auto w-full min-h-[60vh] object-fill object-center"
                     />
                   </div>
 

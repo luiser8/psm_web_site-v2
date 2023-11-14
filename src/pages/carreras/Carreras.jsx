@@ -12,7 +12,7 @@ const Carreras = () => {
   return (
     <>
       {carrerasData.active ? (
-        <section id="carreras" className="relative z-10 h-[75vh]">
+        <section id="carreras" className="relative z-10 h-auto sm:h-full mb-10">
           <SectionTitle title="Carreras" center />
           <div className="w-full h-full">
             <Swiper
