@@ -14,11 +14,11 @@ export default function EventsPrincipal() {
           <div className="container">
           <SectionTitle title="Eventos" paragraph="" center />
           <div className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 xl:p-0 rounded-lg mx-auto xl:flex-row md:gap-x-24">
-            <div className="mb-5 h-[70vh] w-full xl:w-1/2 overflow-hidden">
+            <div className="mb-5 h-full w-full xl:h-[80vh] xl:w-1/2 overflow-hidden">
               <img
                 src={eventPrincipal.image}
                 alt="eventos"
-                className=" mx-auto w-full sm:w-[50%] md:w-[60%] xl:w-full h-full object-fill object-center bg-black"
+                className=" mx-auto w-full h-full sm:w-[70%] xl:w-full object-fill object-center bg-black"
               />
             </div>
 
