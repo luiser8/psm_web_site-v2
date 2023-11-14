@@ -125,7 +125,7 @@ const Footer = () => {
         </div>
         <div className="bg-transparent py-8">
           <div className="container">
-            <p className="text-center text-base text-black dark:text-white">
+            <p className="text-left text-base text-black dark:text-white">
               {`${year.getFullYear()} © - Politécnico Santiago Mariño.`}
             </p>
           </div>
