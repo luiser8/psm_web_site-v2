@@ -32,53 +32,53 @@ const Employment = () => {
               <div className="flex flex-wrap">
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-6">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-black dark:text-white">
                       Nombres
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-md font-medium py-2 px-2 text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full rounded-md font-medium py-2 px-2 text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     />
                   </div>
                 </div>
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-6">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-black dark:text-white">
                       Apellidos
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-md py-2 px-2 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full rounded-md py-2 px-2 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     />
                   </div>
                 </div>
 
                 <div className="w-full px-4 md:w-full">
                   <div className="mb-8">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-black dark:text-white">
                       Correo
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-md py-2 px-2 font-medium lg:text-lg text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full rounded-md py-2 px-2 font-medium lg:text-lg text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     />
                   </div>
 
                   <div className="mb-8">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-black dark:text-white">
                       Teléfono
                     </label>
                     <div className="relative mt-2 rounded-md shadow-sm">
                       <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"></div>
                       <input
                         type="text"
-                        className="w-full rounded-md py-2 pl-20 sm:pl-24 px-2 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                        className="w-full rounded-md py-2 pl-20 sm:pl-24 px-2 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                       />
                       <div className="absolute inset-y-0 left-0 flex items-center  gap-0 w-7">
                         <select
                           id="currency"
                           name="currency"
-                          className="h-full w-auto rounded-md text-xs border-none border-blueDark bg-transparent pl-1 sm:pl-2 text-body-color placeholder-body-color  focus:border-none sm:text-sm outline-none"
+                          className="h-full w-auto rounded-md text-xs border-none border-black bg-transparent pl-1 sm:pl-2 text-body-color placeholder-body-color  focus:border-none sm:text-sm outline-none"
                         >
                           {countryCodesMock.map((item, index) => (
                             <option
@@ -95,10 +95,10 @@ const Employment = () => {
 
                 <div className="w-full px-4">
                   <div className="mb-8">
-                    <label className="block w-full h-48 border-[1px] border-blueDark  rounded-md cursor-pointer">
+                    <label className="block w-full h-48 border-[1px] border-black  rounded-md cursor-pointer">
                       <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <svg
-                          className="w-12 h-12 mb-4 text-blueDark dark:text-white"
+                          className="w-12 h-12 mb-4 text-blabg-black dark:text-white"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -132,14 +132,14 @@ const Employment = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="message"
-                      className="mb-3 block text-base lg:text-lg font-extrabold  text-blueDark dark:text-white"
+                      className="mb-3 block text-base lg:text-lg font-extrabold  text-black dark:text-white"
                     >
                       Mensaje
                     </label>
                     <textarea
                       name="message"
                       rows={5}
-                      className="w-full resize-none rounded-md py-3 px-3 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full resize-none rounded-md py-3 px-3 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     ></textarea>
                   </div>
                 </div>
