@@ -34,47 +34,47 @@ const Contact = () => {
               <div className="flex flex-wrap">
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-6">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-black dark:text-white">
                       Nombres
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-md font-medium py-2 px-2 text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full rounded-md font-medium py-2 px-2 text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     />
                   </div>
                 </div>
                 <div className="w-full px-4 md:w-1/2">
                   <div className="mb-6">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-black dark:text-white">
                       Apellidos
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-md  py-2 px-2 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full rounded-md  py-2 px-2 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     />
                   </div>
                 </div>
 
                 <div className="w-full px-4 md:w-full">
                   <div className="mb-8">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blaborder-black dark:text-white">
                       Correo
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-md  py-2 px-2 font-medium lg:text-lg text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full rounded-md  py-2 px-2 font-medium lg:text-lg text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     />
                   </div>
 
                   <div className="mb-8">
-                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blueDark dark:text-white">
+                    <label className="mb-3 block text-base lg:text-lg font-extrabold text-blaborder-black dark:text-white">
                       Teléfono
                     </label>
 
                     <div className="relative mt-2 rounded-md shadow-sm">
                       <input
                         type="text"
-                        className="w-full rounded-md py-2 px-2 pl-20 sm:pl-24 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                        className="w-full rounded-md py-2 px-2 pl-20 sm:pl-24 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                       />
                       <div className="absolute inset-y-0 left-0 flex items-center gap-0 w-7">
                         <select
@@ -101,14 +101,14 @@ const Contact = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="message"
-                      className="mb-3 block text-base lg:text-lg font-extrabold  text-blueDark dark:text-white"
+                      className="mb-3 block text-base lg:text-lg font-extrabold  text-blaborder-black dark:text-white"
                     >
                       Mensaje
                     </label>
                     <textarea
                       name="message"
                       rows={5}
-                      className="w-full resize-none rounded-md py-3 px-3 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-blueDark focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-blueDark border-[1px]"
+                      className="w-full resize-none rounded-md py-3 px-3 font-medium text-base lg:text-lg text-body-color placeholder-body-color shadow-one outline-none focus:border-black focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp border-black border-[1px]"
                     ></textarea>
                   </div>
                 </div>
