@@ -14,25 +14,21 @@ const Events = () => {
   return (
     <>
       {eventosData.active ? (
-        <section className="relative z-10 py-6 md:py-10 lg:py-10">
+        <section className="relative z-10 py-6 md:py-10">
           <div className="w-full h-full">
             <Swiper
               slidesPerView={1}
               spaceBetween={45}
               pagination={{
                 clickable: true,
-                // para cambiar color de la paginación
-                 renderBullet: function (index, className) {
-                   return '<span class="' + className + '">'  + '</span>';
-                 },
+                
               }}
+              
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
               }}
-              navigation={{
-                enabled: false,
-              }}
+        
               breakpoints={{
                 640: {
                   slidesPerView: 2,
@@ -48,10 +44,10 @@ const Events = () => {
                 },
               }}
               modules={[Autoplay, Pagination, Navigation]}
-              className=" w-[95%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent  my-5"
+              className=" w-[95%] h-auto overflow-hidden flex justify-center content-center bg-transparent"
             >
               {otherEvents.map((events, index) => (
-                <SwiperSlide className="mx-auto my-10" key={index}>
+                <SwiperSlide className="mx-auto mb-16 xl:mb-10" key={index}>
                   <SingleEventsPrincipal events={events} />
                 </SwiperSlide>
               ))}

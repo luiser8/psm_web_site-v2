@@ -6,7 +6,7 @@ import Maps from "../../components/Mapa/Maps";
 
 const News = () => {
   return (
-    <section id="blog" className="bg-white/5 py-10 w-full mx-auto mt-20">
+    <section id="blog" className="bg-white/5 xl:py-10 w-full mx-auto">
       <div className="container">
         <SectionTitle
           title="Noticias destacadas"
