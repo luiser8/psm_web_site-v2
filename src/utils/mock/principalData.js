@@ -26,7 +26,7 @@ export default {
                 link: "https://www.youtube.com/embed/WNsJKB19ot8",
                 titleLink: "Ver transmisión en vivo",
                 target: "_self",
-                iframe:"https://www.youtube.com/embed/-wIDHZFsi-lQ",
+                iframe:"https://www.youtube.com/embed/WNsJKB19ot8?&autoplay=1",
             }
         ]
     }
