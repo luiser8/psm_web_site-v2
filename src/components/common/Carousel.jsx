@@ -1,16 +1,42 @@
-import { Carousel, Typography, Button, CarouselProps } from "@material-tailwind/react";
+import {
+  Carousel,
+  Typography,
+  Button,
+  CarouselProps,
+} from "@material-tailwind/react";
+import { useState } from "react";
+import ModalVideo from "../layout/ModalVideo";
 
-export function CarouselWithContent({data}) {
+export function CarouselWithContent({ data }) {
+  const [link,setLink] = useState(null)
+  const [open, setOpen] = useState(false);
+
+  const handleModal = (link) => {
+   if(link === ""){
+   setOpen(false)
+   }else{
+    setOpen(true)
+    setLink(link)
+   }
+  };
+
+  const handleClose = () =>{
+    setOpen(false)
+  }
   return (
-    <Carousel autoplay loop>
-      {data.map(({ url }, index) => (
-          <div className="relative h-full w-full" key={index}>
+    <>
+      <Carousel autoplay loop>
+        {data.map(({ url, iframe }, index) => (
+          <div className="h-full w-full" key={index}>
             <img
               src={url}
               alt="image 1"
               className="h-full w-full object-fill object-center"
-          />
-        {/* <div className="absolute grid h-full w-full place-items-center bg-black/75">
+              onClick={()=>{
+                handleModal(iframe)
+              }}
+            />
+            {/* <div className="absolute grid h-full w-full place-items-center bg-black/75">
           <div className="w-3/4 text-center md:w-2/4">
             <Typography
               variant="h1"
@@ -39,8 +65,10 @@ export function CarouselWithContent({data}) {
             </div>
           </div>
         </div> */}
-      </div>
-      ))}
-    </Carousel>
+          </div>
+        ))}
+      </Carousel>
+      <ModalVideo open={open} handleClose={handleClose} link={link}/> 
+    </>
   );
 }
