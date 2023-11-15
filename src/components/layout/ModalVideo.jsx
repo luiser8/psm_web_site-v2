@@ -14,7 +14,7 @@ export default function ModalVideo({ link, open, handleClose }) {
           width="720"
           height="480"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
           encrypted-media
           allowfullscreen
         ></iframe>

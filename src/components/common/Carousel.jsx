@@ -8,32 +8,36 @@ import { useState } from "react";
 import ModalVideo from "../layout/ModalVideo";
 
 export function CarouselWithContent({ data }) {
-  const [link,setLink] = useState(null)
+  const [link, setLink] = useState(null);
   const [open, setOpen] = useState(false);
 
   const handleModal = (link) => {
-   if(link === ""){
-   setOpen(false)
-   }else{
-    setOpen(true)
-    setLink(link)
-   }
+    if (link === "") {
+      setOpen(false);
+    } else {
+      setOpen(true);
+      setLink(link);
+    }
   };
 
-  const handleClose = () =>{
-    setOpen(false)
-  }
+  const handleClose = () => {
+    setOpen(false);
+    setLink(null);
+  };
   return (
     <>
       <Carousel autoplay loop>
-        {data.map(({ url, iframe }, index) => (
+        {data.map(({ url, iframe, titleLink }, index) => (
           <div className="h-full w-full" key={index}>
             <img
               src={url}
               alt="image 1"
-              className="h-full w-full object-fill object-center"
-              onClick={()=>{
-                handleModal(iframe)
+              className={`h-full w-full object-fill object-center ${
+                iframe ? "cursor-pointer" : ""
+              }`}
+              title={iframe ? titleLink : ""}
+              onClick={() => {
+                handleModal(iframe);
               }}
             />
             {/* <div className="absolute grid h-full w-full place-items-center bg-black/75">
@@ -68,7 +72,7 @@ export function CarouselWithContent({ data }) {
           </div>
         ))}
       </Carousel>
-      <ModalVideo open={open} handleClose={handleClose} link={link}/> 
+      <ModalVideo open={open} handleClose={handleClose} link={link} />
     </>
   );
 }
