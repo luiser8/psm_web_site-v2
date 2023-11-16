@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="relative z-10 bg-[#4A6CF7] bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
+        className="relative z-0 bg-[#4A6CF7] bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="mb-5 max-w-[110px] col-span-1 md:w-1/ md:mr-5">
               <NavLink to="/" className="mb-3 inline-block">
                 <img
-                  src="images/logo/logo.png"
+                  src="/images/logo/logo.png"
                   alt="logo"
                   className="w-full  object-fill dark:bg-white dark:rounded"
                 />
