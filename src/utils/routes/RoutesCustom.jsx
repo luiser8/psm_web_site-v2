@@ -16,6 +16,7 @@ import PersonalAccidents from "../../pages/personal_accidents/PersonalAccidents"
 import Culmination from "../../pages/culmination/Culmination";
 import Academic from "../../pages/orientación_program/Academic";
 import Vocational from "../../pages/orientación_program/Vocational";
+import SedesPage from "../../pages/Sedes/SedesPage";
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -49,7 +50,7 @@ export default function RoutesCustom() {
     },
     {
       path: "/sedes/:id",
-      element:<Layout/> ,
+      element:<SedesPage/> ,
     },
 
     {
