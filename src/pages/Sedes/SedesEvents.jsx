@@ -3,7 +3,7 @@ import React from "react";
 export default function SedesEvents( {data} ) {
   return (
     <>
-      <section className="container h-screen">
+      <section className="w-full h-auto">
         <h1 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px] text-center  ">
           Eventos
         </h1>
