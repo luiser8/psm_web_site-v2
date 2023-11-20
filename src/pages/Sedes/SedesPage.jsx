@@ -28,7 +28,9 @@ export default function SedesPage() {
                 className="w-14 mb-4"
               />
             </Link>
-            <h1 className="text-2xl md:text-3xl font-bold !leading-tight text-black dark:text-white uppercase">
+            <h1 className={
+              "font-semibold text-lg md:text-xl uppercase"
+            }>
               {sedeURL.id === "san_cristobal"
                 ? "San Cristóbal"
                 : sedeURL.id === "ciudad_ojeda"
