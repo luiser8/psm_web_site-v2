@@ -1,27 +1,42 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import footerData from "../../utils/mock/footerData";
 
-export default function SedesContact() {
+export default function SedesContact({ name = "Barcelona" }) {
+  const year = new Date();
+  const socialNetworks = footerData.find((x) => x.id === 5);
   return (
     <>
-      <footer className="w-full h-full bg-[#4A6CF7] bg-opacity-5 flex justify-center overflow-hidden relative -bottom-1 mt-10 items-start xl:items-center px-10 gap-x-4 py-5 flex-col xl:flex-row">
-        <h1 className="text-xl text-black font-bold flex flex-nowrap gap-x-1">
-          <img src="/images/Icon/address.svg" alt="address" /> Dirección
-        </h1>
-        <h2 className="text-gray-500 text-base">
-          26985 Brighton Lane, Lake Forest, CA 92630
-        </h2>
+      <footer
+        className="relative z-0 bg-[#4A6CF7] bg-opacity-5 flex flex-col p-3 justify-center items-center mt-10"
+        data-wow-delay=".1s"
+      >
+        <div className="max-w-[110px] h-32 md:mr-5">
+          <NavLink to="/" className="mb-3 inline-block">
+            <img
+              src="/images/logo/logo.png"
+              alt="logo"
+              className="w-full  object-fill dark:bg-white dark:rounded"
+            />
+          </NavLink>
 
-        <h1 className="text-xl text-black font-bold flex flex-nowrap gap-x-1">
-          <img src="/images/Icon/email.svg" alt="email" /> Email
-        </h1>
-        <h2 className="text-gray-500 text-base">example@email.com</h2>
-
-        <h1 className="text-xl text-black font-bold flex flex-nowrap gap-x-1">
-          <img src="/images/Icon/phone.svg" alt="phone" className="rotate-90" />{" "}
-          Telefono
-        </h1>
-        <h2 className="text-gray-500 text-base">123-456-7890</h2>
+          <div className="flex items-center w-full gap-x-4 flex-row">
+            {socialNetworks.elements.map((element) => (
+              <div key={element.id}>
+                <a
+                  className="mr-6 text-[#CED3F6] hover:text-primary"
+                  href={element.link}
+                  target="_blank"
+                >
+                  <img src={element.icon} alt="icon" />
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+        <p className="block text-left text-xl font-normal text-black dark:text-white">
+          Sede - {name}
+        </p>
       </footer>
     </>
   );

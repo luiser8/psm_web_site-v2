@@ -1,21 +1,24 @@
-import React from "react";
-import MaracaiboData from "../../utils/mock/sedesDetailsData/MaracaiboData";
+import React, { useState } from "react";
+import sedesDetailsData from "../../utils/mock/sedesDetailsData/sedesDetailsData";
 import { Link, useParams } from "react-router-dom";
-import SectionTitle from "../../components/common/SectionTitle";
 import SedesEvents from "./SedesEvents";
 import SedesCarreras from "./SedesCarreras";
 import Testimonials from "../Testimonials";
-import News from "../noticias/News";
 import Registrations from "./Registrations";
 import SedesContact from "./SedesContact";
 import SedesNews from "./SedesNews";
+import Footer from "../../components/layout/Footer";
 
-export default function SedesPage({ data }) {
+export default function SedesPage() {
   const sedeURL = useParams();
+
+  const sedesFilter = sedesDetailsData.sedes.find(
+    (x) => x.parameters === sedeURL.id
+  );
 
   return (
     <>
-      {MaracaiboData.active ? (
+      {sedesDetailsData.active ? (
         <section className="flex flex-col items-center w-full h-full mb-20">
           <nav className="w-full h-16 xl:h-24 flex flex-row items-center justify-between px-5">
             <Link to={"/"}>
@@ -25,7 +28,7 @@ export default function SedesPage({ data }) {
                 className="w-14 mb-4"
               />
             </Link>
-            <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold !leading-tight text-black dark:text-white uppercase">
+            <h1 className="text-2xl md:text-3xl font-bold !leading-tight text-black dark:text-white uppercase">
               {sedeURL.id === "san_cristobal"
                 ? "San Cristóbal"
                 : sedeURL.id === "ciudad_ojeda"
@@ -37,12 +40,12 @@ export default function SedesPage({ data }) {
           </nav>
 
           <img
-            src={MaracaiboData.image}
-            alt={`sede_${MaracaiboData.title}`}
+            src={sedesFilter.image}
+            alt={`sede_${sedesFilter.title}`}
             className="w-full h-[50vh] xl:h-[65vh] object-fill object-center"
           />
 
-          {MaracaiboData.events.map((data) => (
+          {sedesFilter.events.map((data) => (
             <div className="container my-20" key={data.id}>
               <SedesEvents data={data} />
             </div>
@@ -55,9 +58,9 @@ export default function SedesPage({ data }) {
       <section className="w-full h-full overflow-hidden mt-20">
         <SedesCarreras />
         <Testimonials />
+        <Registrations data={sedesFilter.registrations} />
         <SedesNews />
-        <Registrations data={MaracaiboData.registrations} />
-        <SedesContact />
+        <Footer name={sedesFilter.title} />
       </section>
     </>
   );
