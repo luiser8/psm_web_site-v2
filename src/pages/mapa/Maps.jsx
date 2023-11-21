@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import MapaData from "../../utils/mock/MapaData";
+import MapaData from "../../utils/mock/mapaData";
 import { NavLink } from "react-router-dom";
-import SectionTitle from "../common/SectionTitle";
+import SectionTitle from "../../components/common/SectionTitle";
 
 export default function Maps() {
   return (
     <>
       {MapaData.active ? (
-        <div className="mt-20 mb-16">
+        <div className="container mt-12 mb-24">
           <SectionTitle
             title="Mapa"
             paragraph="Donde los ubicamos"

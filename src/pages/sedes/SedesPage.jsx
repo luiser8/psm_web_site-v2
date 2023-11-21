@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import sedesDetailsData from "../../utils/mock/sedesDetailsData/sedesDetailsData";
+import sedesDetailsData from "../../utils/mock/sedesDetailsData";
 import { Link, useParams } from "react-router-dom";
 import SedesEvents from "./SedesEvents";
 import SedesCarreras from "./SedesCarreras";
-import Testimonials from "../Testimonials";
+import Testimonials from "../testimonials/Testimonials";
 import Registrations from "./Registrations";
 import SedesContact from "./SedesContact";
 import SedesNews from "./SedesNews";
@@ -19,13 +19,13 @@ export default function SedesPage() {
   return (
     <>
       {sedesDetailsData.active ? (
-        <section className="flex flex-col items-center w-full h-full mb-20">
-          <nav className="w-full h-16 xl:h-24 flex flex-row items-center justify-between px-5">
+        <section className="flex flex-col items-center w-full h-full mb-0">
+          <nav className="w-full h-16 xl:h-16 flex flex-row items-center justify-between px-5">
             <Link to={"/"}>
               <img
                 src="\images\carreras\arrows\arrow-left.png"
                 alt="arrow"
-                className="w-14 mb-4"
+                className="w-12 my-1"
               />
             </Link>
             <h1 className={
@@ -57,7 +57,7 @@ export default function SedesPage() {
         <></>
       )}
 
-      <section className="w-full h-full overflow-hidden mt-20">
+      <section className="w-full h-full overflow-hidden mt-0">
         <SedesCarreras />
         <Testimonials />
         <Registrations data={sedesFilter.registrations} />

@@ -4,7 +4,7 @@ import SectionTitle from "../../components/common/SectionTitle";
 export default function Registrations({ data }) {
   return (
     <>
-      <div className="container mb-20">
+      <div className="container mb-20 mt-16">
         <SectionTitle center={"center"} title={"Inscripciones y periodos"} />
         {data.map((item) => (
           <div className="-my-8 divide-y-2 divide-gray-100 mt-5" key={item.id}>

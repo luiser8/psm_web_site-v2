@@ -1,5 +1,5 @@
 import React from "react";
-import AboutData from "../../utils/mock/AboutData";
+import AboutData from "../../utils/mock/aboutData";
 import { Link } from "react-router-dom";
 import SectionTitle from "../../components/common/SectionTitle";
 
