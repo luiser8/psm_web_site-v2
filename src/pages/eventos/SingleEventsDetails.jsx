@@ -11,7 +11,7 @@ export default function SingleEventsDetails({ events }) {
           alt="image"
         />
         <div className="p-5">
-          <h1 className="title-font text-start font-bold text-gray-900 mb-3 lg:text-base uppercase">
+          <h1 className="title-font text-start font-bold text-gray-900 mb-3 lg:text-base uppercase dark:text-white">
             {events.name}
           </h1>
           <span className="w-full flex justify-between items-center font-semibold mb-2">

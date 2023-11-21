@@ -8,7 +8,7 @@ const Saia = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="bg-white/5 w-full mx-auto overflow-hidden mt-10">
+    <section className="bg-white/5 w-full mx-auto overflow-hidden mt-10 py-10">
       <div className="container">
         <SectionTitle title="S.A.I.A" paragraph="" center />
         <div className="w-[100%] h-full mx-auto">

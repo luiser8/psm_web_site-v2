@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <>
       {testimonialData.active ? (
-        <section className="relative z-0 bg-white dark:bg-dark py-10 mt-10">
+        <section className="relative z-0 bg-white dark:bg-black py-10">
           <div className="container">
             <SectionTitle title="Testimonios" center />
 

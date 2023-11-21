@@ -40,7 +40,7 @@ const SingleCarrera = ({ carreras }) => {
         <p className=" font-semibold text-lg sm:text-sm  md:leading-2 md:leading-4 md:text-sm lg:text-sm  lg:whitespace-pre-wrap lg:leading-4 xl:text-lg">
           {name}
         </p>
-        <button className=" mt-1 text-blue-gray-900 mb-5 sm:text-xs md:text-xs lg:text-xs xl:text-base">
+        <button className=" mt-1 text-blue-gray-900 mb-5 sm:text-xs md:text-xs lg:text-xs xl:text-base dark:text-white">
           Más detalles
         </button>
       </div>

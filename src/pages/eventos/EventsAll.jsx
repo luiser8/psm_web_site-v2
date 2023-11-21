@@ -34,14 +34,14 @@ export default function EventsAll() {
 
   return (
     <>
-      <section id="eventos" className="bg-white py-10 w-full mx-auto">
+      <section id="eventos" className="bg- dark:bg-dark py-10 w-full mx-auto">
         <div className="container">
           <div className="flex flex-row mb-10 mx-auto">
           <Link to={"/"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
               alt="arrow"
-              className="w-12 mb-4"
+              className="w-12 mb-4 dark:bg-white rounded-full"
             />
           </Link>
           <SectionTitle

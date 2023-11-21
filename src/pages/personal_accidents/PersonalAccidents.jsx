@@ -7,34 +7,34 @@ export default function PersonalAccidents() {
   return (
     <>
       {PersonalAccidentData.active ? (
-        <section className="text-gray-600 body-font overflow-hidden mt-5">
+        <section className="text-gray-600 body-font overflow-hidden py-5 dark:bg-dark">
           <div className="container px-5 py-16 mx-auto">
           <span className="w-[100%] flex mx-auto">
           <Link to={"/"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
               alt="arrow"
-              className="w-12 mb-5"
+              className="w-12 mb-5 dark:bg-white rounded-full"
             />
           </Link>
           <SectionTitle title={PersonalAccidentData.name} center={"center"} />
           </span>
             {PersonalAccidentData.data.accidents.map((item) => (
-              <div className="-my-8 divide-y-2 divide-gray-100 mt-5" key={item.id}>
+              <div className="-my-8 divide-y-2 divide-gray-100 mt-5 dark:divide-white" key={item.id}>
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-gray-700">
+                    <span className="font-semibold title-font text-gray-700 dark:text-white">
                       {item.title}
                     </span>
-                    <span className="mt-1 text-gray-500 text-sm">
+                    <span className="mt-1 text-gray-500 text-sm dark:text-white">
                       {item.date}
                     </span>
                   </div>
                   <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2 dark:text-white">
                       {item.subtitle}
                     </h2>
-                    <p className="leading-relaxed">{item.description}</p>
+                    <p className="leading-relaxed dark:text-white">{item.description}</p>
                   </div>
                 </div>
               </div>

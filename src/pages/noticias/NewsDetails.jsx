@@ -18,7 +18,8 @@ export default function NewsDetails() {
   return (
     <>
       {Object.keys(news).length > 0 ? (
-        <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto my-5 rounded  ">
+        <div className="w-full h-full bg-white py-10 dark:bg-dark">
+          <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto rounded dark:bg-black">
           <section className="flex items-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
               <div className="mr-4 flex flex-row items-start gap-x-10">
@@ -26,7 +27,7 @@ export default function NewsDetails() {
                     <img
                       src="\images\carreras\arrows\arrow-left.png"
                       alt="arrow"
-                      className="w-32 mb-4"
+                      className="w-32 mb-4 dark:bg-white rounded-full"
                     />
                   </Link>
                 <div className="relative h-12 w-full overflow-hidden rounded-full">
@@ -69,6 +70,7 @@ export default function NewsDetails() {
             </span>
           </section>
         </section>
+        </div>
       ) : (
         <></>
       )}

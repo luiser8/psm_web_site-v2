@@ -22,7 +22,7 @@ import Maps from "../../pages/mapa/Maps";
 
 const Layout = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-dark">
       <ThemeProviders>
         <Header />
         <ScrollUp />

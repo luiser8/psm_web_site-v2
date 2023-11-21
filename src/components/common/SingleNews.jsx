@@ -5,7 +5,7 @@ const SingleNews = ({ blog }) => {
   return (
     <>
       <div
-        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
+        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-black"
         data-wow-delay=".1s"
       >
         <div className="h-[220px] w-full">
@@ -27,7 +27,7 @@ const SingleNews = ({ blog }) => {
           <h3>
             <Link
               to={`/noticias/${id}`}
-              className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-2xl"
+              className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-2xl dark:hover:text-primary"
             >
               {title}
             </Link>

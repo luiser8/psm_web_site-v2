@@ -25,7 +25,7 @@ export default function Pagination({ handleNext, handlePrev, currentPage }) {
       <nav className="flex justify-center mt-6 rounded-md mx-auto">
         <button
           onClick={handlePrev}
-          className="relative inline-flex items-center rounded-l-md px-2 py-2 md:py-4 text-black ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+          className="relative inline-flex items-center rounded-l-md px-2 py-2 md:py-4 text-black ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 dark:text-white dark:hover:bg-black"
         >
           <svg
             className="h-5 w-5"
@@ -44,8 +44,8 @@ export default function Pagination({ handleNext, handlePrev, currentPage }) {
           <div
             key={x.value}
             className={` ${
-              currentPage === x.value ? "bg-primary text-white" : "bg-white"
-            } relative inline-flex items-center px-5 py-2 md:py-4 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300  focus:z-20 focus:outline-offset-0`}
+              currentPage === x.value ? "bg-primary text-white" : "bg-white dark:bg-dark"
+            } relative inline-flex items-center px-5 py-2 md:py-4 text-sm font-semibold text-gray-900 dark:text-white ring-1 ring-inset ring-gray-300  focus:z-20 focus:outline-offset-0 `}
           >
             {x.value + 1}
           </div>
@@ -53,10 +53,10 @@ export default function Pagination({ handleNext, handlePrev, currentPage }) {
 
         <button
           onClick={handleNext}
-          className="relative inline-flex items-center rounded-r-md px-2 py-2 md:py-4 text-black ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+          className="relative inline-flex items-center rounded-r-md px-2 py-2 md:py-4 text-black ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 dark:hover:bg-black"
         >
           <svg
-            className="h-5 w-5"
+            className="h-5 w-5 dark:text-white"
             viewBox="0 0 20 20"
             fill="currentColor"
             aria-hidden="true"
