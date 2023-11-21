@@ -5,7 +5,6 @@ import SedesEvents from "./SedesEvents";
 import SedesCarreras from "./SedesCarreras";
 import Testimonials from "../testimonials/Testimonials";
 import Registrations from "./Registrations";
-import SedesContact from "./SedesContact";
 import SedesNews from "./SedesNews";
 import Footer from "../../components/layout/Footer";
 
