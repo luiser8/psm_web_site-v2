@@ -3,9 +3,9 @@ import SectionTitle from "../../components/common/SectionTitle";
 import SingleNews from "../../components/common/SingleNews";
 import newsData from "../../utils/mock/newsData";
 
-const News = () => {
+const SedesNews = () => {
   return (
-    <section id="blog" className="bg-white/5 xl:py-10 w-full mx-auto">
+    <section id="blog" className="bg-white/5 py-16 w-full mx-auto">
       <div className="container">
         <SectionTitle
           title="Noticias destacadas"
@@ -37,4 +37,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default SedesNews;

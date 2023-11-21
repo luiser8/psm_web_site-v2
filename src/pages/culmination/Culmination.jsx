@@ -1,5 +1,5 @@
 import React from "react";
-import CulminationData from "../../utils/mock/CulminationData";
+import CulminationData from "../../utils/mock/culminationData";
 import SectionTitle from "../../components/common/SectionTitle";
 import { Link } from "react-router-dom";
 
