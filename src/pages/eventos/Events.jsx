@@ -14,7 +14,7 @@ const Events = () => {
   return (
     <>
       {eventosData.active ? (
-        <section className="relative z-0 py-6 md:py-10">
+        <section className="relative z-0 py-6 md:py-10 dark:bg-dark">
           <div className="w-full h-full">
             <Swiper
               slidesPerView={1}

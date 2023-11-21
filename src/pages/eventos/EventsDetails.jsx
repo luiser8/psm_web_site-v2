@@ -20,7 +20,7 @@ export default function EventsDetails() {
   return (
     <>
       {eventosData.active ? (
-        <section className="w-full h-full mt-5 md:mt-16 bg-white">
+        <section className="w-full h-screen py-20 bg-white dark:bg-dark">
           <div className="w-[100%] md:w-[80%] flex flex-row-reverse justify-center mx-auto overflow-hidden">
             <SectionTitle
               title={eventList[0]?.name}
@@ -32,7 +32,7 @@ export default function EventsDetails() {
               <img
                 src="\images\carreras\arrows\arrow-left.png"
                 alt="arrow"
-                className="w-9 xl:w-14"
+                className="w-9 xl:w-14 dark:bg-white rounded-full"
               />
             </Link>
           </div>

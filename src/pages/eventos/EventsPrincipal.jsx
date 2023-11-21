@@ -10,7 +10,7 @@ export default function EventsPrincipal() {
   return (
     <>
       {eventosData.active ? (
-        <section className="w-full h-full mt-5 xl:mt-16">
+        <section className="w-full h-full mt-5 xl:mt-16 dark:bg-dark">
           <div className="container">
           <SectionTitle title="Eventos" paragraph="" center />
           <div className="w-full h-full flex justify-center items-center gap-y-6 flex-col p-2 xl:p-0 rounded-lg mx-auto xl:flex-row md:gap-x-24">
@@ -18,7 +18,7 @@ export default function EventsPrincipal() {
               <img
                 src={eventPrincipal.image}
                 alt="eventos"
-                className=" mx-auto w-full h-full sm:w-[70%] xl:w-full object-fill object-center bg-black"
+                className=" mx-auto w-full h-full sm:w-[70%] xl:w-full object-fill object-center"
               />
             </div>
 

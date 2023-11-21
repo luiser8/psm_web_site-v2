@@ -16,7 +16,7 @@ const DetallesCarrera = () => {
   }, []);
 
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32 dark:bg-dark">
       {carrerasList.length !== 0 ? (
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-12 gap-x-8 lg:max-w-7xl lg:grid-cols-2">
@@ -25,10 +25,10 @@ const DetallesCarrera = () => {
                 <img
                   src="\images\carreras\arrows\arrow-left.png"
                   alt="arrow"
-                  className="w-14 mb-4"
+                  className="w-14 mb-4 dark:bg-white rounded-full"
                 />
               </Link>
-              <h2 className="text-3xl sm:text-4xl font-medium text-black-100 leading-relaxed">
+              <h2 className="text-3xl sm:text-4xl font-medium text-black-100 leading-relaxed dark:text-white">
                 {carrerasList[0].name}
               </h2>
               <p className="mt-2 leading-relaxed">
@@ -47,12 +47,12 @@ const DetallesCarrera = () => {
             <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
                 <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
-                  <a>
-                    <span className="absolute inset-0" />
+                  <a className="dark:text-white">
+                    <span className="absolute inset-0 " />
                     Perfil Graduado
                   </a>
                 </h3>
-                <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3">
+                <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3 dark:text-white">
                   {carrerasList[0].more.graduate_profile}
                 </p>
               </div>
@@ -60,12 +60,12 @@ const DetallesCarrera = () => {
             <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
                 <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
-                  <a>
+                  <a className="dark:text-white">
                     <span className="absolute inset-0" />
                     Campo Laboral
                   </a>
                 </h3>
-                <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3">
+                <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3 dark:text-white">
                   {carrerasList[0].more.labor_field}
                 </p>
               </div>
@@ -73,7 +73,7 @@ const DetallesCarrera = () => {
             <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
                 <h3 className="mt-3 text-sm font-medium leading-6 text-gray-900 group-hover:text-gray-600">
-                  <a>
+                  <a className="dark:text-white">
                     <span className="absolute inset-0" />
                     Carreras Afines
                   </a>
@@ -86,7 +86,7 @@ const DetallesCarrera = () => {
               </div>
               <div className="group relative">
                 <div className="flex w-0 flex-1 items-center">
-                  <span className="w-0 flex-1 truncate">
+                  <span className="w-0 flex-1 truncate dark:text-white">
                     {carrerasList[0].more.pensum}
                   </span>
                 </div>

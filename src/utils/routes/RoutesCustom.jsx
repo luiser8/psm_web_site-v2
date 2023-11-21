@@ -16,7 +16,7 @@ import PersonalAccidents from "../../pages/personal_accidents/PersonalAccidents"
 import Culmination from "../../pages/culmination/Culmination";
 import Academic from "../../pages/orientación_program/Academic";
 import Vocational from "../../pages/orientación_program/Vocational";
-import SedesPage from "../../pages/sedes/SedesPage";
+import SedesPage from "../../pages/sedes/SedesPage"
 
 export default function RoutesCustom() {
   return useRoutes([

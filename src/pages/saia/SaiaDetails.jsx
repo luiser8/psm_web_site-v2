@@ -5,9 +5,9 @@ import { NavLink as Link } from "react-router-dom";
 export default function SaiaDetails() {
   return (
     <>
-      <div className="w-[90%] xl:w-[80%] h-full  mx-auto py-10">
+      <div className="w-full h-screen mx-auto py-10 dark:bg-dark">
         {detallesSaiaData.data ? (
-          <section className="w-full h-full flex justify-center items-start  gap-y-6 flex-col p-2 rounded-lg  mx-auto xl:flex-row-reverse xl:gap-x-5 xl:mt-10 mb-0">
+          <section className="h-full w-[90%] xl:w-[80%] flex justify-center items-start  gap-y-6 flex-col p-2 rounded-lg  mx-auto xl:flex-row-reverse xl:gap-x-5 xl:mt-10 mb-0">
             <div className="overflow-hidden h-auto mx-auto ">
               <img
                 src={detallesSaiaData.image}
@@ -21,7 +21,7 @@ export default function SaiaDetails() {
                   <img
                     src="\images\carreras\arrows\arrow-left.png"
                     alt="arrow"
-                    className="w-10 h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 object-cover mr-10 lg:mr-14"
+                    className="w-10 h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 object-cover mr-10 lg:mr-14 dark:bg-white rounded-full"
                   />
                 </Link>
                 <h1 className="text-xl sm:text-2xl mb-2 font-bold text-start md:text-2xl xl:text-4xl">

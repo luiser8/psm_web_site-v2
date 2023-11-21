@@ -7,13 +7,14 @@ export default function About() {
   return (
     <>
       {AboutData.active ? (
-        <section className="w-[90%] xl:w-[80%] h-full  overflow-hidden py-20 mx-auto">
-          <header className="py-4 w-full text-start border-b-[1px] border-black mx-auto flex flex-row gap-x-12 items-center">
+        <section className="w-full h-screen dark:bg-dark">
+        <div className="w-[90%] xl:w-[80%] h-full  overflow-hidden py-20 mx-auto ">
+          <header className="py-4 w-full text-start border-b-[1px] border-black dark:border-white mx-auto flex flex-row gap-x-12 items-center">
           <Link to={"/"}>
             <img
               src="\images\carreras\arrows\arrow-left.png"
               alt="arrow"
-              className="w-12"
+              className="w-12 dark:bg-white rounded-full"
             />
           </Link>
             <h2 className="text-3xl lg:text-5xl font-bold">
@@ -33,7 +34,7 @@ export default function About() {
                 {AboutData.data.title}
               </h2>
               <h3>
-                <h2 className="font-semibold text-gray-500 mb-3 lg:text-lg">
+                <h2 className="font-semibold text-gray-500 mb-3 lg:text-lg dark:text-white">
                   {AboutData.data.subtitle}
                 </h2>
               </h3>
@@ -42,6 +43,7 @@ export default function About() {
               </p>
             </span>
           </main>
+        </div>
         </section>
       ) : (
         <></>

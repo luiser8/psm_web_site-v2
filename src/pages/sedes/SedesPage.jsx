@@ -18,13 +18,13 @@ export default function SedesPage() {
   return (
     <>
       {sedesDetailsData.active ? (
-        <section className="flex flex-col items-center w-full h-full mb-0">
+        <section className="flex flex-col items-center w-full h-full mb-0 dark:bg-dark">
           <nav className="w-full h-16 xl:h-16 flex flex-row items-center justify-between px-5">
             <Link to={"/"}>
               <img
                 src="\images\carreras\arrows\arrow-left.png"
                 alt="arrow"
-                className="w-12 my-1"
+                className="w-12 my-1 dark:bg-white rounded-full"
               />
             </Link>
             <h1 className={
@@ -56,7 +56,7 @@ export default function SedesPage() {
         <></>
       )}
 
-      <section className="w-full h-full overflow-hidden mt-0">
+      <section className="w-full h-full overflow-hidden mt-0 dark:bg-dark">
         <SedesCarreras />
         <Testimonials />
         <Registrations data={sedesFilter.registrations} />

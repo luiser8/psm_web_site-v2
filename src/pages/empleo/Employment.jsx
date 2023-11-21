@@ -5,7 +5,7 @@ import SectionTitle from "../../components/common/SectionTitle";
 
 const Employment = () => {
   return (
-    <section className="overflow-hidden flex justify-center">
+    <section className="overflow-hidden flex justify-center dark:bg-dark">
       <div className="flex flex-wrap mx-auto">
         <div className="w-full px-4 lg:w-7/12 xl:w-[53%] 2xl:w-[51%] mx-auto">
           <div
@@ -18,7 +18,7 @@ const Employment = () => {
                 <img
                   src="\images\carreras\arrows\arrow-left.png"
                   alt="arrow"
-                  className="w-12"
+                  className="w-12 dark:bg-white rounded-full"
                 />
               </Link>
 
