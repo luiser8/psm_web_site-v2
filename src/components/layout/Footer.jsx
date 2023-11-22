@@ -30,7 +30,7 @@ const Footer = ({ name = "" }) => {
                 {socialNetworks.elements.map((element) => (
                   <div key={element.id}>
                     <a
-                      className="mr-6 text-[#CED3F6] hover:text-primary"
+                      className="mr-6 text-[#CED3F6] hover:text-primary "
                       href={element.link}
                       target="_blank"
                     >

@@ -105,7 +105,7 @@ const Header = () => {
                                   setSedesOpen(!sedesOpen);
                                 }
                               }}
-                              className={`flex py-2 text-base transition-all ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                              className={`flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                             >
                               {menuItem.title}
                             </NavLink>
@@ -166,8 +166,8 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 {/* <a
-                  href="/signin"
-                  className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
+                  href="/sesion"
+                  className="hidden py-3 px-7 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   Iniciar sesión
                 </a>
