@@ -30,7 +30,7 @@ const Footer = ({ name = "" }) => {
                 {socialNetworks.elements.map((element, index) => (
                   <div key={element.id}>
                     <a
-                      className="mr-6 text-gray-600  hover:text-primary transition-all ease-linear "
+                      className="mr-6 text-gray-800  hover:text-primary dark:text-white dark:hover:text-primary transition-all ease-linear "
                       href={element.link}
                       target="_blank"
                     >
@@ -94,7 +94,7 @@ const Footer = ({ name = "" }) => {
                     <li key={item.id}>
                       <NavLink
                         to={item.link}
-                        className="mb-4 inline-block text-base font-medium text-gray-600 hover:text-primary text-start md:text-start"
+                        className="mb-4 inline-block text-base font-medium text-gray-900 hover:text-primary text-start md:text-start dark:text-white "
                       >
                         {item.name}
                       </NavLink>
@@ -127,7 +127,7 @@ const Footer = ({ name = "" }) => {
 
             <div className="w-full col-span-1 px-4 md:w-1/2 ">
               <div className="mb-5 lg:mb-16">
-                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
+                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base ">
                   {poliza.name}
                 </h2>
                 <ul>
@@ -135,7 +135,7 @@ const Footer = ({ name = "" }) => {
                     <li key={item.id}>
                       <NavLink
                         to={item.link}
-                        className="mb-4 inline-block text-base font-medium text-gray-600 hover:text-primary text-start md:text-start"
+                        className="mb-4 inline-block text-base font-medium text-gray-900 hover:text-primary text-start md:text-start dark:text-white "
                       >
                         {item.name}
                       </NavLink>
@@ -156,7 +156,7 @@ const Footer = ({ name = "" }) => {
                       <li key={item.id}>
                         <NavLink
                           to={item.link}
-                          className="mb-4 inline-block text-base font-medium text-gray-600 hover:text-primary text-start"
+                          className="mb-4 inline-block text-base font-medium text-gray-900 hover:text-primary text-start dark:text-white "
                         >
                           {item.name}
                         </NavLink>
