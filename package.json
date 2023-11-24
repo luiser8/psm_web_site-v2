@@ -2,6 +2,7 @@
   "name": "psm_web_site_v2",
   "private": true,
   "version": "0.0.1",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
