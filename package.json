@@ -1,42 +1,42 @@
 {
-  "name": "psm_web_site_v2",
-  "private": true,
-  "version": "0.0.1",
-  "type": "commonjs",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
-    "@material-tailwind/react": "^2.1.5",
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10",
-    "eslint": "^8.54.0",
-    "framer-motion": "^10.16.9",
-    "moment": "^2.29.4",
-    "next-themes": "^0.2.1",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-modal-video": "^2.0.1",
-    "react-router-dom": "^6.20.0",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.5",
-    "react-onclickoutside": "^6.13.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.0",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "postcss-cli": "^10.1.0",
-    "postcss-import": "^15.1.0",
-    "prettier": "^3.1.0",
-    "prettier-plugin-tailwindcss": "^0.5.7",
-    "tailwindcss": "^3.3.5",
-    "vite": "^5.0.4",
-    "vite-plugin-svgr": "^4.2.0"
-  }
+	"name": "psm_web_site_v2",
+	"private": true,
+	"version": "0.0.1",
+	"type": "commonjs",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@fullhuman/postcss-purgecss": "^5.0.0",
+		"@material-tailwind/react": "^2.1.5",
+		"@tailwindcss/forms": "^0.5.7",
+		"@tailwindcss/typography": "^0.5.10",
+		"eslint": "^8.55.0",
+		"framer-motion": "^10.16.9",
+		"moment": "^2.29.4",
+		"next-themes": "^0.2.1",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-modal-video": "^2.0.1",
+		"react-router-dom": "^6.20.1",
+		"react-slick": "^0.29.0",
+		"slick-carousel": "^1.8.1",
+		"swiper": "^11.0.5",
+		"react-onclickoutside": "^6.13.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^4.2.1",
+		"autoprefixer": "^10.4.16",
+		"postcss": "^8.4.32",
+		"postcss-cli": "^11.0.0",
+		"postcss-import": "^15.1.0",
+		"prettier": "^3.1.0",
+		"prettier-plugin-tailwindcss": "^0.5.9",
+		"tailwindcss": "^3.3.6",
+		"vite": "^5.0.5",
+		"vite-plugin-svgr": "^4.2.0"
+	}
 }
