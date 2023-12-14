@@ -15,8 +15,8 @@ const AccordionCustom = ({ data }) => {
             {data.length !== 0 ? (
                 <>
                     {data.map((item, index) => (
-                        <Accordion key={index} open={open === index} icon={<IconCustom id={index} open={open} />}>
-                            <AccordionHeader onClick={() => handleOpen(index)}>{item.title}</AccordionHeader>
+                        <Accordion key={index} open={open === item.id} icon={<IconCustom id={item.id} open={open} />}>
+                            <AccordionHeader onClick={() => handleOpen(item.id)}>{item.title}</AccordionHeader>
                             <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
                                 {item.description1}
                             </AccordionBody>
