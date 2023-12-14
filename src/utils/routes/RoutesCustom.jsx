@@ -18,6 +18,7 @@ import Vocational from "../../pages/orientación_program/Vocational";
 import SedesPage from "../../pages/sedes/SedesPage"
 import QuienesSomos from "../../pages/about/QuienesSomos";
 import Institucion from "../../pages/about/Institucion";
+import Faq from "../../pages/faq/Faq";
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -87,6 +88,10 @@ export default function RoutesCustom() {
     {
       path: "/institucion/quienes_somos",
       element: <QuienesSomos/>,
+    },
+    {
+      path: "/institucion/faq",
+      element: <Faq />,
     },
     {
       path: "/404",

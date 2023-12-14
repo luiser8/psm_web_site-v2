@@ -29,7 +29,6 @@ const SedesCarreras = () => {
                 delay: 2500,
                 disableOnInteraction: false,
               }}
-             
               breakpoints={{
                 640: {
                   slidesPerView: 2,

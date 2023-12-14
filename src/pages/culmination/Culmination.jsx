@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Culmination() {
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       {CulminationData.active ? (
         <section className="text-gray-600 body-font overflow-hidden py-5 dark:bg-dark">
           <div className="container px-5 py-16 mx-auto">
@@ -49,6 +49,6 @@ export default function Culmination() {
       ) : (
         <></>
       )}
-    </>
+    </div>
   );
 }

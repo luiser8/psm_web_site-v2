@@ -4,7 +4,6 @@ import SectionTitle from "../../components/common/SectionTitle";
 export default function Registrations({ data }) {
   return (
     <>
-    
       <div className="container mb-20 py-10 dark:bg-dark">
         <SectionTitle center={"center"} title={"Inscripciones y periodos"} />
         {data.map((item) => (

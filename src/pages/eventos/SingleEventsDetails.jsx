@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function SingleEventsDetails({ events }) {
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       <div className=" border-2 border-gray-500 rounded-lg w-full overflow-hidden hover:border-orange-400 transition-all cursor-pointer">
         <img
           className="lg:h-full md:h-full w-full object-cover object-center"
@@ -20,6 +20,6 @@ export default function SingleEventsDetails({ events }) {
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 }

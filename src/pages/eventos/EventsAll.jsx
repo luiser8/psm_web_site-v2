@@ -33,7 +33,7 @@ export default function EventsAll() {
   };
 
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       <section id="eventos" className="bg- dark:bg-dark py-10 w-full mx-auto">
         <div className="container">
           <div className="flex flex-row mb-10 mx-auto">
@@ -66,6 +66,6 @@ export default function EventsAll() {
           disable={disable}
         />
       </section>
-    </>
+    </div>
   );
 }

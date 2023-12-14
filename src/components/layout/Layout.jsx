@@ -24,7 +24,7 @@ const Layout = () => {
   return (
     <div className="dark:bg-dark">
       <ThemeProviders>
-        <Header />
+        {/* <Header /> */}
         <ScrollUp />
         <Principal />
         <EventsPrincipal />
@@ -39,7 +39,7 @@ const Layout = () => {
         {/* <AboutSectionOne />
         <AboutSectionTwo />
         <Pricing /> */}
-        <Footer />
+        {/* <Footer /> */}
         <ScrollToTop />
       </ThemeProviders>
     </div>

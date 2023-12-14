@@ -29,6 +29,11 @@ export default [
         name: "Eventos",
         link: "eventos",
       },
+      {
+        id: 6,
+        name: "FAQ",
+        link: "/institucion/faq",
+      },
     ],
   },
   {

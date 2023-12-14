@@ -6,7 +6,7 @@ import {
 } from "@material-tailwind/react";
 import IconCustom from './IconCustom';
 
-const AccordionCustom = ({ data }) => {
+const AccordionCustom = ({ data, type }) => {
     const [open, setOpen] = React.useState(0);
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
@@ -14,7 +14,8 @@ const AccordionCustom = ({ data }) => {
         <>
             {data.length !== 0 ? (
                 <>
-                    {data.map((item, index) => (
+                {type === 1 ? (
+                    data.map((item, index) => (
                         <Accordion key={index} open={open === item.id} icon={<IconCustom id={item.id} open={open} />}>
                             <AccordionHeader onClick={() => handleOpen(item.id)}>{item.title}</AccordionHeader>
                             <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
@@ -126,7 +127,17 @@ const AccordionCustom = ({ data }) => {
                                 </AccordionBody>
                             ) : (<></>)}
                         </Accordion>
-                    ))}
+                    ))
+                ) : (
+                    data.map((item, index) => (
+                        <Accordion key={index} open={open === item.id} icon={<IconCustom id={item.id} open={open} />}>
+                            <AccordionHeader onClick={() => handleOpen(item.id)}>{item.question}</AccordionHeader>
+                            <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
+                                {item.answer}
+                            </AccordionBody>
+                        </Accordion>
+                    ))
+                )}
                 </>
             ) : (
                 <></>

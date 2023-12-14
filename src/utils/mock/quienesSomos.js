@@ -24,37 +24,37 @@ export default {
               id: 1,
               names: "Dr. Raúl Quero García",
               position: "Director Nacional y Presidente de la Sociedad Civil del PSM",
-              photo: "/images/about/user-01.png"
+              photo: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80"
             },
             {
               id: 2,
               names: "Ing. Roxy García",
               position: "Directora Nacional de Administración",
-              photo: "/images/about/user-02.png"
+              photo: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
             },
             {
               id: 3,
               names: "Ing. Iraiza García",
               position: "Sub-Directora Académica Nacional",
-              photo: "/images/about/user-02.png"
+              photo: "https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
             },
             {
               id: 4,
               names: "Dr. Néstor Briceño",
               position: "Jefe de División Nacional de Personal",
-              photo: "/images/about/user-01.png"
+              photo: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
             },
             {
               id: 5,
               names: "Dra. Magalys Altuve",
               position: "Jefe de División Nacional de Planificación, Desarrollo y Gestión de Calidad",
-              photo: "/images/about/user-02.png"
+              photo: "https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
             },
             {
               id: 6,
               names: "Ing. Yilma Rubio",
               position: "Directora Ejecutiva Regional PSM",
-              photo: "/images/about/user-02.png"
+              photo: "https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
             }
           ]
         },

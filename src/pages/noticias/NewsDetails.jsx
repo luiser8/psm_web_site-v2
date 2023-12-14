@@ -16,7 +16,7 @@ export default function NewsDetails() {
   }, []);
 
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       {Object.keys(news).length > 0 ? (
         <div className="w-full h-full bg-white py-10 dark:bg-dark">
           <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto rounded dark:bg-black">
@@ -74,6 +74,6 @@ export default function NewsDetails() {
       ) : (
         <></>
       )}
-    </>
+    </div>
   );
 }

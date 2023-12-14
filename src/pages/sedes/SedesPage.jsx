@@ -16,7 +16,7 @@ export default function SedesPage() {
   );
 
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       {sedesDetailsData.active ? (
         <section className="flex flex-col items-center w-full h-full mb-0 dark:bg-dark">
           <nav className="w-full h-16 xl:h-16 flex flex-row items-center justify-between px-5">
@@ -61,8 +61,7 @@ export default function SedesPage() {
         <Testimonials />
         <Registrations data={sedesFilter.registrations} />
         <SedesNews />
-        <Footer name={sedesFilter.title} />
       </section>
-    </>
+    </div>
   );
 }

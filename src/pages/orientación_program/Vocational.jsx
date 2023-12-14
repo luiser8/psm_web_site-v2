@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Vocational() {
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       {VocationalData.active ? (
         <section className="text-gray-600 body-font overflow-hidden py-5 dark:bg-dark">
           <div className="container px-5 py-16 mx-auto">
@@ -49,6 +49,6 @@ export default function Vocational() {
       ) : (
         <></>
       )}
-    </>
+    </div>
   );
 }

@@ -5,6 +5,7 @@ import SectionTitle from "../../components/common/SectionTitle";
 
 const Employment = () => {
   return (
+    <div className="bg-white py-20 sm:py-20">
     <section className="overflow-hidden flex justify-center dark:bg-dark">
       <div className="flex flex-wrap mx-auto">
         <div className="w-full px-4 lg:w-7/12 xl:w-[53%] 2xl:w-[51%] mx-auto">
@@ -154,6 +155,7 @@ const Employment = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

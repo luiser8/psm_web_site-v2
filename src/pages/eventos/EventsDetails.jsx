@@ -18,7 +18,7 @@ export default function EventsDetails() {
   }, []);
 
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       {eventosData.active ? (
         <section className="w-full h-screen py-20 bg-white dark:bg-dark">
           <div className="w-[100%] md:w-[80%] flex flex-row-reverse justify-center mx-auto overflow-hidden">
@@ -55,6 +55,6 @@ export default function EventsDetails() {
       ) : (
         <></>
       )}
-    </>
+    </div>
   );
 }

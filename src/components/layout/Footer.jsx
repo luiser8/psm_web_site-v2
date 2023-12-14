@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 const Footer = ({ name = "" }) => {
   const year = new Date();
   const institution = footerData.find((x) => x.id === 1);
-  // const sede = footerData.find((x) => x.id === 2);
   const poliza = footerData.find((x) => x.id === 3);
   const orientacion = footerData.find((x) => x.id === 4);
   const socialNetworks = footerData.find((x) => x.id === 5);

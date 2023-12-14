@@ -4,7 +4,7 @@ import { NavLink as Link } from "react-router-dom";
 
 export default function SaiaDetails() {
   return (
-    <>
+    <div className="bg-white py-20 sm:py-20">
       <div className="w-full h-screen mx-auto py-10 dark:bg-dark">
         {detallesSaiaData.data ? (
           <section className="h-full w-[90%] xl:w-[80%] flex justify-center items-start  gap-y-6 flex-col p-2 rounded-lg  mx-auto xl:flex-row-reverse xl:gap-x-5 xl:mt-10 mb-0">
@@ -27,7 +27,7 @@ export default function SaiaDetails() {
                 <h1 className="text-xl sm:text-2xl mb-2 font-bold text-start md:text-2xl xl:text-4xl">
                   {detallesSaiaData.title}
                 </h1>
-                
+
               </span>
 
               <p className="lg:text-lg mb-4">
@@ -46,6 +46,6 @@ export default function SaiaDetails() {
           <></>
         )}
       </div>
-    </>
+    </div>
   );
 }

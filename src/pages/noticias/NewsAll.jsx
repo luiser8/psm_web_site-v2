@@ -6,6 +6,7 @@ import newsData from "../../utils/mock/newsData";
 
 export default function NewsAll() {
   return (
+    <div className="bg-white py-20 sm:py-20">
     <section id="blog" className="bg-white py-10 w-full mx-auto dark:bg-dark">
       <div className="container">
         <div className="flex flex-row mb-10 mx-auto">
@@ -34,5 +35,6 @@ export default function NewsAll() {
         </div>
       </div>
     </section>
+    </div>
   );
 }

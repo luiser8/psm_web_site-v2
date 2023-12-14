@@ -5,7 +5,8 @@ import SectionTitle from "../../components/common/SectionTitle";
 
 const Contact = () => {
   return (
-    <section className="overflow-hidden flex justify-center dark:bg-dark">
+    <div className="bg-white py-20 sm:py-20">
+    <section className="overflow-hidden flex justify-center dark:bg-dark ">
       <div className="flex flex-wrap mx-auto">
         <div className="w-full px-4 lg:w-7/12 xl:w-[53%] 2xl:w-[54%] mx-auto">
           <div
@@ -123,6 +124,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
