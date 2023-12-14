@@ -4,7 +4,7 @@ export default {
       [
         {
             id: 1,
-            name: "Luis Rondon",
+            name: "Miguel Perez",
             designation: "Programador",
             content:
               "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",

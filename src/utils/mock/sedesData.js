@@ -3,57 +3,57 @@ export default {
   data: [
     {
       id: 1,
-      name: "Maracaibo",
-      link: "maracaibo",
-    },
-    {
-      id: 2,
-      name: "Cabimas",
-      link: "cabimas",
-    },
-    {
-      id: 3,
-      name: "Ciudad Ojeda",
-      link: "ciudad_ojeda",
-    },
-    {
-      id: 4,
-      name: "Barinas",
-      link: "barinas",
-    },
-    {
-      id: 5,
-      name: "San Cristóbal",
-      link: "san_cristobal",
-    },
-    {
-      id: 6,
-      name: "Valencia",
-      link: "valencia",
-    },
-    {
-      id: 7,
-      name: "Maracay",
-      link: "maracay",
-    },
-    {
-      id: 8,
-      name: "Barcelona",
+      name: "Sede Principal Barcelona",
       link: "barcelona",
     },
     {
+      id: 2,
+      name: "Extensión Maracaibo",
+      link: "maracaibo",
+    },
+    {
+      id: 3,
+      name: "Extensión Cabimas",
+      link: "cabimas",
+    },
+    {
+      id: 4,
+      name: "Extensión Ciudad Ojeda",
+      link: "ciudad_ojeda",
+    },
+    {
+      id: 5,
+      name: "Extensión Barinas",
+      link: "barinas",
+    },
+    {
+      id: 6,
+      name: "Extensión San Cristóbal",
+      link: "san_cristobal",
+    },
+    {
+      id: 7,
+      name: "Extensión Valencia",
+      link: "valencia",
+    },
+    {
+      id: 8,
+      name: "Extensión Maracay",
+      link: "maracay",
+    },
+    {
       id: 9,
-      name: "Maturin",
+      name: "Extensión Maturin",
       link: "maturin",
     },
     {
       id: 10,
-      name: "Puerto Ordaz",
+      name: "Extensión Puerto Ordaz",
       link: "puerto_ordaz",
     },
     {
       id: 11,
-      name: "Porlamar",
+      name: "Extensión Porlamar",
       link: "porlamar",
     },
   ],

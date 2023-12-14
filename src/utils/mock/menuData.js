@@ -31,7 +31,7 @@ const menuData = [
     },
     {
         id: 7,
-        title: "Sedes",
+        title: "Sede y extensiones",
         path: "/",
         newTab: false,
     },

@@ -11,16 +11,21 @@ export default [
       },
       {
         id: 2,
+        name: "Quienes Somos",
+        link: "/institucion/quienes_somos",
+      },
+      {
+        id: 3,
         name: "Planes de estudio",
         link: "/institucion/planes_estudio",
       },
       {
-        id: 3,
+        id: 4,
         name: "Trabaja con nosotros",
         link: "/institucion/empleo",
       },
       {
-        id: 4,
+        id: 5,
         name: "Eventos",
         link: "eventos",
       },

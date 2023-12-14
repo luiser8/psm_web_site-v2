@@ -28,11 +28,24 @@ const DetallesCarrera = () => {
                   className="w-14 mb-4 dark:bg-white rounded-full"
                 />
               </Link>
-              <h2 className="text-3xl sm:text-4xl font-medium text-black-100 leading-relaxed dark:text-white">
+              {/* mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start */}
+              <h2 className="text-3xl sm:text-4xl font-medium text-black-100 leading-relaxed dark:text-white first-letter:text-7xl">
                 {carrerasList[0].name}
               </h2>
-              <p className="mt-2 leading-relaxed">
-                {carrerasList[0].full_description}
+              <p className="indent-4 mt-2 leading-relaxed">
+                {carrerasList[0].paragraph1}
+              </p>
+              <p className="indent-4 mt-2 leading-relaxed">
+                {carrerasList[0].paragraph2}
+              </p>
+              <p className="indent-4 mt-2 leading-relaxed">
+                {carrerasList[0].paragraph3}
+              </p>
+              <p className="indent-4 mt-2 leading-relaxed">
+                {carrerasList[0].paragraph4}
+              </p>
+              <p className="indent-4 mt-2 leading-relaxed">
+                {carrerasList[0].paragraph5}
               </p>
             </div>
             <div className="w-full rounded-lg overflow-hidden">

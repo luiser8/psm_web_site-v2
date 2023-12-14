@@ -11,12 +11,13 @@ import Employment from "../../pages/empleo/Employment";
 import EventsAll from "../../pages/eventos/EventsAll";
 import EventsDetails from "../../pages/eventos/EventsDetails";
 import Events from "../../pages/eventos/Events";
-import About from "../../pages/about/About";
 import PersonalAccidents from "../../pages/personal_accidents/PersonalAccidents";
 import Culmination from "../../pages/culmination/Culmination";
 import Academic from "../../pages/orientación_program/Academic";
 import Vocational from "../../pages/orientación_program/Vocational";
 import SedesPage from "../../pages/sedes/SedesPage"
+import QuienesSomos from "../../pages/about/QuienesSomos";
+import Institucion from "../../pages/about/Institucion";
 
 export default function RoutesCustom() {
   return useRoutes([
@@ -81,7 +82,11 @@ export default function RoutesCustom() {
     },
     {
       path: "/institucion/acerca_de",
-      element: <About/>,
+      element: <Institucion />,
+    },
+    {
+      path: "/institucion/quienes_somos",
+      element: <QuienesSomos/>,
     },
     {
       path: "/404",

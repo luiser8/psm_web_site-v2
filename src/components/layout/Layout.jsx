@@ -28,15 +28,15 @@ const Layout = () => {
         <ScrollUp />
         <Principal />
         <EventsPrincipal />
-        <Events />
+        {/* <Events /> */}
         {/* <Features /> */}
         <Carreras />
+        <Brands />
         <Saia />
         <Testimonials />
         <News />
         <Maps />
-        {/* <Brands />
-        <AboutSectionOne />
+        {/* <AboutSectionOne />
         <AboutSectionTwo />
         <Pricing /> */}
         <Footer />
