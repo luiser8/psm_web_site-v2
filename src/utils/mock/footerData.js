@@ -11,7 +11,7 @@ export default [
       },
       {
         id: 2,
-        name: "Quienes Somos",
+        name: "Quienes somos",
         link: "/institucion/quienes_somos",
       },
       {
