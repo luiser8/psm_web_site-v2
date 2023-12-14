@@ -72,7 +72,7 @@ export default function QuienesSomos() {
                     <h1 className="text-3xl lg:text-2xl font-bold text-heading-6 sm:text-heading-4 lg:text-heading-3 text-dark mb-5">
                       {QuienesSomosData.data.about_us.title}
                     </h1>
-                    <p>
+                    <p className="mt-4.5">
                       {QuienesSomosData.data.about_us.description1}
                     </p>
                     <p className="mt-4.5">

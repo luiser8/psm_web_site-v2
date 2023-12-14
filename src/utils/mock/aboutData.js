@@ -7,6 +7,7 @@ export default {
         {
           id: 1,
           title: "Nuestro Fundador",
+          image: "/images/about/raulQuero.jpg",
           description1: "Dr. Raúl Quero, Economista egresado de la Universidad del Zulia; especialista en Historia Social y Económica de Venezuela en la Universidad Santa María, con Maestría y Doctorado en Historia, en la misma universidad; asi como obtuvo el doctorado Honoris Causa en la Universidad Bicentenaria de Aragua.",
           description2: "Fue presidente del centro de estudiantes del liceo Rafael María Baralt, Presidente del centro de estudiantes de la Universidad del Zulia durante tres años consecutivos. Presidente de la residencia estudiantil de la Universidad del Zulia. Se desempeñó como maestro de aula en los grados 1ro, 2do, 3ro, 4to, 5to y 6to en la escuela Gabriela Mistral de Maracaibo. Docente de física y matemáticas en la escuela normal “Alejandro Fuenmayor” e Instituto Latino en Maracaibo.",
           description3: "Obtuvo el título de Gerente Gubernamental obtenido en el Instituto de Altos Estudios de la Defensa Nacional – Curso XII. Ejerció como director de personal de la Universidad de Oriente durante 8 años, siendo miembro de la junta directiva de la asociación de profesores de la misma universidad. Analista de la oficina central de personal de la Presidencia de la República. Analista de personal de la comisión de Administración Pública.",
@@ -94,7 +95,6 @@ export default {
         },
 ],
     subtitle: "",
-    image: "/images/about/raulQuero.jpg",
     description:
       "",
   },

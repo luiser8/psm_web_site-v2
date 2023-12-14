@@ -18,14 +18,40 @@ const AccordionCustom = ({ data }) => {
                         <Accordion key={index} open={open === item.id} icon={<IconCustom id={item.id} open={open} />}>
                             <AccordionHeader onClick={() => handleOpen(item.id)}>{item.title}</AccordionHeader>
                             <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
-                                {item.description1}
+                                <div className="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
+                                    <div className="flex flex-col lg:flex-row items-center gap-8 xl:gap-8">
+                                        <div className="lg:max-w-[490px] w-[20%]">
+                                            {item?.image ? (<img src={item?.image} alt="Sede Barcelona" className="rounded" />) : (<></>)}
+                                        </div>
+                                        {item?.image ? (
+                                            <div className="w-full">
+                                                <p className="pb-4">
+                                                    {item.description1}
+                                                </p>
+                                                <p className="pb-4">
+                                                    {item.description2}
+                                                </p>
+                                                <p className="pb-4">
+                                                    {item.description3}
+                                                </p>
+                                            </div>
+                                        ) : (<></>)}
+                                    </div>
+                                </div>
                             </AccordionBody>
-                            <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
-                                {item.description2}
-                            </AccordionBody>
-                            <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
-                                {item.description3}
-                            </AccordionBody>
+                            {!item?.image ? (
+                                <>
+                                    <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
+                                        {item.description1}
+                                    </AccordionBody>
+                                    <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
+                                        {item.description2}
+                                    </AccordionBody>
+                                    <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
+                                        {item.description3}
+                                    </AccordionBody>
+                                </>
+                            ) : (<></>)}
                             <AccordionBody className="pt-0 font-normal text-md text-dark mb-1">
                                 {item.description4}
                             </AccordionBody>

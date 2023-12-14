@@ -21,7 +21,7 @@ const Institucion = () => {
                 {AboutData.data.name}
               </h2>
             </header>
-            <main className="flex gap-y-5 lg:gap-x-5 justify-center items-center content-center flex-col py-8 lg:flex-row">
+            {/* <main className="flex gap-y-5 lg:gap-x-5 justify-center items-center content-center flex-col py-8 lg:flex-row">
               <section className="overflow-hidden pt-39 pb-17.5">
                 <div className="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
                   <div className="flex flex-col lg:flex-row items-center gap-7.5 xl:gap-14">
@@ -39,8 +39,8 @@ const Institucion = () => {
                   </div>
                 </div>
               </section>
-            </main>
-            <section className="pb-10">
+            </main> */}
+            <section className="pb-10 pt-10">
               <div className="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
                 <div className="flex flex-wrap items-center justify-between gap-8 mb-2">
                   <AccordionCustom data={AboutData.data.additional_data}/>
