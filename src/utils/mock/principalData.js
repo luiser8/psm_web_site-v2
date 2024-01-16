@@ -13,7 +13,7 @@ export default {
     carousel_data: [
       {
         id: 0,
-        url: "/images/carousel/web1.png",
+        url: "/images/carousel/web0.jpeg",
         cloudinary: "",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
         titleLink: "Ir al formulario de registro",
@@ -22,7 +22,7 @@ export default {
       },
       {
         id: 1,
-        url: "/images/carousel/web2.png",
+        url: "/images/carousel/web1.png",
         cloudinary:
           "https://res.cloudinary.com/luiser85/image/upload/v1674132064/web1_n55v2c.png",
         link: "https://www.youtube.com/embed/WNsJKB19ot8",

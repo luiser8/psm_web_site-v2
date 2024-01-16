@@ -11,22 +11,16 @@ const menuData = [
         path: "/institucion/acerca_de",
         newTab: false,
     },
-    // {
-    //     id: 3,
-    //     title: "Carreras",
-    //     path: "/blog",
-    //     newTab: false,
-    // },
+    {
+        id: 3,
+        title: "Quienes Somos",
+        path: "/institucion/quienes_somos",
+        newTab: false,
+    },
     {
         id: 4,
         title: "Educación a distancia",
         path: "/saia/detalles",
-        newTab: false,
-    },
-    {
-        id: 6,
-        title: "Servicios",
-        path: "/",
         newTab: false,
     },
     {

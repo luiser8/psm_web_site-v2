@@ -8,7 +8,7 @@ const TeamCustom = ({data}) => {
         <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             {data.authorities.data.map((item, key) => (
                 <div key={key} className="w-full max-w-xs text-center items-center">
-                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src={item.photo} alt="avatar" />
+                <img className="object-cover object-center w-64 h-64 mx-auto rounded-full" src={item.photo} alt="avatar" />
                     {/*  */}
                 <div className="mt-2">
                     <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200">{item.names}</h3>
