@@ -1,0 +1,22 @@
+
+/* codigo para cambiar el color de la paginación del carousel */
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background:#f58634;
+  }
+
+  .swiper-navigation-bullet-active {
+    color:#f58634;
+  }

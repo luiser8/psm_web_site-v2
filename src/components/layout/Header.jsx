@@ -1,10 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import menuData from "../../utils/mock/menuData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
+import { NavLink } from "react-router-dom";
+import DropDown from "./DropDown";
 
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [sedesOpen, setSedesOpen] = useState(false);
+
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
@@ -20,7 +24,7 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
-  });
+  }, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -35,7 +39,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header h-20  top-0 left-0 z-40 flex w-full items-center bg-transparent ${
+        className={`header h-28 top-0 left-0 z-50 flex w-full items-center bg-transparent ${
           sticky
             ? "!fixed !z-[9999] !bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20"
             : "absolute"
@@ -43,28 +47,19 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
-              <a
-                href="/"
+            <div className="w-[140px] h-auto max-w-full px-4 xl:mr-12 overflow-hidden">
+              <NavLink
+                to="/"
                 className={`header-logo block w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
                 <img
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo_nuevo.png"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
+                  className="w-full  object-fill dark:bg-white dark:rounded"
                 />
-                <img
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
-              </a>
+              </NavLink>
             </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>
@@ -96,18 +91,40 @@ const Header = () => {
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
-                  }`}
+                  } `}
                 >
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
-                      <li key={menuItem.id} className="group relative">
+                      <li key={index} className="group relative">
                         {menuItem.path ? (
-                          <a
-                            href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
-                          >
-                            {menuItem.title}
-                          </a>
+                          <div className="flex flex-row gap-x-2" >
+                            <NavLink
+                              to={menuItem.path}
+                              onClick={() => {
+                                if (index === 3) {
+                                  setSedesOpen(!sedesOpen);
+                                }
+                              }}
+                              className={`flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            >
+                              {menuItem.title}
+                            </NavLink>
+                            <svg
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              aria-hidden="true"
+                              onClick={() => setSedesOpen(!sedesOpen)}
+                              className={`transition-rotate duration-300 text-dark dark:text-white cursor-pointer ${
+                                index === 3 ? "block w-6" : "hidden"
+                              } ${sedesOpen ? "rotate-180 " : "rotate-0"}`}
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </div>
                         ) : (
                           <>
                             {/* <a
@@ -144,12 +161,13 @@ const Header = () => {
                       </li>
                     ))}
                   </ul>
+                  <DropDown open={sedesOpen} setSedesOpen={setSedesOpen} />
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 {/* <a
-                  href="/signin"
-                  className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
+                  href="/sesion"
+                  className="hidden py-3 px-7 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   Iniciar sesión
                 </a>

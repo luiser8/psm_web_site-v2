@@ -6,69 +6,58 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import SectionTitle from "../../components/common/SectionTitle";
-
-// import "../tailwind.css" importar en caso de cambiar el color de la paginación del carousel
+import "../../styles/CarouselEvent.css"
+import SingleEventsPrincipal from "./SingleEventsPrincipal";
 
 const Events = () => {
+  const otherEvents = eventosData.data.filter((x) => x.active === false);
   return (
-    <section className="relative z-10 py-6 md:py-10 lg:py-10">
-      <div className="w-full h-full">
-        <SectionTitle title="Eventos" paragraph="Ponencias" center />
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={45}
-          pagination={{
-            clickable: true,
-            // para cambiar color de la paginación
-            // renderBullet: function (index, className) {
-            //   return '<span class="' + className + '">' + (index + 1) + '</span>';
-            // },
-          }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          navigation={{
-            enabled: false,
-          }}
-          breakpoints={{
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 40,
-            },
-          }}
-          modules={[Autoplay, Pagination, Navigation]}
-          className=" w-[95%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent  my-5"
-        >
-          {eventosData.data.map((events, index) => (
-            <SwiperSlide className="mx-auto my-10" key={index}>
-              <div className=" border-2 border-gray-500 rounded-lg w-full overflow-hidden hover:border-orange-400 transition-all cursor-pointer">
-                <img
-                  className="lg:h-full md:h-full w-full object-cover object-center"
-                  src={events.image}
-                  alt="image"
-                />
-                <div className="p-5">
-                  <h1 className="title-font text-center font-bold text-gray-900 mb-3 lg:text-base">
-                    {events.name}
-                  </h1>
-                  <p className="leading-relaxed mb-3">{events.description}</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-    </section>
+    <>
+      {eventosData.active ? (
+        <section className="relative z-0 py-6 md:py-10 dark:bg-dark">
+          <div className="w-full h-full">
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={45}
+              pagination={{
+                clickable: true,
+                
+              }}
+              
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+        
+              breakpoints={{
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+              className=" w-[95%] h-auto overflow-hidden flex justify-center content-center bg-transparent"
+            >
+              {otherEvents.map((events, index) => (
+                <SwiperSlide className="mx-auto mb-16 xl:mb-10" key={index}>
+                  <SingleEventsPrincipal events={events} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </section>
+      ) : (
+        <></>
+      )}
+    </>
   );
 };
 

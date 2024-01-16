@@ -1,27 +1,38 @@
-const SingleBlog = ({ blog }) => {
-  const { title, image, paragraph, author, tags, publishDate } = blog;
+import { NavLink as Link } from "react-router-dom";
+
+const SingleNews = ({ blog }) => {
+  const { title, image, paragraph, author, tags, publishDate,id } = blog;
   return (
     <>
       <div
-        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
+        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-black"
         data-wow-delay=".1s"
       >
-        <a href="/" className="relative block h-[220px] w-full">
-          <span className="absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-white">
-            {tags[0]}
-          </span>
-          <img src={image} alt="image" />
-        </a>
-        <div className="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
+        <div className="h-[220px] w-full">
+          <img
+            src={image}
+            alt="image"
+            className="object-cover object-center w-full h-[100%]"
+          />
+        </div>
+
+        <div className="p-6 sm:p-8 md:py-4 md:px-6 lg:p-8 xl:py-4 xl:px-5 2xl:p-8">
+          <Link to={`/noticias/${id}`}>
+            <span
+              className="inline-block rounded-full bg-grey py-2 px-4 text-sm font-semibold capitalize text-white"
+            >
+              {tags[0]}
+            </span>
+          </Link>
           <h3>
-            <a
-              href="/"
-              className="mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
+            <Link
+              to={`/noticias/${id}`}
+              className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-2xl dark:hover:text-primary"
             >
               {title}
-            </a>
+            </Link>
           </h3>
-          <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
+          <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
           <div className="flex items-center">
@@ -51,4 +62,4 @@ const SingleBlog = ({ blog }) => {
   );
 };
 
-export default SingleBlog;
+export default SingleNews;

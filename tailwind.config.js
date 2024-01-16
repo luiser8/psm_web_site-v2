@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-const withMT = require("@material-tailwind/react/utils/withMT")
+const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
     container: {
@@ -17,9 +14,11 @@ module.exports = withMT({
       white: "#FFFFFF",
       black: "#090E34",
       dark: "#1D2144",
-      primary: "#4A6CF7",
+      primary: "#f58634",
       yellow: "#FBB040",
       green: "#0d730d",
+      grey: "#AFB5C0",
+      blueDark: "#312E81",
       "body-color": "#959CB1",
     },
     screens: {
@@ -47,8 +46,12 @@ module.exports = withMT({
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
         sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
       },
+
+      zIndex: {
+        '100': '100',
+      }
+      
     },
   },
   plugins: [],
-})
-
+});

@@ -12,9 +12,9 @@ const Carreras = () => {
   return (
     <>
       {carrerasData.active ? (
-        <section id="carreras" className="bg-primary/[.03] py-16 md:py-2">
+        <section id="carreras" className="relative z-0 h-auto sm:h-full mb-10 mt-10">
+          <SectionTitle title="Carreras" center />
           <div className="w-full h-full">
-            <SectionTitle title="Carreras" paragraph="" center />
             <Swiper
               slidesPerView={1}
               spaceBetween={45}
@@ -29,9 +29,7 @@ const Carreras = () => {
                 delay: 2500,
                 disableOnInteraction: false,
               }}
-              navigation={{
-                enabled: false,
-              }}
+             
               breakpoints={{
                 640: {
                   slidesPerView: 2,
@@ -47,7 +45,7 @@ const Carreras = () => {
                 },
               }}
               modules={[Autoplay, Pagination, Navigation]}
-              className=" w-[95%] h-auto  overflow-hidden flex justify-center content-center  bg-transparent"
+              className=" w-[95%] overflow-hidden flex justify-center content-center  bg-transparent"
             >
               {carrerasData.data.map((carrera) => (
                 <SwiperSlide

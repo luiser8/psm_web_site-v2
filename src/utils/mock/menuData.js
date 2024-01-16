@@ -8,35 +8,35 @@ const menuData = [
     {
         id: 2,
         title: "La Institución",
-        path: "/about",
+        path: "/institucion/acerca_de",
         newTab: false,
     },
-    // {
-    //     id: 3,
-    //     title: "Carreras",
-    //     path: "/blog",
-    //     newTab: false,
-    // },
+    {
+        id: 3,
+        title: "Quienes Somos",
+        path: "/institucion/quienes_somos",
+        newTab: false,
+    },
     {
         id: 4,
         title: "Educación a distancia",
-        path: "/contact",
-        newTab: false,
-    },
-    {
-        id: 5,
-        title: "Servicios",
-        path: "/contact",
-        newTab: false,
-    },
-    {
-        id: 6,
-        title: "Contáctenos",
-        path: "/contact",
+        path: "/saia/detalles",
         newTab: false,
     },
     {
         id: 7,
+        title: "Sede y extensiones",
+        path: "/",
+        newTab: false,
+    },
+    {
+        id: 8,
+        title: "Contáctenos",
+        path: "/institucion/planes_estudio",
+        newTab: false,
+    },
+    {
+        id: 9,
         title: "Pages",
         newTab: false,
         submenu: [

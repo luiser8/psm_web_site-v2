@@ -1,5 +1,5 @@
-import { CarouselWithContent } from "../components/common/Carousel";
-import principalData from "../utils/mock/principalData";
+import { CarouselWithContent } from "../../components/common/Carousel";
+import principalData from "../../utils/mock/principalData";
 
 const Principal = () => {
   return (
@@ -7,9 +7,9 @@ const Principal = () => {
       {principalData.active ?
         <section
           id="principal"
-          className="relative z-10 overflow-hidden pb-10 md:pb-[10px] xl:pb-[10px]"
+          className="relative z-10 overflow-hidden pb-10 md:pb-[10px] xl:pb-[10px] h-[60vh] md:h-[80vh]"
           // relative z-10 overflow-hidden pb-16 md:pb-[120px] xl:pb-[160px] 2xl:pb-[200px]
-          style={{ paddingTop: "80px" }}
+          style={{ paddingTop: "110px" }}
         >
           {principalData.data.active_carousel ? (
             <CarouselWithContent data={principalData.data.carousel_data} />
