@@ -9,7 +9,7 @@ export default {
       events: [
         {
           id: 1,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Congreso Estudiantil",
           date: "12/05/2024",
           description:
@@ -54,7 +54,7 @@ export default {
       events: [
         {
           id: 1,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Feria tecnológica",
           date: "15/05/2024",
           description:
@@ -99,7 +99,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Semana vocacional",
           date: "18/05/2024",
           description:
@@ -144,7 +144,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Feria de carerras universitarias",
           date: "22/05/2024",
           description:
@@ -189,7 +189,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Expociencias de proyectos arquitectónicos",
           date: "25/05/2024",
           description:
@@ -234,7 +234,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Feria de turismo",
           date: "30/05/2024",
           description:
@@ -279,7 +279,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Exposición de Ing Mecanica",
           date: "12/06/2024",
           description:
@@ -324,7 +324,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Feria de diseño gráfico",
           date: "18/06/2024",
           description:
@@ -360,7 +360,6 @@ export default {
         },
       ],
     },
-    
     {
       id: 9,
       image: "/images/carousel/web1.png",
@@ -369,7 +368,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Feria de quimica",
           date: "20/06/2024",
           description:
@@ -414,7 +413,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Taller de Ing Electrónica",
           date: "24/06/2024",
           description:
@@ -459,7 +458,7 @@ export default {
       events: [
         {
           id: 3,
-          image: "/images/events/event_details.avif",
+          image: "/images/events/event_details.jpg",
           title: "Curso de Introducción al diseño gráfico",
           date: "30/06/2024",
           description:

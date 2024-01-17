@@ -2,7 +2,7 @@ export default {
   active: true,
   title:
     "Congreso Internacional Sostenibilidad Económica, Social y Medio Ambiental",
-  image: "/images/events/event_details.avif",
+  image: "/images/events/event_details.jpg",
   data:
     [
       {
