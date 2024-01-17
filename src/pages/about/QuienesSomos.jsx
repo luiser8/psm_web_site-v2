@@ -11,14 +11,7 @@ export default function QuienesSomos() {
       {QuienesSomosData.active ? (
         <section className="w-full h-full dark:bg-dark">
           <div className="w-[90%] xl:w-[80%] h-full overflow-hidden py-20 mx-auto">
-            <header className="py-4 w-full text-start mx-auto flex flex-row gap-x-12 lg:gap-x-5 items-center">
-              <Link to={"/"}>
-                <img
-                  src="\images\carreras\arrows\arrow-left.png"
-                  alt="arrow"
-                  className="w-12 dark:bg-white rounded-full"
-                />
-              </Link>
+            <header className="py-4 w-full justify-center mx-auto flex flex-row gap-x-12 lg:gap-x-5 items-center">
               <h2 className="text-3xl lg:text-5xl font-bold">
                 {QuienesSomosData.data.name}
               </h2>

@@ -23,13 +23,6 @@ export default function NewsDetails() {
           <section className="flex items-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
               <div className="mr-4 flex flex-row items-start gap-x-10">
-              <Link to={news.principal ? "/" : "/noticias"}>
-                    <img
-                      src="\images\carreras\arrows\arrow-left.png"
-                      alt="arrow"
-                      className="w-32 mb-4 dark:bg-white rounded-full"
-                    />
-                  </Link>
                 <div className="relative h-12 w-full overflow-hidden rounded-full">
                   <img
                     src={news.author.image}

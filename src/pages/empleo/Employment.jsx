@@ -15,14 +15,7 @@ const Employment = () => {
               "
           >
             <div className="flex flex-row mb-10 w-full">
-              <Link to={"/"}>
-                <img
-                  src="\images\carreras\arrows\arrow-left.png"
-                  alt="arrow"
-                  className="w-12 dark:bg-white rounded-full"
-                />
-              </Link>
-
+              
               <SectionTitle
                 center={"center"}
                 title={"Trabaja con nosotros"}

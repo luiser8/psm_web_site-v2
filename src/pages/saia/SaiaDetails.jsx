@@ -16,23 +16,13 @@ export default function SaiaDetails() {
               />
             </div>
             <div className="h-full xl:w-1/2 flex items-center flex-col justify-start">
-              <span className="w-full flex flex-row items-center mb-5">
-                <Link to={"/"}>
-                  <img
-                    src="\images\carreras\arrows\arrow-left.png"
-                    alt="arrow"
-                    className="w-10 h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 object-cover mr-10 lg:mr-14 dark:bg-white rounded-full"
-                  />
-                </Link>
+              <span className="w-full flex flex-row items-center justify-center mb-5">
                 <h1 className="text-xl sm:text-2xl mb-2 font-bold text-start md:text-2xl xl:text-4xl">
                   {detallesSaiaData.title}
                 </h1>
-
               </span>
 
-              <p className="lg:text-lg mb-4">
-                  {detallesSaiaData.description}
-                </p>
+              <p className="lg:text-lg mb-4">{detallesSaiaData.description}</p>
 
               {detallesSaiaData.data.map((text) => (
                 <span key={text.id}>

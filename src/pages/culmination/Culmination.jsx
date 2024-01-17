@@ -10,13 +10,6 @@ export default function Culmination() {
         <section className="text-gray-600 body-font overflow-hidden py-5 dark:bg-dark">
           <div className="container px-5 py-16 mx-auto">
             <span className="w-[100%] flex mx-auto">
-              <Link to={"/"}>
-                <img
-                  src="\images\carreras\arrows\arrow-left.png"
-                  alt="arrow"
-                  className="w-12 mb-5 dark:bg-white rounded-full"
-                />
-              </Link>
               <SectionTitle title={CulminationData.name} center={"center"} />
             </span>
             {CulminationData.data.accidents.map((item) => (
