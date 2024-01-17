@@ -24,6 +24,8 @@ export function CarouselWithContent({ data }) {
     setOpen(false);
     setLink(null);
   };
+
+  console.log(data)
   return (
     <>
       <Carousel autoplay loop>

@@ -495,7 +495,5 @@ export default {
         },
       ],
     },
-    
-    
   ],
 };
