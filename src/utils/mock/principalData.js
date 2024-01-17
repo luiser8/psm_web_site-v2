@@ -22,7 +22,7 @@ export default {
       },
       {
         id: 1,
-        url: "/images/carousel/web0.jpeg",
+        url: "/images/carousel/web0.jpg",
         cloudinary: "",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
         titleLink: "Ir al formulario de registro",

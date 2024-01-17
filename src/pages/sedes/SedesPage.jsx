@@ -16,30 +16,9 @@ export default function SedesPage() {
   );
 
   return (
-    <div className="bg-white py-20 sm:py-20">
+    <div className="bg-white py-20 sm:py-20 mt-8">
       {sedesDetailsData.active ? (
         <section className="flex flex-col items-center w-full h-full mb-0 dark:bg-dark">
-          <nav className="w-full h-16 xl:h-16 flex flex-row items-center justify-between px-5">
-            <Link to={"/"}>
-              <img
-                src="\images\carreras\arrows\arrow-left.png"
-                alt="arrow"
-                className="w-12 my-1 dark:bg-white rounded-full"
-              />
-            </Link>
-            <h1 className={
-              "font-semibold text-lg md:text-xl uppercase"
-            }>
-              {sedeURL.id === "san_cristobal"
-                ? "San Cristóbal"
-                : sedeURL.id === "ciudad_ojeda"
-                ? "Ciudad Ojeda"
-                : sedeURL.id === "puerto_ordaz"
-                ? "Puerto Ordaz"
-                : sedeURL.id}
-            </h1>
-          </nav>
-
           <img
             src={sedesFilter.image}
             alt={`sede_${sedesFilter.title}`}

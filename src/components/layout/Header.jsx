@@ -3,8 +3,11 @@ import menuData from "../../utils/mock/menuData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
 import { NavLink } from "react-router-dom";
 import DropDown from "./DropDown";
+import { useLocation } from "react-router-dom";
+import sedesData from "../../utils/mock/sedesData";
 
 const Header = () => {
+  const location = useLocation();
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [sedesOpen, setSedesOpen] = useState(false);
@@ -97,7 +100,7 @@ const Header = () => {
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
-                          <div className="flex flex-row gap-x-2" >
+                          <div className="flex flex-row gap-x-2">
                             <NavLink
                               to={menuItem.path}
                               onClick={() => {
@@ -178,7 +181,37 @@ const Header = () => {
                   Registrarse
                 </a> */}
                 <div>
-                  <ThemeToggler />
+                  <h1
+                    className={
+                      "flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 uppercase"
+                    }
+                  >
+                    {location.pathname === "/sedes/barcelona"
+                      ? "Barcelona"
+                      : location.pathname === "/extension/maracaibo"
+                        ? "Maracaibo"
+                        : location.pathname === "/extension/cabimas"
+                          ? "Cabimas"
+                          : location.pathname === "/extension/ciudad_ojeda"
+                            ? "Ciudad ojeda"
+                            : location.pathname === "/extension/barinas"
+                              ? "Barinas"
+                              : location.pathname === "/extension/san_cristobal"
+                                ? "San cristobal"
+                                : location.pathname === "/extension/valencia"
+                                  ? "Valencia"
+                                  : location.pathname === "/extension/maracay"
+                                    ? "Maracay"
+                                    : location.pathname === "/extension/maturin"
+                                      ? "Maturin"
+                                      : location.pathname ===
+                                          "/extension/puerto_ordaz"
+                                        ? "Puerto_ordaz"
+                                        : location.pathname ===
+                                            "/extension/porlamar"
+                                          ? "Porlamar"
+                                          : ""}
+                  </h1>
                 </div>
               </div>
             </div>

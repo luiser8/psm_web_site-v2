@@ -7,6 +7,7 @@ function DropDown({ open, setSedesOpen }) {
   DropDown.handleClickOutside = () => {
     setSedesOpen(false);
   };
+
   return (
     <>
       <div
@@ -23,8 +24,12 @@ function DropDown({ open, setSedesOpen }) {
                   key={item.id}
                 >
                   <NavLink
-                  onClick={()=> setSedesOpen(!open)}
-                   to={`/sedes/${item.link}`}
+                    onClick={() => setSedesOpen(!open)}
+                    to={
+                      item.name.includes("Sede")
+                        ? `/sedes/${item.link}`
+                        : `/extension/${item.link}`
+                    }
                     className={
                       "py-2 text- lg:text-lg text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                     }
@@ -45,4 +50,4 @@ const clickOutsideConfig = {
   handleClickOutside: () => DropDown.handleClickOutside,
 };
 
-export default onClickOutside(DropDown, clickOutsideConfig)
+export default onClickOutside(DropDown, clickOutsideConfig);

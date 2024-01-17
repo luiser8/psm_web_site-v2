@@ -1,11 +1,11 @@
-import React from "react";
-import { Navigate, useRoutes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Navigate, useLocation, useRoutes } from "react-router-dom";
 import Error from "../../components/Errors/Error";
 import DetallesCarrera from "../../pages/carreras/DetallesCarrera";
 import Layout from "../../components/layout/Layout";
 import SaiaDetails from "../../pages/saia/SaiaDetails";
 import NewsDetails from "../../pages/noticias/NewsDetails";
-import NewsAll from "../../pages/noticias/NewsAll"
+import NewsAll from "../../pages/noticias/NewsAll";
 import Contact from "../../pages/contact/Contact";
 import Employment from "../../pages/empleo/Employment";
 import EventsAll from "../../pages/eventos/EventsAll";
@@ -15,12 +15,14 @@ import PersonalAccidents from "../../pages/personal_accidents/PersonalAccidents"
 import Culmination from "../../pages/culmination/Culmination";
 import Academic from "../../pages/orientación_program/Academic";
 import Vocational from "../../pages/orientación_program/Vocational";
-import SedesPage from "../../pages/sedes/SedesPage"
+import SedesPage from "../../pages/sedes/SedesPage";
 import QuienesSomos from "../../pages/about/QuienesSomos";
 import Institucion from "../../pages/about/Institucion";
 import Faq from "../../pages/faq/Faq";
 
 export default function RoutesCustom() {
+  const location = useLocation();
+
   return useRoutes([
     {
       path: "/",
@@ -28,7 +30,11 @@ export default function RoutesCustom() {
     },
     {
       path: "/eventos/:id",
-      element:<><EventsDetails /> <Events /></> ,
+      element: (
+        <>
+          <EventsDetails /> <Events />
+        </>
+      ),
     },
     {
       path: "/eventos",
@@ -51,35 +57,35 @@ export default function RoutesCustom() {
       element: <NewsAll />,
     },
     {
-      path: "/sedes/:id",
-      element:<SedesPage/> ,
+      path: `${location.pathname.includes("sede") ? "/sedes/:id" : "/extension/:id"}`,
+      element: <SedesPage />,
     },
 
     {
       path: "/institucion/planes_estudio",
-      element: <Contact/>,
+      element: <Contact />,
     },
     {
       path: "/institucion/polizas/accidentes_personales",
-      element: <PersonalAccidents/>,
+      element: <PersonalAccidents />,
     },
 
     {
       path: "/institucion/polizas/programa_de_culminación",
-      element: <Culmination/>,
+      element: <Culmination />,
     },
 
     {
       path: "/institucion/programas_de_orientación/academica",
-      element: <Academic/>,
+      element: <Academic />,
     },
     {
       path: "/institucion/programas_de_orientación/vocacional_psicológica",
-      element: <Vocational/>,
+      element: <Vocational />,
     },
     {
       path: "/institucion/empleo",
-      element: <Employment/>,
+      element: <Employment />,
     },
     {
       path: "/institucion/acerca_de",
@@ -87,7 +93,7 @@ export default function RoutesCustom() {
     },
     {
       path: "/institucion/quienes_somos",
-      element: <QuienesSomos/>,
+      element: <QuienesSomos />,
     },
     {
       path: "/institucion/faq",

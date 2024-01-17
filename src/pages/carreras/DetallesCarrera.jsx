@@ -21,13 +21,6 @@ const DetallesCarrera = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-12 gap-x-8 lg:max-w-7xl lg:grid-cols-2">
             <div className="w-auto mx-auto lg:items-start items-center">
-              <Link to={"/"}>
-                <img
-                  src="\images\carreras\arrows\arrow-left.png"
-                  alt="arrow"
-                  className="w-14 mb-4 dark:bg-white rounded-full"
-                />
-              </Link>
               {/* mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start */}
               <h2 className="text-3xl sm:text-4xl font-medium text-black-100 leading-relaxed dark:text-white first-letter:text-7xl">
                 {carrerasList[0].name}
