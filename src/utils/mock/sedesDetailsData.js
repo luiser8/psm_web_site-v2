@@ -325,10 +325,10 @@ export default {
         {
           id: 3,
           image: "/images/events/event_details.jpg",
-          title: "Feria de diseño gráfico",
+          title: "III Expo Puentes",
           date: "18/06/2024",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "El Politécnico Santiago Mariño sede Barcelona a la vanguardia con la educación universitaria te invita a la III Expo Puentes que se llevará a cabo el próximo jueves 18 en la sede I. \n En la jornada exhibirán la simulación de ocho puentes🌉, entre los que se puede mencionar: El Orinokia de Puerto Ordaz, Rafael Urdaneta de Maracaibo, Pereira en Colombia, entre otros.\n ¡Asiste y disfruta de la experiencia! \br 🎓¡Formación para la Excelencia!🎓",
         },
       ],
       registrations: [
