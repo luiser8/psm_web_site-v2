@@ -1,7 +1,7 @@
 import { NavLink as Link } from "react-router-dom";
 import SectionTitle from "../../components/common/SectionTitle";
 import SingleNews from "../../components/common/SingleNews";
-import newsData from "../../utils/mock/newsData";
+import newsData from "../../utils/mock/principalData/newsData";
 
 const News = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import carrerasData from "../../utils/mock/carrerasData";
+import carrerasData from "../../utils/mock/principalData/carrerasData";
 import { useParams } from "react-router-dom";
 import { NavLink as Link } from "react-router-dom";
 

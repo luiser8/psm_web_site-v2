@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import eventosData from "../../utils/mock/eventosData";
+import eventosData from "../../utils/mock/principalData/eventosData";
 import { Link, useParams } from "react-router-dom";
 import SectionTitle from "../../components/common/SectionTitle";
 

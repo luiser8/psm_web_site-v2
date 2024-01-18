@@ -1,5 +1,5 @@
 import { CarouselWithContent } from "../../components/common/Carousel";
-import principalData from "../../utils/mock/principalData";
+import principalData from "../../utils/mock/principalData/principalData";
 
 const Principal = () => {
   return (
