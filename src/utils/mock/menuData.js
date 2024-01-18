@@ -29,12 +29,12 @@ const menuData = [
         path: "/",
         newTab: false,
     },
-    {
-        id: 8,
-        title: "Contáctenos",
+     {
+         id: 8,
+         title: "Contáctenos",
         path: "/institucion/planes_estudio",
-        newTab: false,
-    },
+         newTab: false,
+     },
     {
         id: 9,
         title: "Pages",

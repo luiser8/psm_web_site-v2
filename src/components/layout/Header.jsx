@@ -49,7 +49,7 @@ const Header = () => {
         }`}
       >
         <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
+          <div className="relative -mx-4 flex items-center justify-around">
             <div className="w-[140px] h-auto max-w-full px-4 xl:mr-12 overflow-hidden">
               <NavLink
                 to="/"
@@ -60,11 +60,11 @@ const Header = () => {
                 <img
                   src="/images/logo/logo_nuevo.png"
                   alt="logo"
-                  className="w-full  object-fill dark:bg-white dark:rounded"
+                  className="w-full object-fill dark:bg-white dark:rounded h-full"
                 />
               </NavLink>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-end px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -97,7 +97,7 @@ const Header = () => {
                   } `}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
+                    {menuData.filter(x => x.id !== 8).map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <div className="flex flex-row gap-x-2">
@@ -108,7 +108,7 @@ const Header = () => {
                                   setSedesOpen(!sedesOpen);
                                 }
                               }}
-                              className={`flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                              className={`flex py-2 text-base lg:text-nowrap transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                             >
                               {menuItem.title}
                             </NavLink>
