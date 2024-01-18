@@ -16,7 +16,7 @@ const Footer = ({ name = "" }) => {
       >
         <div className="container">
           <div className="flex w-full p-2 flex-col justify-center items-start md:items-start md:flex-row md:justify-evenly">
-            <div className="mb-5 max-w-[110px] col-span-1 md:w-1/ md:mr-5">
+            <div className="mb-5 w-[140px] h-auto col-span-1 md:w-1/ md:mr-5">
               <NavLink to="/" className="mb-3 inline-block">
                 <img
                   src="/images/logo/logo_nuevo.png"
