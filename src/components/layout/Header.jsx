@@ -97,7 +97,7 @@ const Header = () => {
                   } `}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.filter(x => x.id !== 8).map((menuItem, index) => (
+                    {menuData.filter(x => x.active).map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <div className="flex flex-row gap-x-2">

@@ -10,35 +10,41 @@ const menuData = [
         title: "La Institución",
         path: "/institucion/acerca_de",
         newTab: false,
+        active: true,
     },
     {
         id: 3,
         title: "Quienes Somos",
         path: "/institucion/quienes_somos",
         newTab: false,
+        active: true,
     },
     {
         id: 4,
         title: "Educación a distancia",
         path: "/saia/detalles",
         newTab: false,
+        active: true,
     },
     {
         id: 7,
         title: "Sede y extensiones",
         path: "/",
         newTab: false,
+        active: true,
     },
      {
          id: 8,
          title: "Contáctenos",
         path: "/institucion/planes_estudio",
          newTab: false,
+         active: true,
      },
     {
         id: 9,
         title: "Pages",
         newTab: false,
+        active: true,
         submenu: [
             {
                 id: 41,
