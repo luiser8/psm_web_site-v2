@@ -8,7 +8,7 @@ const SingleNews = ({ blog }) => {
         className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-black"
         data-wow-delay=".1s"
       >
-        <div className="h-[220px] w-full">
+        <div className="h-full w-full">
           <img
             src={image}
             alt="image"

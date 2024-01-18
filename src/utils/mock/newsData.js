@@ -5,7 +5,7 @@ const newsData = [
     title: "Best UI components for modern websites",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -25,7 +25,7 @@ const newsData = [
     title: "9 simple ways to improve your design skills",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      image: "/images/blog/new01.jpg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
@@ -45,7 +45,7 @@ const newsData = [
     title: "Tips to quickly improve your coding speed.",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
@@ -66,7 +66,7 @@ const newsData = [
     title: "Material UI",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -87,7 +87,7 @@ const newsData = [
     title: "React",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -107,7 +107,7 @@ const newsData = [
     title: "JavaScript",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -128,7 +128,7 @@ const newsData = [
     title: "Typescript",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -149,7 +149,7 @@ const newsData = [
     title: "Linux",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -170,7 +170,7 @@ const newsData = [
     title: "Mac",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
