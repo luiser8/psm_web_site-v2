@@ -1,5 +1,5 @@
 import React from "react";
-import eventosData from "../../utils/mock/eventosData";
+import eventosData from "../../utils/mock/principalData/eventosData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // Import Swiper styles

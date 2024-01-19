@@ -1,5 +1,5 @@
 import SectionTitle from "../../components/common/SectionTitle";
-import carrerasData from "../../utils/mock/carrerasData";
+import carrerasData from "../../utils/mock/principalData/carrerasData";
 import SingleCarrera from "../carreras/SingleCarrera";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";

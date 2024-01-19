@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import componentSaiaData from "../../utils/mock/componentSaiaData";
+import componentSaiaData from "../../utils/mock/principalData/componentSaiaData";
 import { NavLink as Link } from "react-router-dom";
 import SectionTitle from "../../components/common/SectionTitle";
 

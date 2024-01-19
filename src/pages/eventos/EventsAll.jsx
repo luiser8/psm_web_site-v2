@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SectionTitle from "../../components/common/SectionTitle";
-import eventosData from "../../utils/mock/eventosData";
+import eventosData from "../../utils/mock/principalData/eventosData";
 import { Link } from "react-router-dom";
 import SingleEventsDetails from "./SingleEventsDetails";
 import Pagination from "../../components/layout/Pagination";

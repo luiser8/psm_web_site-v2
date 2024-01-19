@@ -1,6 +1,6 @@
 import SectionTitle from "../../components/common/SectionTitle";
 import SingleTestimonial from "../../components/common/SingleTestimonial";
-import testimonialData from "../../utils/mock/testimonialData";
+import testimonialData from "../../utils/mock/principalData/testimonialData";
 
 const Testimonials = () => {
   return (
