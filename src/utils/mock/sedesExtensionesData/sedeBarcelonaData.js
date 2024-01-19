@@ -6,7 +6,44 @@ export default {
     title: "Barcelona",
     parameters: "barcelona",
     active_carousel: true,
-    carousel_data: [
+    header: [
+      {
+        id: 1,
+        title: "La Institución",
+        path: "/institucion/acerca_de",
+        newTab: false,
+        active: true,
+      },
+      {
+        id: 2,
+        title: "Quienes Somos",
+        path: "/institucion/quienes_somos",
+        newTab: false,
+        active: true,
+      },
+      {
+        id: 3,
+        title: "Educación a distancia",
+        path: "/saia/detalles",
+        newTab: false,
+        active: true,
+      },
+      {
+        id: 4,
+        title: "Sede y extensiones",
+        path: "/",
+        newTab: false,
+        active: true,
+      },
+      {
+        id: 5,
+        title: "Contáctenos",
+        path: "/institucion/planes_estudio",
+        newTab: false,
+        active: true,
+      },
+    ],
+    carousel: [
       {
         id: 0,
         url: "/images/carousel/web4.jpg",
@@ -26,7 +63,7 @@ export default {
         iframe: "",
       },
     ],
-    events: [
+    eventos: [
       {
         id: 1,
         image: "/images/events/event_details.jpg",
@@ -319,7 +356,6 @@ export default {
         star: 5,
       },
     ],
-
     noticias: [
       {
         id: 1,
@@ -443,7 +479,6 @@ export default {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
         },
       },
-
       {
         id: 7,
         principal: false,
@@ -464,7 +499,6 @@ export default {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
         },
       },
-
       {
         id: 8,
         principal: false,
@@ -485,7 +519,6 @@ export default {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
         },
       },
-
       {
         id: 9,
         principal: false,
@@ -507,7 +540,7 @@ export default {
         },
       },
     ],
-    inscrpciones: [
+    inscripciones: [
       {
         id: 1,
         date: "10-12-2024",
@@ -533,6 +566,166 @@ export default {
         subTitle: "Licenciaturas",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
+      },
+    ],
+    footer: [
+      {
+        id: 1,
+        name: "Institución",
+        link: "institucion",
+        elements: [
+          {
+            id: 1,
+            name: "Acerca de",
+            link: "/institucion/acerca_de",
+          },
+          {
+            id: 2,
+            name: "Quienes somos",
+            link: "/institucion/quienes_somos",
+          },
+          {
+            id: 3,
+            name: "Planes de estudio",
+            link: "/institucion/planes_estudio",
+          },
+          {
+            id: 4,
+            name: "Trabaja con nosotros",
+            link: "/institucion/empleo",
+          },
+          {
+            id: 5,
+            name: "Eventos",
+            link: "eventos",
+          },
+          {
+            id: 6,
+            name: "FAQ",
+            link: "/institucion/faq",
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "Nuestras sedes",
+        link: "sedes",
+        elements: [
+          {
+            id: 1,
+            name: "Maracaibo",
+            link: "maracaibo",
+          },
+          {
+            id: 2,
+            name: "Cabimas",
+            link: "cabimas",
+          },
+          {
+            id: 3,
+            name: "Ciudad Ojeda",
+            link: "ciudad_ojeda",
+          },
+          {
+            id: 4,
+            name: "Barinas",
+            link: "barinas",
+          },
+          {
+            id: 5,
+            name: "San Cristóbal",
+            link: "san_cristobal",
+          },
+          {
+            id: 6,
+            name: "Valencia",
+            link: "valencia",
+          },
+          {
+            id: 7,
+            name: "Maracay",
+            link: "maracay",
+          },
+          {
+            id: 8,
+            name: "Barcelona",
+            link: "barcelona",
+          },
+          {
+            id: 9,
+            name: "Maturin",
+            link: "maturin",
+          },
+          {
+            id: 10,
+            name: "Puerto Ordaz",
+            link: "puerto_ordaz",
+          },
+          {
+            id: 11,
+            name: "Porlamar",
+            link: "porlamar",
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Pólizas de seguro",
+        link: "seguro",
+        elements: [
+          {
+            id: 1,
+            name: "Accidentes personales",
+            link: "/institucion/polizas/accidentes_personales",
+          },
+          {
+            id: 2,
+            name: "Programa de culminación de estudios",
+            link: "/institucion/polizas/programa_de_culminación",
+          },
+        ],
+      },
+      {
+        id: 4,
+        name: "Programas de orientación",
+        link: "programas",
+        elements: [
+          {
+            id: 1,
+            name: "Académica",
+            link: "/institucion/programas_de_orientación/academica",
+          },
+          {
+            id: 2,
+            name: "Vocacional y Psicológica",
+            link: "/institucion/programas_de_orientación/vocacional_psicológica",
+          },
+        ],
+      },
+      {
+        id: 5,
+        name: "Politécnico Santiago Mariño.",
+        link: "",
+        elements: [
+          {
+            id: 1,
+            name: "Facebook",
+            link: "https://www.facebook.com/psm.barcelona.10",
+            icon: "/images/Icon/facebook.svg",
+          },
+          {
+            id: 2,
+            name: "Instagram",
+            link: "https://www.instagram.com/psmcaracasoficial/",
+            icon: "/images/Icon/instagram.svg",
+          },
+          {
+            id: 3,
+            name: "Twitter",
+            link: "https://twitter.com/PSMSanCristobal",
+            icon: "/images/Icon/twitter.svg",
+          },
+        ],
       },
     ],
   },
