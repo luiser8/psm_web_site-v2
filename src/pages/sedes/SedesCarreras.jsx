@@ -8,7 +8,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const SedesCarreras = () => {
+const SedesCarreras = ({data}) => {
+  console.log(data)
   return (
     <>
       {carrerasData.active ? (
@@ -46,7 +47,7 @@ const SedesCarreras = () => {
               modules={[Autoplay, Pagination, Navigation]}
               className=" w-[95%] overflow-hidden flex justify-center content-center  bg-transparent"
             >
-              {carrerasData.data.map((carrera) => (
+              {data?.map((carrera) => (
                 <SwiperSlide
                   className=" my-10 overflow-hidden"
                   key={carrera.id}

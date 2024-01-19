@@ -3,8 +3,8 @@ export default {
   data: {
     id: 1,
     image: "/images/carousel/web1.png",
-    title: "Barcelona",
-    parameters: "barcelona",
+    title: "Maracaibo",
+    parameters: "maracaibo",
     active_carousel: true,
     header: [
       {
@@ -66,6 +66,24 @@ export default {
     eventos: [
       {
         id: 1,
+        image: "/images/events/event_details.jpg",
+        title: "Fiesta de bienvenida",
+        date: "12/05/2024",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      },
+
+      {
+        id: 2,
+        image: "/images/events/event_details.jpg",
+        title: "Feria de carreras universitarias",
+        date: "12/05/2024",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      },
+
+      {
+        id: 3,
         image: "/images/events/event_details.jpg",
         title: "Congreso Estudiantil",
         date: "12/05/2024",
@@ -325,7 +343,7 @@ export default {
             pensum: "pensum.pdf",
           },
         },
-      
+      ,
     ],
     testimonios: [
       {
@@ -333,26 +351,24 @@ export default {
         name: "Miguel Perez",
         designation: "Programador",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-        image: "/images/testimonials/auth-01.png",
+          "La universidad me ha brindado muchas oportunidades para crecer académica y personalmente. Me encanta el ambiente de aprendizaje y la diversidad cultural que se encuentra en el campus. Los profesores son muy accesibles y siempre están dispuestos a ayudar. Estoy muy agradecido por mi tiempo aquí",
         star: 5,
       },
       {
         id: 2,
-        name: "Carlos Velásquez",
+        name: "Jose Alberto",
         designation: "Estudiante",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+          "La universidad ha sido un gran desafío, pero también una gran oportunidad para crecer y aprender. Me ha gustado mucho la variedad de cursos y actividades extracurriculares que se ofrecen. También he tenido la oportunidad de hacer muchas amistades y conexiones valiosas. Definitivamente recomendaría esta universidad a otros estudiantes.",
         image: "/images/testimonials/auth-02.png",
         star: 5,
       },
       {
         id: 3,
-        name: "Jose Alberto",
+        name: "Juan Carlos",
         designation: "Profesor",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-        image: "/images/testimonials/auth-03.png",
+          "Mi experiencia en la universidad ha sido increíble. He tenido la oportunidad de estudiar con algunos de los mejores profesores en mi campo y he aprendido mucho. También he tenido la oportunidad de participar en proyectos de investigación y actividades extracurriculares que me han ayudado a desarrollar habilidades valiosas. Estoy muy agradecido por mi tiempo aquí y lo recomendaría a cualquier estudiante que busque una educación de calidad",
         star: 5,
       },
     ],
