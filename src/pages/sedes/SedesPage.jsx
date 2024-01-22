@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import sedesDetailsData from "../../utils/mock/sedesDetailsData";
+import React from "react";
 import sedesData from "../../utils/mock/sedesData";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import SedesEvents from "./SedesEvents";
 import SedesCarreras from "./SedesCarreras";
-import Testimonials from "../testimonials/Testimonials";
+import SedesTestimonials from "./SedesTestimonials";
 import Registrations from "./Registrations";
 import SedesNews from "./SedesNews";
 import Footer from "../../components/layout/Footer";
@@ -18,7 +17,7 @@ export default function SedesPage() {
   const testimonios = getDataSedes.data.data.testimonios;
   const inscripciones = getDataSedes.data.data.inscripciones;
   const noticias = getDataSedes.data.data.noticias;
-  const eventos = getDataSedes.data.data.eventos;
+  const eventos = getDataSedes.data.data.eventos.eventos_data;
 
   return (
     <div className="bg-white py-20 sm:py-20 mt-8">
@@ -42,7 +41,7 @@ export default function SedesPage() {
 
       <section className="w-full h-full overflow-hidden mt-0 dark:bg-dark">
         <SedesCarreras data={carreras} />
-        <Testimonials data={testimonios} />
+        <SedesTestimonials data={testimonios} />
         <Registrations data={inscripciones} />
         <SedesNews data={noticias} />
       </section>

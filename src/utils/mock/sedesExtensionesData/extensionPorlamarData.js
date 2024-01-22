@@ -6,92 +6,103 @@ export default {
       title: "Porlamar",
       parameters: "porlamar",
       active_carousel: true,
-      header: [
-        {
-          id: 1,
-          title: "La Institución",
-          path: "/institucion/acerca_de",
-          newTab: false,
-          active: true,
-        },
-        {
-          id: 2,
-          title: "Quienes Somos",
-          path: "/institucion/quienes_somos",
-          newTab: false,
-          active: true,
-        },
-        {
-          id: 3,
-          title: "Educación a distancia",
-          path: "/saia/detalles",
-          newTab: false,
-          active: true,
-        },
-        {
-          id: 4,
-          title: "Sede y extensiones",
-          path: "/",
-          newTab: false,
-          active: true,
-        },
-        {
-          id: 5,
-          title: "Contáctenos",
-          path: "/institucion/planes_estudio",
-          newTab: false,
-          active: true,
-        },
-      ],
-      carousel: [
-        {
-          id: 0,
-          url: "/images/carousel/web4.jpg",
-          cloudinary: "",
-          link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
-          titleLink: "Ir al formulario de registro",
-          target: "_blank",
-          iframe: "",
-        },
-        {
-          id: 1,
-          url: "/images/carousel/web0.jpg",
-          cloudinary: "",
-          link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
-          titleLink: "Ir al formulario de registro",
-          target: "_blank",
-          iframe: "",
-        },
-      ],
-      eventos: [
-        {
-          id: 1,
-          image: "/images/events/event_details.jpg",
-          title: "Fiesta de bienvenida",
-          date: "12/05/2024",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-  
-        {
-          id: 2,
-          image: "/images/events/event_details.jpg",
-          title: "Feria de carreras universitarias",
-          date: "12/05/2024",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-  
-        {
-          id: 3,
-          image: "/images/events/event_details.jpg",
-          title: "Congreso Estudiantil",
-          date: "12/05/2024",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-      ],
-      carreras: [
+      header: {
+        active:true,
+        header_data:[
+          {
+            id: 1,
+            title: "La Institución",
+            path: "/institucion/acerca_de",
+            newTab: false,
+            active: true,
+          },
+          {
+            id: 2,
+            title: "Quienes Somos",
+            path: "/institucion/quienes_somos",
+            newTab: false,
+            active: true,
+          },
+          {
+            id: 3,
+            title: "Educación a distancia",
+            path: "/saia/detalles",
+            newTab: false,
+            active: true,
+          },
+          {
+            id: 4,
+            title: "Sede y extensiones",
+            path: "/",
+            newTab: false,
+            active: true,
+          },
+          {
+            id: 5,
+            title: "Contáctenos",
+            path: "/institucion/planes_estudio",
+            newTab: false,
+            active: true,
+          },
+        ]
+      },
+      carousel: {
+        active:true,
+        carousel_data:[
+          {
+            id: 0,
+            url: "/images/carousel/web4.jpg",
+            cloudinary: "",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
+            titleLink: "Ir al formulario de registro",
+            target: "_blank",
+            iframe: "",
+          },
+          {
+            id: 1,
+            url: "/images/carousel/web0.jpg",
+            cloudinary: "",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
+            titleLink: "Ir al formulario de registro",
+            target: "_blank",
+            iframe: "",
+          },
+        ]
+      },
+      eventos: {
+        active:true,
+        eventos_data:[
+          {
+            id: 1,
+            image: "/images/events/event_details.jpg",
+            title: "Fiesta de bienvenida",
+            date: "12/05/2024",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+    
+          {
+            id: 2,
+            image: "/images/events/event_details.jpg",
+            title: "Feria de carreras universitarias",
+            date: "12/05/2024",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+    
+          {
+            id: 3,
+            image: "/images/events/event_details.jpg",
+            title: "Congreso Estudiantil",
+            date: "12/05/2024",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ]
+      },
+      carreras: {
+        active:true,
+        carreras_data:[
         
           {
             id: 1,
@@ -343,408 +354,421 @@ export default {
               pensum: "pensum.pdf",
             },
           },
-        ],
-      testimonios: [
-        {
-          id: 1,
-          name: "Sergio Rodriguez",
-          designation: "Programador",
-          content:
-            "La universidad me ha brindado muchas oportunidades para crecer académica y personalmente. Me encanta el ambiente de aprendizaje y la diversidad cultural que se encuentra en el campus. Los profesores son muy accesibles y siempre están dispuestos a ayudar. Estoy muy agradecido por mi tiempo aquí",
-            image: "/images/testimonials/auth-01.png",
-          star: 5,
-        },
-        {
-          id: 2,
-          name: "Fernando Rondon",
-          designation: "Estudiante",
-          content:
-            "La universidad ha sido un gran desafío, pero también una gran oportunidad para crecer y aprender. Me ha gustado mucho la variedad de cursos y actividades extracurriculares que se ofrecen. También he tenido la oportunidad de hacer muchas amistades y conexiones valiosas. Definitivamente recomendaría esta universidad a otros estudiantes.",
-          image: "/images/testimonials/auth-02.png",
-          star: 5,
-        },
-        {
-          id: 3,
-          name: "Alejandro Dias",
-          designation: "Profesor",
-          content:
-            "Mi experiencia en la universidad ha sido increíble. He tenido la oportunidad de estudiar con algunos de los mejores profesores en mi campo y he aprendido mucho. También he tenido la oportunidad de participar en proyectos de investigación y actividades extracurriculares que me han ayudado a desarrollar habilidades valiosas. Estoy muy agradecido por mi tiempo aquí y lo recomendaría a cualquier estudiante que busque una educación de calidad",
-            image: "/images/testimonials/auth-03.png",
-          star: 5,
-        },
-      ],
-      noticias: [
-        {
-          id: 1,
-          principal: true,
-          title: "Best UI components for modern websites",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Samuyl Joshi",
-            image: "/images/blog/author-01.png",
-            designation: "Graphic Designer",
+        ]
+      },
+      testimonios: {
+        active:true,
+        testimonios_data:[
+          {
+            id: 1,
+            name: "Sergio Rodriguez",
+            designation: "Programador",
+            content:
+              "La universidad me ha brindado muchas oportunidades para crecer académica y personalmente. Me encanta el ambiente de aprendizaje y la diversidad cultural que se encuentra en el campus. Los profesores son muy accesibles y siempre están dispuestos a ayudar. Estoy muy agradecido por mi tiempo aquí",
+              image: "/images/testimonials/auth-01.png",
+            star: 5,
           },
-          tags: ["programación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+          {
+            id: 2,
+            name: "Fernando Rondon",
+            designation: "Estudiante",
+            content:
+              "La universidad ha sido un gran desafío, pero también una gran oportunidad para crecer y aprender. Me ha gustado mucho la variedad de cursos y actividades extracurriculares que se ofrecen. También he tenido la oportunidad de hacer muchas amistades y conexiones valiosas. Definitivamente recomendaría esta universidad a otros estudiantes.",
+            image: "/images/testimonials/auth-02.png",
+            star: 5,
+          },
+          {
+            id: 3,
+            name: "Alejandro Dias",
+            designation: "Profesor",
+            content:
+              "Mi experiencia en la universidad ha sido increíble. He tenido la oportunidad de estudiar con algunos de los mejores profesores en mi campo y he aprendido mucho. También he tenido la oportunidad de participar en proyectos de investigación y actividades extracurriculares que me han ayudado a desarrollar habilidades valiosas. Estoy muy agradecido por mi tiempo aquí y lo recomendaría a cualquier estudiante que busque una educación de calidad",
+              image: "/images/testimonials/auth-03.png",
+            star: 5,
+          },
+        ]
+      },
+      noticias: {
+        active:true,
+        noticias_data:[
+          {
+            id: 1,
+            principal: true,
+            title: "Best UI components for modern websites",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Samuyl Joshi",
+              image: "/images/blog/author-01.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["programación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-        {
-          id: 2,
-          principal: true,
-          title: "9 simple ways to improve your design skills",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Musharof Chy",
-            image: "/images/blog/author-02.png",
-            designation: "Content Writer",
-          },
-          tags: ["computación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+          {
+            id: 2,
+            principal: true,
+            title: "9 simple ways to improve your design skills",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Musharof Chy",
+              image: "/images/blog/author-02.png",
+              designation: "Content Writer",
+            },
+            tags: ["computación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-        {
-          id: 3,
-          principal: true,
-          title: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Lethium Deo",
-            image: "/images/blog/author-03.png",
-            designation: "Graphic Designer",
-          },
-          tags: ["diseño"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+          {
+            id: 3,
+            principal: true,
+            title: "Tips to quickly improve your coding speed.",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Lethium Deo",
+              image: "/images/blog/author-03.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["diseño"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-  
-        {
-          id: 4,
-          principal: false,
-          title: "Material UI",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Samuyl Joshi",
-            image: "/images/blog/author-01.png",
-            designation: "Graphic Designer",
-          },
-          tags: ["programación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+    
+          {
+            id: 4,
+            principal: false,
+            title: "Material UI",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Samuyl Joshi",
+              image: "/images/blog/author-01.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["programación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-  
-        {
-          id: 5,
-          principal: false,
-          title: "React",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Samuyl Joshi",
-            image: "/images/blog/author-01.png",
-            designation: "Graphic Designer",
-          },
-          tags: ["programación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+    
+          {
+            id: 5,
+            principal: false,
+            title: "React",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Samuyl Joshi",
+              image: "/images/blog/author-01.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["programación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-        {
-          id: 6,
-          principal: false,
-          title: "JavaScript",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Samuyl Joshi",
-            image: "/images/blog/author-01.png",
-            designation: "Graphic Designer",
-          },
-          tags: ["programación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+          {
+            id: 6,
+            principal: false,
+            title: "JavaScript",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Samuyl Joshi",
+              image: "/images/blog/author-01.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["programación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-        {
-          id: 7,
-          principal: false,
-          title: "Typescript",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Samuyl Joshi",
-            image: "/images/blog/author-01.png",
-            designation: "Graphic Designer",
-          },
-          tags: ["programación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+          {
+            id: 7,
+            principal: false,
+            title: "Typescript",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Samuyl Joshi",
+              image: "/images/blog/author-01.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["programación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-        {
-          id: 8,
-          principal: false,
-          title: "Linux",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Samuyl Joshi",
-            image: "/images/blog/author-01.png",
-            designation: "Graphic Designer",
-          },
-          tags: ["programación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+          {
+            id: 8,
+            principal: false,
+            title: "Linux",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Samuyl Joshi",
+              image: "/images/blog/author-01.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["programación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-        {
-          id: 9,
-          principal: false,
-          title: "Mac",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-          image: "/images/blog/new01.jpg",
-          author: {
-            name: "Samuyl Joshi",
-            image: "/images/blog/author-01.png",
-            designation: "Graphic Designer",
-          },
-          tags: ["programación"],
-          publishDate: "2025",
-          details: {
-            subTitle: "Tips to quickly improve your coding speed.",
+          {
+            id: 9,
+            principal: false,
+            title: "Mac",
             paragraph:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            image: "/images/blog/new01.jpg",
+            author: {
+              name: "Samuyl Joshi",
+              image: "/images/blog/author-01.png",
+              designation: "Graphic Designer",
+            },
+            tags: ["programación"],
+            publishDate: "2025",
+            details: {
+              subTitle: "Tips to quickly improve your coding speed.",
+              paragraph:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            },
           },
-        },
-      ],
-      inscripciones: [
-        {
-          id: 1,
-          date: "10-12-2024",
-          title: "Inscripciones Abiertas",
-          subTitle: "Técnico Superior Universitario",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
-        },
-  
-        {
-          id: 2,
-          date: "14-12-2024",
-          title: "Inscripciones Abiertas",
-          subTitle: "Ingenierias",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
-        },
-  
-        {
-          id: 3,
-          date: "17-12-2024",
-          title: "Inscripciones Abiertas",
-          subTitle: "Licenciaturas",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
-        },
-      ],
-      footer: [
-        {
-          id: 1,
-          name: "Institución",
-          link: "institucion",
-          elements: [
-            {
-              id: 1,
-              name: "Acerca de",
-              link: "/institucion/acerca_de",
-            },
-            {
-              id: 2,
-              name: "Quienes somos",
-              link: "/institucion/quienes_somos",
-            },
-            {
-              id: 3,
-              name: "Planes de estudio",
-              link: "/institucion/planes_estudio",
-            },
-            {
-              id: 4,
-              name: "Trabaja con nosotros",
-              link: "/institucion/empleo",
-            },
-            {
-              id: 5,
-              name: "Eventos",
-              link: "eventos",
-            },
-            {
-              id: 6,
-              name: "FAQ",
-              link: "/institucion/faq",
-            },
-          ],
-        },
-        {
-          id: 2,
-          name: "Nuestras sedes",
-          link: "sedes",
-          elements: [
-            {
-              id: 1,
-              name: "Maracaibo",
-              link: "maracaibo",
-            },
-            {
-              id: 2,
-              name: "Cabimas",
-              link: "cabimas",
-            },
-            {
-              id: 3,
-              name: "Ciudad Ojeda",
-              link: "ciudad_ojeda",
-            },
-            {
-              id: 4,
-              name: "Barinas",
-              link: "barinas",
-            },
-            {
-              id: 5,
-              name: "San Cristóbal",
-              link: "san_cristobal",
-            },
-            {
-              id: 6,
-              name: "Valencia",
-              link: "valencia",
-            },
-            {
-              id: 7,
-              name: "Maracay",
-              link: "maracay",
-            },
-            {
-              id: 8,
-              name: "Barcelona",
-              link: "barcelona",
-            },
-            {
-              id: 9,
-              name: "Maturin",
-              link: "maturin",
-            },
-            {
-              id: 10,
-              name: "Puerto Ordaz",
-              link: "puerto_ordaz",
-            },
-            {
-              id: 11,
-              name: "Porlamar",
-              link: "porlamar",
-            },
-          ],
-        },
-        {
-          id: 3,
-          name: "Pólizas de seguro",
-          link: "seguro",
-          elements: [
-            {
-              id: 1,
-              name: "Accidentes personales",
-              link: "/institucion/polizas/accidentes_personales",
-            },
-            {
-              id: 2,
-              name: "Programa de culminación de estudios",
-              link: "/institucion/polizas/programa_de_culminación",
-            },
-          ],
-        },
-        {
-          id: 4,
-          name: "Programas de orientación",
-          link: "programas",
-          elements: [
-            {
-              id: 1,
-              name: "Académica",
-              link: "/institucion/programas_de_orientación/academica",
-            },
-            {
-              id: 2,
-              name: "Vocacional y Psicológica",
-              link: "/institucion/programas_de_orientación/vocacional_psicológica",
-            },
-          ],
-        },
-        {
-          id: 5,
-          name: "Politécnico Santiago Mariño.",
-          link: "",
-          elements: [
-            {
-              id: 1,
-              name: "Facebook",
-              link: "https://www.facebook.com/psm.barcelona.10",
-              icon: "/images/Icon/facebook.svg",
-            },
-            {
-              id: 2,
-              name: "Instagram",
-              link: "https://www.instagram.com/psmcaracasoficial/",
-              icon: "/images/Icon/instagram.svg",
-            },
-            {
-              id: 3,
-              name: "Twitter",
-              link: "https://twitter.com/PSMSanCristobal",
-              icon: "/images/Icon/twitter.svg",
-            },
-          ],
-        },
-      ],
+        ]
+      },
+      inscripciones: {
+        active:true,
+        inscripciones_data:[
+          {
+            id: 1,
+            date: "10-12-2024",
+            title: "Inscripciones Abiertas",
+            subTitle: "Técnico Superior Universitario",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
+          },
+    
+          {
+            id: 2,
+            date: "14-12-2024",
+            title: "Inscripciones Abiertas",
+            subTitle: "Ingenierias",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
+          },
+    
+          {
+            id: 3,
+            date: "17-12-2024",
+            title: "Inscripciones Abiertas",
+            subTitle: "Licenciaturas",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
+          },
+        ]
+      },
+      footer: {
+        active:true,
+        footer_data:[
+          {
+            id: 1,
+            name: "Institución",
+            link: "institucion",
+            elements: [
+              {
+                id: 1,
+                name: "Acerca de",
+                link: "/institucion/acerca_de",
+              },
+              {
+                id: 2,
+                name: "Quienes somos",
+                link: "/institucion/quienes_somos",
+              },
+              {
+                id: 3,
+                name: "Planes de estudio",
+                link: "/institucion/planes_estudio",
+              },
+              {
+                id: 4,
+                name: "Trabaja con nosotros",
+                link: "/institucion/empleo",
+              },
+              {
+                id: 5,
+                name: "Eventos",
+                link: "eventos",
+              },
+              {
+                id: 6,
+                name: "FAQ",
+                link: "/institucion/faq",
+              },
+            ],
+          },
+          {
+            id: 2,
+            name: "Nuestras sedes",
+            link: "sedes",
+            elements: [
+              {
+                id: 1,
+                name: "Maracaibo",
+                link: "maracaibo",
+              },
+              {
+                id: 2,
+                name: "Cabimas",
+                link: "cabimas",
+              },
+              {
+                id: 3,
+                name: "Ciudad Ojeda",
+                link: "ciudad_ojeda",
+              },
+              {
+                id: 4,
+                name: "Barinas",
+                link: "barinas",
+              },
+              {
+                id: 5,
+                name: "San Cristóbal",
+                link: "san_cristobal",
+              },
+              {
+                id: 6,
+                name: "Valencia",
+                link: "valencia",
+              },
+              {
+                id: 7,
+                name: "Maracay",
+                link: "maracay",
+              },
+              {
+                id: 8,
+                name: "Barcelona",
+                link: "barcelona",
+              },
+              {
+                id: 9,
+                name: "Maturin",
+                link: "maturin",
+              },
+              {
+                id: 10,
+                name: "Puerto Ordaz",
+                link: "puerto_ordaz",
+              },
+              {
+                id: 11,
+                name: "Porlamar",
+                link: "porlamar",
+              },
+            ],
+          },
+          {
+            id: 3,
+            name: "Pólizas de seguro",
+            link: "seguro",
+            elements: [
+              {
+                id: 1,
+                name: "Accidentes personales",
+                link: "/institucion/polizas/accidentes_personales",
+              },
+              {
+                id: 2,
+                name: "Programa de culminación de estudios",
+                link: "/institucion/polizas/programa_de_culminación",
+              },
+            ],
+          },
+          {
+            id: 4,
+            name: "Programas de orientación",
+            link: "programas",
+            elements: [
+              {
+                id: 1,
+                name: "Académica",
+                link: "/institucion/programas_de_orientación/academica",
+              },
+              {
+                id: 2,
+                name: "Vocacional y Psicológica",
+                link: "/institucion/programas_de_orientación/vocacional_psicológica",
+              },
+            ],
+          },
+          {
+            id: 5,
+            name: "Politécnico Santiago Mariño.",
+            link: "",
+            elements: [
+              {
+                id: 1,
+                name: "Facebook",
+                link: "https://www.facebook.com/psm.barcelona.10",
+                icon: "/images/Icon/facebook.svg",
+              },
+              {
+                id: 2,
+                name: "Instagram",
+                link: "https://www.instagram.com/psmcaracasoficial/",
+                icon: "/images/Icon/instagram.svg",
+              },
+              {
+                id: 3,
+                name: "Twitter",
+                link: "https://twitter.com/PSMSanCristobal",
+                icon: "/images/Icon/twitter.svg",
+              },
+            ],
+          },
+        ]
+      },
     },
   };
   
