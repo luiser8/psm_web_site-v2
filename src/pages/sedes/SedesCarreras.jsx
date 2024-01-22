@@ -1,5 +1,4 @@
 import SectionTitle from "../../components/common/SectionTitle";
-import carrerasData from "../../utils/mock/principalData/carrerasData";
 import SingleCarrera from "../carreras/SingleCarrera";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -8,10 +7,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const SedesCarreras = () => {
+const SedesCarreras = ({data}) => {
   return (
     <>
-      {carrerasData.active ? (
+      {data.active ? (
         <section id="carreras" className="relative z-0 h-auto sm:h-full mb-10 dark:bg-dark">
           <SectionTitle title="Carreras" center />
           <div className="w-full h-full">
@@ -46,7 +45,7 @@ const SedesCarreras = () => {
               modules={[Autoplay, Pagination, Navigation]}
               className=" w-[95%] overflow-hidden flex justify-center content-center  bg-transparent"
             >
-              {carrerasData.data.map((carrera) => (
+              {data.carreras_data?.map((carrera) => (
                 <SwiperSlide
                   className=" my-10 overflow-hidden"
                   key={carrera.id}

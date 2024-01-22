@@ -4,9 +4,11 @@ import SectionTitle from "../../components/common/SectionTitle";
 export default function Registrations({ data }) {
   return (
     <>
-      <div className="container mb-20 py-10 dark:bg-dark">
+      {
+        data?.active ? (
+          <div className="container mb-20 py-10 dark:bg-dark">
         <SectionTitle center={"center"} title={"Inscripciones y periodos"} />
-        {data.map((item) => (
+        {data.inscripciones_data.map((item) => (
           <div className="-my-8 divide-y-2 divide-gray-100 mt-5" key={item.id}>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
@@ -25,6 +27,8 @@ export default function Registrations({ data }) {
           </div>
         ))}
       </div>
+        ) : <></>
+      }
     </>
   );
 }
