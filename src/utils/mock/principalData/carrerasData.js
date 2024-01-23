@@ -4,7 +4,7 @@ export default {
     {
       id: 1,
       name: "Arquitectura",
-      image: "/images/carreras/arquitectura.jpg",
+      image: "/images/nacional/carreras/arquitectura.jpg",
       detail: "arquitectura",
       description: "",
       paragraph1: "La función básica del arquitecto es la creación de espacios que den respuestas a las necesidades del hombre y su entorno, partiendo tanto de condiciones de índole cultural como físicas, contribuyendo a elevar su calidad de vida. La Carrera de Arquitecto busca formar hombres capacitados para coadyuvar a la solución de los espacios habitables del hombre, mediante la adecuada solución de los problemas espaciales y la selección de los materiales adecuados al medio ambiente en el cual se desarrolla.",
@@ -32,7 +32,7 @@ export default {
     {
       id: 2,
       name: "Ingeniería Civil",
-      image: "/images/carreras/civil.jpg",
+      image: "/images/nacional/carreras/civil.jpg",
       detail: "civil",
       description: "",
       paragraph1: "La carrera de Ingeniería Civil es la disciplina que le permite al hombre transformar y preservar el medio ambiente en beneficio de la sociedad.",
@@ -58,7 +58,7 @@ export default {
     {
       id: 3,
       name: "Ingeniería Eléctrica",
-      image: "/images/carreras/electrica.jpg",
+      image: "/images/nacional/carreras/electrica.jpg",
       detail: "electrica",
       description: "",
       paragraph1: "La Ingeniería Eléctrica representa un campo de rápida expansión en el que continuamente se desarrollan nuevas y atractivas áreas, mientras que aquellas consideradas tradicionales encuentran día a día nuevas aplicaciones.",
@@ -85,7 +85,7 @@ export default {
     {
       id: 4,
       name: "Ingeniería Electrónica",
-      image: "/images/carreras/electronica.jpg",
+      image: "/images/nacional/carreras/electronica.jpg",
       detail: "electronica",
       description: "",
       paragraph1: "La carrera de Ingeniería Electrónica se orienta a la formación de profesionales cuya labor se basa en el desarrollo de la Tecnología Digital y aplicación inmediata a la Telemática (conjunto de métodos, técnicas y servicios que resultan del uso conjunto de la información y las telecomunicaciones).",
@@ -112,7 +112,7 @@ export default {
     {
       id: 5,
       name: "Ingeniería Industrial",
-      image: "/images/carreras/industrial.jpg",
+      image: "/images/nacional/carreras/industrial.jpg",
       detail: "industrial",
       description: "",
       paragraph1: "La carrera de Ingeniería Industrial busca formar recursos humanos para desempeñarse en la industria y en otras instituciones en las que se requiera de conocimientos relacionados con el diseño, la instalación y el mejoramiento operacional de sistemas integrados de equipos, materiales y personas.",
@@ -142,7 +142,7 @@ export default {
     {
       id: 6,
       name: "Ingeniería en Mantenimiento Mecánico",
-      image: "/images/carreras/mantenimiento.jpg",
+      image: "/images/nacional/carreras/mantenimiento.jpg",
       detail: "mantenimiento",
       description: "",
       paragraph1: "La Ingeniería en Mantenimiento Mecánico es calificada como una de las de mayor demanda en Venezuela, por cuanto la infraestructura de los equipos y maquinarias del parque industrial de la nación requiere de especialistas en mantenimiento profesionales capaces no sólo de adaptarse a los constantes cambios tecnológicos, sino también de participar activamente en la eficiente evolución y productividad empresarial.",
@@ -169,7 +169,7 @@ export default {
     {
       id: 7,
       name: "Ingeniería de Sistemas",
-      image: "/images/carreras/sistemas.jpg",
+      image: "/images/nacional/carreras/sistemas.jpg",
       detail: "sistemas",
       description: "",
       paragraph1: "La ingeniería de sistemas es un modo de enfoque interdisciplinario que permite estudiar y comprender la realidad, con el propósito de implementar u optimizar sistemas complejos.",
@@ -197,7 +197,7 @@ export default {
     {
       id: 8,
       name: "Ingeniería de Diseño Industrial",
-      image: "/images/carreras/diseno.jpg",
+      image: "/images/nacional/carreras/diseno.jpg",
       detail: "diseno",
       description: "",
       paragraph1: "La función básica del arquitecto es la creación de espacios que den respuestas a las necesidades del hombre y su entorno, partiendo tanto de condiciones de índole cultural como físicas, contribuyendo a elevar su calidad de vida.",

@@ -21,14 +21,11 @@ const Events = () => {
               spaceBetween={45}
               pagination={{
                 clickable: true,
-                
               }}
-              
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
               }}
-        
               breakpoints={{
                 640: {
                   slidesPerView: 2,

@@ -24,7 +24,7 @@ export default {
               id: 1,
               names: "Dr. Raúl Quero García",
               position: "Director Nacional y Presidente de la Sociedad Civil del PSM",
-              photo: "/images/about/1.jpg"
+              photo: "/images/nacional/about/1.jpg"
             },
             {
               id: 2,
@@ -60,7 +60,7 @@ export default {
         },
       },
     subtitle: "",
-    image: "/images/about/sede.jpeg",
+    image: "/images/nacional/about/sede.jpeg",
     description:
       "",
   },

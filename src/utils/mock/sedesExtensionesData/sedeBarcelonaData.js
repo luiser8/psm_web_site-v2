@@ -1,11 +1,8 @@
 export default {
-  active: true,
-  data: {
+    active: true,
     id: 1,
-    image: "/images/carousel/web1.png",
     title: "Barcelona",
     parameters: "barcelona",
-    active_carousel: true,
     header:{active:true, header_data:[
       {
         id: 1,
@@ -43,10 +40,14 @@ export default {
         active: true,
       },
     ]},
-    carousel: {active:true,carousel_data:[
+    carousel: {
+      active:true,
+      title: "Politécnico Santiago Mariño",
+      description: "",
+      carousel_data:[
       {
         id: 0,
-        url: "/images/carousel/web4.jpg",
+        url: "/images/sedeBarcelona/carousel/web4.jpg",
         cloudinary: "",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
         titleLink: "Ir al formulario de registro",
@@ -55,7 +56,7 @@ export default {
       },
       {
         id: 1,
-        url: "/images/carousel/web0.jpg",
+        url: "/images/sedeBarcelona/carousel/web0.jpg",
         cloudinary: "",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
         titleLink: "Ir al formulario de registro",
@@ -63,10 +64,18 @@ export default {
         iframe: "",
       },
     ]},
+    saia: {active:false,saia_data:[
+      {
+        id: 0,
+      },
+      {
+        id: 1,
+      },
+    ]},
     eventos: {active:true,eventos_data:[
       {
         id: 1,
-        image: "/images/events/event_details.jpg",
+        image: "/images/sedeBarcelona/events/event_details.jpg",
         title: "Congreso Estudiantil",
         date: "12/05/2024",
         description:
@@ -74,11 +83,10 @@ export default {
       },
     ]},
     carreras: {active:true,carreras_data:[
-      
       {
         id: 1,
         name: "Arquitectura",
-        image: "/images/carreras/arquitectura.jpg",
+        image: "/images/sedeBarcelona/carreras/arquitectura.jpg",
         detail: "arquitectura",
         description: "",
         paragraph1:
@@ -110,7 +118,7 @@ export default {
       {
         id: 2,
         name: "Ingeniería Civil",
-        image: "/images/carreras/civil.jpg",
+        image: "/images/sedeBarcelona/carreras/civil.jpg",
         detail: "civil",
         description: "",
         paragraph1:
@@ -139,7 +147,7 @@ export default {
       {
         id: 3,
         name: "Ingeniería Eléctrica",
-        image: "/images/carreras/electrica.jpg",
+        image: "/images/sedeBarcelona/carreras/electrica.jpg",
         detail: "electrica",
         description: "",
         paragraph1:
@@ -170,7 +178,7 @@ export default {
       {
         id: 4,
         name: "Ingeniería Electrónica",
-        image: "/images/carreras/electronica.jpg",
+        image: "/images/sedeBarcelona/carreras/electronica.jpg",
         detail: "electronica",
         description: "",
         paragraph1:
@@ -201,7 +209,7 @@ export default {
       {
         id: 5,
         name: "Ingeniería Industrial",
-        image: "/images/carreras/industrial.jpg",
+        image: "/images/sedeBarcelona/carreras/industrial.jpg",
         detail: "industrial",
         description: "",
         paragraph1:
@@ -234,7 +242,7 @@ export default {
       {
         id: 6,
         name: "Ingeniería en Mantenimiento Mecánico",
-        image: "/images/carreras/mantenimiento.jpg",
+        image: "/images/sedeBarcelona/carreras/mantenimiento.jpg",
         detail: "mantenimiento",
         description: "",
         paragraph1:
@@ -264,7 +272,7 @@ export default {
       {
         id: 7,
         name: "Ingeniería de Sistemas",
-        image: "/images/carreras/sistemas.jpg",
+        image: "/images/sedeBarcelona/carreras/sistemas.jpg",
         detail: "sistemas",
         description: "",
         paragraph1:
@@ -296,7 +304,7 @@ export default {
       {
         id: 8,
         name: "Ingeniería de Diseño Industrial",
-        image: "/images/carreras/diseno.jpg",
+        image: "/images/sedeBarcelona/carreras/diseno.jpg",
         detail: "diseno",
         description: "",
         paragraph1:
@@ -325,7 +333,6 @@ export default {
           pensum: "pensum.pdf",
         },
       },
-    
   ]},
     testimonios: {active:true,testimonios_data:[
       {
@@ -334,7 +341,7 @@ export default {
         designation: "Programador",
         content:
           "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-        image: "/images/testimonials/auth-01.png",
+        image: "/images/sedeBarcelona/testimonials/auth-01.png",
         star: 5,
       },
       {
@@ -343,7 +350,7 @@ export default {
         designation: "Estudiante",
         content:
           "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-        image: "/images/testimonials/auth-02.png",
+        image: "/images/sedeBarcelona/testimonials/auth-02.png",
         star: 5,
       },
       {
@@ -352,7 +359,7 @@ export default {
         designation: "Profesor",
         content:
           "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-        image: "/images/testimonials/auth-03.png",
+        image: "/images/sedeBarcelona/testimonials/auth-03.png",
         star: 5,
       },
     ]},
@@ -363,10 +370,10 @@ export default {
         title: "Best UI components for modern websites",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
+          image: "/images/sedeBarcelona/blog/author-01.png",
           designation: "Graphic Designer",
         },
         tags: ["programación"],
@@ -383,10 +390,10 @@ export default {
         title: "9 simple ways to improve your design skills",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Musharof Chy",
-          image: "/images/blog/author-02.png",
+          image: "/images/sedeBarcelona/blog/author-02.png",
           designation: "Content Writer",
         },
         tags: ["computación"],
@@ -403,10 +410,10 @@ export default {
         title: "Tips to quickly improve your coding speed.",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Lethium Deo",
-          image: "/images/blog/author-03.png",
+          image: "/images/sedeBarcelona/blog/author-03.png",
           designation: "Graphic Designer",
         },
         tags: ["diseño"],
@@ -424,10 +431,10 @@ export default {
         title: "Material UI",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
+          image: "/images/sedeBarcelona/blog/author-01.png",
           designation: "Graphic Designer",
         },
         tags: ["programación"],
@@ -445,10 +452,10 @@ export default {
         title: "React",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
+          image: "/images/sedeBarcelona/blog/author-01.png",
           designation: "Graphic Designer",
         },
         tags: ["programación"],
@@ -465,10 +472,10 @@ export default {
         title: "JavaScript",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
+          image: "/images/sedeBarcelona/blog/author-01.png",
           designation: "Graphic Designer",
         },
         tags: ["programación"],
@@ -485,7 +492,7 @@ export default {
         title: "Typescript",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Samuyl Joshi",
           image: "/images/blog/author-01.png",
@@ -505,10 +512,10 @@ export default {
         title: "Linux",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
+          image: "/images/sedeBarcelona/blog/author-01.png",
           designation: "Graphic Designer",
         },
         tags: ["programación"],
@@ -525,10 +532,10 @@ export default {
         title: "Mac",
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
           name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
+          image: "/images/sedeBarcelona/blog/author-01.png",
           designation: "Graphic Designer",
         },
         tags: ["programación"],
@@ -693,12 +700,12 @@ export default {
           {
             id: 1,
             name: "Académica",
-            link: "/institucion/programas_de_orientación/academica",
+            link: "/sedes/barcelona/programas_de_orientación/academica",
           },
           {
             id: 2,
             name: "Vocacional y Psicológica",
-            link: "/institucion/programas_de_orientación/vocacional_psicológica",
+            link: "/sedes/barcelona/programas_de_orientación/vocacional_psicológica",
           },
         ],
       },
@@ -711,22 +718,21 @@ export default {
             id: 1,
             name: "Facebook",
             link: "https://www.facebook.com/psm.barcelona.10",
-            icon: "/images/Icon/facebook.svg",
+            icon: "/images/common/facebook.svg",
           },
           {
             id: 2,
             name: "Instagram",
             link: "https://www.instagram.com/psmcaracasoficial/",
-            icon: "/images/Icon/instagram.svg",
+            icon: "/images/common/instagram.svg",
           },
           {
             id: 3,
             name: "Twitter",
             link: "https://twitter.com/PSMSanCristobal",
-            icon: "/images/Icon/twitter.svg",
+            icon: "/images/common/twitter.svg",
           },
         ],
       },
     ]},
-  },
 };

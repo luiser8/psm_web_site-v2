@@ -10,9 +10,7 @@ import extensionMaturinData from "./sedesExtensionesData/extensionMaturinData"
 import extensionPuertoOrdazData from "./sedesExtensionesData/extensionPuertoOrdazData"
 import extensionPorlamarData from "./sedesExtensionesData/extensionPorlamarData"
 
-export default {
-  active: true,
-  data: [
+export default [
     {
       id: 1,
       name: "Sede Principal Barcelona",
@@ -80,5 +78,4 @@ export default {
       link: "porlamar",
       data:extensionPorlamarData
     },
-  ],
-};
+];

@@ -3,6 +3,7 @@ export default [
     id: 1,
     name: "Institución",
     link: "institucion",
+    image: "/images/common/logo/logo_nuevo.png",
     elements: [
       {
         id: 1,
@@ -141,19 +142,19 @@ export default [
         id: 1,
         name: "Facebook",
         link: "https://www.facebook.com/psm.barcelona.10",
-        icon: "/images/Icon/facebook.svg",
+        icon: "/images/common/Icon/facebook.svg",
       },
       {
         id: 2,
         name: "Instagram",
         link: "https://www.instagram.com/psmcaracasoficial/",
-        icon: "/images/Icon/instagram.svg",
+        icon: "/images/common/Icon/instagram.svg",
       },
       {
         id: 3,
         name: "Twitter",
         link: "https://twitter.com/PSMSanCristobal",
-        icon: "/images/Icon/twitter.svg",
+        icon: "/images/common/Icon/twitter.svg",
       },
     ],
   },

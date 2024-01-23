@@ -5,10 +5,10 @@ const newsData = [
     title: "Best UI components for modern websites",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/nacional/blog/author-01.png",
       designation: "Graphic Designer",
     },
     tags: ["programación"],
@@ -25,10 +25,10 @@ const newsData = [
     title: "9 simple ways to improve your design skills",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-      image: "/images/blog/new01.jpg",
+      image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
+      image: "/images/nacional/blog/author-02.png",
       designation: "Content Writer",
     },
     tags: ["computación"],
@@ -45,10 +45,10 @@ const newsData = [
     title: "Tips to quickly improve your coding speed.",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
+      image: "/images/nacional/blog/author-03.png",
       designation: "Graphic Designer",
     },
     tags: ["diseño"],
@@ -66,10 +66,10 @@ const newsData = [
     title: "Material UI",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/nacional/blog/author-01.png",
       designation: "Graphic Designer",
     },
     tags: ["programación"],
@@ -87,10 +87,10 @@ const newsData = [
     title: "React",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/nacional/blog/author-01.png",
       designation: "Graphic Designer",
     },
     tags: ["programación"],
@@ -107,10 +107,10 @@ const newsData = [
     title: "JavaScript",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/nacional/blog/author-01.png",
       designation: "Graphic Designer",
     },
     tags: ["programación"],
@@ -128,10 +128,10 @@ const newsData = [
     title: "Typescript",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/nacional/blog/author-01.png",
       designation: "Graphic Designer",
     },
     tags: ["programación"],
@@ -149,10 +149,10 @@ const newsData = [
     title: "Linux",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/nacional/blog/author-01.png",
       designation: "Graphic Designer",
     },
     tags: ["programación"],
@@ -170,10 +170,10 @@ const newsData = [
     title: "Mac",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/new01.jpg",
+    image: "/images/nacional/blog/new01.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/nacional/blog/author-01.png",
       designation: "Graphic Designer",
     },
     tags: ["programación"],

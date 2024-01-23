@@ -2,7 +2,7 @@ export default {
   active: true,
   title:
     "Sistema de Aprendizajes Interactivos a Distancia",
-  image: "/images/saia/saia_home.png",
+  image: "/images/nacional/saia/saia_home.png",
   description: "La Educación a Distancia es una modalidad de enseñanza - aprendizaje cuya característica principal es la separación física de los participantes y facilitadores, en la que las fases de interactividad y proactividad son realizadas mediante elementos impresos y/o electrónicos.",
   data:
     [
