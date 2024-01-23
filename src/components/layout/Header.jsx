@@ -1,10 +1,10 @@
 import { useEffect, useState, useRef } from "react";
 import menuData from "../../utils/mock/menuData";
+import headerData from "../../utils/mock/principalData/headerData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
 import { NavLink } from "react-router-dom";
 import DropDown from "./DropDown";
 import { useLocation } from "react-router-dom";
-import sedesData from "../../utils/mock/sedesData";
 
 const Header = () => {
   const location = useLocation();
@@ -58,7 +58,7 @@ const Header = () => {
                 } `}
               >
                 <img
-                  src="/images/logo/logo_nuevo.png"
+                  src={headerData[0].image}
                   alt="logo"
                   className="w-full object-fill dark:bg-white dark:rounded h-full"
                 />

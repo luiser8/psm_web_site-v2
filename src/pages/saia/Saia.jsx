@@ -57,7 +57,7 @@ const Saia = () => {
               Video: Instrucciones de como acceder a nuestro portal
             </h1>
             <div className="relative aspect-[77/40] items-center justify-center">
-              <img src="/images/video/video.jpg" alt="video image" />
+              <img src={componentSaiaData.videoImage} alt="video image" />
               <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                 <button
                   onClick={() => setOpen(true)}

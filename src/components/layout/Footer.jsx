@@ -19,7 +19,7 @@ const Footer = ({ name = "" }) => {
             <div className="mb-5 w-[140px] h-auto col-span-1 md:w-1/ md:mr-5">
               <NavLink to="/" className="mb-3 inline-block">
                 <img
-                  src="/images/logo/logo_nuevo.png"
+                  src={footerData[0].image}
                   alt="logo"
                   className="w-full  object-fill dark:bg-white dark:rounded"
                 />
