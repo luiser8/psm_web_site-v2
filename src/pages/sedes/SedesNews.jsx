@@ -6,7 +6,7 @@ const SedesNews = ({data}) => {
   return (
     <>
     {
-      data.active ? (
+      data?.active ? (
         <section id="blog" className="bg-white/5 py-16 w-full mx-auto">
       <div className="container">
         <SectionTitle
@@ -16,9 +16,7 @@ const SedesNews = ({data}) => {
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
-          {data
-            .noticias_data.filter((x) => x.principal === true)
-            .map((blog) => (
+          {data?.noticias_data.filter((x) => x.principal === true).map((blog) => (
               <div key={blog.id} className="w-full">
                 <SingleNews blog={blog} />
               </div>

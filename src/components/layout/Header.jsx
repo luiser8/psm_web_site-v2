@@ -206,7 +206,7 @@ const Header = () => {
                                       ? "Maturin"
                                       : location.pathname ===
                                           "/extension/puerto_ordaz"
-                                        ? "Puerto_ordaz"
+                                        ? "Puerto ordaz"
                                         : location.pathname ===
                                             "/extension/porlamar"
                                           ? "Porlamar"

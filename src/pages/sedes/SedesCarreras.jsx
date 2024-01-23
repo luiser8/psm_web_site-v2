@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 const SedesCarreras = ({data}) => {
   return (
     <>
-      {data.active ? (
+      {data?.active ? (
         <section id="carreras" className="relative z-0 h-auto sm:h-full mb-10 dark:bg-dark">
           <SectionTitle title="Carreras" center />
           <div className="w-full h-full">
@@ -45,7 +45,7 @@ const SedesCarreras = ({data}) => {
               modules={[Autoplay, Pagination, Navigation]}
               className=" w-[95%] overflow-hidden flex justify-center content-center  bg-transparent"
             >
-              {data.carreras_data?.map((carrera) => (
+              {data?.carreras_data.map((carrera) => (
                 <SwiperSlide
                   className=" my-10 overflow-hidden"
                   key={carrera.id}

@@ -340,7 +340,7 @@ export default {
         name: "Miguel Perez",
         designation: "Programador",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+          "“Mi experiencia en la universidad de tecnología ha sido increíble. Los profesores son expertos en sus campos y siempre están dispuestos a ayudar. Las instalaciones son de última generación y el ambiente es muy propicio para el aprendizaje. Estoy muy contento con mi decisión de estudiar aquí",
         image: "/images/sedeBarcelona/testimonials/auth-01.png",
         star: 5,
       },
@@ -349,7 +349,7 @@ export default {
         name: "Carlos Velásquez",
         designation: "Estudiante",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+          "La universidad me ha proporcionado una educación de calidad y una gran cantidad de oportunidades. He podido trabajar en proyectos de investigación de vanguardia y he aprendido habilidades prácticas que me serán útiles en mi carrera. Recomiendo encarecidamente esta universidad a cualquier persona interesada en la tecnología.",
         image: "/images/sedeBarcelona/testimonials/auth-02.png",
         star: 5,
       },
@@ -358,7 +358,7 @@ export default {
         name: "Jose Alberto",
         designation: "Profesor",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+          "Estudiar en la universidad ha sido una de las mejores decisiones que he tomado. La universidad ofrece una amplia gama de cursos y programas, lo que me ha permitido explorar diferentes áreas de la tecnología. Además, he hecho grandes amigos y he tenido experiencias inolvidables. Estoy muy agradecido por las oportunidades que me ha brindado esta universidad.",
         image: "/images/sedeBarcelona/testimonials/auth-03.png",
         star: 5,
       },
