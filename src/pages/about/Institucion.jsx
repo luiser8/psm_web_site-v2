@@ -1,6 +1,6 @@
 import React from 'react'
 import AccordionCustom from '../../components/common/AccordionCustom';
-import AboutData from "../../utils/mock/aboutData";
+import AboutData from "../../utils/mock/principalData/aboutData";
 import { Link } from 'react-router-dom';
 
 const Institucion = () => {

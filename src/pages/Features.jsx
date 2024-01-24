@@ -1,6 +1,6 @@
 import SectionTitle from "../components/common/SectionTitle";
 import SingleFeature from "../components/common/SingleFeature";
-import featuresData from "../utils/mock/featureData";
+import featuresData from "../utils/mock/principalData/featureData";
 
 const Features = () => {
   return (

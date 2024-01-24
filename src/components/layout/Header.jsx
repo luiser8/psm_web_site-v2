@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from "react";
 import { DataContext } from "../../utils/context/UseContextProvider";
-import menuData from "../../utils/mock/menuData";
+import menuData from "../../utils/mock/common/menuData";
 import headerData from "../../utils/mock/principalData/headerData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
 import { NavLink } from "react-router-dom";

@@ -1,6 +1,6 @@
 import React from "react";
 import onClickOutside from "react-onclickoutside";
-import SedesData from "../../utils/mock/sedesData";
+import SedesData from "../../utils/mock/principalData/sedesData";
 import { NavLink } from "react-router-dom";
 
 function DropDown({ open, setSedesOpen }) {

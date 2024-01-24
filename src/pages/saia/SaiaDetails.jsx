@@ -1,5 +1,5 @@
 import React from "react";
-import detallesSaiaData from "../../utils/mock/detallesSaiaData";
+import detallesSaiaData from "../../utils/mock/principalData/detallesSaiaData";
 import { NavLink as Link } from "react-router-dom";
 
 export default function SaiaDetails() {

@@ -1,7 +1,7 @@
 import { useState, createContext } from "react";
 import useLocalStorage from "./UseLocalStorage";
 import headerData from "../mock/principalData/headerData";
-import footerData from "../mock/principalData/footerData";
+import footerData from "../mock/common/footerData";
 
 export const DataContext = createContext(null);
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import MapaData from "../../utils/mock/mapaData";
+import MapaData from "../../utils/mock/principalData/mapaData";
 import { NavLink } from "react-router-dom";
 import SectionTitle from "../../components/common/SectionTitle";
 

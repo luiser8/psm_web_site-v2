@@ -1,14 +1,14 @@
-import sedeBarcelonaData from "./sedesExtensionesData/sedeBarcelonaData";
-import extensionMaracaiboData from "./sedesExtensionesData/extensionMaracaiboData";
-import extensionCabimasData from "./sedesExtensionesData/extensionCabimasData";
-import extensionciudadOjedaData from "./sedesExtensionesData/extensionCiudadOjedaData"
-import extensionBarinasdata from "./sedesExtensionesData/extensionBarinasData"
-import extensionSanCristobalData from "./sedesExtensionesData/extensionSanCristobalData"
-import extensionValenciaData from "./sedesExtensionesData/extensionValenciaData"
-import extensionMaracayData from "./sedesExtensionesData/extensionMaracayData"
-import extensionMaturinData from "./sedesExtensionesData/extensionMaturinData"
-import extensionPuertoOrdazData from "./sedesExtensionesData/extensionPuertoOrdazData"
-import extensionPorlamarData from "./sedesExtensionesData/extensionPorlamarData"
+import sedeBarcelonaData from "../sedesExtensionesData/sedeBarcelonaData";
+import extensionMaracaiboData from "../sedesExtensionesData/extensionMaracaiboData";
+import extensionCabimasData from "../sedesExtensionesData/extensionCabimasData";
+import extensionciudadOjedaData from "../sedesExtensionesData/extensionCiudadOjedaData"
+import extensionBarinasdata from "../sedesExtensionesData/extensionBarinasData"
+import extensionSanCristobalData from "../sedesExtensionesData/extensionSanCristobalData"
+import extensionValenciaData from "../sedesExtensionesData/extensionValenciaData"
+import extensionMaracayData from "../sedesExtensionesData/extensionMaracayData"
+import extensionMaturinData from "../sedesExtensionesData/extensionMaturinData"
+import extensionPuertoOrdazData from "../sedesExtensionesData/extensionPuertoOrdazData"
+import extensionPorlamarData from "../sedesExtensionesData/extensionPorlamarData"
 
 export default [
     {

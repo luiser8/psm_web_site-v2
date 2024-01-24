@@ -1,6 +1,6 @@
 import React from 'react';
 import AccordionCustom from '../../components/common/AccordionCustom';
-import faqData from '../../utils/mock/faqData';
+import faqData from '../../utils/mock/common/faqData';
 import { Link } from 'react-router-dom';
 
 const Faq = () => {

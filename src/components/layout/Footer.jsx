@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { DataContext } from "../../utils/context/UseContextProvider";
-import footerData from "../../utils/mock/principalData/footerData";
+import footerData from "../../utils/mock/common/footerData";
 
 const Footer = ({ name = "" }) => {
   const [footer, setFooter] = useState([]);

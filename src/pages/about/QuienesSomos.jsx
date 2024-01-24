@@ -1,5 +1,5 @@
 import React from "react";
-import QuienesSomosData from "../../utils/mock/quienesSomos";
+import QuienesSomosData from "../../utils/mock/principalData/quienesSomos";
 import { Link } from "react-router-dom";
 import SectionTitle from "../../components/common/SectionTitle";
 import TeamCustom from "../../components/common/TeamCustom";

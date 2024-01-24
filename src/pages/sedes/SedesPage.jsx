@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { DataContext } from "../../utils/context/UseContextProvider";
-import sedesData from "../../utils/mock/sedesData";
+import sedesData from "../../utils/mock/principalData/sedesData";
 import { useParams } from "react-router-dom";
 import SedesEvents from "./SedesEvents";
 import SedesCarreras from "./SedesCarreras";
