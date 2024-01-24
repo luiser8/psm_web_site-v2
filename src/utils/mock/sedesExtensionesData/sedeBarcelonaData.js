@@ -1,50 +1,38 @@
 export default {
-    active: true,
-    id: 1,
-    title: "Barcelona",
-    parameters: "barcelona",
-    header:{active:true, header_data:[
-      {
-        id: 1,
-        title: "La Institución",
-        path: "/institucion/acerca_de",
-        newTab: false,
-        active: true,
-      },
+  active: true,
+  id: 1,
+  title: "Barcelona",
+  parameters: "barcelona",
+  header: {
+    active: true, header_data: [
       {
         id: 2,
         title: "Quienes Somos",
-        path: "/institucion/quienes_somos",
+        path: "/sedes/barcelona/quienes_somos",
         newTab: false,
         active: true,
       },
       {
         id: 3,
         title: "Educación a distancia",
-        path: "/saia/detalles",
-        newTab: false,
-        active: true,
-      },
-      {
-        id: 4,
-        title: "Sede y extensiones",
-        path: "/",
+        path: "/sedes/barcelona/saia/detalles",
         newTab: false,
         active: true,
       },
       {
         id: 5,
         title: "Contáctenos",
-        path: "/institucion/planes_estudio",
+        path: "/sedes/barcelona/planes_estudio",
         newTab: false,
         active: true,
       },
-    ]},
-    carousel: {
-      active:true,
-      title: "Politécnico Santiago Mariño",
-      description: "",
-      carousel_data:[
+    ]
+  },
+  carousel: {
+    active: true,
+    title: "Politécnico Santiago Mariño",
+    description: "",
+    carousel_data: [
       {
         id: 0,
         url: "/images/sedeBarcelona/carousel/web4.jpg",
@@ -63,16 +51,20 @@ export default {
         target: "_blank",
         iframe: "",
       },
-    ]},
-    saia: {active:false,saia_data:[
+    ]
+  },
+  saia: {
+    active: false, saia_data: [
       {
         id: 0,
       },
       {
         id: 1,
       },
-    ]},
-    eventos: {active:true,eventos_data:[
+    ]
+  },
+  eventos: {
+    active: true, eventos_data: [
       {
         id: 1,
         image: "/images/sedeBarcelona/events/event_details.jpg",
@@ -81,8 +73,10 @@ export default {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       },
-    ]},
-    carreras: {active:true,carreras_data:[
+    ]
+  },
+  carreras: {
+    active: true, carreras_data: [
       {
         id: 1,
         name: "Arquitectura",
@@ -333,8 +327,10 @@ export default {
           pensum: "pensum.pdf",
         },
       },
-  ]},
-    testimonios: {active:true,testimonios_data:[
+    ]
+  },
+  testimonios: {
+    active: true, testimonios_data: [
       {
         id: 1,
         name: "Miguel Perez",
@@ -362,8 +358,10 @@ export default {
         image: "/images/sedeBarcelona/testimonials/auth-03.png",
         star: 5,
       },
-    ]},
-    noticias: {active:true,noticias_data:[
+    ]
+  },
+  noticias: {
+    active: true, noticias_data: [
       {
         id: 1,
         principal: true,
@@ -546,8 +544,10 @@ export default {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
         },
       },
-    ]},
-    inscripciones: {active:true,inscripciones_data:[
+    ]
+  },
+  inscripciones: {
+    active: true, inscripciones_data: [
       {
         id: 1,
         date: "10-12-2024",
@@ -574,9 +574,14 @@ export default {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
       },
-    ]},
-    footer: {active:true,footer_data:[
-      {
+    ]
+  },
+  footer: {
+    active: true,
+    id: 1,
+    image: "/images/common/logo/logo_nuevo.png",
+    footer_data: {
+      institucion: {
         id: 1,
         name: "Institución",
         link: "institucion",
@@ -584,99 +589,37 @@ export default {
           {
             id: 1,
             name: "Acerca de",
-            link: "/institucion/acerca_de",
+            link: "/sedes/barcelona/acerca_de",
           },
           {
             id: 2,
             name: "Quienes somos",
-            link: "/institucion/quienes_somos",
+            link: "/sedes/barcelona/quienes_somos",
           },
           {
             id: 3,
             name: "Planes de estudio",
-            link: "/institucion/planes_estudio",
+            link: "/sedes/barcelona/planes_estudio",
           },
           {
             id: 4,
             name: "Trabaja con nosotros",
-            link: "/institucion/empleo",
+            link: "/sedes/barcelona/empleo",
           },
           {
             id: 5,
             name: "Eventos",
-            link: "eventos",
+            link: "sedes/barcelona/eventos",
           },
           {
             id: 6,
             name: "FAQ",
-            link: "/institucion/faq",
+            link: "/sedes/barcelona/faq",
           },
         ],
       },
-      {
+      polizas_seguro: {
         id: 2,
-        name: "Nuestras sedes",
-        link: "sedes",
-        elements: [
-          {
-            id: 1,
-            name: "Maracaibo",
-            link: "maracaibo",
-          },
-          {
-            id: 2,
-            name: "Cabimas",
-            link: "cabimas",
-          },
-          {
-            id: 3,
-            name: "Ciudad Ojeda",
-            link: "ciudad_ojeda",
-          },
-          {
-            id: 4,
-            name: "Barinas",
-            link: "barinas",
-          },
-          {
-            id: 5,
-            name: "San Cristóbal",
-            link: "san_cristobal",
-          },
-          {
-            id: 6,
-            name: "Valencia",
-            link: "valencia",
-          },
-          {
-            id: 7,
-            name: "Maracay",
-            link: "maracay",
-          },
-          {
-            id: 8,
-            name: "Barcelona",
-            link: "barcelona",
-          },
-          {
-            id: 9,
-            name: "Maturin",
-            link: "maturin",
-          },
-          {
-            id: 10,
-            name: "Puerto Ordaz",
-            link: "puerto_ordaz",
-          },
-          {
-            id: 11,
-            name: "Porlamar",
-            link: "porlamar",
-          },
-        ],
-      },
-      {
-        id: 3,
         name: "Pólizas de seguro",
         link: "seguro",
         elements: [
@@ -692,25 +635,25 @@ export default {
           },
         ],
       },
-      {
-        id: 4,
+      programas_de_orientacion: {
+        id: 3,
         name: "Programas de orientación",
         link: "programas",
         elements: [
           {
             id: 1,
             name: "Académica",
-            link: "/sedes/barcelona/programas_de_orientación/academica",
+            link: "/institucion/programas_de_orientación/academica",
           },
           {
             id: 2,
             name: "Vocacional y Psicológica",
-            link: "/sedes/barcelona/programas_de_orientación/vocacional_psicológica",
+            link: "/institucion/programas_de_orientación/vocacional_psicológica",
           },
         ],
       },
-      {
-        id: 5,
+      social_networks: {
+        id: 4,
         name: "Politécnico Santiago Mariño.",
         link: "",
         elements: [
@@ -718,21 +661,22 @@ export default {
             id: 1,
             name: "Facebook",
             link: "https://www.facebook.com/psm.barcelona.10",
-            icon: "/images/common/facebook.svg",
+            icon: "/images/common/Icon/facebook.svg",
           },
           {
             id: 2,
             name: "Instagram",
             link: "https://www.instagram.com/psmcaracasoficial/",
-            icon: "/images/common/instagram.svg",
+            icon: "/images/common/Icon/instagram.svg",
           },
           {
             id: 3,
             name: "Twitter",
             link: "https://twitter.com/PSMSanCristobal",
-            icon: "/images/common/twitter.svg",
+            icon: "/images/common/Icon/twitter.svg",
           },
         ],
       },
-    ]},
+    },
+  },
 };

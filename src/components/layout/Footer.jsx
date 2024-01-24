@@ -1,12 +1,27 @@
-import footerData from "../../utils/mock/footerData";
-import { NavLink } from "react-router-dom";
+import { useEffect, useState, useContext } from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import { DataContext } from "../../utils/context/UseContextProvider";
+import footerData from "../../utils/mock/principalData/footerData";
 
 const Footer = ({ name = "" }) => {
+  const [footer, setFooter] = useState([]);
+  const { getFooter } = useContext(DataContext);
+  const location = useLocation();
+
   const year = new Date();
-  const institution = footerData.find((x) => x.id === 1);
-  const poliza = footerData.find((x) => x.id === 3);
-  const orientacion = footerData.find((x) => x.id === 4);
-  const socialNetworks = footerData.find((x) => x.id === 5);
+
+  const resetDefaultFooter = () => {
+    if (location.pathname === "/"){
+      setFooter(footerData);
+    } else {
+      setFooter(getFooter());
+    }
+  }
+
+  useEffect(() => {
+    resetDefaultFooter();
+    return () => { setFooter([]) }
+  }, [location.pathname]);
 
   return (
     <>
@@ -19,14 +34,15 @@ const Footer = ({ name = "" }) => {
             <div className="mb-5 w-[140px] h-auto col-span-1 md:w-1/ md:mr-5">
               <NavLink to="/" className="mb-3 inline-block">
                 <img
-                  src={footerData[0].image}
+                  src={footer.image}
                   alt="logo"
                   className="w-full  object-fill dark:bg-white dark:rounded"
                 />
               </NavLink>
 
               <div className="flex items-center w-full gap-x-4">
-                {socialNetworks.elements.map((element, index) => (
+                {footer.footer_data?.social_networks.elements.length !== 0 ? <>
+                {footer.footer_data?.social_networks?.elements.map((element, index) => (
                   <div key={element.id}>
                     <a
                       className="mr-6 text-gray-800  hover:text-primary dark:text-white dark:hover:text-primary transition-all ease-linear "
@@ -80,16 +96,18 @@ const Footer = ({ name = "" }) => {
                     </a>
                   </div>
                 ))}
+                </> : <></>}
+
               </div>
             </div>
 
             <div className="w-full px-4 col-span-1 md:w-1/2 ">
               <div className="mb-5 lg:mb-16">
                 <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
-                  {institution.name}
+                  {footer.footer_data?.institucion.name}
                 </h2>
                 <ul>
-                  {institution.elements.map((item) => (
+                  {footer.footer_data?.institucion.elements.map((item) => (
                     <li key={item.id}>
                       <NavLink
                         to={item.link}
@@ -103,34 +121,13 @@ const Footer = ({ name = "" }) => {
               </div>
             </div>
 
-            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 ">
-              <div className="mb-5 lg:mb-16">
-                <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
-                  {sede.name}
-                </h2>
-
-                <ul>
-                  {sede.elements.map((item) => (
-                    <li key={item.id}>
-                      <a
-                        href={item.link}
-                        className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary text-start"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div> */}
-
             <div className="w-full col-span-1 px-4 md:w-1/2 ">
               <div className="mb-5 lg:mb-16">
                 <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base ">
-                  {poliza.name}
+                  {footer.footer_data?.polizas_seguro.name}
                 </h2>
                 <ul>
-                  {poliza.elements.map((item) => (
+                  {footer.footer_data?.polizas_seguro.elements.map((item) => (
                     <li key={item.id}>
                       <NavLink
                         to={item.link}
@@ -147,11 +144,11 @@ const Footer = ({ name = "" }) => {
             <div className="w-full col-span-1 px-4 md:w-1/2">
               <div className="mb-8 lg:mb-16">
                 <h2 className="mb-3 md:5 text-xl font-bold text-black dark:text-white   text-start md:text-base">
-                  {orientacion.name}
+                  {footer.footer_data?.programas_de_orientacion.name}
                 </h2>
                 {
                   <ul>
-                    {orientacion.elements.map((item) => (
+                    {footer.footer_data?.programas_de_orientacion.elements.map((item) => (
                       <li key={item.id}>
                         <NavLink
                           to={item.link}
