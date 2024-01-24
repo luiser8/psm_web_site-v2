@@ -196,7 +196,7 @@ const Header = () => {
                 >
                   Registrarse
                 </a> */}
-                <div>
+                <div className="hidden xl:block xl:mx-10">
                   <h1
                     className={
                       "flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 uppercase"
