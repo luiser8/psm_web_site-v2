@@ -1,5 +1,5 @@
 import React from "react";
-import VocationalData from "../../utils/mock/vocationalData";
+import VocationalData from "../../utils/mock/principalData/vocationalData";
 import SectionTitle from "../../components/common/SectionTitle";
 import { Link } from "react-router-dom";
 

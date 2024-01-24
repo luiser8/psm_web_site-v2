@@ -1,5 +1,6 @@
-import { useEffect, useState, useRef } from "react";
-import menuData from "../../utils/mock/menuData";
+import { useEffect, useState, useContext } from "react";
+import { DataContext } from "../../utils/context/UseContextProvider";
+import menuData from "../../utils/mock/common/menuData";
 import headerData from "../../utils/mock/principalData/headerData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
 import { NavLink } from "react-router-dom";
@@ -7,6 +8,8 @@ import DropDown from "./DropDown";
 import { useLocation } from "react-router-dom";
 
 const Header = () => {
+  const [header, setHeader] = useState([]);
+  const { getHeader } = useContext(DataContext);
   const location = useLocation();
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -28,6 +31,19 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
   }, []);
+
+  const resetDefaultHeader = () => {
+    if (location.pathname === "/"){
+      setHeader(headerData.header_data);
+    } else {
+      setHeader(getHeader().header_data);
+    }
+  }
+
+  useEffect(() => {
+    resetDefaultHeader();
+    return () => { setHeader([]) }
+  }, [location.pathname]);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -58,7 +74,7 @@ const Header = () => {
                 } `}
               >
                 <img
-                  src={headerData[0].image}
+                  src={headerData.image}
                   alt="logo"
                   className="w-full object-fill dark:bg-white dark:rounded h-full"
                 />
@@ -97,7 +113,7 @@ const Header = () => {
                   } `}
                 >
                   <ul className="block xl:flex xl:space-x-12">
-                    {menuData.filter(x => x.active).map((menuItem, index) => (
+                    {header.filter(x => x.active).map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <div className="flex flex-row gap-x-2">

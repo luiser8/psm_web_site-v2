@@ -1,5 +1,5 @@
 import react from "react";
-import countryCodesMock from "../../utils/mock/countryCodesMock";
+import countryCodesData from "../../utils/mock/common/countryCodesData";
 import { NavLink as Link } from "react-router-dom";
 import SectionTitle from "../../components/common/SectionTitle";
 
@@ -75,7 +75,7 @@ const Contact = () => {
                             name="currency"
                             className="h-auto w-24 text-xs rounded-md border-none pl-1 sm:pl-2 border-primary border-4 bg-transparent text-body-color placeholder-body-color  focus:border-none sm:text-sm outline-none"
                           >
-                            {countryCodesMock.map((item, index) => (
+                            {countryCodesData.map((item, index) => (
                               <option
                                 className="text-xs w-14"
                                 value={item.name}
