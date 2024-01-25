@@ -4,7 +4,8 @@ export default {
   title: "Barcelona",
   parameters: "barcelona",
   header: {
-    active: true, header_data: [
+    active: true,
+    header_data: [
       {
         id: 2,
         title: "Quienes Somos",
@@ -26,7 +27,7 @@ export default {
         newTab: false,
         active: true,
       },
-    ]
+    ],
   },
   carousel: {
     active: true,
@@ -51,20 +52,22 @@ export default {
         target: "_blank",
         iframe: "",
       },
-    ]
+    ],
   },
   saia: {
-    active: false, saia_data: [
+    active: false,
+    saia_data: [
       {
         id: 0,
       },
       {
         id: 1,
       },
-    ]
+    ],
   },
   eventos: {
-    active: true, eventos_data: [
+    active: true,
+    eventos_data: [
       {
         id: 1,
         image: "/images/sedeBarcelona/events/event_details.jpg",
@@ -73,10 +76,11 @@ export default {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       },
-    ]
+    ],
   },
   carreras: {
-    active: true, carreras_data: [
+    active: true,
+    carreras_data: [
       {
         id: 1,
         name: "Arquitectura",
@@ -335,10 +339,11 @@ export default {
           pensum: "pensum.pdf",
         },
       },
-    ]
+    ],
   },
   testimonios: {
-    active: true, testimonios_data: [
+    active: true,
+    testimonios_data: [
       {
         id: 1,
         name: "Miguel Perez",
@@ -366,10 +371,12 @@ export default {
         image: "/images/sedeBarcelona/testimonials/auth-03.png",
         star: 5,
       },
-    ]
+    ],
   },
   noticias: {
-    active: true, path: "/barcelona/noticias", noticias_data: [
+    active: true,
+    path: "/barcelona/noticias",
+    noticias_data: [
       {
         id: 1,
         principal: true,
@@ -552,10 +559,11 @@ export default {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
         },
       },
-    ]
+    ],
   },
   inscripciones: {
-    active: true, inscripciones_data: [
+    active: true,
+    inscripciones_data: [
       {
         id: 1,
         date: "10-12-2024",
@@ -582,7 +590,7 @@ export default {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
       },
-    ]
+    ],
   },
   quienes_somos: {
     active: true,
@@ -592,17 +600,22 @@ export default {
       title: "Politécnico Santiago Mariño",
       about_us: {
         title: "¿Quienes Somos?",
-        description1: "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
-        description2: "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
-        description3: "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",
+        description1:
+          "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
+        description2:
+          "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
+        description3:
+          "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",
       },
       additional_data: {
         mission_and_vision: {
           title: "Misión y Visión",
           subtitle1: "Misión",
-          description1: "Formar profesionales de elevada calidad que respondan a las necesidades del país y a los cambios que éste demande; fomentar la investigación, así como promover actividades que propicien la correspondiente integración e interrelación de la institución y la comunidad a objeto de elevar el nivel cultural, afianzar valores, favorecer el bienestar, para así contribuir al enriquecimiento de la calidad de vida.",
+          description1:
+            "Formar profesionales de elevada calidad que respondan a las necesidades del país y a los cambios que éste demande; fomentar la investigación, así como promover actividades que propicien la correspondiente integración e interrelación de la institución y la comunidad a objeto de elevar el nivel cultural, afianzar valores, favorecer el bienestar, para así contribuir al enriquecimiento de la calidad de vida.",
           subtitle2: "Visión",
-          description2: "Constituirse en una institución de educación superior signada por la excelencia, que contribuya al desarrollo cultural, científico, humanístico y tecnológico del país y a la consolidación de los valores fundamentales de la sociedad enmarcados en el contexto nacional, latinoamericano y mundial.",
+          description2:
+            "Constituirse en una institución de educación superior signada por la excelencia, que contribuya al desarrollo cultural, científico, humanístico y tecnológico del país y a la consolidación de los valores fundamentales de la sociedad enmarcados en el contexto nacional, latinoamericano y mundial.",
         },
         authorities: {
           title: "Autoridades",
@@ -611,39 +624,54 @@ export default {
               id: 1,
               names: "Arq. Dorelis Marquez",
               position: "Coordinadora Extensión",
-              photo: "/images/sedeBarcelona/about/autoridad1.jpg"
+              photo: "/images/sedeBarcelona/about/autoridad1.jpg",
             },
             {
               id: 2,
               names: "Ing. Elisa Pimentel",
               position: "Coordinadora Académica",
-              photo: "/images/sedeBarcelona/about/autoridad2.jpg"
+              photo: "/images/sedeBarcelona/about/autoridad2.jpg",
             },
             {
               id: 3,
               names: "Lcdo. Xavier Yendy",
               position: "Administrador",
-              photo: "/images/sedeBarcelona/about/autoridad3.jpg"
+              photo: "/images/sedeBarcelona/about/autoridad3.jpg",
             },
             {
               id: 4,
               names: "Lcda. Corina Cotoret",
               position: "Jefe de Personal",
-              photo: "/images/sedeBarcelona/about/autoridad4.jpg"
+              photo: "/images/sedeBarcelona/about/autoridad4.jpg",
             },
             {
               id: 5,
               names: "Lcda. Glormary Requena",
               position: "Jefe de Control de Estudios",
-              photo: "/images/sedeBarcelona/about/autoridad5.jpg"
+              photo: "/images/sedeBarcelona/about/autoridad5.jpg",
             },
-          ]
+          ],
         },
       },
       subtitle: "",
       image: "/images/sedeBarcelona/about/sede.jpeg",
-      description:
-        "",
+      description: "",
+    },
+  },
+  contacto: {
+    active: true,
+    title: "Contactanos",
+    descripcion:
+      "Información de contacto acerca de las carreras y planes de estudio",
+    contacto_data: {
+      telefono: "0424-7788865",
+      direccion:
+        "5838+QQM Universidad Santiago Mariño Sede 2, Av. Guzmán Lander, Barcelona 6001, Anzoátegui",
+      correo: "politecnicosantiagomariño@gmail.com",
+      redes: {
+        facebook: "PSM facebook",
+        instagram: "@Psm instagram",
+      },
     },
   },
   footer: {

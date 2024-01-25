@@ -19,6 +19,7 @@ import SedesPage from "../../pages/sedes/SedesPage";
 import QuienesSomos from "../../pages/about/QuienesSomos";
 import Institucion from "../../pages/about/Institucion";
 import Faq from "../../pages/faq/Faq";
+import { SedesContact } from "../../pages/sedes/SedesContact";
 
 export default function RoutesCustom() {
   const location = useLocation();
@@ -63,7 +64,7 @@ export default function RoutesCustom() {
 
     {
       path: "/:id/contactos",
-      element: <Contact />,
+      element: location.pathname.includes("nacional") ? <Contact/> : <SedesContact/>,
     },
     {
       path: "/:id/polizas/accidentes_personales",
@@ -95,6 +96,7 @@ export default function RoutesCustom() {
       path: "/:id/quienes_somos",
       element: <QuienesSomos />,
     },
+   
     {
       path: "/:id/faq",
       element: <Faq />,
