@@ -584,6 +584,92 @@ export default {
       },
     ]
   },
+  quienes_somos: {
+    active: true,
+    id: 1,
+    quienes_somos_data: {
+      name: "Quienes Somos",
+      title: "Politécnico Santiago Mariño",
+      about_us: {
+        title: "¿Quienes Somos?",
+        description1: "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
+        description2: "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
+        description3: "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",
+      },
+      additional_data: {
+        mission_and_vision: {
+          title: "Misión y Visión",
+          subtitle1: "Misión",
+          description1: "Formar profesionales de elevada calidad que respondan a las necesidades del país y a los cambios que éste demande; fomentar la investigación, así como promover actividades que propicien la correspondiente integración e interrelación de la institución y la comunidad a objeto de elevar el nivel cultural, afianzar valores, favorecer el bienestar, para así contribuir al enriquecimiento de la calidad de vida.",
+          subtitle2: "Visión",
+          description2: "Constituirse en una institución de educación superior signada por la excelencia, que contribuya al desarrollo cultural, científico, humanístico y tecnológico del país y a la consolidación de los valores fundamentales de la sociedad enmarcados en el contexto nacional, latinoamericano y mundial.",
+        },
+        authorities: {
+          title: "Autoridades",
+          data: [
+            {
+              id: 1,
+              names: "Arq. Jumer Aponte",
+              position: "Coordinadora Extensión",
+              photo: "/images/extensionCiudadOjeda/about/autoridad1.jpg"
+            },
+            {
+              id: 2,
+              names: "Lcda. Maryory Cabarcas",
+              position: "Jefe de Administracion",
+              photo: "/images/extensionCiudadOjeda/about/autoridad2.jpg"
+            },
+            {
+              id: 3,
+              names: "Msc. Onelsis Manzano",
+              position: "Jefe de Admision y Control de Estudios",
+              photo: "/images/extensionCiudadOjeda/about/autoridad3.jpg"
+            },
+            {
+              id: 4,
+              names: "Ing. Yelitza Romero",
+              position: "Jefe de Dpto SAIA",
+              photo: "/images/extensionCiudadOjeda/about/autoridad4.jpg"
+            },
+            {
+              id: 5,
+              names: "Ing. Cruz Turipe ",
+              position: "Jefe de Escuela Arquitectura e Ing Civil",
+              photo: "/images/extensionCiudadOjeda/about/autoridad5.jpg"
+            },
+            {
+              id: 6,
+              names: "Ing. Aldo Antoniolo",
+              position: "Jefe de Escuela Ing Electrica Electronica y de Sistemas",
+              photo: "/images/extensionCiudadOjeda/about/autoridad6.jpg"
+            },
+            {
+              id: 7,
+              names: "Ing. Yris Torrealba",
+              position: "Jefe de Escuela Ing Industrial Mtto Mecanico y Diseño Industrial",
+              photo: "/images/extensionCiudadOjeda/about/autoridad7.jpg"
+            },
+            {
+              id: 8,
+              names: "Msc. Migdalys Perez",
+              position: "Jefe de Extension Universitaria",
+              photo: "/images/extensionCiudadOjeda/about/autoridad8.jpg"
+            },
+            {
+              id: 9,
+              names: "Esp. Hugo Melo",
+              position: "Tecnologia Educativa",
+              photo: "/images/extensionCiudadOjeda/about/autoridad9.jpg"
+            }
+          ]
+        },
+      },
+      subtitle: "",
+      image: "/images/extensionCiudadOjeda/about/sede.jpg",
+      description:
+        "",
+    },
+  },
   footer: {
     active: true,
     id: 1,
