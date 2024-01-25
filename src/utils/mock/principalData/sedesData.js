@@ -40,7 +40,6 @@ export default [
       name: "Extensión Barinas",
       link: "barinas",
       data:extensionBarinasdata
-
     },
     {
       id: 6,

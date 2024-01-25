@@ -4,7 +4,7 @@ import SectionTitle from "../../components/common/SectionTitle";
 import eventosData from "../../utils/mock/principalData/eventosData";
 
 export default function EventsPrincipal() {
-  const eventPrincipal = eventosData.data.find((x) => x.active === true);
+  const eventPrincipal = eventosData.eventos_data.find((x) => x.active === true);
 
   return (
     <>

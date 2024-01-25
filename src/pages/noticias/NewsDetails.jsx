@@ -7,7 +7,7 @@ export default function NewsDetails() {
   let newsId = useParams();
   const [news, setNews] = useState({});
   const filterNews = (id) => {
-    let list = newsData.find((x) => x.id === id);
+    let list = newsData.noticias_data.find((x) => x.id === id);
     setNews(list);
   };
 

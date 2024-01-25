@@ -25,11 +25,7 @@ function DropDown({ open, setSedesOpen }) {
                 >
                   <NavLink
                     onClick={() => setSedesOpen(!open)}
-                    to={
-                      item.name.includes("Sede")
-                        ? `/sedes/${item.link}`
-                        : `/extension/${item.link}`
-                    }
+                    to={item.link}
                     className={
                       "py-2 text- lg:text-lg text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                     }

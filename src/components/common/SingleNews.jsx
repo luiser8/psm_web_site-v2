@@ -1,6 +1,6 @@
 import { NavLink as Link } from "react-router-dom";
 
-const SingleNews = ({ blog }) => {
+const SingleNews = ({ blog, detail }) => {
   const { title, image, paragraph, author, tags, publishDate,id } = blog;
   return (
     <>
@@ -17,7 +17,7 @@ const SingleNews = ({ blog }) => {
         </div>
 
         <div className="p-6 sm:p-8 md:py-4 md:px-6 lg:p-8 xl:py-4 xl:px-5 2xl:p-8">
-          <Link to={`/noticias/${id}`}>
+          <Link to={`${detail}/${id}`}>
             <span
               className="inline-block rounded-full bg-grey py-2 px-4 text-sm font-semibold capitalize text-white"
             >
@@ -26,7 +26,7 @@ const SingleNews = ({ blog }) => {
           </Link>
           <h3>
             <Link
-              to={`/noticias/${id}`}
+              to={`${detail}/${id}`}
               className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-2xl dark:hover:text-primary"
             >
               {title}

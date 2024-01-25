@@ -3,7 +3,7 @@ export default [
         id: 1,
         name: "Sistema de Aprendizajes Interactivos a Distancia",
         image: "/assets/saia/student_pc.jpg",
-        detail: "saia",
+        detail: "/nacional/saia",
         url: "https://saia2.psm.edu.ve",
         description_1: "La Educación a Distancia es una modalidad de enseñanza - aprendizaje cuya característica principal es la separación física de los participantes y facilitadores, en la que las fases de interactividad y proactividad son realizadas mediante elementos impresos y/o electrónicos.",
         description_2: {
