@@ -616,25 +616,25 @@ export default {
             {
               id: 2,
               names: "Ing. Elisa Pimentel",
-              position: "Sub-Directora Académica",
+              position: "Coordinadora Académica",
               photo: "/images/sedeBarcelona/about/autoridad2.jpg"
             },
             {
               id: 3,
-              names: "Nombres completos",
-              position: "Jefe de División de Administración",
+              names: "Lcdo. Xavier Yendy",
+              position: "Administrador",
               photo: "/images/sedeBarcelona/about/autoridad3.jpg"
             },
             {
               id: 4,
-              names: "Nombres completos",
-              position: "Jefe de División de Personal",
+              names: "Lcda. Corina Cotoret",
+              position: "Jefe de Personal",
               photo: "/images/sedeBarcelona/about/autoridad4.jpg"
             },
             {
               id: 5,
-              names: "Nombres completos",
-              position: "Jefe de Admision y Control de Estudios",
+              names: "Lcda. Glormary Requena",
+              position: "Jefe de Control de Estudios",
               photo: "/images/sedeBarcelona/about/autoridad5.jpg"
             },
           ]
