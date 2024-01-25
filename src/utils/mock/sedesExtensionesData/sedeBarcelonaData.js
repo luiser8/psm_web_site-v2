@@ -8,21 +8,21 @@ export default {
       {
         id: 2,
         title: "Quienes Somos",
-        path: "/sedes/barcelona/quienes_somos",
+        path: "/barcelona/quienes_somos",
         newTab: false,
         active: true,
       },
       {
         id: 3,
         title: "Educación a distancia",
-        path: "/sedes/barcelona/saia/detalles",
+        path: "/barcelona/saia/detalles",
         newTab: false,
         active: true,
       },
       {
         id: 5,
         title: "Contáctenos",
-        path: "/sedes/barcelona/planes_estudio",
+        path: "/barcelona/contactos",
         newTab: false,
         active: true,
       },
@@ -68,7 +68,7 @@ export default {
       {
         id: 1,
         image: "/images/sedeBarcelona/events/event_details.jpg",
-        title: "Congreso Estudiantil",
+        title: "Expo Puentes",
         date: "12/05/2024",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -82,6 +82,7 @@ export default {
         name: "Arquitectura",
         image: "/images/sedeBarcelona/carreras/arquitectura.jpg",
         detail: "arquitectura",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La función básica del arquitecto es la creación de espacios que den respuestas a las necesidades del hombre y su entorno, partiendo tanto de condiciones de índole cultural como físicas, contribuyendo a elevar su calidad de vida. La Carrera de Arquitecto busca formar hombres capacitados para coadyuvar a la solución de los espacios habitables del hombre, mediante la adecuada solución de los problemas espaciales y la selección de los materiales adecuados al medio ambiente en el cual se desarrolla.",
@@ -114,6 +115,7 @@ export default {
         name: "Ingeniería Civil",
         image: "/images/sedeBarcelona/carreras/civil.jpg",
         detail: "civil",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La carrera de Ingeniería Civil es la disciplina que le permite al hombre transformar y preservar el medio ambiente en beneficio de la sociedad.",
@@ -143,6 +145,7 @@ export default {
         name: "Ingeniería Eléctrica",
         image: "/images/sedeBarcelona/carreras/electrica.jpg",
         detail: "electrica",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La Ingeniería Eléctrica representa un campo de rápida expansión en el que continuamente se desarrollan nuevas y atractivas áreas, mientras que aquellas consideradas tradicionales encuentran día a día nuevas aplicaciones.",
@@ -174,6 +177,7 @@ export default {
         name: "Ingeniería Electrónica",
         image: "/images/sedeBarcelona/carreras/electronica.jpg",
         detail: "electronica",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La carrera de Ingeniería Electrónica se orienta a la formación de profesionales cuya labor se basa en el desarrollo de la Tecnología Digital y aplicación inmediata a la Telemática (conjunto de métodos, técnicas y servicios que resultan del uso conjunto de la información y las telecomunicaciones).",
@@ -205,6 +209,7 @@ export default {
         name: "Ingeniería Industrial",
         image: "/images/sedeBarcelona/carreras/industrial.jpg",
         detail: "industrial",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La carrera de Ingeniería Industrial busca formar recursos humanos para desempeñarse en la industria y en otras instituciones en las que se requiera de conocimientos relacionados con el diseño, la instalación y el mejoramiento operacional de sistemas integrados de equipos, materiales y personas.",
@@ -238,6 +243,7 @@ export default {
         name: "Ingeniería en Mantenimiento Mecánico",
         image: "/images/sedeBarcelona/carreras/mantenimiento.jpg",
         detail: "mantenimiento",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La Ingeniería en Mantenimiento Mecánico es calificada como una de las de mayor demanda en Venezuela, por cuanto la infraestructura de los equipos y maquinarias del parque industrial de la nación requiere de especialistas en mantenimiento profesionales capaces no sólo de adaptarse a los constantes cambios tecnológicos, sino también de participar activamente en la eficiente evolución y productividad empresarial.",
@@ -268,6 +274,7 @@ export default {
         name: "Ingeniería de Sistemas",
         image: "/images/sedeBarcelona/carreras/sistemas.jpg",
         detail: "sistemas",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La ingeniería de sistemas es un modo de enfoque interdisciplinario que permite estudiar y comprender la realidad, con el propósito de implementar u optimizar sistemas complejos.",
@@ -300,6 +307,7 @@ export default {
         name: "Ingeniería de Diseño Industrial",
         image: "/images/sedeBarcelona/carreras/diseno.jpg",
         detail: "diseno",
+        path: "/barcelona",
         description: "",
         paragraph1:
           "La función básica del arquitecto es la creación de espacios que den respuestas a las necesidades del hombre y su entorno, partiendo tanto de condiciones de índole cultural como físicas, contribuyendo a elevar su calidad de vida.",
@@ -361,7 +369,7 @@ export default {
     ]
   },
   noticias: {
-    active: true, noticias_data: [
+    active: true, path: "/barcelona/noticias", noticias_data: [
       {
         id: 1,
         principal: true,
@@ -576,6 +584,68 @@ export default {
       },
     ]
   },
+  quienes_somos: {
+    active: true,
+    id: 1,
+    quienes_somos_data: {
+      name: "Quienes Somos",
+      title: "Politécnico Santiago Mariño",
+      about_us: {
+        title: "¿Quienes Somos?",
+        description1: "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
+        description2: "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
+        description3: "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",
+      },
+      additional_data: {
+        mission_and_vision: {
+          title: "Misión y Visión",
+          subtitle1: "Misión",
+          description1: "Formar profesionales de elevada calidad que respondan a las necesidades del país y a los cambios que éste demande; fomentar la investigación, así como promover actividades que propicien la correspondiente integración e interrelación de la institución y la comunidad a objeto de elevar el nivel cultural, afianzar valores, favorecer el bienestar, para así contribuir al enriquecimiento de la calidad de vida.",
+          subtitle2: "Visión",
+          description2: "Constituirse en una institución de educación superior signada por la excelencia, que contribuya al desarrollo cultural, científico, humanístico y tecnológico del país y a la consolidación de los valores fundamentales de la sociedad enmarcados en el contexto nacional, latinoamericano y mundial.",
+        },
+        authorities: {
+          title: "Autoridades",
+          data: [
+            {
+              id: 1,
+              names: "Arq. Dorelis Marquez",
+              position: "Coordinadora Extensión",
+              photo: "/images/sedeBarcelona/about/autoridad1.jpg"
+            },
+            {
+              id: 2,
+              names: "Ing. Elisa Pimentel",
+              position: "Sub-Directora Académica",
+              photo: "/images/sedeBarcelona/about/autoridad2.jpg"
+            },
+            {
+              id: 3,
+              names: "Nombres completos",
+              position: "Jefe de División de Administración",
+              photo: "/images/sedeBarcelona/about/autoridad3.jpg"
+            },
+            {
+              id: 4,
+              names: "Nombres completos",
+              position: "Jefe de División de Personal",
+              photo: "/images/sedeBarcelona/about/autoridad4.jpg"
+            },
+            {
+              id: 5,
+              names: "Nombres completos",
+              position: "Jefe de Admision y Control de Estudios",
+              photo: "/images/sedeBarcelona/about/autoridad5.jpg"
+            },
+          ]
+        },
+      },
+      subtitle: "",
+      image: "/images/sedeBarcelona/about/sede.jpeg",
+      description:
+        "",
+    },
+  },
   footer: {
     active: true,
     id: 1,
@@ -589,32 +659,32 @@ export default {
           {
             id: 1,
             name: "Acerca de",
-            link: "/sedes/barcelona/acerca_de",
+            link: "/barcelona/acerca_de",
           },
           {
             id: 2,
             name: "Quienes somos",
-            link: "/sedes/barcelona/quienes_somos",
+            link: "/barcelona/quienes_somos",
           },
           {
             id: 3,
             name: "Planes de estudio",
-            link: "/sedes/barcelona/planes_estudio",
+            link: "/barcelona/contactos",
           },
           {
             id: 4,
             name: "Trabaja con nosotros",
-            link: "/sedes/barcelona/empleo",
+            link: "/barcelona/empleo",
           },
           {
             id: 5,
             name: "Eventos",
-            link: "sedes/barcelona/eventos",
+            link: "/barcelona/eventos",
           },
           {
             id: 6,
             name: "FAQ",
-            link: "/sedes/barcelona/faq",
+            link: "/barcelona/faq",
           },
         ],
       },
@@ -626,12 +696,12 @@ export default {
           {
             id: 1,
             name: "Accidentes personales",
-            link: "/institucion/polizas/accidentes_personales",
+            link: "/barcelona/polizas/accidentes_personales",
           },
           {
             id: 2,
             name: "Programa de culminación de estudios",
-            link: "/institucion/polizas/programa_de_culminación",
+            link: "/barcelona/polizas/programa_de_culminación",
           },
         ],
       },
@@ -643,12 +713,12 @@ export default {
           {
             id: 1,
             name: "Académica",
-            link: "/institucion/programas_de_orientación/academica",
+            link: "/barcelona/programas_de_orientación/academica",
           },
           {
             id: 2,
             name: "Vocacional y Psicológica",
-            link: "/institucion/programas_de_orientación/vocacional_psicológica",
+            link: "/barcelona/programas_de_orientación/vocacional_psicológica",
           },
         ],
       },

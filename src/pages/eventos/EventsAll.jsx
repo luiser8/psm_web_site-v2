@@ -7,7 +7,7 @@ import Pagination from "../../components/layout/Pagination";
 
 export default function EventsAll() {
   const eventsPerPage = 6;
-  const otherEvents = eventosData.data.filter((x) => x.active === false);
+  const otherEvents = eventosData.eventos_data.filter((x) => x.active === true);
   const [pages, setPages] = useState([...otherEvents].slice(0, eventsPerPage));
   const [currentPage, setCurrentPage] = useState(0);
   const [disable, setDisable] = useState(false);
@@ -47,7 +47,7 @@ export default function EventsAll() {
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 md:grid-cols-2 md:gap-x-6 lg:gap-x-20 xl:grid-cols-3 justify-center">
             {pages.map((events) => (
               <div key={events.id} className="w-full">
-                <SingleEventsDetails events={events} />
+                <SingleEventsDetails events={events} detail={eventosData.path} />
               </div>
             ))}
           </div>

@@ -5,21 +5,21 @@ export default {
     {
       id: 2,
       title: "La Institución",
-      path: "/institucion/acerca_de",
+      path: "/nacional/acerca_de",
       newTab: false,
       active: true,
     },
     {
       id: 3,
       title: "Quienes Somos",
-      path: "/institucion/quienes_somos",
+      path: "/nacional/quienes_somos",
       newTab: false,
       active: true,
     },
     {
       id: 4,
       title: "Educación a distancia",
-      path: "/saia/detalles",
+      path: "/nacional/saia/detalles",
       newTab: false,
       active: true,
     },
@@ -33,7 +33,7 @@ export default {
     {
       id: 8,
       title: "Contáctenos",
-      path: "/institucion/planes_estudio",
+      path: "/nacional/contactos",
       newTab: false,
       active: true,
     },

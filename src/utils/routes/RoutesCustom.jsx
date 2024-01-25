@@ -29,7 +29,7 @@ export default function RoutesCustom() {
       element: <Layout />,
     },
     {
-      path: "/eventos/:id",
+      path: "/:id/eventos/:id",
       element: (
         <>
           <EventsDetails /> <Events />
@@ -37,66 +37,66 @@ export default function RoutesCustom() {
       ),
     },
     {
-      path: "/eventos",
+      path: "/:id/eventos",
       element: <EventsAll />,
     },
     {
-      path: "/carrera/:id",
+      path: "/:id/carrera/:id",
       element: <DetallesCarrera />,
     },
     {
-      path: "/saia/detalles",
+      path: "/:id/saia/detalles",
       element: <SaiaDetails />,
     },
     {
-      path: "/noticias/:id",
+      path: "/:id/noticias/:id",
       element: <NewsDetails />,
     },
     {
-      path: "/noticias",
+      path: "/:id/noticias",
       element: <NewsAll />,
     },
     {
-      path: `${location.pathname.includes("sede") ? "/sedes/:id" : "/extension/:id"}`,
+      path: `${location.pathname.includes("sede") ? "/:id" : "/:id"}`,
       element: <SedesPage />,
     },
 
     {
-      path: "/institucion/planes_estudio",
+      path: "/:id/contactos",
       element: <Contact />,
     },
     {
-      path: "/institucion/polizas/accidentes_personales",
+      path: "/:id/polizas/accidentes_personales",
       element: <PersonalAccidents />,
     },
 
     {
-      path: "/institucion/polizas/programa_de_culminación",
+      path: "/:id/polizas/programa_de_culminación",
       element: <Culmination />,
     },
 
     {
-      path: "/institucion/programas_de_orientación/academica",
+      path: "/:id/programas_de_orientación/academica",
       element: <Academic />,
     },
     {
-      path: "/institucion/programas_de_orientación/vocacional_psicológica",
+      path: "/:id/programas_de_orientación/vocacional_psicológica",
       element: <Vocational />,
     },
     {
-      path: "/institucion/empleo",
+      path: "/:id/empleo",
       element: <Employment />,
     },
     {
-      path: "/institucion/acerca_de",
+      path: "/:id/acerca_de",
       element: <Institucion />,
     },
     {
-      path: "/institucion/quienes_somos",
+      path: "/:id/quienes_somos",
       element: <QuienesSomos />,
     },
     {
-      path: "/institucion/faq",
+      path: "/:id/faq",
       element: <Faq />,
     },
     {

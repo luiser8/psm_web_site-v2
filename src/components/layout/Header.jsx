@@ -33,7 +33,7 @@ const Header = () => {
   }, []);
 
   const resetDefaultHeader = () => {
-    if (location.pathname === "/"){
+    if (location.pathname.toLowerCase().includes("nacional") || location.pathname === "/"){
       setHeader(headerData.header_data);
     } else {
       setHeader(getHeader().header_data);
@@ -202,29 +202,29 @@ const Header = () => {
                       "flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 uppercase"
                     }
                   >
-                    {location.pathname === "/sedes/barcelona"
+                    {location.pathname === "/barcelona"
                       ? "Barcelona"
-                      : location.pathname === "/extension/maracaibo"
+                      : location.pathname === "/maracaibo"
                         ? "Maracaibo"
-                        : location.pathname === "/extension/cabimas"
+                        : location.pathname === "/cabimas"
                           ? "Cabimas"
-                          : location.pathname === "/extension/ciudad_ojeda"
+                          : location.pathname === "/ciudad_ojeda"
                             ? "Ciudad ojeda"
-                            : location.pathname === "/extension/barinas"
+                            : location.pathname === "/barinas"
                               ? "Barinas"
-                              : location.pathname === "/extension/san_cristobal"
+                              : location.pathname === "/san_cristobal"
                                 ? "San cristobal"
-                                : location.pathname === "/extension/valencia"
+                                : location.pathname === "/valencia"
                                   ? "Valencia"
-                                  : location.pathname === "/extension/maracay"
+                                  : location.pathname === "/maracay"
                                     ? "Maracay"
-                                    : location.pathname === "/extension/maturin"
+                                    : location.pathname === "/maturin"
                                       ? "Maturin"
                                       : location.pathname ===
-                                          "/extension/puerto_ordaz"
+                                          "/puerto_ordaz"
                                         ? "Puerto ordaz"
                                         : location.pathname ===
-                                            "/extension/porlamar"
+                                            "/porlamar"
                                           ? "Porlamar"
                                           : ""}
                   </h1>

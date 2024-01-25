@@ -10,7 +10,7 @@ import "../../styles/CarouselEvent.css"
 import SingleEventsPrincipal from "./SingleEventsPrincipal";
 
 const Events = () => {
-  const otherEvents = eventosData.data.filter((x) => x.active === false);
+  const otherEvents = eventosData.eventos_data.filter((x) => x.active === false);
   return (
     <>
       {eventosData.active ? (

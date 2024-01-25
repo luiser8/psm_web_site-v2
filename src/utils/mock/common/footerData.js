@@ -10,32 +10,32 @@ export default {
         {
           id: 1,
           name: "Acerca de",
-          link: "/institucion/acerca_de",
+          link: "/nacional/acerca_de",
         },
         {
           id: 2,
           name: "Quienes somos",
-          link: "/institucion/quienes_somos",
+          link: "/nacional/quienes_somos",
         },
         {
           id: 3,
           name: "Planes de estudio",
-          link: "/institucion/planes_estudio",
+          link: "/nacional/contactos",
         },
         {
           id: 4,
           name: "Trabaja con nosotros",
-          link: "/institucion/empleo",
+          link: "/nacional/empleo",
         },
         {
           id: 5,
           name: "Eventos",
-          link: "eventos",
+          link: "/nacional/eventos",
         },
         {
           id: 6,
           name: "FAQ",
-          link: "/institucion/faq",
+          link: "/nacional/faq",
         },
       ],
     },
@@ -47,12 +47,12 @@ export default {
         {
           id: 1,
           name: "Accidentes personales",
-          link: "/institucion/polizas/accidentes_personales",
+          link: "/nacional/polizas/accidentes_personales",
         },
         {
           id: 2,
           name: "Programa de culminación de estudios",
-          link: "/institucion/polizas/programa_de_culminación",
+          link: "/nacional/polizas/programa_de_culminación",
         },
       ],
     },
@@ -64,12 +64,12 @@ export default {
         {
           id: 1,
           name: "Académica",
-          link: "/institucion/programas_de_orientación/academica",
+          link: "/nacional/programas_de_orientación/academica",
         },
         {
           id: 2,
           name: "Vocacional y Psicológica",
-          link: "/institucion/programas_de_orientación/vocacional_psicológica",
+          link: "/nacional/programas_de_orientación/vocacional_psicológica",
         },
       ],
     },

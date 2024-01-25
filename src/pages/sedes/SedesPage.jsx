@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import SedesEvents from "./SedesEvents";
 import SedesCarreras from "./SedesCarreras";
 import SedesTestimonials from "./SedesTestimonials";
-import Registrations from "./Registrations";
+// import Registrations from "./Registrations";
 import SedesNews from "./SedesNews";
 import { CarouselWithContent } from "../../components/common/Carousel";
 
@@ -16,12 +16,14 @@ export default function SedesPage() {
   const getDataSedesExtensiones = sedesData.find((x) => x.link === sedeURL.id);
 
   const header = getDataSedesExtensiones.data.header;
+  const carousel = getDataSedesExtensiones.data.carousel.carousel_data;
   const carreras = getDataSedesExtensiones.data.carreras;
   const testimonios = getDataSedesExtensiones.data.testimonios;
-  const inscripciones = getDataSedesExtensiones.data.inscripciones;
+  // const inscripciones = getDataSedesExtensiones.data.inscripciones;
   const noticias = getDataSedesExtensiones.data.noticias;
   const eventos = getDataSedesExtensiones.data.eventos.eventos_data;
   const footer = getDataSedesExtensiones.data.footer;
+  const quienes_somos = getDataSedesExtensiones.data.quienes_somos;
 
   if (header) {
     setHeader(header);
@@ -30,13 +32,15 @@ export default function SedesPage() {
     setFooter(footer);
   }
 
+  console.log(quienes_somos)
+
   return (
     <div className="bg-white py-20 sm:py-20 mt-8">
       {getDataSedesExtensiones.data.active ? (
         <section className="flex flex-col items-center w-full h-full mb-0 dark:bg-dark">
 
           {getDataSedesExtensiones.data.carousel.active ? (
-            <CarouselWithContent data={getDataSedesExtensiones.data.carousel.carousel_data} />
+            <CarouselWithContent data={carousel} />
           ) : (
             <div className="container">
               <div className="-mx-4 flex flex-wrap">
@@ -69,7 +73,7 @@ export default function SedesPage() {
       <section className="w-full h-full overflow-hidden mt-0 dark:bg-dark">
         <SedesCarreras data={carreras} />
         <SedesTestimonials data={testimonios} />
-        <Registrations data={inscripciones} />
+        {/* <Registrations data={inscripciones} /> */}
         <SedesNews data={noticias} />
       </section>
     </div>

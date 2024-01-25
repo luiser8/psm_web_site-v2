@@ -35,7 +35,7 @@ const Saia = () => {
                 </section>
                 <span className="w-full flex justify-center xl:justify-items-start mt-3">
                   <Link
-                    to={"/saia/detalles"}
+                    to={componentSaiaData.path}
                     className={
                       "font-semibold text-lg md:text-2xl hover:text-primary transition-all ease-linear"
                     }

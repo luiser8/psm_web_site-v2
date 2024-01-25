@@ -11,7 +11,7 @@ const Footer = ({ name = "" }) => {
   const year = new Date();
 
   const resetDefaultFooter = () => {
-    if (location.pathname === "/"){
+    if (location.pathname.toLowerCase().includes("nacional") || location.pathname === "/"){
       setFooter(footerData);
     } else {
       setFooter(getFooter());

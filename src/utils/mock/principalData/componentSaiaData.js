@@ -1,5 +1,6 @@
 export default {
     active: true,
+    path: "/nacional/saia/detalles",
     title:
       "La Educación a distancia es una modalidad de enseñanza y aprendizaje cuya característica principal es la separación física de los participantes y facilitadores.",
     image: "/images/nacional/saia/saia_home.png",
