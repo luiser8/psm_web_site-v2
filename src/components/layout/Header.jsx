@@ -33,16 +33,21 @@ const Header = () => {
   }, []);
 
   const resetDefaultHeader = () => {
-    if (location.pathname.toLowerCase().includes("nacional") || location.pathname === "/"){
+    if (
+      location.pathname.toLowerCase().includes("nacional") ||
+      location.pathname === "/"
+    ) {
       setHeader(headerData.header_data);
     } else {
       setHeader(getHeader().header_data);
     }
-  }
+  };
 
   useEffect(() => {
     resetDefaultHeader();
-    return () => { setHeader([]) }
+    return () => {
+      setHeader([]);
+    };
   }, [location.pathname]);
 
   // submenu handler
@@ -113,40 +118,42 @@ const Header = () => {
                   } `}
                 >
                   <ul className="block xl:flex xl:space-x-12">
-                    {header.filter(x => x.active).map((menuItem, index) => (
-                      <li key={index} className="group relative">
-                        {menuItem.path ? (
-                          <div className="flex flex-row gap-x-2">
-                            <NavLink
-                              to={menuItem.path}
-                              onClick={() => {
-                                if (index === 3) {
-                                  setSedesOpen(!sedesOpen);
-                                }
-                              }}
-                              className={`flex py-2 text-base lg:text-nowrap transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
-                            >
-                              {menuItem.title}
-                            </NavLink>
-                            <svg
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              aria-hidden="true"
-                              onClick={() => setSedesOpen(!sedesOpen)}
-                              className={`transition-rotate duration-300 text-dark dark:text-white cursor-pointer ${
-                                index === 3 ? "block w-6" : "hidden"
-                              } ${sedesOpen ? "rotate-180 " : "rotate-0"}`}
-                            >
-                              <path
-                                fillRule="evenodd"
-                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                clipRule="evenodd"
-                              />
-                            </svg>
-                          </div>
-                        ) : (
-                          <>
-                            {/* <a
+                    {header
+                      .filter((x) => x.active)
+                      .map((menuItem, index) => (
+                        <li key={index} className="group relative">
+                          {menuItem.path ? (
+                            <div className="flex flex-row gap-x-2">
+                              <NavLink
+                                to={menuItem.path}
+                                onClick={() => {
+                                  if (index === 3) {
+                                    setSedesOpen(!sedesOpen);
+                                  }
+                                }}
+                                className={`flex py-2 text-base lg:text-nowrap transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                              >
+                                {menuItem.title}
+                              </NavLink>
+                              <svg
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                aria-hidden="true"
+                                onClick={() => setSedesOpen(!sedesOpen)}
+                                className={`transition-rotate duration-300 text-dark dark:text-white cursor-pointer ${
+                                  index === 3 ? "block w-6" : "hidden"
+                                } ${sedesOpen ? "rotate-180 " : "rotate-0"}`}
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                  clipRule="evenodd"
+                                />
+                              </svg>
+                            </div>
+                          ) : (
+                            <>
+                              {/* <a
                               onClick={() => handleSubmenu(index)}
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                             >
@@ -175,10 +182,10 @@ const Header = () => {
                                 </a>
                               ))}
                             </div> */}
-                          </>
-                        )}
-                      </li>
-                    ))}
+                            </>
+                          )}
+                        </li>
+                      ))}
                   </ul>
                   <DropDown open={sedesOpen} setSedesOpen={setSedesOpen} />
                 </nav>
@@ -202,29 +209,31 @@ const Header = () => {
                       "flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 uppercase"
                     }
                   >
-                    {location.pathname === "/barcelona"
+                    {location.pathname.includes("/barcelona")
                       ? "Barcelona"
-                      : location.pathname === "/maracaibo"
+                      : location.pathname.includes("/maracaibo")
                         ? "Maracaibo"
-                        : location.pathname === "/cabimas"
+                        : location.pathname.includes("/cabimas")
                           ? "Cabimas"
-                          : location.pathname === "/ciudad_ojeda"
+                          : location.pathname.includes("/ciudad_ojeda")
                             ? "Ciudad ojeda"
-                            : location.pathname === "/barinas"
+                            : location.pathname.includes("/barinas")
                               ? "Barinas"
-                              : location.pathname === "/san_cristobal"
+                              : location.pathname.includes("/san_cristobal")
                                 ? "San cristobal"
-                                : location.pathname === "/valencia"
+                                : location.pathname.includes("/valencia")
                                   ? "Valencia"
-                                  : location.pathname === "/maracay"
+                                  : location.pathname.includes("/maracay")
                                     ? "Maracay"
-                                    : location.pathname === "/maturin"
+                                    : location.pathname.includes("/maturin")
                                       ? "Maturin"
-                                      : location.pathname ===
-                                          "/puerto_ordaz"
+                                      : location.pathname.includes(
+                                            "/puerto_ordaz"
+                                          )
                                         ? "Puerto ordaz"
-                                        : location.pathname ===
-                                            "/porlamar"
+                                        : location.pathname.includes(
+                                              "/porlamar"
+                                            )
                                           ? "Porlamar"
                                           : ""}
                   </h1>

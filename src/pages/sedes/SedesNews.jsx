@@ -3,7 +3,6 @@ import SectionTitle from "../../components/common/SectionTitle";
 import SingleNews from "../../components/common/SingleNews";
 
 const SedesNews = ({data}) => {
-  console.log(data)
   return (
     <>
     {

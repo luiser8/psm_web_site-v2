@@ -584,6 +584,22 @@ export default {
       },
     ]
   },
+  contacto: {
+    active: true,
+    title: "Contactanos",
+    descripcion:
+      "Información de contacto acerca de las carreras y planes de estudio",
+    contacto_data: {
+      telefono: "0424-7788865",
+      direccion:
+        "5838+QQM Universidad Santiago Mariño Sede 2, Av. Guzmán Lander, Barcelona 6001, Anzoátegui",
+      correo: "politecnicosantiagomariño@gmail.com",
+      redes: {
+        facebook: "PSM facebook",
+        instagram: "@Psm instagram",
+      },
+    },
+  },
   quienes_somos: {
     active: true,
     id: 1,
