@@ -782,21 +782,27 @@ export default {
           data: [
             {
               id: 1,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionCiudadOjeda/about/user-01.png"
+              names: "Ing. Andreina Teran",
+              position: "Coordinadora Extensión",
+              photo: "/images/extensionCiudadOjeda/about/autoridad1.jpeg"
             },
             {
               id: 2,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionCiudadOjeda/about/user-01.png"
+              names: "Ing. Analis Moreno",
+              position: "Coordinadora Académica",
+              photo: "/images/extensionCiudadOjeda/about/autoridad2.jpg"
             },
             {
               id: 3,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionCiudadOjeda/about/user-01.png"
+              names: "Licdo. Christian Fernandez",
+              position: "Coordinación Administrativa",
+              photo: "/images/extensionCiudadOjeda/about/autoridad3.jpg"
+            },
+            {
+              id: 4,
+              names: "Licda. Yeslany Ortis",
+              position: "Jefe de Personal",
+              photo: "/images/extensionCiudadOjeda/about/autoridad4.jpg"
             },
           ]
         },
