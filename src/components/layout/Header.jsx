@@ -209,7 +209,11 @@ const Header = () => {
                       "flex py-2 text-base transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 uppercase"
                     }
                   >
-                    {location.pathname.includes("/barcelona")
+                    {location.pathname.includes("/caracas")
+                      ? "Caracas"
+                      : location.pathname.includes("/merida")
+                      ? "Merida"
+                      : location.pathname.includes("/barcelona")
                       ? "Barcelona"
                       : location.pathname.includes("/maracaibo")
                         ? "Maracaibo"

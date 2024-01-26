@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import SedesEvents from "./SedesEvents";
 import SedesCarreras from "./SedesCarreras";
 import SedesTestimonials from "./SedesTestimonials";
-// import Registrations from "./Registrations";
 import SedesNews from "./SedesNews";
 import { CarouselWithContent } from "../../components/common/Carousel";
 
@@ -19,11 +18,9 @@ export default function SedesPage() {
   const carousel = getDataSedesExtensiones.data.carousel.carousel_data;
   const carreras = getDataSedesExtensiones.data.carreras;
   const testimonios = getDataSedesExtensiones.data.testimonios;
-  // const inscripciones = getDataSedesExtensiones.data.inscripciones;
   const noticias = getDataSedesExtensiones.data.noticias;
-  const eventos = getDataSedesExtensiones.data.eventos.eventos_data;
+  // const eventos = getDataSedesExtensiones.data.eventos.eventos_data;
   const footer = getDataSedesExtensiones.data.footer;
-  const quienes_somos = getDataSedesExtensiones.data.quienes_somos;
 
   if (header) {
     setHeader(header);
@@ -58,11 +55,11 @@ export default function SedesPage() {
               </div>
             </div>
           )}
-          {eventos.map((data) => (
+          {/* {eventos.map((data) => (
             <div className="container my-20" key={data.id}>
               <SedesEvents data={data} />
             </div>
-          ))}
+          ))} */}
         </section>
       ) : (
         <></>

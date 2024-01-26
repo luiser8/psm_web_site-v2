@@ -9,6 +9,9 @@ import extensionMaracayData from "../sedesExtensionesData/extensionMaracayData"
 import extensionMaturinData from "../sedesExtensionesData/extensionMaturinData"
 import extensionPuertoOrdazData from "../sedesExtensionesData/extensionPuertoOrdazData"
 import extensionPorlamarData from "../sedesExtensionesData/extensionPorlamarData"
+import extensionMeridaData from "../sedesExtensionesData/extensionMeridaData"
+import extensionCaracasData from "../sedesExtensionesData/extensionCaracasData"
+import eventosData from "./eventosData";
 
 export default [
     {
@@ -76,5 +79,23 @@ export default [
       name: "Extensión Porlamar",
       link: "porlamar",
       data:extensionPorlamarData
+    },
+    {
+      id: 12,
+      name: "Extensión Merida",
+      link: "merida",
+      data:extensionMeridaData
+    },
+    {
+      id: 13,
+      name: "Extensión Caracas",
+      link: "caracas",
+      data:extensionCaracasData
+    },
+    {
+      id: 14,
+      name: "Nacional",
+      link: "nacional",
+      data:eventosData
     },
 ];

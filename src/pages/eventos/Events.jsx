@@ -8,12 +8,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../../styles/CarouselEvent.css"
 import SingleEventsPrincipal from "./SingleEventsPrincipal";
+import { useParams } from "react-router-dom";
 
 const Events = () => {
-  const otherEvents = eventosData.eventos_data.filter((x) => x.active === false);
+  const sedeURL = useParams();
+  //const otherEvents = eventosData.eventos_data.filter((x) => x.active === false);
   return (
     <>
-      {eventosData.active ? (
+      {/* {eventosData.active ? (
         <section className="relative z-0 py-6 md:py-10 dark:bg-dark">
           <div className="w-full h-full">
             <Swiper
@@ -53,7 +55,7 @@ const Events = () => {
         </section>
       ) : (
         <></>
-      )}
+      )} */}
     </>
   );
 };

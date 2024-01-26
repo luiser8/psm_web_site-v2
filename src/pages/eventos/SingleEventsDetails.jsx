@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function SingleEventsDetails({ events, detail }) {
-  console.log(events)
+  
   return (
     <div className="bg-white py-10 sm:py-10">
       <div className=" border-2 border-gray-500 rounded-lg w-full overflow-hidden hover:border-orange-400 transition-all cursor-pointer">
@@ -17,7 +17,7 @@ export default function SingleEventsDetails({ events, detail }) {
           </h1>
           <span className="w-full flex justify-between items-center font-semibold mb-2">
           <p className="leading-relaxed">{events.date}</p>
-          <Link to={`${detail}/${events.id}`}>Más detalles</Link>
+          {/* <Link to={`${detail}/${events.id}`}>Más detalles</Link> */}
           </span>
         </div>
       </div>

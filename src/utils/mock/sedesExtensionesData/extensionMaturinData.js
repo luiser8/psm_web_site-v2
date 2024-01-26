@@ -64,16 +64,189 @@ export default {
     ]
   },
   eventos: {
-    active: true, eventos_data: [
+    active: true,
+    path: "/maturin/eventos",
+    eventos_data: [
       {
         id: 1,
-        image: "/images/extensionMaturin/events/event_details.jpg",
-        title: "Congreso Estudiantil",
-        date: "12/05/2024",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        active: true,
+        date: "01-11-2023",
+        name: "Expo Química",
+        image: "/images/extensionMaturin/events/evento1.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
       },
-    ]
+      {
+        id: 2,
+        active: true,
+        date: "01-11-2023",
+        name: "Congreso estudiantil",
+        image: "/images/extensionMaturin/events/evento2.jpeg",
+        detail: "2",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        active: true,
+        date: "03-11-2023",
+        name: "Feria informática",
+        image: "/images/extensionMaturin/events/evento3.jpeg",
+        detail: "3",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          { name: "Ing. civil - Politécnico Santiago Mariño" },
+          {
+            name: "Especialista en construcción de obras civiles mención edificaciones, Universidad Rafael Urdaneta",
+          },
+          {
+            name: "Ingeniero Constructor Titulo Revalidado Universidad de Chile Constructor Titulo Revalidado Universidad de Chile",
+          },
+        ],
+        experiences: [
+          {
+            name: "Experiencia en inspección técnica de obras, gestión, planificación y ejecución de proyectos industriales, procesos de licitación.",
+          },
+          {
+            name: "Experiencia comprobada en el mantenimiento e instalaciones eléctricas de mediana y alta tensión, incluyendo las instalaciones de tipo residenciales",
+          },
+          {
+            name: "Planificación y elaboración de plan de trabajo y seguimiento a través del diagrama de Gantt. dirección y coordinación de especialidades en el proceso constructivo de una obra.",
+          },
+        ],
+      }
+    ],
   },
   carreras: {
     active: true, carreras_data: [
@@ -609,58 +782,22 @@ export default {
           data: [
             {
               id: 1,
-              names: "Arq. Jumer Aponte",
-              position: "Coordinadora Extensión",
-              photo: "/images/extensionMaturin/about/autoridad1.jpg"
+              names: "Sin info",
+              position: "Sin info",
+              photo: "/images/extensionMaturin/about/user-01.png"
             },
             {
               id: 2,
-              names: "Lcda. Maryory Cabarcas",
-              position: "Jefe de Administracion",
-              photo: "/images/extensionMaturin/about/autoridad2.jpg"
+              names: "Sin info",
+              position: "Sin info",
+              photo: "/images/extensionMaturin/about/user-01.png"
             },
             {
               id: 3,
-              names: "Msc. Onelsis Manzano",
-              position: "Jefe de Admision y Control de Estudios",
-              photo: "/images/extensionMaturin/about/autoridad3.jpg"
+              names: "Sin info",
+              position: "Sin info",
+              photo: "/images/extensionMaturin/about/user-01.png"
             },
-            {
-              id: 4,
-              names: "Ing. Yelitza Romero",
-              position: "Jefe de Dpto SAIA",
-              photo: "/images/extensionMaturin/about/autoridad4.jpg"
-            },
-            {
-              id: 5,
-              names: "Ing. Cruz Turipe ",
-              position: "Jefe de Escuela Arquitectura e Ing Civil",
-              photo: "/images/extensionMaturin/about/autoridad5.jpg"
-            },
-            {
-              id: 6,
-              names: "Ing. Aldo Antoniolo",
-              position: "Jefe de Escuela Ing Electrica Electronica y de Sistemas",
-              photo: "/images/extensionMaturin/about/autoridad6.jpg"
-            },
-            {
-              id: 7,
-              names: "Ing. Yris Torrealba",
-              position: "Jefe de Escuela Ing Industrial Mtto Mecanico y Diseño Industrial",
-              photo: "/images/extensionMaturin/about/autoridad7.jpg"
-            },
-            {
-              id: 8,
-              names: "Msc. Migdalys Perez",
-              position: "Jefe de Extension Universitaria",
-              photo: "/images/extensionMaturin/about/autoridad8.jpg"
-            },
-            {
-              id: 9,
-              names: "Esp. Hugo Melo",
-              position: "Tecnologia Educativa",
-              photo: "/images/extensionMaturin/about/autoridad9.jpg"
-            }
           ]
         },
       },

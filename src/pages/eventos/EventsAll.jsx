@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SectionTitle from "../../components/common/SectionTitle";
 import eventosData from "../../utils/mock/principalData/eventosData";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import SingleEventsDetails from "./SingleEventsDetails";
 import Pagination from "../../components/layout/Pagination";
+import sedesData from "../../utils/mock/principalData/sedesData";
 
 export default function EventsAll() {
+  const sedeURL = useParams();
   const eventsPerPage = 6;
-  const otherEvents = eventosData.eventos_data.filter((x) => x.active === true);
+  const otherEvents = sedesData.filter((x) => x.link === sedeURL.id);
+  // sedeURL.id === "nacional" ? eventosData.eventos_data.filter((x) => x.active === true) :
   const [pages, setPages] = useState([...otherEvents].slice(0, eventsPerPage));
   const [currentPage, setCurrentPage] = useState(0);
   const [disable, setDisable] = useState(false);
@@ -45,19 +48,19 @@ export default function EventsAll() {
           </div>
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 md:grid-cols-2 md:gap-x-6 lg:gap-x-20 xl:grid-cols-3 justify-center">
-            {pages.map((events) => (
+            {pages[0].data.eventos.eventos_data.map((events) => (
               <div key={events.id} className="w-full">
-                <SingleEventsDetails events={events} detail={eventosData.path} />
+                <SingleEventsDetails events={events} detail={pages[0].data.eventos.path} />
               </div>
             ))}
           </div>
         </div>
-        <Pagination
+        {/* <Pagination
           handleNext={handleNext}
           handlePrev={handlePrev}
           currentPage={currentPage}
           disable={disable}
-        />
+        /> */}
       </section>
     </div>
   );

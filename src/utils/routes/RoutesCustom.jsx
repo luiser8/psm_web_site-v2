@@ -96,7 +96,6 @@ export default function RoutesCustom() {
       path: "/:id/quienes_somos",
       element: <QuienesSomos />,
     },
-   
     {
       path: "/:id/faq",
       element: <Faq />,

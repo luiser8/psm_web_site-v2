@@ -26,7 +26,7 @@ export default function EventsDetails() {
         <div className="w-[90%] mx-auto bg-white sm:py-20 py-20">
           {eventosData.active ? (
             <section className="w-full h-full bg-white dark:bg-dark mt-20">
-              
+
               <div className="h-full flex justify-between items-start flex-col gap-10 p-2 xl:p-3 rounded-lg mx-auto xl:flex-row ">
 
                 <div className="mb-5 h-full w-full overflow-hidden xl:w-1/2">
