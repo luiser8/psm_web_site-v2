@@ -15,25 +15,21 @@ export default function EventsDetails() {
 
   useEffect(() => {
     filterEvent(Number(eventId.id));
-    return () => { setEventList({}) };
+    return () => {
+      setEventList({});
+    };
   }, []);
 
   return (
     <>
       {eventList.length !== 0 ? (
-        <div className="bg-white py-20 sm:py-20">
+        <div className="w-[90%] mx-auto bg-white sm:py-20 py-20">
           {eventosData.active ? (
-            <section className="w-full h-screen py-20 bg-white dark:bg-dark">
-              <div className="w-[100%] md:w-[80%] flex flex-row-reverse justify-center mx-auto overflow-hidden">
-                <SectionTitle
-                  title={eventList?.name}
-                  paragraph="Ponencias"
-                  center
-                  mb="0"
-                />
-              </div>
-              <div className=" w-[90%] xl:w-[80%] h-full  flex justify-center items-center gap-y-6 flex-col p-2  xl:p-3 rounded-lg  mx-auto md:flex-row md:gap-x-24">
-                <div className=" mb-5 h-full md:w-1/2 overflow-hidden">
+            <section className="w-full h-full bg-white dark:bg-dark mt-20">
+              
+              <div className="h-full flex justify-between items-start flex-col gap-10 p-2 xl:p-3 rounded-lg mx-auto xl:flex-row ">
+
+                <div className="mb-5 h-full w-full overflow-hidden xl:w-1/2">
                   <img
                     src={eventList?.image}
                     alt="eventos"
@@ -43,21 +39,36 @@ export default function EventsDetails() {
 
                 {Object.keys(eventList).length !== 0 ? (
                   <>
-                    {eventList?.description.map((item, index) => (
-                      <div key={index} className="h-full md:w-1/2 flex items-center flex-col justify-center">
-                        <span className="text-base font-normal leading-6 text-justify xl:leading-8">
-                          <p className="my2">{item.description}</p>
+                    <div className="h-full flex items-start flex-col justify-center xl:w-1/2">
+                      <SectionTitle
+                        title={eventList?.name}
+                        paragraph="Ponencias"
+                        mb="0"
+                      />
+                      {eventList?.description.map((item, index) => (
+                        <span
+                          key={index}
+                          className="text-base font-normal leading-6 text-justify xl:leading-8 "
+                        >
+                          <p className="my-2 flex flex-col">
+                            {item.description}
+                          </p>
                         </span>
-                      </div>
-                    ))}
-                  </>) : (<></>)}
+                      ))}
+                    </div>
+                  </>
+                ) : (
+                  <></>
+                )}
               </div>
             </section>
           ) : (
             <></>
           )}
         </div>
-      ) : (<></>)}
+      ) : (
+        <></>
+      )}
     </>
   );
 }
