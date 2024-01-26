@@ -2,6 +2,7 @@ import { NavLink as Link } from "react-router-dom";
 
 const SingleCarrera = ({ carreras }) => {
   const { name, image, detail, path, description } = carreras;
+  console.log(path)
   return (
     // <div className="w-full">
     //   <div className="wow fadeInUp" data-wow-delay=".15s">
