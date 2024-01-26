@@ -33,7 +33,7 @@ export default function RoutesCustom() {
       path: "/:id/eventos/:id",
       element: (
         <>
-          <EventsDetails /> <Events />
+          <EventsDetails /> <Events/>
         </>
       ),
     },
