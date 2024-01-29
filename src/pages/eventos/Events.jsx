@@ -11,11 +11,10 @@ import SingleEventsPrincipal from "./SingleEventsPrincipal";
 import { useParams } from "react-router-dom";
 
 const Events = () => {
-  const sedeURL = useParams();
-  //const otherEvents = eventosData.eventos_data.filter((x) => x.active === false);
+ const otherEvents = eventosData.eventos.eventos_data.filter((x)=> x.active === !false)
   return (
     <>
-      {/* {eventosData.active ? (
+       {/* {eventosData.eventos.active ? (
         <section className="relative z-0 py-6 md:py-10 dark:bg-dark">
           <div className="w-full h-full">
             <Swiper
@@ -55,7 +54,7 @@ const Events = () => {
         </section>
       ) : (
         <></>
-      )} */}
+      )}  */}
     </>
   );
 };
