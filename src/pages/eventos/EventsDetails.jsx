@@ -9,7 +9,7 @@ export default function EventsDetails() {
   const eventData = eventosData.eventos.eventos_data.find(
     (x) => x.id === Number(eventId.id)
   );
-
+console.log("por aqui", eventData)
   return (
     <>
       <div className="w-[90%] mx-auto bg-white sm:py-20 py-20">

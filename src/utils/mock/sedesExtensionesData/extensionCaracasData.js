@@ -782,21 +782,27 @@ export default {
             data: [
               {
                 id: 1,
-                names: "Sin info",
-                position: "Sin info",
-                photo: "/images/extensionCaracas/about/user-01.png"
+                names: "Ing. Heidy Long",
+                position: "Coordinadora de Extensión",
+                photo: "/images/extensionCaracas/about/autoridad1.png"
               },
               {
                 id: 2,
-                names: "Sin info",
-                position: "Sin info",
-                photo: "/images/extensionCaracas/about/user-01.png"
+                names: "Lic. Luis Marrufo",
+                position: "Administrador",
+                photo: "/images/extensionCaracas/about/autoridad2.png"
               },
               {
                 id: 3,
-                names: "Sin info",
-                position: "Sin info",
-                photo: "/images/extensionCaracas/about/user-01.png"
+                names: "Lic. Odalis Caballero",
+                position: "Jefa de Control de Estudio",
+                photo: "/images/extensionCaracas/about/autoridad3.png"
+              },
+              {
+                id: 4,
+                names: "Lic. Nayari Maldonado",
+                position: "Jefa de Personal",
+                photo: "/images/extensionCaracas/about/autoridad4.png"
               },
             ]
           },

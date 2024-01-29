@@ -803,36 +803,6 @@ export default {
               names: "Ing. Yelitza Romero",
               position: "Jefe de Dpto SAIA",
               photo: "/images/extensionValencia/about/autoridad4.jpg"
-            },
-            {
-              id: 5,
-              names: "Ing. Cruz Turipe ",
-              position: "Jefe de Escuela Arquitectura e Ing Civil",
-              photo: "/images/extensionValencia/about/autoridad5.jpg"
-            },
-            {
-              id: 6,
-              names: "Ing. Aldo Antoniolo",
-              position: "Jefe de Escuela Ing Electrica Electronica y de Sistemas",
-              photo: "/images/extensionValencia/about/autoridad6.jpg"
-            },
-            {
-              id: 7,
-              names: "Ing. Yris Torrealba",
-              position: "Jefe de Escuela Ing Industrial Mtto Mecanico y Diseño Industrial",
-              photo: "/images/extensionValencia/about/autoridad7.jpg"
-            },
-            {
-              id: 8,
-              names: "Msc. Migdalys Perez",
-              position: "Jefe de Extension Universitaria",
-              photo: "/images/extensionValencia/about/autoridad8.jpg"
-            },
-            {
-              id: 9,
-              names: "Esp. Hugo Melo",
-              position: "Tecnologia Educativa",
-              photo: "/images/extensionValencia/about/autoridad9.jpg"
             }
           ]
         },

@@ -61,7 +61,7 @@ export default {
         },
       },
     subtitle: "",
-    image: "/images/nacional/about/sede.jpg",
+    image: "/images/nacional/about/sede.png",
     description:
       "",
   },

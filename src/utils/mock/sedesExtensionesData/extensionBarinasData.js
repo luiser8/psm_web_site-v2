@@ -72,7 +72,7 @@ export default {
         active: true,
         date: "01-11-2023",
         name: "Expo Química",
-        image: "/images/extensionBarinas/events/evento1.jpeg",
+        image: "/images/extensionBarinas/events/evento1.jpg",
         detail: "1",
         description: [
           {
@@ -134,7 +134,7 @@ export default {
         active: true,
         date: "01-11-2023",
         name: "Congreso estudiantil",
-        image: "/images/extensionBarinas/events/evento2.jpeg",
+        image: "/images/extensionBarinas/events/evento2.jpg",
         detail: "2",
         description: [
           {
@@ -196,7 +196,7 @@ export default {
         active: true,
         date: "03-11-2023",
         name: "Feria informática",
-        image: "/images/extensionBarinas/events/evento3.jpeg",
+        image: "/images/extensionBarinas/events/evento3.jpg",
         detail: "3",
         description: [
           {
@@ -782,25 +782,25 @@ export default {
           data: [
             {
               id: 1,
-              names: "Maria Mas y Rubi",
+              names: "Lcda. Maria Mas y Rubi",
               position: "Coordinadora de Extensión",
               photo: "/images/extensionBarinas/about/autoridad1.png"
             },
             {
               id: 2,
-              names: "Maria Elena Garcia",
+              names: "Arq. Maria Elena Garcia",
               position: "Coordinadora Académica",
               photo: "/images/extensionBarinas/about/autoridad2.png"
             },
             {
               id: 3,
-              names: "Keizel Giron",
+              names: "Lcda. Keizel Giron",
               position: "Jefe de División Talento Humano",
               photo: "/images/extensionBarinas/about/autoridad3.png"
             },
             {
               id: 4,
-              names: "Ninosca Quintero",
+              names: "Msc. Ninosca Quintero",
               position: "Jefe de División de Control de Estudio",
               photo: "/images/extensionBarinas/about/autoridad4.png"
             }

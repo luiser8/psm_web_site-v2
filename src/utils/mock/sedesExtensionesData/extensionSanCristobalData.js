@@ -782,21 +782,27 @@ export default {
           data: [
             {
               id: 1,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionSanCristobal/about/user-01.png"
+              names: "Ing. Tomas Devia",
+              position: "Coordinador de Extensión",
+              photo: "/images/extensionSanCristobal/about/autoridad1.JPG"
             },
             {
               id: 2,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionSanCristobal/about/user-01.png"
+              names: "Lcda. Ismary Guerrero",
+              position: "Jefa de personal",
+              photo: "/images/extensionSanCristobal/about/autoridad2.JPG"
             },
             {
               id: 3,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionSanCristobal/about/user-01.png"
+              names: "Lcda. Alba Mendez",
+              position: "Administradora",
+              photo: "/images/extensionSanCristobal/about/autoridad3.JPG"
+            },
+            {
+              id: 4,
+              names: "Lcda. Nelly Martinez",
+              position: "Jefa de Control de Estudios",
+              photo: "/images/extensionSanCristobal/about/autoridad4.JPG"
             },
           ]
         },
