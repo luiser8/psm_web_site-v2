@@ -7,7 +7,7 @@ export default {
     active: true, header_data: [
       {
         id: 2,
-        title: "Quienes Somos",
+        title: "Quienes somos",
         path: "/puerto_ordaz/quienes_somos",
         newTab: false,
         active: true,
@@ -759,7 +759,7 @@ export default {
   },
   contacto: {
     active: true,
-    title: "Contactanos",
+    title: "Contáctanos",
     descripcion:
       "Información de contacto acerca de las carreras y planes de estudio",
     contacto_data: {
@@ -777,10 +777,10 @@ export default {
     active: true,
     id: 1,
     quienes_somos_data: {
-      name: "Quienes Somos",
+      name: "Quienes somos",
       title: "Politécnico Santiago Mariño",
       about_us: {
-        title: "¿Quienes Somos?",
+        title: "¿Quienes somos?",
         description1: "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
         description2: "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
         description3: "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",

@@ -65,7 +65,7 @@ export default function SedesPage() {
         <></>
       )}
 
-      <section className="w-full h-full overflow-hidden mt-0 dark:bg-dark">
+      <section className="w-full h-full overflow-hidden mt-14 dark:bg-dark">
         <SedesCarreras data={carreras} />
         <SedesTestimonials data={testimonios} />
         {/* <Registrations data={inscripciones} /> */}

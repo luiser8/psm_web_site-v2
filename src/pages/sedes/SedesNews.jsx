@@ -7,7 +7,7 @@ const SedesNews = ({data}) => {
     <>
     {
       data?.active ? (
-        <section id="blog" className="bg-white/5 py-16 w-full mx-auto">
+        <section id="blog" className="bg-white/5 mb-6 w-full mx-auto">
       <div className="container">
         <SectionTitle
           title="Noticias destacadas"

@@ -20,7 +20,7 @@ function DropDown({ open, setSedesOpen }) {
             <ul className="p-2 mx-3 grid grid-cols-2 lg:grid-cols-2 gap-x-3 xl:gap-x-4">
               {SedesData.filter(x => x.id !== 14).map((item) => (
                 <li
-                  className="cursor-pointer rounded-lg py-2 xl:p-3"
+                  className="cursor-pointer rounded-lg py-2 xl:p-2"
                   key={item.id}
                 >
                   <NavLink

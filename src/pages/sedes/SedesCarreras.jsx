@@ -11,7 +11,7 @@ const SedesCarreras = ({data}) => {
   return (
     <>
       {data?.active ? (
-        <section id="carreras" className="relative z-0 h-auto sm:h-full mb-10 dark:bg-dark">
+        <section id="carreras" className="relative z-0 h-auto sm:h-full mb-6 dark:bg-dark">
           <SectionTitle title="Carreras" center />
           <div className="w-full h-full">
             <Swiper

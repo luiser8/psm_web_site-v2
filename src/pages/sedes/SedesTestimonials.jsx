@@ -5,7 +5,7 @@ const SedesTestimonials = ({data}) => {
   return (
     <>
       {data?.active ? (
-        <section className="relative z-0 bg-white dark:bg-black py-10">
+        <section className="relative z-0 bg-white dark:bg-black mb-10">
           <div className="container">
             <SectionTitle title="Testimonios" center />
 

@@ -8,7 +8,7 @@ export default {
     header_data: [
       {
         id: 2,
-        title: "Quienes Somos",
+        title: "Quienes somos",
         path: "/barcelona/quienes_somos",
         newTab: false,
         active: true,
@@ -768,10 +768,10 @@ export default {
     id: 1,
     active: true,
     quienes_somos_data: {
-      name: "Quienes Somos",
+      name: "Quienes somos",
       title: "Politécnico Santiago Mariño",
       about_us: {
-        title: "¿Quienes Somos?",
+        title: "¿Quienes somos?",
         description1:
           "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
         description2:
@@ -832,7 +832,7 @@ export default {
   },
   contacto: {
     active: true,
-    title: "Contactanos",
+    title: "Contáctanos",
     descripcion:
       "Información de contacto acerca de las carreras y planes de estudio",
     contacto_data: {

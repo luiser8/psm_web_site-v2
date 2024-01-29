@@ -8,7 +8,7 @@ const menuData = [
     },
     {
         id: 3,
-        title: "Quienes Somos",
+        title: "Quienes somos",
         path: "/institucion/quienes_somos",
         newTab: false,
         active: true,
