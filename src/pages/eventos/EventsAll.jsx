@@ -35,8 +35,6 @@ export default function EventsAll() {
     setCurrentPage(prevPage);
   };
 
-  console.log(otherEvents.map((data)=> data.data.eventos.eventos_data))
-
   return (
     <div className="bg-white py-20 sm:py-20">
       <section id="eventos" className="bg- dark:bg-dark py-10 w-full mx-auto">
