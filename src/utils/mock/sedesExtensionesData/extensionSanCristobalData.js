@@ -35,19 +35,10 @@ export default {
     carousel_data: [
       {
         id: 0,
-        url: "/images/extensionSanCristobal/carousel/web1.png",
+        url: "/images/extensionSanCristobal/carousel/web0.JPG",
         cloudinary: "",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
-        titleLink: "Ir al formulario de registro",
-        target: "_blank",
-        iframe: "",
-      },
-      {
-        id: 1,
-        url: "/images/extensionSanCristobal/carousel/web0.jpg",
-        cloudinary: "",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
-        titleLink: "Ir al formulario de registro",
+        link: "",
+        titleLink: "",
         target: "_blank",
         iframe: "",
       },

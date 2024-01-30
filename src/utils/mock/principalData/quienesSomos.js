@@ -54,8 +54,8 @@ export default {
             {
               id: 6,
               names: "Ing. Yilma Rubio",
-              position: "Directora Ejecutiva Regional PSM",
-              photo: "/images/nacional/about/user-01.png"
+              position: "Directora Nacional",
+              photo: "/images/nacional/about/autoridad6.jpeg"
             }
           ]
         },

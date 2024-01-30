@@ -514,29 +514,29 @@ export default {
     active: true, testimonios_data: [
       {
         id: 1,
-        name: "Miguel Perez",
-        designation: "Programador",
+        name: "Lilianny Del Rosario Quero Arias",
+        designation: "Ing. Industrial / 6to semestre",
         content:
-          "“Mi experiencia en la universidad de tecnología ha sido increíble. Los profesores son expertos en sus campos y siempre están dispuestos a ayudar. Las instalaciones son de última generación y el ambiente es muy propicio para el aprendizaje. Estoy muy contento con mi decisión de estudiar aquí",
-        image: "/images/extensionCabimas/testimonials/auth-01.png",
+          "Mi experiencia en el Instituto Universitario Politécnico “Santiago Mariño” me ha sido de gran ayuda para construir la persona que soy en la actualidad, y a cimentar los valores de la que seré en un futuro.”",
+        image: "/images/extensionCabimas/testimonials/author1.jpeg",
         star: 5,
       },
       {
         id: 2,
-        name: "Carlos Velásquez",
-        designation: "Estudiante",
+        name: "Luis José Quero Pérez",
+        designation: "Ing. Sistemas / 1er semestre",
         content:
-          "La universidad me ha proporcionado una educación de calidad y una gran cantidad de oportunidades. He podido trabajar en proyectos de investigación de vanguardia y he aprendido habilidades prácticas que me serán útiles en mi carrera. Recomiendo encarecidamente esta universidad a cualquier persona interesada en la tecnología.",
-        image: "/images/extensionCabimas/testimonials/auth-02.png",
+          "Desde que llego al Instituto Universitario Politécnico “Santiago Mariño” estoy en mi casa, experimentando grandes emociones, me siento feliz y complacido con mis docentes, el personal y mis compañeros de estudios.”",
+          image: "/images/extensionCabimas/testimonials/author2.jpeg",
         star: 5,
       },
       {
         id: 3,
-        name: "Jose Alberto",
-        designation: "Profesor",
+        name: "Javier Cueva González Alberto",
+        designation: "Ing. Química / 9no semestre",
         content:
-          "Estudiar en la universidad ha sido una de las mejores decisiones que he tomado. La universidad ofrece una amplia gama de cursos y programas, lo que me ha permitido explorar diferentes áreas de la tecnología. Además, he hecho grandes amigos y he tenido experiencias inolvidables. Estoy muy agradecido por las oportunidades que me ha brindado esta universidad.",
-        image: "/images/extensionCabimas/testimonials/auth-03.png",
+          "Al ser Técnico Superior Universitario en Química Industrial, deseaba poder consolidar mis conocimientos académicos y a la oportunidad brindada por mi Casa de Estudios el Instituto Universitario Politécnico “Santiago Mariño”.",
+          image: "/images/extensionCabimas/testimonials/author3.jpeg",
         star: 5,
       },
     ]

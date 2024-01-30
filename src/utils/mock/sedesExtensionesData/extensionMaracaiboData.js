@@ -35,22 +35,22 @@ export default {
     carousel_data: [
       {
         id: 0,
-        url: "/images/extensionMaracaibo/carousel/web1.png",
+        url: "/images/extensionMaracaibo/carousel/web5.jpg",
         cloudinary: "",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
         titleLink: "Ir al formulario de registro",
         target: "_blank",
         iframe: "",
       },
-      {
-        id: 1,
-        url: "/images/extensionMaracaibo/carousel/web0.jpg",
-        cloudinary: "",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
-        titleLink: "Ir al formulario de registro",
-        target: "_blank",
-        iframe: "",
-      },
+      // {
+      //   id: 1,
+      //   url: "/images/extensionMaracaibo/carousel/web0.jpg",
+      //   cloudinary: "",
+      //   link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
+      //   titleLink: "Ir al formulario de registro",
+      //   target: "_blank",
+      //   iframe: "",
+      // },
     ]
   },
   saia: {
@@ -782,9 +782,9 @@ export default {
           data: [
             {
               id: 1,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionMaracaibo/about/user-01.png"
+              names: "Lcda. Cleineth Fuentes",
+              position: "Jefe de Division Administrativa",
+              photo: "/images/extensionMaracaibo/about/autoridad1.jpeg"
             },
             {
               id: 2,

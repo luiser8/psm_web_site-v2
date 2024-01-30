@@ -35,20 +35,11 @@ export default {
     carousel_data: [
       {
         id: 0,
-        url: "/images/extensionMaracay/carousel/web1.png",
-        cloudinary: "",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
-        titleLink: "Ir al formulario de registro",
-        target: "_blank",
-        iframe: "",
-      },
-      {
-        id: 1,
         url: "/images/extensionMaracay/carousel/web0.jpg",
         cloudinary: "",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
-        titleLink: "Ir al formulario de registro",
-        target: "_blank",
+        link: "",
+        titleLink: "",
+        target: "",
         iframe: "",
       },
     ]
