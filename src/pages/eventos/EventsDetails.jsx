@@ -12,21 +12,21 @@ export default function EventsDetails() {
 console.log("por aqui", eventData)
   return (
     <>
-      <div className="w-[90%] mx-auto bg-white sm:py-20 py-20">
+      <div className="bg-white py-24 sm:py-32 dark:bg-dark mx-auto flex">
         {eventData.active ? (
-          <section className="w-full h-full bg-white dark:bg-dark mt-20">
-            <div className="h-full flex justify-between items-start flex-col gap-10 p-2 xl:p-3 rounded-lg mx-auto xl:flex-row ">
-              <div className="mb-5 h-full w-full overflow-hidden xl:w-1/2">
+          <section className="w-full h-full max-w-7xl mx-auto bg-white dark:bg-dark mt-20">
+            <div className="grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 lg:max-w-7xl lg:grid-cols-2 px-6 lg:px-8 mx-auto">
+              <div className="mb-5 h-full w-full overflow-hidden">
                 <img
                   src={eventData?.image}
                   alt="eventos"
-                  className=" mx-auto w-full h-[78vh] object-fill object-center"
+                  className=" mx-auto w-full h-[78vh] object-fill object-center rounded-lg"
                 />
               </div>
 
               {Object.keys(eventData).length !== 0 ? (
                 <>
-                  <div className="h-full flex items-start flex-col justify-center xl:w-1/2">
+                  <div className="h-full flex items-start flex-col justify-center ">
                     <SectionTitle
                       title={eventData?.name}
                       paragraph="Ponencias"
