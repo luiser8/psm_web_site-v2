@@ -466,39 +466,6 @@ export default {
           pensum: "pensum.pdf",
         },
       },
-      {
-        id: 8,
-        name: "Ingeniería de Diseño Industrial",
-        image: "/images/extensionBarinas/carreras/diseno.jpg",
-        detail: "diseno",
-        path: "/barinas",
-        description: "",
-        paragraph1:
-          "La función básica del arquitecto es la creación de espacios que den respuestas a las necesidades del hombre y su entorno, partiendo tanto de condiciones de índole cultural como físicas, contribuyendo a elevar su calidad de vida.",
-        paragraph2:
-          "La Carrera de Arquitecto busca formar hombres capacitados para coadyuvar a la solución de los espacios habitables del hombre, mediante la adecuada solución de los problemas espaciales y la selección de los materiales adecuados al medio ambiente en el cual se desarrolla.",
-        paragraph3:
-          "Su vocación lo obliga a crear espacios amables y agradables a los sentidos, que van desde la pequeña casa de habitación hasta el proyecto y edificación de ciudades completas.",
-        paragraph4:
-          "Un Arquitecto está capacitado para diseñar, proyectar y ejecutar la construcción de edificios, conjunto de edificios y los espacios y paisajes que ellos conforman, con su equipamiento, infraestructura y otras destinadas al hábitat humano en sus diferentes escalas y complejidades.",
-        paragraph5:
-          "Asimismo investiga y propone obras de recuperación, renovación, rehabilitación y refuncionalización de edificios y de otros espacios.Sus capacidades e incumbencias profesionales lo habilitan también para efectuar la planificación arquitectónica y urbanística, en todas sus etapas y escalas, de los espacios destinados a los asentamientos urbanos.",
-        full_description: "",
-        more: {
-          graduate_profile:
-            "El Arquitecto egresado del PSM se ocupa de organizar espacios habitacionales en función del hombre, a través de estudios y proyectos de edificación, coordinando sus diversas etapas de planificación, diseño y construcción. Orienta y coordina las funciones de los trabajadores a sus órdenes. Analiza los proyectos para determinar los estilos y tipos de construcción. Hace estudios urbanísticos de distintas zonas.",
-          labor_field:
-            "El egresado del PSM como Arquitecto, es un profesional que se desenvuelve en el campo interdisciplinario de la tecnología, la cultura, lo estético y lo histórico social, de allí que su acción cubrirá actividades de: Planificación, Diseño, Producción, Promoción de Proyectos Arquitectónicos, Investigación y Difusión de programas de interés cultural y educativo, tanto individual como colectivo. El profesional de la arquitectura actúa bajo las relaciones de dependencia y las de libre ejercicio de la profesión.",
-          related_careers: [
-            "Diseño de Obras Civiles",
-            "Diseño Gráfico",
-            "Diseño Interior",
-            "Ingeniería Civil",
-            "Urbanismo",
-          ],
-          pensum: "pensum.pdf",
-        },
-      },
     ]
   },
   testimonios: {
