@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import carrerasData from "../../utils/mock/principalData/carrerasData";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { NavLink as Link } from "react-router-dom";
 
 const DetallesCarrera = () => {
   let carreraId = useParams();
+  const location = useLocation();
   const [carrerasList, setCarrerasList] = useState([]);
   const filterCarrera = (id) => {
     const list = carrerasData.data.filter((x) => x.detail === id);
@@ -14,6 +15,8 @@ const DetallesCarrera = () => {
   useEffect(() => {
     filterCarrera(carreraId.id);
   }, []);
+
+  const locationCarrera = carrerasList[0]?.more.location;
 
   return (
     <div className="bg-white py-24 sm:py-32 dark:bg-dark">
@@ -49,6 +52,27 @@ const DetallesCarrera = () => {
               />
             </div>
           </div>
+
+          {location.pathname.includes("nacional") ? (
+            <article className="flex w-full flex-col items-start justify-between">
+              <div className="group relative mb-2">
+                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
+                  <a className="dark:text-white">
+                    Esta especialidad puedes estudiarla en las siguientes sedes
+                    o extensiones
+                  </a>
+                </h3>
+                <div className="mt-5 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
+                  {locationCarrera.map((item) => (
+                    <Link key={item.id} to={item.link} className={"hover:text-primary"}>
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ) : null}
+
           <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
@@ -63,6 +87,7 @@ const DetallesCarrera = () => {
                 </p>
               </div>
             </article>
+
             <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
                 <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
