@@ -808,13 +808,13 @@ export default {
             },
             {
               id: 3,
-              names: "Lcdo. Xavier Yendy",
+              names: "Lcdo. Xavier Yendys",
               position: "Administrador",
               photo: "/images/sedeBarcelona/about/autoridad3.jpg",
             },
             {
               id: 4,
-              names: "Lcda. Corina Cotoret",
+              names: "Lcda. Corina Cotorett",
               position: "Jefe de Personal",
               photo: "/images/sedeBarcelona/about/autoridad4.jpg",
             },

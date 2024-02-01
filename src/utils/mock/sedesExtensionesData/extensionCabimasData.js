@@ -715,7 +715,7 @@ export default {
         },
       },
       subtitle: "",
-      image: "/images/extensionCabimas/about/sede.jpeg",
+      image: "/images/extensionCabimas/about/sede.jpg",
       description:
         "",
     },

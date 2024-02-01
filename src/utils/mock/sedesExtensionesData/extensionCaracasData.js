@@ -35,7 +35,7 @@ export default {
       carousel_data: [
         {
           id: 0,
-          url: "/images/extensionCaracas/carousel/web1.png",
+          url: "/images/extensionCaracas/carousel/web4.jpg",
           cloudinary: "",
           link: "",
           titleLink: "",
