@@ -62,14 +62,14 @@ const DetallesCarrera = () => {
           {location.pathname.includes("nacional") ? (
             <article className="flex w-full flex-col items-start justify-between">
               <div className="group relative mb-2">
-                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
+                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900">
                   <a className="dark:text-white">
                     Esta especialidad puedes estudiarla en las siguientes sedes
                     o extensiones
                   </a>
                 </h3>
-                <p className="mt-5 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
-                  <h3>Sedes:</h3>
+                <p className="mt-5 text-sm leading-6 text-gray-800 dark:text-white flex flex-wrap gap-x-3 ">
+                  <h2 className="font-bold">Sedes:</h2>
                   {filterLocationSedes?.map((item) => (
                     <Link
                       key={item.id}
@@ -80,8 +80,8 @@ const DetallesCarrera = () => {
                     </Link>
                   ))}
                 </p>
-                <p className="mt-2 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
-                  <h3>Extensiones:</h3>
+                <p className="mt-2 text-sm leading-6 text-gray-800 dark:text-white flex flex-wrap gap-x-3 ">
+                  <h2 className="font-bold">Extensiones:</h2>
                   {filterLocationExtensiones?.map((item) => (
                     <Link
                       key={item.id}
