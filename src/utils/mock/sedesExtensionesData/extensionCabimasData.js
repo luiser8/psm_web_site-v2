@@ -62,8 +62,8 @@ export default {
         id: 1,
         active: true,
         date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionCabimas/events/evento4.jpeg",
+        name: "Expo Ecológica",
+        image: "/images/extensionCabimas/events/evento0.jpg",
         detail: "1",
         description: [
           {
@@ -124,8 +124,8 @@ export default {
         id: 2,
         active: true,
         date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionCabimas/events/evento5.jpeg",
+        name: "Presentación Proyecto Sistema",
+        image: "/images/extensionCabimas/events/evento1.jpg",
         detail: "1",
         description: [
           {
@@ -186,8 +186,8 @@ export default {
         id: 3,
         active: true,
         date: "01-11-2023",
-        name: "Expo Química",
-        image: "/images/extensionCabimas/events/evento1.jpeg",
+        name: "Taller de Mant y Reparación de PC",
+        image: "/images/extensionCabimas/events/evento2.jpg",
         detail: "1",
         description: [
           {
