@@ -122,7 +122,7 @@ const DetallesCarrera = () => {
                   </span>
                 </div>
                 <div className="flex-shrink-0">
-                  <a className="cursor-pointer font-medium">
+                  <a arget="_blank" href={carrerasList[0].more.pensum} className="cursor-pointer font-medium">
                     Descargar Pensum de Estudio
                   </a>
                 </div>
