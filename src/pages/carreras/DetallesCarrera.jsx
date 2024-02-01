@@ -58,7 +58,7 @@ const DetallesCarrera = () => {
               <div className="group relative mb-2">
                 <h3 className="mt-4 text-lg font-medium leading-6 text-gray-900">
                   <a className="dark:text-white">
-                    Esta especialidad puedes estudiarla en las siguientes sedes
+                    Esta especialidad la puedes estudiar en las siguientes sedes
                     o extensiones:
                   </a>
                 </h3>
