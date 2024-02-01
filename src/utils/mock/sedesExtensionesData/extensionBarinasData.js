@@ -62,7 +62,7 @@ export default {
         id: 1,
         active: true,
         date: "01-11-2023",
-        name: "Expo Química",
+        name: "Intercambio",
         image: "/images/extensionBarinas/events/evento1.jpg",
         detail: "1",
         description: [
@@ -124,7 +124,7 @@ export default {
         id: 2,
         active: true,
         date: "01-11-2023",
-        name: "Congreso estudiantil",
+        name: "3er Expo Feria",
         image: "/images/extensionBarinas/events/evento2.jpg",
         detail: "2",
         description: [
@@ -186,7 +186,7 @@ export default {
         id: 3,
         active: true,
         date: "03-11-2023",
-        name: "Feria informática",
+        name: "3er Expo Feria",
         image: "/images/extensionBarinas/events/evento3.jpg",
         detail: "3",
         description: [
@@ -472,29 +472,29 @@ export default {
     active: true, testimonios_data: [
       {
         id: 1,
-        name: "Miguel Perez",
-        designation: "Programador",
+        name: "Lilianny Del Rosario Quero Arias",
+        designation: "Ing. Industrial / 6to semestre",
         content:
-          "“Mi experiencia en la universidad de tecnología ha sido increíble. Los profesores son expertos en sus campos y siempre están dispuestos a ayudar. Las instalaciones son de última generación y el ambiente es muy propicio para el aprendizaje. Estoy muy contento con mi decisión de estudiar aquí",
-        image: "/images/extensionBarinas/testimonials/auth-01.png",
+          "Mi experiencia en el Instituto Universitario Politécnico “Santiago Mariño” me ha sido de gran ayuda para construir la persona que soy en la actualidad, y a cimentar los valores de la que seré en un futuro.”",
+        image: "/images/extensionBarinas/testimonials/author1.jpeg",
         star: 5,
       },
       {
         id: 2,
-        name: "Carlos Velásquez",
-        designation: "Estudiante",
+        name: "Luis José Quero Pérez",
+        designation: "Ing. Sistemas / 1er semestre",
         content:
-          "La universidad me ha proporcionado una educación de calidad y una gran cantidad de oportunidades. He podido trabajar en proyectos de investigación de vanguardia y he aprendido habilidades prácticas que me serán útiles en mi carrera. Recomiendo encarecidamente esta universidad a cualquier persona interesada en la tecnología.",
-        image: "/images/extensionBarinas/testimonials/auth-02.png",
+          "Desde que llego al Instituto Universitario Politécnico “Santiago Mariño” estoy en mi casa, experimentando grandes emociones, me siento feliz y complacido con mis docentes, el personal y mis compañeros de estudios.”",
+          image: "/images/extensionBarinas/testimonials/author2.jpeg",
         star: 5,
       },
       {
         id: 3,
-        name: "Jose Alberto",
-        designation: "Profesor",
+        name: "Javier Cueva González Alberto",
+        designation: "Ing. Química / 9no semestre",
         content:
-          "Estudiar en la universidad ha sido una de las mejores decisiones que he tomado. La universidad ofrece una amplia gama de cursos y programas, lo que me ha permitido explorar diferentes áreas de la tecnología. Además, he hecho grandes amigos y he tenido experiencias inolvidables. Estoy muy agradecido por las oportunidades que me ha brindado esta universidad.",
-        image: "/images/extensionBarinas/testimonials/auth-03.png",
+          "Al ser Técnico Superior Universitario en Química Industrial, deseaba poder consolidar mis conocimientos académicos y a la oportunidad brindada por mi Casa de Estudios el Instituto Universitario Politécnico “Santiago Mariño”.",
+          image: "/images/extensionBarinas/testimonials/author3.jpeg",
         star: 5,
       },
     ]
@@ -504,183 +504,61 @@ export default {
       {
         id: 1,
         principal: true,
-        title: "Best UI components for modern websites",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/extensionBarinas/blog/new01.jpg",
         author: {
-          name: "Samuyl Joshi",
+          name: "Carla Rodriguez",
           image: "/images/extensionBarinas/blog/author-01.png",
-          designation: "Graphic Designer",
+          designation: "Asesor Académico",
         },
-        tags: ["programación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
       {
         id: 2,
         principal: true,
-        title: "9 simple ways to improve your design skills",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/extensionBarinas/blog/new01.jpg",
         author: {
-          name: "Musharof Chy",
-          image: "/images/extensionBarinas/blog/author-02.png",
-          designation: "Content Writer",
+          name: "Carla Rodriguez",
+          image: "/images/extensionBarinas/blog/author-01.png",
+          designation: "Asesor Académico",
         },
-        tags: ["computación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
       {
         id: 3,
         principal: true,
-        title: "Tips to quickly improve your coding speed.",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/extensionBarinas/blog/new01.jpg",
         author: {
-          name: "Lethium Deo",
-          image: "/images/extensionBarinas/blog/author-03.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["diseño"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-
-      {
-        id: 4,
-        principal: false,
-        title: "Material UI",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionBarinas/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
+          name: "Carla Rodriguez",
           image: "/images/extensionBarinas/blog/author-01.png",
-          designation: "Graphic Designer",
+          designation: "Asesor Académico",
         },
-        tags: ["programación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-
-      {
-        id: 5,
-        principal: false,
-        title: "React",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionBarinas/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionBarinas/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 6,
-        principal: false,
-        title: "JavaScript",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionBarinas/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionBarinas/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 7,
-        principal: false,
-        title: "Typescript",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionBarinas/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 8,
-        principal: false,
-        title: "Linux",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionBarinas/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionBarinas/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 9,
-        principal: false,
-        title: "Mac",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionBarinas/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionBarinas/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
     ]

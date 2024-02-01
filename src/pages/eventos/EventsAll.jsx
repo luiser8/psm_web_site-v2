@@ -42,7 +42,7 @@ export default function EventsAll() {
           <div className="flex flex-row mb-10 mx-auto">
           <SectionTitle
             title="Eventos"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph=""
             center
           />
           </div>

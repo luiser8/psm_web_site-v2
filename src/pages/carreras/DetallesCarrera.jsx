@@ -56,13 +56,13 @@ const DetallesCarrera = () => {
           {location.pathname.includes("nacional") ? (
             <article className="flex w-full flex-col items-start justify-between">
               <div className="group relative mb-2">
-                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
+                <h3 className="mt-4 text-lg font-medium leading-6 text-gray-900">
                   <a className="dark:text-white">
                     Esta especialidad puedes estudiarla en las siguientes sedes
-                    o extensiones
+                    o extensiones:
                   </a>
                 </h3>
-                <div className="mt-5 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
+                <div className="mt-2 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
                   {locationCarrera.map((item) => (
                     <Link key={item.id} to={item.link} className={"hover:text-primary"}>
                       {item.name}

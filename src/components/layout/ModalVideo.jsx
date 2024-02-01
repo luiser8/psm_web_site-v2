@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function ModalVideo({ link, open, handleClose }) {
   return (
@@ -19,7 +19,7 @@ export default function ModalVideo({ link, open, handleClose }) {
           allowfullscreen
         ></iframe>
         <button onClick={handleClose} className="bg-white flex justify-center items-center z-50 absolute p-3 top-20 right-3 rounded-full hover:scale-105 transition-all ease-linear">
-        <img src="/images/Icon/close-icon.svg" alt="clse" />
+        <img src="/images/common/Icon/close-icon.svg" alt="clse" />
         </button>
       </div>
     </>

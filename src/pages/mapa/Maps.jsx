@@ -11,7 +11,7 @@ export default function Maps() {
         <div className="container mt-12 mb-24">
           <SectionTitle
             title="Mapa"
-            paragraph="Donde los ubicamos"
+            paragraph="Donde nos ubicamos"
             center
           />
           <div

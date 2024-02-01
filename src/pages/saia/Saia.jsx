@@ -12,7 +12,7 @@ const Saia = () => {
       <div className="container">
         <SectionTitle title="S.A.I.A" paragraph="" center />
         <div className="w-[100%] h-full mx-auto">
-          <section className="w-full h-full mb-16">
+          <section className="w-full h-full mb-6">
             {componentSaiaData.active ? (
               <div className="w-full h-auto">
                 <section className="w-full h-auto flex justify-center items-center gap-y-10 flex-col rounded-lg mx-auto xl:flex-row-reverse lg:gap-x-20 xl:mt-10">
@@ -49,7 +49,7 @@ const Saia = () => {
             )}
           </section>
 
-          <section
+          {/* <section
             className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
             data-wow-delay=".15s"
           >
@@ -74,10 +74,10 @@ const Saia = () => {
                 </button>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
 
-        <ModalVideo
+        {/* <ModalVideo
           channel="youtube"
           autoplay={true}
           start={true}
@@ -88,13 +88,11 @@ const Saia = () => {
 
         {isOpen ? (
           <>
-            <div className="absolute bottom-0 left-0 right-0 z-[-1]">
-              {/* <img src="/images/video/shape.svg" alt="shape" className="w-full" /> */}
-            </div>
+            <div className="absolute bottom-0 left-0 right-0 z-[-1]"></div>
           </>
         ) : (
           <></>
-        )}
+        )} */}
       </div>
     </section>
   );

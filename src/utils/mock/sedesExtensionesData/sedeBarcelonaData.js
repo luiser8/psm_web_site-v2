@@ -72,6 +72,130 @@ export default {
       {
         id: 1,
         active: true,
+        date: "30-01-2024",
+        name: "Expo Turbinas",
+        image: "/images/sedeBarcelona/events/evento4.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        active: true,
+        date: "30-01-2024",
+        name: "Expo Servicio Comunitario",
+        image: "/images/sedeBarcelona/events/evento5.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        active: true,
         date: "01-11-2023",
         name: "Expo Química",
         image: "/images/sedeBarcelona/events/evento1.jpeg",
@@ -132,10 +256,10 @@ export default {
         ],
       },
       {
-        id: 2,
+        id: 4,
         active: true,
         date: "01-11-2023",
-        name: "Congreso estudiantil",
+        name: "Expo Puentes",
         image: "/images/sedeBarcelona/events/evento2.jpeg",
         detail: "2",
         description: [
@@ -194,10 +318,10 @@ export default {
         ],
       },
       {
-        id: 3,
+        id: 5,
         active: true,
         date: "03-11-2023",
-        name: "Feria informática",
+        name: "II Feria Cultural",
         image: "/images/sedeBarcelona/events/evento3.jpeg",
         detail: "3",
         description: [
@@ -552,183 +676,61 @@ export default {
       {
         id: 1,
         principal: true,
-        title: "Best UI components for modern websites",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
-          name: "Samuyl Joshi",
+          name: "Carla Rodriguez",
           image: "/images/sedeBarcelona/blog/author-01.png",
-          designation: "Graphic Designer",
+          designation: "Asesor Académico",
         },
-        tags: ["programación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
       {
         id: 2,
         principal: true,
-        title: "9 simple ways to improve your design skills",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
-          name: "Musharof Chy",
-          image: "/images/sedeBarcelona/blog/author-02.png",
-          designation: "Content Writer",
+          name: "Carla Rodriguez",
+          image: "/images/sedeBarcelona/blog/author-01.png",
+          designation: "Asesor Académico",
         },
-        tags: ["computación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
       {
         id: 3,
         principal: true,
-        title: "Tips to quickly improve your coding speed.",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/sedeBarcelona/blog/new01.jpg",
         author: {
-          name: "Lethium Deo",
-          image: "/images/sedeBarcelona/blog/author-03.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["diseño"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-
-      {
-        id: 4,
-        principal: false,
-        title: "Material UI",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
+          name: "Carla Rodriguez",
           image: "/images/sedeBarcelona/blog/author-01.png",
-          designation: "Graphic Designer",
+          designation: "Asesor Académico",
         },
-        tags: ["programación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-
-      {
-        id: 5,
-        principal: false,
-        title: "React",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/sedeBarcelona/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 6,
-        principal: false,
-        title: "JavaScript",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/sedeBarcelona/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 7,
-        principal: false,
-        title: "Typescript",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 8,
-        principal: false,
-        title: "Linux",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/sedeBarcelona/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 9,
-        principal: false,
-        title: "Mac",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/sedeBarcelona/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
     ],

@@ -28,7 +28,7 @@ export default {
       },
     ]
   },
-  carousel: { 
+  carousel: {
     active: true,
     title: "Politécnico Santiago Mariño",
     description: "",
@@ -60,6 +60,130 @@ export default {
     eventos_data: [
       {
         id: 1,
+        active: true,
+        date: "30-01-2024",
+        name: "Expo Turbinas",
+        image: "/images/extensionMaracay/events/evento4.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        active: true,
+        date: "30-01-2024",
+        name: "Expo Servicio Comunitario",
+        image: "/images/extensionMaracay/events/evento5.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 3,
         active: true,
         date: "01-11-2023",
         name: "Expo Química",
@@ -120,123 +244,6 @@ export default {
           },
         ],
       },
-      {
-        id: 2,
-        active: true,
-        date: "01-11-2023",
-        name: "Congreso estudiantil",
-        image: "/images/extensionMaracay/events/evento2.jpeg",
-        detail: "2",
-        description: [
-          {
-            id: 1,
-            description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
-          },
-          {
-            id: 2,
-            description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
-          },
-          {
-            id: 3,
-            description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
-          },
-          {
-            id: 4,
-            description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
-          },
-          {
-            id: 5,
-            description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
-          },
-        ],
-        professions: [
-          {
-            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
-          },
-          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
-          {
-            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
-          },
-          {
-            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
-          },
-        ],
-        experiences: [
-          { name: "Gerente General de grupo depanel (actualmente)" },
-          {
-            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
-          },
-          {
-            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
-          },
-          {
-            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
-          },
-          {
-            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
-          },
-        ],
-      },
-      {
-        id: 3,
-        active: true,
-        date: "03-11-2023",
-        name: "Feria informática",
-        image: "/images/extensionMaracay/events/evento3.jpeg",
-        detail: "3",
-        description: [
-          {
-            id: 1,
-            description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
-          },
-          {
-            id: 2,
-            description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
-          },
-          {
-            id: 3,
-            description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
-          },
-          {
-            id: 4,
-            description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
-          },
-          {
-            id: 5,
-            description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
-          },
-        ],
-        professions: [
-          { name: "Ing. civil - Politécnico Santiago Mariño" },
-          {
-            name: "Especialista en construcción de obras civiles mención edificaciones, Universidad Rafael Urdaneta",
-          },
-          {
-            name: "Ingeniero Constructor Titulo Revalidado Universidad de Chile Constructor Titulo Revalidado Universidad de Chile",
-          },
-        ],
-        experiences: [
-          {
-            name: "Experiencia en inspección técnica de obras, gestión, planificación y ejecución de proyectos industriales, procesos de licitación.",
-          },
-          {
-            name: "Experiencia comprobada en el mantenimiento e instalaciones eléctricas de mediana y alta tensión, incluyendo las instalaciones de tipo residenciales",
-          },
-          {
-            name: "Planificación y elaboración de plan de trabajo y seguimiento a través del diagrama de Gantt. dirección y coordinación de especialidades en el proceso constructivo de una obra.",
-          },
-        ],
-      }
     ],
   },
   carreras: {
@@ -472,29 +479,29 @@ export default {
     active: true, testimonios_data: [
       {
         id: 1,
-        name: "Miguel Perez",
-        designation: "Programador",
+        name: "Lilianny Del Rosario Quero Arias",
+        designation: "Ing. Industrial / 6to semestre",
         content:
-          "“Mi experiencia en la universidad de tecnología ha sido increíble. Los profesores son expertos en sus campos y siempre están dispuestos a ayudar. Las instalaciones son de última generación y el ambiente es muy propicio para el aprendizaje. Estoy muy contento con mi decisión de estudiar aquí",
-        image: "/images/extensionMaracay/testimonials/auth-01.png",
+          "Mi experiencia en el Instituto Universitario Politécnico “Santiago Mariño” me ha sido de gran ayuda para construir la persona que soy en la actualidad, y a cimentar los valores de la que seré en un futuro.”",
+        image: "/images/extensionMaracay/testimonials/author1.jpeg",
         star: 5,
       },
       {
         id: 2,
-        name: "Carlos Velásquez",
-        designation: "Estudiante",
+        name: "Luis José Quero Pérez",
+        designation: "Ing. Sistemas / 1er semestre",
         content:
-          "La universidad me ha proporcionado una educación de calidad y una gran cantidad de oportunidades. He podido trabajar en proyectos de investigación de vanguardia y he aprendido habilidades prácticas que me serán útiles en mi carrera. Recomiendo encarecidamente esta universidad a cualquier persona interesada en la tecnología.",
-        image: "/images/extensionMaracay/testimonials/auth-02.png",
+          "Desde que llego al Instituto Universitario Politécnico “Santiago Mariño” estoy en mi casa, experimentando grandes emociones, me siento feliz y complacido con mis docentes, el personal y mis compañeros de estudios.”",
+          image: "/images/extensionMaracay/testimonials/author2.jpeg",
         star: 5,
       },
       {
         id: 3,
-        name: "Jose Alberto",
-        designation: "Profesor",
+        name: "Javier Cueva González Alberto",
+        designation: "Ing. Química / 9no semestre",
         content:
-          "Estudiar en la universidad ha sido una de las mejores decisiones que he tomado. La universidad ofrece una amplia gama de cursos y programas, lo que me ha permitido explorar diferentes áreas de la tecnología. Además, he hecho grandes amigos y he tenido experiencias inolvidables. Estoy muy agradecido por las oportunidades que me ha brindado esta universidad.",
-        image: "/images/extensionMaracay/testimonials/auth-03.png",
+          "Al ser Técnico Superior Universitario en Química Industrial, deseaba poder consolidar mis conocimientos académicos y a la oportunidad brindada por mi Casa de Estudios el Instituto Universitario Politécnico “Santiago Mariño”.",
+          image: "/images/extensionMaracay/testimonials/author3.jpeg",
         star: 5,
       },
     ]
@@ -504,183 +511,61 @@ export default {
       {
         id: 1,
         principal: true,
-        title: "Best UI components for modern websites",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/extensionMaracay/blog/new01.jpg",
         author: {
-          name: "Samuyl Joshi",
+          name: "Carla Rodriguez",
           image: "/images/extensionMaracay/blog/author-01.png",
-          designation: "Graphic Designer",
+          designation: "Asesor Académico",
         },
-        tags: ["programación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
       {
         id: 2,
         principal: true,
-        title: "9 simple ways to improve your design skills",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/extensionMaracay/blog/new01.jpg",
         author: {
-          name: "Musharof Chy",
-          image: "/images/extensionMaracay/blog/author-02.png",
-          designation: "Content Writer",
+          name: "Carla Rodriguez",
+          image: "/images/extensionMaracay/blog/author-01.png",
+          designation: "Asesor Académico",
         },
-        tags: ["computación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
       {
         id: 3,
         principal: true,
-        title: "Tips to quickly improve your coding speed.",
+        title: "Información de inscripción",
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
         image: "/images/extensionMaracay/blog/new01.jpg",
         author: {
-          name: "Lethium Deo",
-          image: "/images/extensionMaracay/blog/author-03.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["diseño"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-
-      {
-        id: 4,
-        principal: false,
-        title: "Material UI",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionMaracay/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
+          name: "Carla Rodriguez",
           image: "/images/extensionMaracay/blog/author-01.png",
-          designation: "Graphic Designer",
+          designation: "Asesor Académico",
         },
-        tags: ["programación"],
-        publishDate: "2025",
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
         details: {
-          subTitle: "Tips to quickly improve your coding speed.",
+          subTitle: "Información de inscripción.",
           paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-
-      {
-        id: 5,
-        principal: false,
-        title: "React",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionMaracay/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionMaracay/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 6,
-        principal: false,
-        title: "JavaScript",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionMaracay/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionMaracay/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 7,
-        principal: false,
-        title: "Typescript",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionMaracay/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 8,
-        principal: false,
-        title: "Linux",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionMaracay/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionMaracay/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        },
-      },
-      {
-        id: 9,
-        principal: false,
-        title: "Mac",
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-        image: "/images/extensionMaracay/blog/new01.jpg",
-        author: {
-          name: "Samuyl Joshi",
-          image: "/images/extensionMaracay/blog/author-01.png",
-          designation: "Graphic Designer",
-        },
-        tags: ["programación"],
-        publishDate: "2025",
-        details: {
-          subTitle: "Tips to quickly improve your coding speed.",
-          paragraph:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
     ]

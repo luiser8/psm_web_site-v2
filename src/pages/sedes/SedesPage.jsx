@@ -29,6 +29,8 @@ export default function SedesPage() {
     setFooter(footer);
   }
 
+  console.log(noticias)
+
   return (
     <div className="bg-white py-20 sm:py-20 mt-8">
       {getDataSedesExtensiones.data.active ? (
