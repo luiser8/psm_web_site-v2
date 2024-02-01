@@ -17,6 +17,12 @@ const DetallesCarrera = () => {
   }, []);
 
   const locationCarrera = carrerasList[0]?.more.location;
+  const filterLocationExtensiones = locationCarrera?.filter(
+    (x) => x.name !== "Barcelona"
+  );
+  const filterLocationSedes = locationCarrera?.filter(
+    (x) => x.name === "Barcelona"
+  );
 
   return (
     <div className="bg-white py-24 sm:py-32 dark:bg-dark">
@@ -56,19 +62,36 @@ const DetallesCarrera = () => {
           {location.pathname.includes("nacional") ? (
             <article className="flex w-full flex-col items-start justify-between">
               <div className="group relative mb-2">
-                <h3 className="mt-4 text-lg font-medium leading-6 text-gray-900">
+                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
                   <a className="dark:text-white">
-                    Esta especialidad la puedes estudiar en las siguientes sedes
-                    o extensiones:
+                    Esta especialidad puedes estudiarla en las siguientes sedes
+                    o extensiones
                   </a>
                 </h3>
-                <div className="mt-2 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
-                  {locationCarrera.map((item) => (
-                    <Link key={item.id} to={item.link} className={"hover:text-primary"}>
+                <p className="mt-5 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
+                  <h3>Sedes:</h3>
+                  {filterLocationSedes?.map((item) => (
+                    <Link
+                      key={item.id}
+                      to={item.link}
+                      className={"hover:text-primary"}
+                    >
                       {item.name}
                     </Link>
                   ))}
-                </div>
+                </p>
+                <p className="mt-2 text-sm leading-6 text-gray-600 dark:text-white flex flex-wrap gap-x-3 ">
+                  <h3>Extensiones:</h3>
+                  {filterLocationExtensiones?.map((item) => (
+                    <Link
+                      key={item.id}
+                      to={item.link}
+                      className={"hover:text-primary"}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </p>
               </div>
             </article>
           ) : null}
@@ -122,7 +145,7 @@ const DetallesCarrera = () => {
                   </span>
                 </div>
                 <div className="flex-shrink-0">
-                  <a target="_blank" href={carrerasList[0].more.pensum} className="cursor-pointer font-medium">
+                  <a className="cursor-pointer font-medium">
                     Descargar Pensum de Estudio
                   </a>
                 </div>
