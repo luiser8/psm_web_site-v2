@@ -371,7 +371,7 @@ export default {
             name: "Planificación y elaboración de plan de trabajo y seguimiento a través del diagrama de Gantt. dirección y coordinación de especialidades en el proceso constructivo de una obra.",
           },
         ],
-      }
+      },
     ],
   },
   carreras: {
@@ -883,8 +883,15 @@ export default {
             name: "Eventos",
             link: "/barcelona/eventos",
           },
+
           {
             id: 6,
+            name: "Metodos de pago",
+            link: "/barcelona/metodos_de_pago",
+          },
+
+          {
+            id: 7,
             name: "FAQ",
             link: "/barcelona/faq",
           },
@@ -950,5 +957,13 @@ export default {
         ],
       },
     },
+  },
+
+  payments: {
+    titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+    banco: "Venezuela",
+    cedula: "87537394",
+    telefono: "+58 424-3829373",
+    numero_de_cuenta: "0102-8732-3234-2343-3468",
   },
 };
