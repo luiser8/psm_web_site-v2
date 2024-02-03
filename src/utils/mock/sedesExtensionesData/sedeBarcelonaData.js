@@ -886,7 +886,7 @@ export default {
 
           {
             id: 6,
-            name: "Metodos de pago",
+            name: "Métodos de pago",
             link: "/barcelona/metodos_de_pago",
           },
 
