@@ -4,7 +4,8 @@ export default {
   title: "Puerto Ordaz",
   parameters: "puerto_ordaz",
   header: {
-    active: true, header_data: [
+    active: true,
+    header_data: [
       {
         id: 2,
         title: "Quienes somos",
@@ -26,7 +27,7 @@ export default {
         newTab: false,
         active: true,
       },
-    ]
+    ],
   },
   carousel: {
     active: true,
@@ -42,17 +43,18 @@ export default {
         target: "",
         iframe: "",
       },
-    ]
+    ],
   },
   saia: {
-    active: false, saia_data: [
+    active: false,
+    saia_data: [
       {
         id: 0,
       },
       {
         id: 1,
       },
-    ]
+    ],
   },
   eventos: {
     active: true,
@@ -247,7 +249,8 @@ export default {
     ],
   },
   carreras: {
-    active: true, carreras_data: [
+    active: true,
+    carreras_data: [
       {
         id: 1,
         name: "Arquitectura",
@@ -473,10 +476,11 @@ export default {
           pensum: "pensum.pdf",
         },
       },
-    ]
+    ],
   },
   testimonios: {
-    active: true, testimonios_data: [
+    active: true,
+    testimonios_data: [
       {
         id: 1,
         name: "Lilianny Del Rosario Quero Arias",
@@ -492,7 +496,7 @@ export default {
         designation: "Ing. Sistemas / 1er semestre",
         content:
           "Desde que llego al Instituto Universitario Politécnico “Santiago Mariño” estoy en mi casa, experimentando grandes emociones, me siento feliz y complacido con mis docentes, el personal y mis compañeros de estudios.”",
-          image: "/images/extensionPuertoOrdaz/testimonials/author2.jpeg",
+        image: "/images/extensionPuertoOrdaz/testimonials/author2.jpeg",
         star: 5,
       },
       {
@@ -501,13 +505,15 @@ export default {
         designation: "Ing. Química / 9no semestre",
         content:
           "Al ser Técnico Superior Universitario en Química Industrial, deseaba poder consolidar mis conocimientos académicos y a la oportunidad brindada por mi Casa de Estudios el Instituto Universitario Politécnico “Santiago Mariño”.",
-          image: "/images/extensionPuertoOrdaz/testimonials/author3.jpeg",
+        image: "/images/extensionPuertoOrdaz/testimonials/author3.jpeg",
         star: 5,
       },
-    ]
+    ],
   },
   noticias: {
-    active: true, path: "/puerto_ordaz/noticias", noticias_data: [
+    active: true,
+    path: "/puerto_ordaz/noticias",
+    noticias_data: [
       {
         id: 1,
         principal: true,
@@ -568,10 +574,11 @@ export default {
             "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
         },
       },
-    ]
+    ],
   },
   inscripciones: {
-    active: true, inscripciones_data: [
+    active: true,
+    inscripciones_data: [
       {
         id: 1,
         date: "10-12-2024",
@@ -598,7 +605,7 @@ export default {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit posuere nulla, id dapibus leo fringilla sit amet. Suspendisse vehicula tristique ipsum, nec venenatis justo. Nam justo nulla, dictum eget ante at, tristique posuere augue. Ut dignissim ut neque dignissim varius. Donec eu sapien consequat nibh molestie ornare. Orci varius natoque penatibus et magnis dis parturient montes,",
       },
-    ]
+    ],
   },
   contacto: {
     active: true,
@@ -624,17 +631,22 @@ export default {
       title: "Politécnico Santiago Mariño",
       about_us: {
         title: "¿Quienes somos?",
-        description1: "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
-        description2: "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
-        description3: "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",
+        description1:
+          "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
+        description2:
+          "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
+        description3:
+          "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",
       },
       additional_data: {
         mission_and_vision: {
           title: "Misión y Visión",
           subtitle1: "Misión",
-          description1: "Formar profesionales de elevada calidad que respondan a las necesidades del país y a los cambios que éste demande; fomentar la investigación, así como promover actividades que propicien la correspondiente integración e interrelación de la institución y la comunidad a objeto de elevar el nivel cultural, afianzar valores, favorecer el bienestar, para así contribuir al enriquecimiento de la calidad de vida.",
+          description1:
+            "Formar profesionales de elevada calidad que respondan a las necesidades del país y a los cambios que éste demande; fomentar la investigación, así como promover actividades que propicien la correspondiente integración e interrelación de la institución y la comunidad a objeto de elevar el nivel cultural, afianzar valores, favorecer el bienestar, para así contribuir al enriquecimiento de la calidad de vida.",
           subtitle2: "Visión",
-          description2: "Constituirse en una institución de educación superior signada por la excelencia, que contribuya al desarrollo cultural, científico, humanístico y tecnológico del país y a la consolidación de los valores fundamentales de la sociedad enmarcados en el contexto nacional, latinoamericano y mundial.",
+          description2:
+            "Constituirse en una institución de educación superior signada por la excelencia, que contribuya al desarrollo cultural, científico, humanístico y tecnológico del país y a la consolidación de los valores fundamentales de la sociedad enmarcados en el contexto nacional, latinoamericano y mundial.",
         },
         authorities: {
           title: "Autoridades",
@@ -643,27 +655,26 @@ export default {
               id: 1,
               names: "Ing. Maria Marinao",
               position: "Coordinador de Extensión",
-              photo: "/images/extensionPuertoOrdaz/about/autoridad1.png"
+              photo: "/images/extensionPuertoOrdaz/about/autoridad1.png",
             },
             {
               id: 2,
               names: "Lcda. Ellis Fuentes",
               position: "Jefe División de Recursos Humanos",
-              photo: "/images/extensionPuertoOrdaz/about/autoridad2.jpg"
+              photo: "/images/extensionPuertoOrdaz/about/autoridad2.jpg",
             },
             {
               id: 3,
               names: "Ing. Zorainy Malave",
               position: "Jefe División de Control de Estudios",
-              photo: "/images/extensionPuertoOrdaz/about/autoridad3.jpg"
+              photo: "/images/extensionPuertoOrdaz/about/autoridad3.jpg",
             },
-          ]
+          ],
         },
       },
       subtitle: "",
       image: "/images/extensionPuertoOrdaz/about/sede.png",
-      description:
-        "",
+      description: "",
     },
   },
   footer: {
@@ -703,6 +714,12 @@ export default {
           },
           {
             id: 6,
+            name: "Metodos de pago",
+            link: "/puerto_ordaz/metodos_de_pago",
+          },
+
+          {
+            id: 7,
             name: "FAQ",
             link: "/puerto_ordaz/faq",
           },
@@ -768,5 +785,12 @@ export default {
         ],
       },
     },
+  },
+  payments: {
+    titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+    banco: "Venezuela",
+    cedula: "87537394",
+    telefono: "+58 424-3829373",
+    numero_de_cuenta: "0102-8732-3234-2343-3468",
   },
 };

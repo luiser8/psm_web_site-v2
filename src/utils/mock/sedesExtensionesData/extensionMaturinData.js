@@ -715,6 +715,12 @@ export default {
           },
           {
             id: 6,
+            name: "Metodos de pago",
+            link: "/maturin/metodos_de_pago",
+          },
+
+          {
+            id: 7,
             name: "FAQ",
             link: "/maturin/faq",
           },
@@ -781,4 +787,13 @@ export default {
       },
     },
   },
+
+  payments: {
+    titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+    banco: "Venezuela",
+    cedula: "87537394",
+    telefono: "+58 424-3829373",
+    numero_de_cuenta: "0102-8732-3234-2343-3468",
+  },
+  
 };
