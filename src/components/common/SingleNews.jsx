@@ -32,7 +32,7 @@ const SingleNews = ({ blog, detail }) => {
               {title}
             </Link>
           </h3>
-          <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
+          <p className="mb-4 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
           {/* <div className="flex items-center">

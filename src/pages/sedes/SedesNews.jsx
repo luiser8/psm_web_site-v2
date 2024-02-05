@@ -22,7 +22,7 @@ const SedesNews = ({data}) => {
               </div>
             ))}
         </div>
-        <span className="w-full flex flex-row justify-end mt-5">
+        {/* <span className="w-full flex flex-row justify-end mt-5">
           <Link
             to={data.path}
             className={
@@ -31,7 +31,7 @@ const SedesNews = ({data}) => {
           >
             Ver más noticias
           </Link>
-        </span>
+        </span> */}
       </div>
     </section>
       ) : <></>
