@@ -17,7 +17,7 @@ const SingleNews = ({ blog, detail }) => {
         </div>
 
         <div className="p-6 sm:p-8 md:py-4 md:px-6 lg:p-8 xl:py-4 xl:px-5 2xl:p-8">
-          <Link to={`${detail}/${id}`}>
+          <Link to={``}>
             <span
               className="inline-block rounded-full bg-grey py-2 px-4 text-sm font-semibold capitalize text-white"
             >
@@ -26,7 +26,7 @@ const SingleNews = ({ blog, detail }) => {
           </Link>
           <h3>
             <Link
-              to={`${detail}/${id}`}
+              to={``}
               className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-2xl dark:hover:text-primary"
             >
               {title}
@@ -35,7 +35,7 @@ const SingleNews = ({ blog, detail }) => {
           <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
               <div className="mr-4">
                 <div className="relative h-10 w-10 overflow-hidden rounded-full">
@@ -55,7 +55,7 @@ const SingleNews = ({ blog, detail }) => {
               </h4>
               <p className="text-xs text-body-color">{publishDate}</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

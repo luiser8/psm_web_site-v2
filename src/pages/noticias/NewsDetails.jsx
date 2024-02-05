@@ -20,7 +20,7 @@ export default function NewsDetails() {
       {Object.keys(news).length > 0 ? (
         <div className="w-full h-full bg-white py-10 dark:bg-dark">
           <section className=" bg-[#fff] w-60% md:w-[55%] h-auto flex justify-start flex-col py-4 px-4 gap-y-5 mx-auto rounded dark:bg-black">
-          <section className="flex items-center">
+          {/* <section className="flex items-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
               <div className="mr-4 flex flex-row items-start gap-x-10">
                 <div className="relative h-12 w-full overflow-hidden rounded-full">
@@ -46,13 +46,13 @@ export default function NewsDetails() {
               </h4>
               <p className="text-xs text-body-color">{news.publishDate}</p>
             </div>
-          </section>
+          </section> */}
 
           <section>
             <img
               src={news.image}
               alt="photo"
-              className="w-full h-[80%] mb-5 rounded"
+              className="w-[60%] h-[60%] mb-5 rounded"
             />
             <span className="flex flex-col gap-y-3">
               <h1 className="font-bold text-2xl md:text-3xl">{news.title}</h1>

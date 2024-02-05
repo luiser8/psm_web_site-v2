@@ -22,16 +22,16 @@ const News = () => {
               </div>
             ))}
         </div>
-        <span className="w-full flex flex-row justify-end mt-5">
+        {/* <span className="w-full flex flex-row justify-end mt-5">
           <Link
-            to={newsData.path}
+            to=""
             className={
               "font-semibold text-lg md:text-xl hover:text-primary transition-all ease-linear"
             }
           >
             Ver más noticias
           </Link>
-        </span>
+        </span> */}
       </div>
     </section>
   );

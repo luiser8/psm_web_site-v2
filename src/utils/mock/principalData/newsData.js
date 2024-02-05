@@ -6,9 +6,9 @@ const newsData = {
     {
       id: 1,
       principal: true,
-      title: "Cambios de carrera y traslados",
+      title: "Reinscripción administrativa",
       paragraph:
-        "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        "",
       image: "/images/nacional/blog/new0.jpeg",
       author: {
         name: "Carla Rodriguez",
@@ -28,7 +28,7 @@ const newsData = {
       principal: true,
       title: "Reinscripción académica",
       paragraph:
-        "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        "",
       image: "/images/nacional/blog/new1.jpeg",
       author: {
         name: "Carla Rodriguez",
@@ -46,9 +46,9 @@ const newsData = {
     {
       id: 3,
       principal: true,
-      title: "Cancelación de cuotas",
+      title: "Cambios de carrera y traslados",
       paragraph:
-        "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        "",
       image: "/images/nacional/blog/new2.jpeg",
       author: {
         name: "Carla Rodriguez",
@@ -66,9 +66,9 @@ const newsData = {
     {
       id: 4,
       principal: true,
-      title: "Reinscripción administrativa",
+      title: "Prueba especial",
       paragraph:
-        "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        "",
       image: "/images/nacional/blog/new3.jpeg",
       author: {
         name: "Carla Rodriguez",
@@ -86,9 +86,9 @@ const newsData = {
     {
       id: 5,
       principal: true,
-      title: "Prueba especial",
+      title: "Retiro o inclusiones",
       paragraph:
-        "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        "",
       image: "/images/nacional/blog/new4.jpeg",
       author: {
         name: "Carla Rodriguez",
@@ -106,9 +106,9 @@ const newsData = {
     {
       id: 6,
       principal: true,
-      title: "Retiro o inclusiones",
+      title: "Cancelación de cuotas",
       paragraph:
-        "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        "",
       image: "/images/nacional/blog/new5.jpeg",
       author: {
         name: "Carla Rodriguez",
