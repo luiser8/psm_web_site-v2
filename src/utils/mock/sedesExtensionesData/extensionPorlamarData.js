@@ -715,21 +715,27 @@ export default {
           data: [
             {
               id: 1,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionPorlamar/about/user-01.png"
+              names: "Ing. Yolanny Ibarreto",
+              position: "Coordinadora de Extensión",
+              photo: "/images/extensionPorlamar/about/autoridad1.jpg"
             },
             {
               id: 2,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionPorlamar/about/user-01.png"
+              names: "Ing. Fanny Rodríguez",
+              position: "Coordinadora Acádemica",
+              photo: "/images/extensionPorlamar/about/autoridad2.jpg"
             },
             {
               id: 3,
-              names: "Sin info",
-              position: "Sin info",
-              photo: "/images/extensionPorlamar/about/user-01.png"
+              names: "Lcda. Luisynes Lozada",
+              position: "Administradora",
+              photo: "/images/extensionPorlamar/about/autoridad3.jpg"
+            },
+            {
+              id: 4,
+              names: "Lcdo. Farammen Garcia",
+              position: "Jefe División Control Estudios",
+              photo: "/images/extensionPorlamar/about/autoridad4.jpg"
             },
           ]
         },

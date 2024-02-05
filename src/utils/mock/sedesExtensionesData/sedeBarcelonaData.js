@@ -80,27 +80,27 @@ export default {
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "La biblioteca de la sede II del Politécnico Santiago Mariño fue escenario del desarrollo de La Expo Valores, un evento educativo y cultural que promueve la importancia de los valores en la sociedad como: el amor, la responsabilidad, la ética, la moral, la solidaridad, entre otros.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Con esta actividad los estudiantes afirman y refuerzan los valores que son pilares fundamentales para una convivencia armoniosa y un desarrollo personal integral.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -135,34 +135,34 @@ export default {
         id: 2,
         active: true,
         date: "08-02-2024",
-        name: "III Expo Tecnológica",
+        name: "III Feria Tecnológica",
         image: "/images/sedeBarcelona/events/evento7.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Te invitamos a la III edición de la Feria Tecnológica del Politécnico Santiago Mariño sede Barcelona. Los Estudiantes de las carreras de Ingeniería Eléctrica Electrónica y Sistemas desarrollaron increíbles proyectos y prototipos tecnológicos que serán exhibidos este 08 de Febrero en nuestras instalaciones.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "iNo faltes, Te Esperamos!",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "¡Formación para la Excelencia!🎓",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -204,27 +204,27 @@ export default {
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Los estudiantes de Ingeniería de Mantenimiento Mecánico e Ingeniería de Diseño Industrial expusieron sus proyectos en la ExpoTurbinas el pasado jueves en el Politécnico Santiago Mariño sede Barcelona.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Explicaron a las autoridades y asistentes como fue la creación de sus proyectos y demostraron el proceso que realiza una turbina hidráulica para generar energía limpia y renovable.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Con estas actividades el Politécnico Santiago Mariño refuerza los conocimientos adquiridos del estudiante durante el período académico afianzando nuestro lema Formación Para La Excelencia",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -266,27 +266,27 @@ export default {
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Cinco proyectos fueron exhibidos en la Expo de Servicio Comunitario del Politécnico Santiago Mariño sede Barcelona que ofrecerán soluciones a la comunidad.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Estudiantes de Arquitectura y las Ingenierías #Industrial Eléctrica Electrónica Sistemas MantenimientoMecánico Civil demostraron sus habilidades y conocimientos adquiridos para aplicarlo en la adecuación, reestructuración y en el mejoramiento de sus diferentes áreas al servicio de la comunidad.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "¡Somos Formación para la Excelencia!",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -328,27 +328,27 @@ export default {
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Creatividad, ingenio y con el objetivo principal de conservar el ambiente se llevó a cabo la feria de ExpoQuímica en el Politécnico Santiago Mariño sede Barcelona.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Si Estudiantes del 1er y 2do semestre cursantes de la materia química desarrollaron productos artesanales demostrando los conocimientos adquiridos en clases.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "La junta directiva, profesores y asistentes disfrutaron de la exhibición de diferentes productos, entre los que se mencionan: jabón de aloe vera, crema dermatológica para piel sensible, colonia sólida, mentol casero, bolsas ecológicas a base de almidón y yuca, y de maíz, entre otros experimentos.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "Con estos trabajos expuestos demostramos que somos Formación Para La Excelencia",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -390,27 +390,37 @@ export default {
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Los estudiantes de Arquitectura e Ingeniería Civil de los semestres 6to, 7mo y 8vo se unieron para recrear y simular en miniatura 7 puentes de diferentes partes del mundo que fueron exhibidos en la III Edición de ExpoPuentes que se realizó en el Politécnico Santiago Mariño sede Barcelona.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Los ingenieros Halim Souki, Elizabeth Brito y Daniel Gonzalez fueron el jurado calificador, encargado de evaluar cada uno de los puentes en cuanto a la estructura, material utilizado, diseño y prueba de carga lo que determinó tres ganadores.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "🥇Primer lugar: Puente Orinoquia, Venezuela.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "🥈Segundo lugar: Puente Dos Quebradas, Pereira, Colombia.",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "🥉Tercer lugar: Puente del Milenio, España",
+          },
+          {
+            id: 6,
+            description:
+              "Una representación de los grupos realizó la defensa del trabajo donde explicaron a detalle la elaboración de la estructura, costo, materiales y la historia de cada uno de los puentes.",
+          },
+          {
+            id: 7,
+            description:
+              "La directiva del PSM acompañó la actividad junto a invitados especiales como el Ing. Félix Campos, Gerente de Producción y Tratamiento de la Hidrológica del Caribe (HidroCaribe), TSU Andrés Barolleta, Inspector y constructor sanitarista, autoridades del @uts_puerto_la_cruz",
           },
         ],
         professions: [
@@ -452,27 +462,27 @@ export default {
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Música venezolana, bailes y alegría por nuestro país fue parte de lo que se disfrutó en la II edición de la Feria Cultural Venezuela Nuestra que se llevó a cabo la en la biblioteca del Politécnico Santiago Mariño en la mañana de ayer.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Estudiantes del primer semestre expusieron varios temas como la geografía, lugares turísticos, gastronomía, bailes y música típica de los estados Anzoátegui, Sucre, Zulia, Distrito Capital, Mérida, Miranda y Nueva Esparta.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Durante la actividad se presentó el grupo Ensamble Afinao y la Polifónica Santiago Mariño.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "Las autoridades de la institución recorrieron cada stand para conocer a detalle lo que ofrece cada entidad y felicitar a los muchachos por su creatividad y compromiso para formarse para la excelencia.",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [

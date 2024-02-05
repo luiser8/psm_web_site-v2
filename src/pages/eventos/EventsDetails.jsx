@@ -38,7 +38,7 @@ export default function EventsDetails() {
                   <div className="h-full flex items-start flex-col justify-center ">
                     <SectionTitle
                       title={data?.name}
-                      paragraph="Ponencias"
+                      paragraph=""
                       mb="0"
                     />
                     {data.description.map((item, index) => (
