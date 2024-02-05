@@ -72,6 +72,130 @@ export default {
       {
         id: 1,
         active: true,
+        date: "06-02-2024",
+        name: "Expo Valores",
+        image: "/images/sedeBarcelona/events/evento6.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        active: true,
+        date: "08-02-2024",
+        name: "III Expo Tecnológica",
+        image: "/images/sedeBarcelona/events/evento7.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+          },
+          {
+            id: 2,
+            description:
+              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+          },
+          {
+            id: 3,
+            description:
+              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+          },
+          {
+            id: 4,
+            description:
+              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+          },
+          {
+            id: 5,
+            description:
+              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        active: true,
         date: "30-01-2024",
         name: "Expo Turbinas",
         image: "/images/sedeBarcelona/events/evento4.jpeg",
@@ -132,7 +256,7 @@ export default {
         ],
       },
       {
-        id: 2,
+        id: 4,
         active: true,
         date: "30-01-2024",
         name: "Expo Servicio Comunitario",
@@ -194,7 +318,7 @@ export default {
         ],
       },
       {
-        id: 3,
+        id: 5,
         active: true,
         date: "01-11-2023",
         name: "Expo Química",
@@ -256,7 +380,7 @@ export default {
         ],
       },
       {
-        id: 4,
+        id: 6,
         active: true,
         date: "01-11-2023",
         name: "Expo Puentes",
@@ -318,7 +442,7 @@ export default {
         ],
       },
       {
-        id: 5,
+        id: 7,
         active: true,
         date: "03-11-2023",
         name: "II Feria Cultural",
@@ -642,29 +766,29 @@ export default {
     testimonios_data: [
       {
         id: 1,
-        name: "Miguel Perez",
-        designation: "Programador",
+        name: "Lilianny Del Rosario Quero Arias",
+        designation: "Ing. Industrial / 6to semestre",
         content:
-          "“Mi experiencia en la universidad de tecnología ha sido increíble. Los profesores son expertos en sus campos y siempre están dispuestos a ayudar. Las instalaciones son de última generación y el ambiente es muy propicio para el aprendizaje. Estoy muy contento con mi decisión de estudiar aquí",
-        image: "/images/sedeBarcelona/testimonials/auth-01.png",
+          "Mi experiencia en el Instituto Universitario Politécnico “Santiago Mariño” me ha sido de gran ayuda para construir la persona que soy en la actualidad, y a cimentar los valores de la que seré en un futuro.”",
+        image: "/images/sedeBarcelona/testimonials/author1.jpeg",
         star: 5,
       },
       {
         id: 2,
-        name: "Carlos Velásquez",
-        designation: "Estudiante",
+        name: "Luis José Quero Pérez",
+        designation: "Ing. Sistemas / 1er semestre",
         content:
-          "La universidad me ha proporcionado una educación de calidad y una gran cantidad de oportunidades. He podido trabajar en proyectos de investigación de vanguardia y he aprendido habilidades prácticas que me serán útiles en mi carrera. Recomiendo encarecidamente esta universidad a cualquier persona interesada en la tecnología.",
-        image: "/images/sedeBarcelona/testimonials/auth-02.png",
+          "Desde que llego al Instituto Universitario Politécnico “Santiago Mariño” estoy en mi casa, experimentando grandes emociones, me siento feliz y complacido con mis docentes, el personal y mis compañeros de estudios.”",
+        image: "/images/sedeBarcelona/testimonials/author2.jpeg",
         star: 5,
       },
       {
         id: 3,
-        name: "Jose Alberto",
-        designation: "Profesor",
+        name: "Javier Cueva González Alberto",
+        designation: "Ing. Química / 9no semestre",
         content:
-          "Estudiar en la universidad ha sido una de las mejores decisiones que he tomado. La universidad ofrece una amplia gama de cursos y programas, lo que me ha permitido explorar diferentes áreas de la tecnología. Además, he hecho grandes amigos y he tenido experiencias inolvidables. Estoy muy agradecido por las oportunidades que me ha brindado esta universidad.",
-        image: "/images/sedeBarcelona/testimonials/auth-03.png",
+          "Al ser Técnico Superior Universitario en Química Industrial, deseaba poder consolidar mis conocimientos académicos y a la oportunidad brindada por mi Casa de Estudios el Instituto Universitario Politécnico “Santiago Mariño”.",
+        image: "/images/sedeBarcelona/testimonials/author3.jpeg",
         star: 5,
       },
     ],
@@ -676,10 +800,10 @@ export default {
       {
         id: 1,
         principal: true,
-        title: "Información de inscripción",
+        title: "Cambios de carrera y traslados",
         paragraph:
           "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new0.jpeg",
         author: {
           name: "Carla Rodriguez",
           image: "/images/sedeBarcelona/blog/author-01.png",
@@ -696,10 +820,10 @@ export default {
       {
         id: 2,
         principal: true,
-        title: "Información de inscripción",
+        title: "Reinscripción académica",
         paragraph:
           "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new1.jpeg",
         author: {
           name: "Carla Rodriguez",
           image: "/images/sedeBarcelona/blog/author-01.png",
@@ -716,10 +840,70 @@ export default {
       {
         id: 3,
         principal: true,
-        title: "Información de inscripción",
+        title: "Cancelación de cuotas",
         paragraph:
           "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
-        image: "/images/sedeBarcelona/blog/new01.jpg",
+        image: "/images/sedeBarcelona/blog/new2.jpeg",
+        author: {
+          name: "Carla Rodriguez",
+          image: "/images/sedeBarcelona/blog/author-01.png",
+          designation: "Asesor Académico",
+        },
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
+        details: {
+          subTitle: "Información de inscripción.",
+          paragraph:
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
+        },
+      },
+      {
+        id: 4,
+        principal: true,
+        title: "Reinscripción administrativa",
+        paragraph:
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        image: "/images/sedeBarcelona/blog/new3.jpeg",
+        author: {
+          name: "Carla Rodriguez",
+          image: "/images/sedeBarcelona/blog/author-01.png",
+          designation: "Asesor Académico",
+        },
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
+        details: {
+          subTitle: "Información de inscripción.",
+          paragraph:
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
+        },
+      },
+      {
+        id: 5,
+        principal: true,
+        title: "Prueba especial",
+        paragraph:
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        image: "/images/sedeBarcelona/blog/new4.jpeg",
+        author: {
+          name: "Carla Rodriguez",
+          image: "/images/sedeBarcelona/blog/author-01.png",
+          designation: "Asesor Académico",
+        },
+        tags: ["inscripciones"],
+        publishDate: "01-30-2024",
+        details: {
+          subTitle: "Información de inscripción.",
+          paragraph:
+            "Inscribirse en la universidad es un hito importante en la vida de cualquier estudiante. Es el primer paso en un viaje de descubrimiento, aprendizaje y crecimiento personal. La inscripción universitaria puede ser un proceso emocionante, pero también puede ser desafiante. Requiere una cuidadosa consideración de las opciones de carrera, la elección de los cursos adecuados y la preparación de los documentos necesarios. También es un momento para explorar nuevas oportunidades, hacer nuevos amigos y embarcarse en nuevas aventuras. Aunque puede ser abrumador al principio, la inscripción universitaria es una experiencia enriquecedora que abre la puerta a un mundo de posibilidades. Es el comienzo de un emocionante capítulo en la vida de un estudiante, lleno de nuevas experiencias, conocimientos y oportunidades.",
+        },
+      },
+      {
+        id: 6,
+        principal: true,
+        title: "Retiro o inclusiones",
+        paragraph:
+          "La inscripción universitaria es un paso emocionante hacia el futuro. Prepara documentos, elige cursos y comienza tu viaje.",
+        image: "/images/sedeBarcelona/blog/new5.jpeg",
         author: {
           name: "Carla Rodriguez",
           image: "/images/sedeBarcelona/blog/author-01.png",
@@ -956,11 +1140,76 @@ export default {
       },
     },
   },
-  payments: {
-    titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-    banco: "Venezuela",
-    cedula: "87537394",
-    telefono: "+58 424-3829373",
-    numero_de_cuenta: "0102-8732-3234-2343-3468",
-  },
+  metodos_de_pago: [
+    {
+      id: 1,
+      nombre: "Pago en Divisas",
+      bancos: [
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0172-0110-7211-0891-8416",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        },
+      ],
+      para: ["Matrículas", "Cuotas"]
+    },
+    {
+      id: 2,
+      nombre: "Pago Móvil",
+      bancos: [
+        {
+          nombre: "Banco Exterior",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "",
+          cedula_rif: "J-080341660",
+          telefono: "0414-3008512",
+        }
+      ],
+      para: ["Matrículas", "Cuotas"]
+    },
+    {
+      id: 3,
+      nombre: "Servicios Estudiantiles",
+      bancos: [
+        {
+          nombre: "Banco Nacional de Credito",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0191-0040-5821-4005-2228",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        }
+      ],
+      para: []
+    },
+    {
+      id: 4,
+      nombre: "Pago en Bolívares",
+      bancos: [
+        {
+          nombre: "Banco Exterior",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0115-0022610220129132",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        },
+        {
+          nombre: "Banco De Venezuela",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0102-0387-290000083661",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        },
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0172-0110-7611-0893-9487",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        },
+      ],
+      para: ["Matrículas", "Cuotas"]
+    },
+  ]
 };

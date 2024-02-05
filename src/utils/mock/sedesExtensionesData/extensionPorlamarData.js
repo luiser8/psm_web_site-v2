@@ -521,7 +521,7 @@ export default {
         designation: "Ing. Sistemas / 1er semestre",
         content:
           "Desde que llego al Instituto Universitario Politécnico “Santiago Mariño” estoy en mi casa, experimentando grandes emociones, me siento feliz y complacido con mis docentes, el personal y mis compañeros de estudios.”",
-          image: "/images/extensionPorlamar/testimonials/author2.jpeg",
+        image: "/images/extensionPorlamar/testimonials/author2.jpeg",
         star: 5,
       },
       {
@@ -530,7 +530,7 @@ export default {
         designation: "Ing. Química / 9no semestre",
         content:
           "Al ser Técnico Superior Universitario en Química Industrial, deseaba poder consolidar mis conocimientos académicos y a la oportunidad brindada por mi Casa de Estudios el Instituto Universitario Politécnico “Santiago Mariño”.",
-          image: "/images/extensionPorlamar/testimonials/author3.jpeg",
+        image: "/images/extensionPorlamar/testimonials/author3.jpeg",
         star: 5,
       },
     ]
@@ -812,61 +812,68 @@ export default {
         {
           nombre: "Banco Nacional de Credito",
           titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-          numero_de_cuenta: "0191-0055-3523-5557-7001",
+          numero_de_cuenta: "0191-0146-11-2300036728",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        },
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0172-0110-73-1108918424",
           cedula_rif: "J-080341660",
           telefono: "",
         }
       ],
-      para: ["Matrículas" , "Cuotas", "Aranceles"]
-  },
-  {
-    id: 2,
-    nombre: "Pago Móvil",
-    bancos: [
-      {
-        nombre: "Banco Nacional de Credito",
-        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-        numero_de_cuenta: "",
-        cedula_rif: "J-080341660",
-        telefono: "0424-2016557",
-      }
-    ],
-    para: ["Matrículas" , "Cuotas", "Aranceles"]
-  },
-  {
-    id: 3,
-    nombre: "Servicios Estudiantiles",
-    bancos: [
-      {
-        nombre: "Banco Nacional de Credito",
-        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-        numero_de_cuenta: "0191-0040-5821-4005-2228",
-        cedula_rif: "J-080341660",
-        telefono: "",
-      }
-    ],
-    para: []
-  },
-  {
-    id: 4,
-    nombre: "Pago en Bolívares",
-    bancos: [
-      {
-        nombre: "Banco Nacional de Credito",
-        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-        numero_de_cuenta: "0191-3621-0055-5502-5124",
-        cedula_rif: "J-080341660",
-        telefono: "",
-      },
-      {
-        nombre: "BBVA Provincial",
-        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-        numero_de_cuenta: "0108-0906-1601-0001-4349",
-        cedula_rif: "J-080341660",
-        telefono: "",
-      }
-    ],
-    para: ["Matrículas" , "Cuotas", "Aranceles"]
-  },
-]
+      para: ["Matrículas", "Cuotas", "Aranceles"]
+    },
+    {
+      id: 2,
+      nombre: "Pago Móvil",
+      bancos: [
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "",
+          cedula_rif: "J-080341660",
+          telefono: "0424-2014950",
+        }
+      ],
+      para: ["Matrículas", "Cuotas", "Aranceles"]
+    },
+    {
+      id: 3,
+      nombre: "Servicios Estudiantiles",
+      bancos: [
+        {
+          nombre: "Banco Nacional de Credito",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0191-0040-5821-4005-2228",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        }
+      ],
+      para: []
+    },
+    {
+      id: 4,
+      nombre: "Pago en Bolívares",
+      bancos: [
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0172-0110-71-1108939503",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        },
+        {
+          nombre: "Banco Nacional de Credito",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0191-0055-362155020926",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        }
+      ],
+      para: ["Matrículas", "Cuotas", "Aranceles"]
+    },
+  ]
 };

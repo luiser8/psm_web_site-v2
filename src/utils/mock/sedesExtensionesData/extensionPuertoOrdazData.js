@@ -714,7 +714,7 @@ export default {
           },
           {
             id: 6,
-            name: "Metodos de pago",
+            name: "Métodos de pago",
             link: "/puerto_ordaz/metodos_de_pago",
           },
 
@@ -786,11 +786,62 @@ export default {
       },
     },
   },
-  payments: {
-    titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-    banco: "Venezuela",
-    cedula: "87537394",
-    telefono: "+58 424-3829373",
-    numero_de_cuenta: "0102-8732-3234-2343-3468",
-  },
+  metodos_de_pago: [
+    {
+      id: 1,
+      nombre: "Pago en Divisas",
+      bancos: [
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0172-0110-71-1108918408",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        }
+      ],
+      para: ["Matrículas", "Cuotas", "Solicitud de documentación"]
+    },
+    {
+      id: 2,
+      nombre: "Pago Móvil",
+      bancos: [
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "",
+          cedula_rif: "J-080341660",
+          telefono: "0424-1733109",
+        }
+      ],
+      para: ["Matrículas", "Cuotas", "Solicitud de documentación"]
+    },
+    {
+      id: 3,
+      nombre: "Servicios Estudiantiles",
+      bancos: [
+        {
+          nombre: "Banco Nacional de Credito",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0191-0040-5821-4005-2228",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        }
+      ],
+      para: []
+    },
+    {
+      id: 4,
+      nombre: "Pago en Bolívares",
+      bancos: [
+        {
+          nombre: "Bancamiga",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0172-0110-72-1108939198",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        },
+      ],
+      para: ["Matrículas", "Cuotas", "Solicitud de documentación"]
+    },
+  ]
 };

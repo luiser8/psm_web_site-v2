@@ -25,31 +25,31 @@ export default {
               id: 1,
               names: "Dr. Raúl Quero García",
               position: "Director Nacional y Presidente de la Sociedad Civil del PSM",
-              photo: "/images/nacional/about/user-01.png"
+              photo: "/images/nacional/about/autoridad1.jpeg"
             },
             {
               id: 2,
               names: "Ing. Roxy García",
               position: "Directora Nacional de Administración",
-              photo: "/images/nacional/about/user-01.png"
+              photo: "/images/nacional/about/user-02.png"
             },
             {
               id: 3,
               names: "Ing. Iraiza García",
               position: "Sub-Directora Académica Nacional",
-              photo: "/images/nacional/about/user-01.png"
+              photo: "/images/nacional/about/user-02.png"
             },
             {
               id: 4,
               names: "Dr. Néstor Briceño",
               position: "Jefe de División Nacional de Personal",
-              photo: "/images/nacional/about/user-01.png"
+              photo: "/images/nacional/about/user-02.png"
             },
             {
               id: 5,
               names: "Dra. Magalys Altuve",
               position: "Jefe de División Nacional de Planificación, Desarrollo y Gestión de Calidad",
-              photo: "/images/nacional/about/user-01.png"
+              photo: "/images/nacional/about/user-02.png"
             },
             {
               id: 6,
