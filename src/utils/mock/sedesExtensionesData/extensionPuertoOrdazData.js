@@ -720,13 +720,13 @@ export default {
             {
               id: 2,
               names: "Lcda. Ellis Fuentes",
-              position: "Jefe División de Recursos Humanos",
+              position: "Jefe de División de Personal",
               photo: "/images/extensionPuertoOrdaz/about/autoridad2.jpg",
             },
             {
               id: 3,
               names: "Ing. Zorainy Malave",
-              position: "Jefe División de Control de Estudios",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionPuertoOrdaz/about/autoridad3.jpg",
             },
           ],

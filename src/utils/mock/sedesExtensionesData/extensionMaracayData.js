@@ -705,7 +705,7 @@ export default {
             {
               id: 4,
               names: "Ing. Emili Rios",
-              position: "Jefe de Control de Estudios",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionMaracay/about/autoridad4.jpg"
             }
           ]

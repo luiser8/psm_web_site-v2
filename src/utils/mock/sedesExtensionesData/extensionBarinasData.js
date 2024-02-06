@@ -692,13 +692,13 @@ export default {
             {
               id: 3,
               names: "Lcda. Keizel Giron",
-              position: "Jefe de División Talento Humano",
+              position: "Jefe de División de Personal",
               photo: "/images/extensionBarinas/about/autoridad3.png"
             },
             {
               id: 4,
               names: "Msc. Ninosca Quintero",
-              position: "Jefe de División de Control de Estudio",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionBarinas/about/autoridad4.png"
             }
           ]

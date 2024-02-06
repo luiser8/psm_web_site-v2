@@ -737,19 +737,19 @@ export default {
             {
               id: 2,
               names: "Lcda. Ismary Guerrero",
-              position: "Jefa de personal",
+              position: "Jefe de División de Personal",
               photo: "/images/extensionSanCristobal/about/autoridad2.JPG",
             },
             {
               id: 3,
               names: "Lcda. Alba Mendez",
-              position: "Administradora",
+              position: "Jefe de División Administrativa",
               photo: "/images/extensionSanCristobal/about/autoridad3.JPG",
             },
             {
               id: 4,
               names: "Lcda. Nelly Martinez",
-              position: "Jefa de Control de Estudios",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionSanCristobal/about/autoridad4.JPG",
             },
           ],

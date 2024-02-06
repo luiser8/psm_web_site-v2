@@ -728,13 +728,13 @@ export default {
             {
               id: 3,
               names: "Lcda. Luisynes Lozada",
-              position: "Administradora",
+              position: "Jefe de División Administrativa",
               photo: "/images/extensionPorlamar/about/autoridad3.jpg"
             },
             {
               id: 4,
               names: "Lcdo. Farammen Garcia",
-              position: "Jefe División Control Estudios",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionPorlamar/about/autoridad4.jpg"
             },
           ]

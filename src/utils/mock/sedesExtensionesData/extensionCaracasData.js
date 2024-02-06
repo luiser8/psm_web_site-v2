@@ -717,26 +717,26 @@ export default {
             data: [
               {
                 id: 1,
-                names: "Ing. Heidy Long",
+                names: "Ing. Heidy Longa",
                 position: "Coordinadora de Extensión",
                 photo: "/images/extensionCaracas/about/autoridad1.jpg"
               },
               {
                 id: 2,
                 names: "Lic. Luis Marrufo",
-                position: "Administrador",
+                position: "Jefe de División Administrativa",
                 photo: "/images/extensionCaracas/about/autoridad2.jpg"
               },
               {
                 id: 3,
                 names: "Lic. Odalis Caballero",
-                position: "Jefa de Control de Estudio",
+                position: "Jefe de División de Admisión y Control de Estudio",
                 photo: "/images/extensionCaracas/about/autoridad3.jpg"
               },
               {
                 id: 4,
                 names: "Lic. Nayari Maldonado",
-                position: "Jefa de Personal",
+                position: "Jefe de División de Personal",
                 photo: "/images/extensionCaracas/about/autoridad4.jpg"
               },
             ]

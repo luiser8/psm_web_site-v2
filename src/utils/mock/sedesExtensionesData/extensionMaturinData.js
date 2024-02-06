@@ -699,19 +699,19 @@ export default {
             {
               id: 3,
               names: "Lcda. Marielys Ruiz",
-              position: "Administradora",
+              position: "Jefe de División Administrativa",
               photo: "/images/extensionMaturin/about/autoridad3.jpg"
             },
             {
               id: 4,
               names: "Lcda. Liriannis Gomez",
-              position: "Jefa de Control de estudio",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionMaturin/about/autoridad4.jpg"
             },
             {
               id: 5,
               names: "Lcda. Luisa Salazar",
-              position: "Jefa de Personal",
+              position: "Jefe de División de Personal",
               photo: "/images/extensionMaturin/about/autoridad5.jpg"
             },
           ]

@@ -804,13 +804,13 @@ export default {
             {
               id: 2,
               names: "Lcda. Zulay Paredes",
-              position: "Jefe de control de estudio",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionMerida/about/autoridad2.jpg",
             },
             {
               id: 3,
               names: "Lcda. Mery Garcia",
-              position: "Jefe de Administración",
+              position: "Jefe de División Administrativa",
               photo: "/images/extensionMerida/about/autoridad3.jpg",
             },
           ],

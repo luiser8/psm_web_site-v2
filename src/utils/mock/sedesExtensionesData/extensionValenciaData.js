@@ -726,7 +726,7 @@ export default {
             {
               id: 2,
               names: "Lcda. Maryory Cabarcas",
-              position: "Jefe de Administracion",
+              position: "Jefe de División Administrativa",
               photo: "/images/extensionValencia/about/autoridad2.jpg"
             },
             {
@@ -735,12 +735,6 @@ export default {
               position: "Jefe de Admision y Control de Estudios",
               photo: "/images/extensionValencia/about/autoridad3.jpg"
             },
-            {
-              id: 4,
-              names: "Ing. Yelitza Romero",
-              position: "Jefe de Dpto SAIA",
-              photo: "/images/extensionValencia/about/autoridad4.jpg"
-            }
           ]
         },
       },

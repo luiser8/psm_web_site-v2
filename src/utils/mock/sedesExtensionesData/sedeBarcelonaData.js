@@ -991,7 +991,7 @@ export default {
             {
               id: 1,
               names: "Arq. Dorelis Marquez",
-              position: "Coordinadora Extensión",
+              position: "Coordinadora de sede",
               photo: "/images/sedeBarcelona/about/autoridad1.jpeg",
             },
             {
@@ -1003,19 +1003,19 @@ export default {
             {
               id: 3,
               names: "Lcdo. Xavier Yendys",
-              position: "Administrador",
+              position: "Jefe de División Administrativa",
               photo: "/images/sedeBarcelona/about/autoridad3.jpeg",
             },
             {
               id: 4,
               names: "Lcda. Corina Cotorett",
-              position: "Jefe de Personal",
+              position: "Jefe de División de Personal",
               photo: "/images/sedeBarcelona/about/autoridad4.jpeg",
             },
             {
               id: 5,
               names: "Lcda. Glormary Requena",
-              position: "Jefe de Control de Estudios",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/sedeBarcelona/about/autoridad5.jpeg",
             },
           ],

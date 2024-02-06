@@ -758,14 +758,14 @@ export default {
             },
             {
               id: 3,
-              names: "Licdo. Christian Fernandez",
-              position: "Coordinación Administrativa",
+              names: "Lcdo. Christian Fernandez",
+              position: "Jefe de División Administrativa",
               photo: "/images/extensionCiudadOjeda/about/autoridad3.jpg"
             },
             {
               id: 4,
-              names: "Licda. Yeslany Ortis",
-              position: "Jefe de Personal",
+              names: "Lcda. Yeslany Ortis",
+              position: "Jefe de División de Personal",
               photo: "/images/extensionCiudadOjeda/about/autoridad4.jpg"
             },
           ]

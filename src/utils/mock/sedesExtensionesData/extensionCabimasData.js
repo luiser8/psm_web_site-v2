@@ -757,19 +757,19 @@ export default {
             {
               id: 3,
               names: "Lcda. Digna Durán",
-              position: "Jefe de Administración",
+              position: "Jefe de División Administrativa",
               photo: "/images/extensionCabimas/about/autoridad3.jpg"
             },
             {
               id: 4,
               names: "Econ. Leydri Mar Reyes",
-              position: "Jefa de Personal",
+              position: "Jefe de División de Personal",
               photo: "/images/extensionCabimas/about/autoridad4.jpg"
             },
             {
               id: 5,
               names: "Lcda. Corina Castillo",
-              position: "Jefe de DACE",
+              position: "Jefe de División de Admisión y Control de Estudio",
               photo: "/images/extensionCabimas/about/autoridad5.jpg"
             },
           ]
