@@ -823,7 +823,7 @@ export default {
           },
           {
             id: 6,
-            name: "Metodos de pago",
+            name: "Métodos de pago",
             link: "/maracaibo/metodos_de_pago",
           },
 
@@ -895,12 +895,62 @@ export default {
       },
     },
   },
-
-  payments: {
-    titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-    banco: "Venezuela",
-    cedula: "87537394",
-    telefono: "+58 424-3829373",
-    numero_de_cuenta: "0102-8732-3234-2343-3468",
+  metodos_de_pago: [
+    {
+      id: 1,
+      nombre: "Pago en Divisas",
+      bancos: [
+        {
+          nombre: "Banco Nacional de Credito",
+          titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+          numero_de_cuenta: "0191-0297-19-23000-1-4330",
+          cedula_rif: "J-080341660",
+          telefono: "",
+        }
+      ],
+      para: ["Matrículas" , "Cuotas", "Aranceles"]
   },
+  {
+    id: 2,
+    nombre: "Pago Móvil",
+    bancos: [
+      {
+        nombre: "Banco Nacional de Credito",
+        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+        numero_de_cuenta: "",
+        cedula_rif: "J-080341660",
+        telefono: "0424-2016583",
+      }
+    ],
+    para: ["Matrículas" , "Cuotas", "Aranceles"]
+  },
+  {
+    id: 3,
+    nombre: "Servicios Estudiantiles",
+    bancos: [
+      {
+        nombre: "Banco Nacional de Credito",
+        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+        numero_de_cuenta: "0191-0040-5821-4005-2228",
+        cedula_rif: "J-080341660",
+        telefono: "",
+      }
+    ],
+    para: []
+  },
+  {
+    id: 4,
+    nombre: "Pago en Bolívares",
+    bancos: [
+      {
+        nombre: "Banco Nacional de Credito",
+        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+        numero_de_cuenta: "0191-0032-42-213200-7676",
+        cedula_rif: "J-080341660",
+        telefono: "",
+      }
+    ],
+    para: ["Matrículas" , "Cuotas", "Aranceles"]
+  },
+]
 };

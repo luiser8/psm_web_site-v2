@@ -883,13 +883,11 @@ export default {
             name: "Eventos",
             link: "/barcelona/eventos",
           },
-
           {
             id: 6,
             name: "Métodos de pago",
             link: "/barcelona/metodos_de_pago",
           },
-
           {
             id: 7,
             name: "FAQ",
@@ -958,7 +956,6 @@ export default {
       },
     },
   },
-
   payments: {
     titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
     banco: "Venezuela",
