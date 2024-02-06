@@ -991,7 +991,7 @@ export default {
             {
               id: 1,
               names: "Arq. Dorelis Marquez",
-              position: "Coordinadora de sede",
+              position: "Coordinadora de Sede",
               photo: "/images/sedeBarcelona/about/autoridad1.jpeg",
             },
             {
