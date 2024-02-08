@@ -49,6 +49,9 @@ const DetallesCarrera = () => {
               <p className="indent-4 mt-2 leading-relaxed">
                 {carrerasList[0].paragraph5}
               </p>
+              <p className="indent-4 mt-2 leading-relaxed">
+                {carrerasList[0].paragraph6}
+              </p>
             </div>
             <div className="w-full rounded-lg overflow-hidden">
               <img
@@ -65,10 +68,10 @@ const DetallesCarrera = () => {
                 <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900">
                   <a className="dark:text-white">
                     Esta especialidad puedes estudiarla en las siguientes sedes
-                    o extensiones
+                    o extensiones:
                   </a>
                 </h3>
-                <p className="mt-5 text-sm leading-6 text-gray-800 dark:text-white flex flex-wrap gap-x-3 ">
+                <p className="mt-2 text-md leading-6 text-gray-800 dark:text-white flex flex-wrap gap-x-3 ">
                   <h2 className="font-bold">Sedes:</h2>
                   {filterLocationSedes?.map((item) => (
                     <Link
@@ -80,7 +83,7 @@ const DetallesCarrera = () => {
                     </Link>
                   ))}
                 </p>
-                <p className="mt-2 text-sm leading-6 text-gray-800 dark:text-white flex flex-wrap gap-x-3 ">
+                <p className="mt-2 text-md leading-6 text-gray-800 dark:text-white flex flex-wrap gap-x-3 ">
                   <h2 className="font-bold">Extensiones:</h2>
                   {filterLocationExtensiones?.map((item) => (
                     <Link
@@ -96,16 +99,16 @@ const DetallesCarrera = () => {
             </article>
           ) : null}
 
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            <article className="flex max-w-xl flex-col items-start justify-between">
+          <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 border-t border-gray-200 pt-10 sm:mt-12 sm:pt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            {/* <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
-                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
+                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900">
                   <a className="dark:text-white">
                     <span className="absolute inset-0 " />
                     Perfil Graduado
                   </a>
                 </h3>
-                <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3 dark:text-white">
+                <p className="mt-5 text-md leading-6 text-black dark:text-white">
                   {carrerasList[0].more.graduate_profile}
                 </p>
               </div>
@@ -113,28 +116,35 @@ const DetallesCarrera = () => {
 
             <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
-                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900 group-hover:text-gray-600">
+                <h3 className="mt-3 text-lg font-medium leading-6 text-gray-900">
                   <a className="dark:text-white">
                     <span className="absolute inset-0" />
                     Campo Laboral
                   </a>
                 </h3>
-                <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3 dark:text-white">
+                <p className="mt-5 text-md leading-6 text-black dark:text-white">
                   {carrerasList[0].more.labor_field}
                 </p>
+                {carrerasList[0].more.labor_field_items.length > 0 ? (
+                  <ul className="list-disc mt-4 ml-4">
+                    {carrerasList[0].more.labor_field_items.map((x, index) => (
+                      <li className="text-sm pl-2" key={index}>{x}</li>
+                    ))}
+                  </ul>
+                ) : (<></>)}
               </div>
-            </article>
+            </article> */}
             <article className="flex max-w-xl flex-col items-start justify-between">
               <div className="group relative">
-                <h3 className="mt-3 text-sm font-medium leading-6 text-gray-900 group-hover:text-gray-600">
+                <h3 className="mt-3 text-md font-medium leading-6 text-gray-900">
                   <a className="dark:text-white">
                     <span className="absolute inset-0" />
                     Carreras Afines
                   </a>
                 </h3>
-                <ul>
+                <ul className="list-disc mt-4 ml-4">
                   {carrerasList[0].more.related_careers.map((x, index) => (
-                    <li key={index}>{x}</li>
+                    <li className="text-sm pl-2" key={index}>{x}</li>
                   ))}
                 </ul>
               </div>

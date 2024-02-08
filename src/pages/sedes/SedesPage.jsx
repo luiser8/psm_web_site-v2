@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { DataContext } from "../../utils/context/UseContextProvider";
 import sedesData from "../../utils/mock/principalData/sedesData";
 import { useParams } from "react-router-dom";
@@ -7,16 +7,18 @@ import SedesCarreras from "./SedesCarreras";
 import SedesTestimonials from "./SedesTestimonials";
 import SedesNews from "./SedesNews";
 import { CarouselWithContent } from "../../components/common/Carousel";
+import carrerasData from "../../utils/mock/principalData/carrerasData";
 
 export default function SedesPage() {
   const { setHeader, setFooter } = useContext(DataContext);
+  const [carreras, setCarreras] = useState([]);
   const sedeURL = useParams();
 
   const getDataSedesExtensiones = sedesData.find((x) => x.link === sedeURL.id);
 
   const header = getDataSedesExtensiones.data.header;
   const carousel = getDataSedesExtensiones.data.carousel.carousel_data;
-  const carreras = getDataSedesExtensiones.data.carreras;
+  //const carreras = carrerasData;//getDataSedesExtensiones.data.carreras;
   const testimonios = getDataSedesExtensiones.data.testimonios;
   const noticias = getDataSedesExtensiones.data.noticias;
   // const eventos = getDataSedesExtensiones.data.eventos.eventos_data;
@@ -29,7 +31,72 @@ export default function SedesPage() {
     setFooter(footer);
   }
 
-  console.log(noticias)
+  useEffect(() => {
+
+    switch (sedeURL.id) {
+      case "barcelona":
+        setCarreras(carrerasData.data.filter(x => x.id !== 9 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "cabimas":
+        setCarreras(carrerasData.data.filter(x => x.id !== 8 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "barinas":
+        setCarreras(carrerasData.data.filter(x => x.id !== 8 && x.id !== 9 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "valencia":
+        setCarreras(carrerasData.data.filter(x => x.id !== 9 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "maturin":
+        setCarreras(carrerasData.data.filter(x => x.id !== 8 && x.id !== 9 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "porlamar":
+        setCarreras(carrerasData.data.filter(x => x.id !== 8 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "maracaibo":
+        setCarreras(carrerasData.data.filter(x => x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "ciudad_ojeda":
+        setCarreras(carrerasData.data.filter(x => x.id !== 8 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "san_cristobal":
+        setCarreras(carrerasData.data.filter(x => x.id !== 9 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "maracay":
+        setCarreras(carrerasData.data.filter(x => x.id !== 8 && x.id !== 9 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "puerto_ordaz":
+        setCarreras(carrerasData.data.filter(x => x.id !== 8 && x.id !== 9 && x.id !== 10 && x.id !== 11).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+      case "merida":
+        setCarreras(carrerasData.data.filter(x => x.id !== 10).map(item => {
+          return { ...item, path: `/${sedeURL.id}` };
+        }));
+        break;
+    }
+    return () => setCarreras([]);
+  }, [sedeURL.id]);
 
   return (
     <div className="bg-white py-20 sm:py-20 mt-8">

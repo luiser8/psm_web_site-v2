@@ -35,9 +35,9 @@ export default {
             },
             {
               id: 3,
-              names: "Ing. Iraiza García",
+              names: "Ing. Iraisa García",
               position: "Sub-Directora Académica Nacional",
-              photo: "/images/nacional/about/user-02.png"
+              photo: "/images/nacional/about/autoridad2.jpeg"
             },
             {
               id: 4,
