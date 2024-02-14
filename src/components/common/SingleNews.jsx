@@ -27,7 +27,7 @@ const SingleNews = ({ blog, detail }) => {
           <h3>
             <Link
               to={``}
-              className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-2xl dark:hover:text-primary"
+              className="mb-4 mt-5 block text-xl font-bold text-black hover:text-primary dark:text-white transition-all ease-linear sm:text-1xl dark:hover:text-primary"
             >
               {title}
             </Link>

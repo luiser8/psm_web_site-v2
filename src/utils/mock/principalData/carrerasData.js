@@ -4,7 +4,7 @@ export default {
     {
       id: 1,
       name: "Arquitectura",
-      image: "/images/nacional/carreras/arquitectura.jpg",
+      image: "/images/nacional/carreras/arquitectura.jpeg",
       detail: "arquitectura",
       path: "/nacional",
       description: "",
@@ -108,7 +108,7 @@ export default {
     {
       id: 2,
       name: "Ingeniería Civil",
-      image: "/images/nacional/carreras/civil.jpg",
+      image: "/images/nacional/carreras/civil.jpeg",
       detail: "civil",
       path: "/nacional",
       description: "",
@@ -208,7 +208,7 @@ export default {
     {
       id: 3,
       name: "Ingeniería Eléctrica",
-      image: "/images/nacional/carreras/electrica.jpg",
+      image: "/images/nacional/carreras/electrica.jpeg",
       detail: "electrica",
       path: "/nacional",
       description: "",
@@ -310,7 +310,7 @@ export default {
     {
       id: 4,
       name: "Ingeniería Electrónica",
-      image: "/images/nacional/carreras/electronica.jpg",
+      image: "/images/nacional/carreras/electronica.jpeg",
       detail: "electronica",
       path: "/nacional",
       description: "",
@@ -412,7 +412,7 @@ export default {
     {
       id: 5,
       name: "Ingeniería Industrial",
-      image: "/images/nacional/carreras/industrial.jpg",
+      image: "/images/nacional/carreras/industrial.jpeg",
       detail: "industrial",
       path: "/nacional",
       description: "",
@@ -518,7 +518,7 @@ export default {
     {
       id: 6,
       name: "Ingeniería en Mantenimiento Mecánico",
-      image: "/images/nacional/carreras/mantenimiento.jpg",
+      image: "/images/nacional/carreras/mantenimiento.jpeg",
       detail: "mantenimiento",
       path: "/nacional",
       description: "",
@@ -618,7 +618,7 @@ export default {
     {
       id: 7,
       name: "Ingeniería de Sistemas",
-      image: "/images/nacional/carreras/sistemas.jpg",
+      image: "/images/nacional/carreras/sistemas.jpeg",
       detail: "sistemas",
       path: "/nacional",
       description: "",
@@ -721,7 +721,7 @@ export default {
     {
       id: 8,
       name: "Ingeniería de Diseño Industrial",
-      image: "/images/nacional/carreras/diseno.jpg",
+      image: "/images/nacional/carreras/diseno.jpeg",
       detail: "diseno",
       path: "/nacional",
       description: "",
@@ -841,7 +841,7 @@ export default {
     {
       id: 10,
       name: "Ingeniería de Petróleo",
-      image: "/images/nacional/carreras/petroleo-large.jpg",
+      image: "/images/nacional/carreras/petroleo.jpeg",
       detail: "petroleo",
       path: "/nacional",
       description: "",
