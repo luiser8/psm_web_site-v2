@@ -61,35 +61,35 @@ export default {
       {
         id: 1,
         active: true,
-        date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionMaracay/events/evento4.jpeg",
+        date: "30-01-2023",
+        name: "Expo Fisica 2023",
+        image: "/images/extensionMaracay/events/evento1.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "En este oportunidad los Estudiantes de Ingeniería y Arquitectura, realizaron la Feria de Expo-FISICA donde se conocieron los diferentes temas de física y como este se encuentra alrededor del mundo.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Toda esta información brindada por grandes profesionales de Física en las Carreras de Ingeniería Eléctrica, Electrónica y Mantenimiento Mecánico.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Confía tu formación en @psmmaracay Somos Formación para la Excelencia Ahora más cerca de ti.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -123,30 +123,30 @@ export default {
       {
         id: 2,
         active: true,
-        date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionMaracay/events/evento5.jpeg",
+        date: "30-01-2023",
+        name: "Expo Programación 2023",
+        image: "/images/extensionMaracay/events/evento2.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "En este oportunidad los Estudiantes de Ingeniería y Arquitectura, realizaron la Feria de Expo-Programación donde se conocieron los diferentes temas de Programas en computación y lo que afecta estos cuando tienen virus o se encuentran dañados y los funcionamiento los cuales brindan la mejor funcionalidad de los programas.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Toda esta información brindada por grandes profesionales de Sistemas y revisadas por cada uno de los docentes en aula. ",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Confía tu formación en @psmmaracay Somos Formación para la Excelencia Ahora más cerca de ti.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              ".",
           },
           {
             id: 5,
@@ -187,33 +187,219 @@ export default {
         active: true,
         date: "01-11-2023",
         name: "Expo Química",
-        image: "/images/extensionMaracay/events/evento1.jpeg",
+        image: "/images/extensionMaracay/events/evento3.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Aprender haciendo, bajo este enfoque, estudiantes de la cátedra de Química, conducidos por la Prof. Edith Ríos, dieron demostración de sus habilidades para realizar, a través de experimentos los conocimientos adquiridos en las aulas de clases.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "En esta oportunidad los Estudiantes del Primer Semestre de Ing. Industrial realizaron sus defensas de proyectos donde se apreciaron las diferentes áreas de la Química en todos su ámbitos. ",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        active: true,
+        date: "01-11-2023",
+        name: "Visita a la Planta Premex Jumbo San Antonio",
+        image: "/images/extensionMaracay/events/evento4.jpg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Los estudiantes de Materiales de Construcción y Presupuesto de Obra hicieron una visita a la Planta Premex Jumbo San Antonio @premexjumbo2000 Recorrido de Altos conocimientos sobre ➡️ Elaboración, curado y ensayo de los cilindros  ➡️ Determinación del contenido de aire en el concreto ➡️ Cono de Abrahams",
+          },
+          {
+            id: 2,
+            description:
+              "Y muchas más información relevante fueron algunos de los puntos durante este recorrido Agradecemos a la empresa por recibir a nuestros estudiantes formando aún más su crecimiento profesional en el área de la Ingeniería.",
+          },
+          {
+            id: 3,
+            description:
+              "Evaluación a cargo de la Ing. Inesleth FrancoConfía tu formación en @psmmaracay Somos Formación para la Excelencia Ahora más cerca de ti.",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        active: true,
+        date: "01-11-2023",
+        name: "Presentación Musical",
+        image: "/images/extensionMaracay/events/evento5.jpg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño Extensión Maracay, no es el encargo de formar a grande profesionales en el ámbito Educativo sino también a conocer y buscar a diferentes talentos que demuestran cada una de sus habilidades Artísticas, en esta oportunidad los estudiantes de Ingeniería realizaron un Concierto Musical del Grupo Cultural PSM MARACAY, incentivando a todos los estudiantes a involucrarse en el Mundo del Arte. ",
+          },
+          {
+            id: 2,
+            description:
+              "Acompañados por los Jefes de Escuela, Jefes de Departamentos, compañeros, Docentes y toda la Familia del PSM vinieron a ser participe de los grandes talentos Santiaguistas de Maracay Confía tu formación en @psmmaracay",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        active: true,
+        date: "01-11-2023",
+        name: "Presentación Musical",
+        image: "/images/extensionMaracay/events/evento6.jpg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Aprender haciendo, bajo este enfoque, estudiantes de la cátedra de Química, conducidos por la Prof. Edith Ríos, dieron demostración de sus habilidades para realizar, a través de experimentos los conocimientos adquiridos en las aulas de clases.",
+          },
+          {
+            id: 2,
+            description:
+              "En esta oportunidad los Estudiantes del Primer Semestre de Ing. Industrial realizaron sus defensas de proyectos donde se apreciaron las diferentes áreas de la Química en todos su ámbitos. El PSM Maracay les brinda las mas grandes felicitaciones por sus Confía tu formación en @psmmaracay",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
           },
         ],
         professions: [

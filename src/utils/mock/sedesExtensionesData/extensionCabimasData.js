@@ -61,35 +61,35 @@ export default {
       {
         id: 1,
         active: true,
-        date: "30-01-2024",
-        name: "Expo Ecológica",
-        image: "/images/extensionCabimas/events/evento0.jpg",
+        date: "24-01-2023",
+        name: "Expo Comunitario",
+        image: "/images/extensionCabimas/events/evento1.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Durante la mañana del pasado miércoles 24 de enero se desarrolló la Expo Servicio Comunitario del período académico 2023 - 2 en su vigésima novena edición.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Seis fueron los proyectos en total de los #santiaguistascabimas💯 en sus distintas áreas de Ingeniería y Arquitectura quienes una vez más ratificaron su compromiso e interacción con la comunidad a través del aprendizaje de servicio y la aplicación de los conocimientos adquiridos durante su formación académica 📚🤓.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -123,35 +123,35 @@ export default {
       {
         id: 2,
         active: true,
-        date: "30-01-2024",
-        name: "Presentación Proyecto Sistema",
-        image: "/images/extensionCabimas/events/evento1.jpg",
+        date: "09-02-2024",
+        name: "Expo Techno Bots (Expo Robótica)",
+        image: "/images/extensionCabimas/events/evento2.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Con éxito se desarrolló la Primera Expo Techno Bots 🤖, con Proyectos de Aula de la asignatura Electiva II (Robótica).",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Evento Educativo y Cultural organizado por los departamentos de Ingeniería Electrica y Electrónica.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -185,35 +185,221 @@ export default {
       {
         id: 3,
         active: true,
-        date: "01-11-2023",
-        name: "Taller de Mant y Reparación de PC",
-        image: "/images/extensionCabimas/events/evento2.jpg",
+        date: "08-02-2023",
+        name: "Expo Física",
+        image: "/images/extensionCabimas/events/evento3.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Ratificando la Formación para la Excelencia de nuestros #santiaguistascabimas💯 éste jueves se llevó a cabo la 8va Expo Física 🧫 🧪 para la promoción, divulgación y motorización de la Investigación y Generación de ideas y prototipos que coadyuven a las sociedades Municipales, Regionales y Nacionales a objeto de apuntalar la independencia tecnológica del País.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        active: true,
+        date: "02-02-2024",
+        name: "Expo Cultural II",
+        image: "/images/extensionCabimas/events/evento4.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Todo lo malo que le pase a la Tierra, más tarde, le pasará a sus hijos",
+          },
+          {
+            id: 2,
+            description:
+              "Cuidemos nuestro Hogar, Mensaje en común entre los 10 proyectos que se presentaron durante la mañana de éste #Viernes 02 de febrero en la Expo Cultural II del Psm Cabimas.",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        active: true,
+        date: "30-01-2023",
+        name: "Expo Feria Tecnológica",
+        image: "/images/extensionCabimas/events/evento5.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Un total de 15 proyectos fueron presentados en la Expo Feria Tecnológica correspondiente al periodo 2023 - 2.",
+          },
+          {
+            id: 2,
+            description:
+              "Actividad donde nuestros #Santiaguistas de la cátedra Metodología de la Investigación I mostraron y defendieron sus propuestas en materia de Innovación y Tecnología cuyo objetivo 🎯 sin duda fue fomentar en nuestra Comunidad Universitaria la Investigación 📓 y la Creatividad 🧠",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        active: true,
+        date: "01-02-2024",
+        name: "Expo Cultural I",
+        image: "/images/extensionCabimas/events/evento6.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Actividad que expone los valores y el patrimonio histórico - cultural de nuestro Municipio Cabimas,  a través del trabajo significativo realizado por los estudiantes de la cátedra Actividad de Formación Cultural I.",
+          },
+          {
+            id: 2,
+            description:
+              "Invitados especiales, docentes y representantes de distintas organizaciones se han dado cita en la cancha de usos múltiples de la casa de estudios para iniciar con las evaluaciones.",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
           },
         ],
         professions: [

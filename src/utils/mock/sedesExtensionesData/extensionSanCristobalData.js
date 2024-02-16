@@ -64,34 +64,34 @@ export default {
         id: 1,
         active: true,
         date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionSanCristobal/events/evento4.jpeg",
+        name: "XI Torneo de Ajedrez",
+        image: "/images/extensionSanCristobal/events/evento1.JPG",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Los guerreros del Politécnico Santiago Mariño, PSM-Teohs, obtuvieron el segundo lugar por equipos en el XI Torneo de Ajedrez Copa Santiago Mariño, celebrado este sábado 30 de septiembre en nuestra sede de Las Lomas.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "En la contienda, los santiaguistas alcanzaron un pareo de 26 puntos obtenidos en las 7 rondas de toda la competencia.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Únicamente fueron superados por el equipo Lobos Aurinegros, quienes lograron sumar 27.5 puntos en la clasificación general. Mientras que los jugadores de Ajedrez con Proyección se conformaron con 25 puntos y el tercer lugar de la competición.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "Esta justa contó con la participación de 10 delegaciones de ajedrez de distintos municipios del estado Táchira entre los que cuentan: García de Hevia, Junín, Andrés Bello, Cárdenas y San Cristóbal.",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "El jugador más docto de la clasificación individual fue Bryan Labrador, de Lobos Aurinegros, escoltado por César Gómez y Luis Calderón, del equipo Ajedrez con Proyección, quienes se ubicaron en el segundo y tercer puesto de la clasificación, respectivamente.",
           },
         ],
         professions: [
@@ -126,34 +126,34 @@ export default {
         id: 2,
         active: true,
         date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionSanCristobal/events/evento5.jpeg",
+        name: "V Feria de Arquitectura y Diseño Industrial",
+        image: "/images/extensionSanCristobal/events/evento2.JPG",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "En la V Feria de Arquitectura y Diseño Industrial, desarrollada el viernes 11 de agosto en la sede Las Lomas, se exhibieron proyectos innovadores por parte de los estudiantes del 1.° al 8.° semestre de ambas carreras que abarcaron diversos aspectos del diseño arquitectónico como lo fueron: viviendas unifamiliares, hasta proyectos multifamiliares y prototipos de productos.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "En la Feria hubo una gran variedad de propuestas para satisfacer las necesidades de diferentes grupos de personas; destacando la importancia del trabajo colaborativo, los cursantes del primer semestre presentaron proyectos de co-working, donde se fomenta la creatividad y la conexión entre profesionales de distintas disciplinas. Asimismo, se exhibió un preescolar diseñado con enfoques pedagógicos modernos, brindando un espacio seguro y estimulante para los más pequeños.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Además, no faltaron proyectos comunitarios que buscan fortalecer los lazos entre los vecinos. Un centro comunitario multifuncional, donde los residentes pueden disfrutar de actividades recreativas y culturales, se convirtió en una de las atracciones más visitadas durante la feria.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "Para aquellos que buscan emociones y diversión, los santiaguistas presentaron un parque acuático que promete horas de entretenimiento para toda la familia. Por otro lado, los amantes del lujo se maravillaron con la exhibición de un hotel de cinco estrellas, donde el diseño y el confort se combinan para crear una experiencia excepcional para los huéspedes.",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "La feria también destacó la importancia de la atención médica, especialmente para los más jóvenes. Se presentaron proyectos de hospitales infantiles y generales que buscan proporcionar espacios acogedores y funcionales para brindar atención de calidad a los pacientes.",
           },
         ],
         professions: [
@@ -188,34 +188,220 @@ export default {
         id: 3,
         active: true,
         date: "01-11-2023",
-        name: "Expo Química",
-        image: "/images/extensionSanCristobal/events/evento1.jpeg",
+        name: "Conservatorio Tecnologías Inteligentes",
+        image: "/images/extensionSanCristobal/events/evento3.JPG",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Este jueves en horas de la tarde, en el Salón Dr. Raúl Quero Silva, del Politécnico Santiago Mariño, extensión San Cristóbal, se realizó el conversatorio de Tecnologías Inteligentes.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "En él, participó como ponente el MSc. Ing. Hofman Villalta, docente de Colegio Domingo Savio, con el tema: Nanotecnología e Inteligencia Artificial.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "En su participación, el Ing. Villalta indicó que la nanotecnología ha revolucionado la industria de la Inteligencia Artificial, permitiendo avances sin precedentes en el campo.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "Dijo que la combinación de estas dos disciplinas ha ampliado significativamente nuestras capacidades en términos de procesamiento, rendimiento y tamaño de dispositivos.",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "La nanotecnología se basa en la manipulación de átomos y moléculas a escala nanométrica, es decir, a nivel molecular. Esto ha permitido la creación de materiales y estructuras con propiedades físicas y químicas únicas, que son fundamentales para el desarrollo de la InteligenciaArtificial",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        active: true,
+        date: "01-11-2023",
+        name: "IX Feria de  Física y Química",
+        image: "/images/extensionSanCristobal/events/evento4.JPG",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Un derroche de talento y creatividad quedó evidenciada en la IX FERIA DE FÍSICA Y QUÍMICA desarrollada este lunes en el Salón Dr. Raúl Quero Silva del Politécnico Santiago Mariño extensión San Cristóbal.",
+          },
+          {
+            id: 2,
+            description:
+              "La intención de la IX FERIA DE FÍSICA Y QUÍMICA —expresó la Ing. Darliz Castillo, jefa de la División Académica—, fue retomar las experiencias vividas durante todo el semestre, de los cursantes de las cátedras Física II, a cargo del Ing. Harold Gámez, y de Química I, dictada por el Ing. Valentín Díaz.",
+          },
+          {
+            id: 3,
+            description:
+              "Pero en el evento también participó la Ing. Linaure Blanco, profesora de Circuitos Eléctricos I de Ingeniería Industrial, Mantenimiento Mecánico, Eléctrica y Electrónica, quien adiestró a los estudiantes en temas de energías verdes alternativas o energías renovables no contaminantes.",
+          },
+          {
+            id: 4,
+            description:
+              '"Energías que pueden ser mil veces más satisfactorias y de mayor rendimiento a la hora de alimentar energéticamente una ciudad o a una industria"; indicó Castillo.',
+          },
+          {
+            id: 5,
+            description:
+              "El evento abrió con un ciclo de exposiciones, donde los estudiantes demostraron con prototipos que aprovechando elementos naturales se puede generar energía limpia, protegiendo de esta manera el medioambiente.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        active: true,
+        date: "01-11-2023",
+        name: "IV Caminata de Integración Estudiantil",
+        image: "/images/extensionSanCristobal/events/evento5.JPG",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Aproximadamente cien personas entre personal directivo, estudiantes, familiares y amigos, acompañados de mascotas, hicieron parte de la IV Caminata de Integración Estudiantil Santiago Mariño Extensión San Cristóbal, organizada por los estudiantes de la cátedra Educación, Salud Física y Deportes I y II desarrollada el domingo 23 de julio entre las sedes Libertador-Las Lomas.",
+          },
+          {
+            id: 2,
+            description:
+              "El evento deportivo inició a las 9:22 de la mañana, con la indicación de salida ejecutada por el coordinador de la extensión, el Ing, Tomás Devia. Paso seguido, todos los participantes iniciaron el recorrido a lo largo de la Av. Libertador sentido norte-sur, para luego bajar por la Avenida Cuatricentenario, tomar la Avenida Antonio José de Sucre y retornar por Venetubos a la Avenida Libertador para finalizar el recorrido en nuestra ampliación de Las Lomas.",
+          },
+          {
+            id: 3,
+            description:
+              "En total fueron 4 kilómetros de recorrido, donde los asistentes desarrollaron una intensa actividad física trabajando abdomen, cuádriceps, isquiotibiales, glúteos y gemelos y compartiendo con la comunidad santiaguista.",
+          },
+          {
+            id: 4,
+            description:
+              'La actividad fue resguardada por comisiones del Cuerpo de Bomberos y de la Policía del Estado Táchira, quienes garantizaron toda la seguridad y el libre desenvolvimiento de la actividad.',
+          },
+          {
+            id: 5,
+            description:
+              "Somos Politécnico Santiago Mariño ¡Formación para la Excelencia!",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        active: true,
+        date: "01-11-2023",
+        name: "Concierto de Bienvenida a la Navidad",
+        image: "/images/extensionSanCristobal/events/evento6.JPG",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El lunes 04 de diciembre el Politécnico Santiago Mariño (PSM) Extensión San Cristóbal, le dio la Bienvenida a la Navidad, con un importante concierto cultural donde participaron las agrupaciones: Coralistas de Siempre dirigidos por el Prof. Javier Márquez, Orquesta Alma Llanera y Coro Infantil Núcleo Tamá, a cargo de los directores Francisco Escalante y Gilbert Mérida, respectivamente; y DanzAndina SC bajo la dirección de la Lcda. Linda Parada.",
+          },
+          {
+            id: 2,
+            description:
+              "La apertura musical estuvo a cargo de los dirigidos por Javier Márquez quienes interpretaron Niño Lindo, Cantemos Cantemos, de Vicente Emilio Sojo, Poncho Andino de Otilio Galíndez y Noche de Paz.",
+          },
+          {
+            id: 3,
+            description:
+              "Los experimentados coralistas de siempre le dieron paso a niños y jóvenes músicos, formados por El Sistema Nacional de Orquestas y Coros infantiles y juveniles de Venezuela Núcleo Tamá, y que integran la Orquesta Alma Llanera, quienes tocaron los temas El Niño Jesús Llanero, Aguinaldo Carupanero, Navidad Contigo y Luna Decembrina.",
+          },
+          {
+            id: 4,
+            description:
+              'Y entre presentaciones, las bailarinas de DanzAndina SC se movieron la ritmo de Gaita Trigueña Hermosa, Farolito, Navidad y Panchito Mandefuá, el que cenó con el Niño Jesús, para dar cierre a esta velada artístico-musical.',
+          },
+          {
+            id: 5,
+            description:
+              "Por su parte, las autoridades universitarias otorgaron Reconocimientos a cada una de las agrupaciones participantes en el concierto Bienvenida La Navidad, los cuales fueron recibidos con gratitud y honor por sus respectivos directores.",
           },
         ],
         professions: [

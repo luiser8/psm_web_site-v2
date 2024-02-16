@@ -785,7 +785,7 @@ export default {
     {
       id: 9,
       name: "Ingeniería Química",
-      image: "/images/nacional/carreras/quimica-large.jpg",
+      image: "/images/nacional/carreras/quimica.jpeg",
       detail: "quimica",
       path: "/nacional",
       description: "",

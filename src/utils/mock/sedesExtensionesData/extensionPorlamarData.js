@@ -62,34 +62,34 @@ export default {
         id: 1,
         active: true,
         date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionPorlamar/events/evento4.jpeg",
+        name: "Curso Robótica",
+        image: "/images/extensionPorlamar/events/evento1.webp",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Dimos inicio al curso: LA ROBÓTICA en el campo de la ingeniería, facilitado por el Ing. Ángel Figueroa, como parte de la programación de cursos y talleres que desarrolla nuestro Departamento de Extensión Universitaria.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -124,34 +124,34 @@ export default {
         id: 2,
         active: true,
         date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionPorlamar/events/evento5.jpeg",
+        name: "Jornada del Banco Nacional del Crédito",
+        image: "/images/extensionPorlamar/events/evento2.webp",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Estudiantes, personal administrativo, docentes y comunidad en general se beneficiaron con la jornada del Banco Nacional del Crédito en nuestras instalaciones del @psmporlamar",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "La jornada incluyó apertura de cuentas, actualizaciones, asesoría y otros servicios que ofrece la entidad bancaria.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -186,34 +186,220 @@ export default {
         id: 3,
         active: true,
         date: "01-11-2023",
-        name: "Expo Química",
-        image: "/images/extensionPorlamar/events/evento1.jpeg",
+        name: "Conversatorio con Estudiantes de Investigación y Trabajo de Grado.",
+        image: "/images/extensionPorlamar/events/evento3.webp",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Con el propósito de proveer de las herramientas necesarias para que los estudiantes de pasantía y trabajo de grado puedan exponer sus resultados de manera exitosa, hemos tenido un enriquecedor conversatorio con el Lcdo. Elifrank Salazar, quien compartió la ruta para perder el miedo escénico y mejorar la oratoria y el discurso.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Actividades enmarcadas en el cronograma de actividades del Departamento de Investigación, Postgrado y Producción, bajo la coordinación de la Lcda. Glorimar Marín.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Somos, Formación para la Excelencia.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        active: true,
+        date: "01-11-2023",
+        name: "Visita de su Excelencia El Embajador João Pedro Fins do Lago",
+        image: "/images/extensionPorlamar/events/evento4.heic",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "En el marco de los 500 años del nacimiento del escritor y poeta Luís Vaz de Camoês y la presencia de la lengua portuguesa en la actualidad, se llevó a cabo la visita de su Excelencia El Embajador João Pedro Fins do Lago, en los espacios del Instituto Universitario de Tecnología Antonio José de Sucre, Extensión Porlamar.",
+          },
+          {
+            id: 2,
+            description:
+              "El acto estuvo presidido por el Ing. Edgar Mendoza Coordinador del Tecnológico Antonio José de Sucre y la Ing. Yolanny Ibarreto, Coordinadora del Politécnico Santiago Mariño, Extensión Porlamar; con la presencia de la delegación acreditada por la embajada de Portugal y parte del personal administrativo, docente, estudiantes e invitados especiales.",
+          },
+          {
+            id: 3,
+            description:
+              "El Dr. João Pedro Fins do Lago, en su intervención compartió una semblanza del poeta Portugués y de la importancia de su idioma en los contextos educativos, económicos y culturales para el Estado Nueva Esparta, al considerarse una región 'sin comparación' y con alto potencial turístico.",
+          },
+          {
+            id: 4,
+            description:
+              "Por su parte el Coordinador para la enseñanza del Portugués en Venezuela, Dr. Rainer de Sousa, aprovechó la oportunidad para invitar a los actos conmemorativos del quinto centenario y a participar de las actividades de formación que adelantan en Margarita, a través del recién nombrado Cónsul Honorario de Portugal en Margarita Dr. Nilson Da Silva.",
+          },
+          {
+            id: 5,
+            description:
+              "En nombre de nuestras Instituciones, agradecemos la honorable visita del señor Embajador de Portugal en Venezuela Dr. João Pedro Fins do Lago, acto que constituye el inicio de importantes intercambios educativos y culturales para seguir Formando la Excelencia.",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        active: true,
+        date: "01-11-2023",
+        name: "Día Mundial de la Educación Ambiental",
+        image: "/images/extensionPorlamar/events/evento5.webp",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "En el marco del día mundial de la educación ambiental, el Personal del Politécnico Santiago Mariño Extensión Porlamar, acompañó a los estudiantes de Servicio Comunitario, en el Programa 'Muchas manos, un Parque', donde también se sumaron docentes, padres y representantes, organismos y comunidad.",
+          },
+          {
+            id: 2,
+            description:
+              "La actividad consistió en el desmalezamiento del parque, recolecta de desechos sólidos, pintura de eslogan conservacionista en los vehículos y compartir comunitario.",
+          },
+          {
+            id: 3,
+            description:
+              "La conciencia ecológica nos garantiza un planeta verde, es por ello que desde nuestra Institución apoyamos todas las iniciativas que fomenten la educación, sensibilización y valoración del entorno.",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        active: true,
+        date: "01-11-2023",
+        name: "Curso de Nociones Básicas de Word",
+        image: "/images/extensionPorlamar/events/evento6.webp",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Con la finalidad de seguir formando para la excelencia, hemos dado inicio a los cursos de extensión, en diferentes tópicos y áreas, en esta oportunidad ofrecimos el curso de NOCIONES BÁSICA DE WORD, aplicadas al trabajo de investigación.",
+          },
+          {
+            id: 2,
+            description:
+              "La formación estuvo a cargo del Ing. Manuel Velásquez, Jefe de Escuela de nuestra Institución.",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
           },
         ],
         professions: [

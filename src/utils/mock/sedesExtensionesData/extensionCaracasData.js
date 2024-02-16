@@ -62,34 +62,34 @@ export default {
           id: 1,
           active: true,
           date: "30-01-2024",
-          name: "Expo Turbinas",
-          image: "/images/extensionCaracas/events/evento4.jpeg",
+          name: "Exhibición Karate Do",
+          image: "/images/extensionCaracas/events/evento1.jpg",
           detail: "1",
           description: [
             {
               id: 1,
               description:
-                "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+                "En nuestro curso de Curso de Nivelación Preuniversitario, Se realizó una exhibición de karatedo, dirigido por @seidokaratedo. Donde nuestros estudiantes tuvieron la oportunidad de distraerse y aprender un poco sobre esta actividad extracurricular ",
             },
             {
               id: 2,
               description:
-                "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+                "El karateka invitó a todos los jóvenes universitarios para que se integren a este tipo de cursos, tanto intersemestral como del semestre normal, para que aprovechen los créditos y mejoren su condición física.",
             },
             {
               id: 3,
               description:
-                "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+                "",
             },
             {
               id: 4,
               description:
-                "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+                "",
             },
             {
               id: 5,
               description:
-                "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+                "",
             },
           ],
           professions: [
@@ -123,35 +123,35 @@ export default {
         {
           id: 2,
           active: true,
-          date: "30-01-2024",
+          date: "01-02-2024",
           name: "Expo Servicio Comunitario",
-          image: "/images/extensionCaracas/events/evento5.jpeg",
+          image: "/images/extensionCaracas/events/evento2.png",
           detail: "1",
           description: [
             {
               id: 1,
               description:
-                "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+                "Durante el evento se presentaron los proyectos ejecutados en beneficio a la comunidad, demostrando el compromiso y la dedicación de nuestros estudiantes. Contamos con grandes invitados especiales, como lo fueron, los coordinadores de los colegios donde realizaron sus proyectos Comunitario, el concejal del estado, entre otras. ",
             },
             {
               id: 2,
               description:
-                "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+                "En este evento cada una de las escuelas de nuestra casa de estudio nos expusieron sus labores en su Servicio Comunitario y dónde nos muestran los conocimientos de su especialidad y apoyan el desarrollo de la comunidad a través de sus proyectos, enfocados en la satisfacción de sus necesidades básicas.",
             },
             {
               id: 3,
               description:
-                "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+                "",
             },
             {
               id: 4,
               description:
-                "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+                "",
             },
             {
               id: 5,
               description:
-                "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+                "",
             },
           ],
           professions: [
@@ -186,34 +186,220 @@ export default {
           id: 3,
           active: true,
           date: "01-11-2023",
-          name: "Expo Química",
-          image: "/images/extensionCaracas/events/evento1.jpeg",
+          name: "Visita al Poliedro de Caracas",
+          image: "/images/extensionCaracas/events/evento3.JPG",
           detail: "1",
           description: [
             {
               id: 1,
               description:
-                "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+                "Representado por la Coordinadora de la Extensión Caracas, MSc. Heidy Longa y una delegacion de estudiantes de las carreras: Ingeniería de Sistenas, Electrica, Electronica, Industria, Diseño Industrial, Mantenimiento Mecánico y Arquitectura, quienes asistieron a la Primera Edición de la Feria Internacional de Telecomunicaciones, en el Poliedro de Caracas; en este evento, se presentaron propuestas de alto impacto para la sociedad en el ámbito de las telecomunicaciones.",
             },
             {
               id: 2,
               description:
-                "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+                "Feria donde nuestra universidad tuvo la oportunidad de intercambiar experiencias, generar alianzas estratégicas y convenios con las empresas tecnológicas tales como: Digitel, FORTINET, DIMSOP, entre otras. Con la finalidad de afianzar las tecnologias en el proceso de enseñanza y aprendizaje de la educación, para la formación de nuevos profesionales y líderes para el desarrollo de nuestro país.",
             },
             {
               id: 3,
               description:
-                "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+                "",
             },
             {
               id: 4,
               description:
-                "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+                "",
             },
             {
               id: 5,
               description:
-                "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+                "",
+            },
+          ],
+          professions: [
+            {
+              name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+            },
+            { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+            {
+              name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+            },
+            {
+              name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+            },
+          ],
+          experiences: [
+            { name: "Gerente General de grupo depanel (actualmente)" },
+            {
+              name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+            },
+            {
+              name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+            },
+            {
+              name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+            },
+            {
+              name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+            },
+          ],
+        },
+        {
+          id: 4,
+          active: true,
+          date: "04-07-2023",
+          name: "El futuro del diseño",
+          image: "/images/extensionCaracas/events/evento4.jpeg",
+          detail: "1",
+          description: [
+            {
+              id: 1,
+              description:
+                'Como parte de la celebración por el Día del Arquitecto nos visitó @simbold360 con una Masterclass sobre "El futuro del diseño, del UX/UI a la IA" Dónde nuestros estudiantes de la escuela de Arquitectura y de Ingeniería En Diseño Industrial, tuvieron una serie de actividades recreativas por parte de @prodimarca y @fundicionpacifico',
+            },
+            {
+              id: 2,
+              description:
+                "",
+            },
+            {
+              id: 3,
+              description:
+                "",
+            },
+            {
+              id: 4,
+              description:
+                "",
+            },
+            {
+              id: 5,
+              description:
+                "",
+            },
+          ],
+          professions: [
+            {
+              name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+            },
+            { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+            {
+              name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+            },
+            {
+              name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+            },
+          ],
+          experiences: [
+            { name: "Gerente General de grupo depanel (actualmente)" },
+            {
+              name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+            },
+            {
+              name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+            },
+            {
+              name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+            },
+            {
+              name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+            },
+          ],
+        },
+        {
+          id: 5,
+          active: true,
+          date: "04-07-2023",
+          name: "Expo Cultura",
+          image: "/images/extensionCaracas/events/evento5.jpg",
+          detail: "1",
+          description: [
+            {
+              id: 1,
+              description:
+                'Música venezolana, bailes y alegría por nuestro país fue parte de lo que se disfrutó en nuestra Feria Cultural Venezolana, que se llevó a cabo en nuestras instalaciones.',
+            },
+            {
+              id: 2,
+              description:
+                "Estudiantes del primer semestre expusieron varios temas como la geografía, lugares turísticos, gastronomía, bailes y música típica de algunos de los estados de nuestro país.",
+            },
+            {
+              id: 3,
+              description:
+                "Mientras que los estudiantes del segundo semestre presentaron sus nacimientos por escuelas y presentaron sus Prototipos de las diferentes áreas de la Ingenierías.",
+            },
+            {
+              id: 4,
+              description:
+                "",
+            },
+            {
+              id: 5,
+              description:
+                "",
+            },
+          ],
+          professions: [
+            {
+              name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+            },
+            { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+            {
+              name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+            },
+            {
+              name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+            },
+          ],
+          experiences: [
+            { name: "Gerente General de grupo depanel (actualmente)" },
+            {
+              name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+            },
+            {
+              name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+            },
+            {
+              name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+            },
+            {
+              name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+            },
+          ],
+        },
+        {
+          id: 6,
+          active: true,
+          date: "04-07-2023",
+          name: "Maratón de Arquitectura",
+          image: "/images/extensionCaracas/events/evento6.jpeg",
+          detail: "1",
+          description: [
+            {
+              id: 1,
+              description:
+                'Trata sobre el Cierre de Semestre de la Escuela de Arquitectura. Donde cada uno de nuestros estudiantes a partir del segundo semestre tuvo que presentar su proyecto asignado, dando a conocer sus habilidades y a su vez plantear su idea de rediseño del PSM Extensión Caracas, demostrando sus habilidades para diseñar y lograr trabajar en equipo.',
+            },
+            {
+              id: 2,
+              description:
+                "Felicitamos a todos por su compromiso y dedicación, sigamos creciendo.",
+            },
+            {
+              id: 3,
+              description:
+                "Somos Formación para la Excelencia, Somos el Politécnico Santiago Mariño",
+            },
+            {
+              id: 4,
+              description:
+                "",
+            },
+            {
+              id: 5,
+              description:
+                "",
             },
           ],
           professions: [

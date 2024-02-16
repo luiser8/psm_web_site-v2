@@ -63,159 +63,35 @@ export default {
       {
         id: 1,
         active: true,
-        date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionMerida/events/evento4.jpeg",
-        detail: "1",
-        description: [
-          {
-            id: 1,
-            description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
-          },
-          {
-            id: 2,
-            description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
-          },
-          {
-            id: 3,
-            description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
-          },
-          {
-            id: 4,
-            description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
-          },
-          {
-            id: 5,
-            description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
-          },
-        ],
-        professions: [
-          {
-            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
-          },
-          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
-          {
-            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
-          },
-          {
-            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
-          },
-        ],
-        experiences: [
-          { name: "Gerente General de grupo depanel (actualmente)" },
-          {
-            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
-          },
-          {
-            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
-          },
-          {
-            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
-          },
-          {
-            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
-          },
-        ],
-      },
-      {
-        id: 2,
-        active: true,
-        date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionMerida/events/evento5.jpeg",
-        detail: "1",
-        description: [
-          {
-            id: 1,
-            description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
-          },
-          {
-            id: 2,
-            description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
-          },
-          {
-            id: 3,
-            description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
-          },
-          {
-            id: 4,
-            description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
-          },
-          {
-            id: 5,
-            description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
-          },
-        ],
-        professions: [
-          {
-            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
-          },
-          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
-          {
-            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
-          },
-          {
-            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
-          },
-        ],
-        experiences: [
-          { name: "Gerente General de grupo depanel (actualmente)" },
-          {
-            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
-          },
-          {
-            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
-          },
-          {
-            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
-          },
-          {
-            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
-          },
-        ],
-      },
-      {
-        id: 3,
-        active: true,
-        date: "01-11-2023",
-        name: "Expo Química",
+        date: "03-02-2024",
+        name: "Caminata Jóvenes Activos",
         image: "/images/extensionMerida/events/evento1.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "El día 03 de febrero se llevó a cabo la actividad de Caminata Deportiva 2024,  con la participación de los estudiantes de las materias de Educación Salud, Física y Deporte I y II, docentes y personal del Politécnico Santiago Mariño.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "La caminata partió de la institución subiendo por la Av. Los Próceres hasta el cruce con la Av. Ezio Valeri para luego bajar por la Av. Las Américas hasta llegar de nuevo a la institución.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "La actividad contó con el apoyo de la Policía Municipal de Mérida quienes escoltaron los jóvenes a lo largo del recorrido.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [

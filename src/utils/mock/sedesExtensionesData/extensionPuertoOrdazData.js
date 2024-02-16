@@ -64,34 +64,34 @@ export default {
         id: 1,
         active: true,
         date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionPuertoOrdaz/events/evento4.jpeg",
+        name: "Expo Proyectos",
+        image: "/images/extensionPuertoOrdaz/events/evento1.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "La jefatura de escuelas de Ingeniera industrial y mantenimiento mecánico en conjunto con su plana docente y estudiantes dieron gala a la Expo proyectos 2023-2, Donde se avocaron a dar a conocer los conocimientos adquiridos en las diversas materias que cursan en la carrera. Presentados proyectos tales como sistema de costos por órdenes específicas, la evolución de los envases y embalajes en la industria de los alimentos, estudios de tiempo y elaboración de sistemas de elevación vertical, y ponencias en el área de mantenimiento y la ética profesional.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -126,34 +126,34 @@ export default {
         id: 2,
         active: true,
         date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionPuertoOrdaz/events/evento5.jpeg",
+        name: "Expotronica",
+        image: "/images/extensionPuertoOrdaz/events/evento2.png",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "El pasado viernes 26 de enero se realizó en el Politécnico Santiago Mariño, Extensión Puerto Ordaz la segunda edición de la Expo-Trónica donde se presentaron 22 proyectos realizados en las diferentes materias que conforman las carreras de ingeniería eléctrica, electrónica y sistemas. Cabe destacar que todos los proyectos fueron funcionales y en la demostración de los mismo se evidenciaron los conocimientos adquiridos por los estudiantes.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "En esta Gala contamos con la participación de los Ingenieros Alexander Arredondo, Nathaly Depaz y Manuel Gragirena representantes de Fundacite Bolívar, quienes realizaron una ponencia de robótica, aunado a esto realizaron una demostración de utilidad del robot automatizado. ",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Por su parte el Br. Isaías Pérez estudiante de la escuela de Electrónica, presento un proyecto denominado Robot Santiaguito, en su primera versión el mismo cuenta con control automático desde una aplicación Android y su programación es de Arduino.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -188,34 +188,220 @@ export default {
         id: 3,
         active: true,
         date: "01-11-2023",
-        name: "Expo Química",
-        image: "/images/extensionPuertoOrdaz/events/evento1.jpeg",
+        name: "Expoarqui I y II",
+        image: "/images/extensionPuertoOrdaz/events/evento3.png",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Recientemente se llevó a cabo, la Expo Ar-Ci 2023-2, Donde se dieron cita nuestra plana docente formados por los Arquitectos Silvia López, Cindy Ortega, Javier Rojas, Gabriel Gil, la Urbanista Solange Tirado y la Ingeniero Alejandra Rodríguez, presentando proyectos por parte de los estudiantes de las escuelas de Arquitectura e Ingeniería Civil. ",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "La jornada se caracterizó por la visualización de formas, colores, estructuras arquitectónicas, diseños de ingeniería y maquetas demostrando sus conocimientos en el diseño de estructuras enfocados en la evolución arquitectónica y de construcción, de manera creativa e innovadora.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        active: true,
+        date: "01-11-2023",
+        name: "Aniversario por los 30 años",
+        image: "/images/extensionPuertoOrdaz/events/evento4.png",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Politécnico Santiago Mariño Extensión Puerto Ordaz, llevo a cabo con éxito la celebración de su semana aniversario, por 30 años de trayectoria de formación académica.",
+          },
+          {
+            id: 2,
+            description:
+              "Se inicio la semana con una misa de acción de gracias por el aniversario en las instalaciones del Politécnico (Biblioteca, Salón Quero) el día 05 de diciembre. El 06 de diciembre se contó con la participación especial por parte del Ing. Taerone Yépez de la empresa Ferrominera del Orinoco con una ponencia sobre Bienes Públicos. Además, contamos con la presentación de Adrián Cedeño y la agrupación gaitera cuatro y tambora.",
+          },
+          {
+            id: 3,
+            description:
+              "Por último, se cerró la semana con un acto conmemorativo, donde se proyecto un audiovisual por los 30 años de la institución, seguidamente se conto con la presentación del grupo de danza Ballet Yaisy Torres y el grupo de Adlibitum, se les entrego reconocimiento por años de servicio al personal administrativo y docente, cerrando con el cumpleaños a la institución.",
+          },
+          {
+            id: 4,
+            description:
+              "En este acto contamos con invitados especiales la Ing. Claudimar Sánchez, Coordinadora de Extensión del UTS Guayana y el locutor Wolfran Altamar de Turística 927.",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        active: true,
+        date: "06-12-2023",
+        name: "Exposición de equipos electrónicos a través del tiempo",
+        image: "/images/extensionPuertoOrdaz/events/evento5.png",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El pasado 6 de diciembre se realizó la exposición evolución de los equipos electrónicos a través del tiempo.",
+          },
+          {
+            id: 2,
+            description:
+              "Desde 1970 a la actualidad se consolido el uso de la lógica binaria y los sistemas digitales para procesar y transmitir información. Un grupo de estudiantes de Ingeniería Electrónica guiados por el Ing. Manuel Romero, docente de la institución, enseñaron el desarrollo de la tecnología como el circuito integrado en los teléfonos, computadora, entre otros.",
+          },
+          {
+            id: 3,
+            description:
+              "En esta exposición, se observó que el común denominador en la evolución de los equipos electrónicos, ha sido la reducción del tamaño de los mismos y el incremento de sus funciones y capacidades, generado un gran impacto en la sociedad y la cultura.",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        active: true,
+        date: "24-11-2023",
+        name: "Perspectivas de diseño I y Teoría de formas y diseño III",
+        image: "/images/extensionPuertoOrdaz/events/evento6.png",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El pasado 24 de noviembre en el Politécnico Santiago Mariño, Extensión Puerto Ordaz, los estudiantes de la escuela arquitecturas, realizaron una presentación de los proyectos desarrollados en las cátedras de diseño I, teoría de las formas y diseño III. ",
+          },
+          {
+            id: 2,
+            description:
+              "En una exposición de pasillo los estudiantes exhibieron diversas temáticas referentes al color enfocados en la expresión, acabados, texturas y tipos de arquitectura empleando las teorías de las estar, así mismo maquetas arquitectónicas, respetando los conceptos básicos del diseño. ",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
           },
         ],
         professions: [
