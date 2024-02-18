@@ -61,35 +61,35 @@ export default {
       {
         id: 1,
         active: true,
-        date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionValencia/events/evento4.jpeg",
+        date: "02-08-2023",
+        name: "Master class Electrónica aplicada a la medicina",
+        image: "/images/extensionValencia/events/evento1.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              'La jefatura de Ingeniería Electrónica PSM Valencia tiene el placer de invitarlos a la master class titulada "Electronica Aplicada a la Medicina" dictada por el Ing: Aldo Antoniolo.',
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -123,35 +123,35 @@ export default {
       {
         id: 2,
         active: true,
-        date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionValencia/events/evento5.jpeg",
+        date: "03-08-2023",
+        name: "Master class cambio climático",
+        image: "/images/extensionValencia/events/evento2.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Los estudiantes del PSM Valencia, una vez más dijeron presente en la máster class, titulada: cambio climático, causas y consecuencias, dictada por la Dra. Verónica González.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -185,35 +185,97 @@ export default {
       {
         id: 3,
         active: true,
-        date: "01-11-2023",
-        name: "Expo Química",
-        image: "/images/extensionValencia/events/evento1.jpeg",
+        date: "17-05-2023",
+        name: "Master class expresión Arquitectónica a través del dibujo",
+        image: "/images/extensionValencia/events/evento3.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Master class para Ingeniería Civil y Arquitectura. Expresión Arquitectónica a través del dibujo. ponente: Arq. Alejandro Aguilar.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        active: true,
+        date: "18-05-2023",
+        name: "Practica de tratamiento térmico",
+        image: "/images/extensionValencia/events/evento4.jpg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Practica de tratamiento térmico dentro de la cátedra del laboratorio de materiales. Prof. Jesús Picón, escuela de Mantenimiento Mecánico PSM Valencia es formación para la excelencia.",
+          },
+          {
+            id: 2,
+            description:
+              "",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
           },
         ],
         professions: [

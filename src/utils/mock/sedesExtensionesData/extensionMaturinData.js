@@ -61,35 +61,35 @@ export default {
       {
         id: 1,
         active: true,
-        date: "30-01-2024",
-        name: "Danzas",
-        image: "/images/extensionMaturin/events/evento6.jpeg",
+        date: "15-06-2023",
+        name: "¿Es la Inteligencia Artificial el futuro de la humanidad?",
+        image: "/images/extensionMaturin/events/evento1.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Foro facilitado por el Ingeniero Juan Wesphal, dirigido a toda la comunidad santiaguista, donde el profesional se enfocó en la trascendencia de la Inteligencia como campo de la informática que tiene como finalidad, crear sistemas que puedan realizar tareas que normalmente requieren inteligencia humana.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "En este foro, realizado en la Sala de Usos Múltiples de nuestra institución, los asistentes, pudieron conocer, los grandes avances, en materia de Inteligencia Artificial, su uso e importancia, ventajas, desventajas, y sobre todo se despejaron muchas dudas referentes al futuro de la humanidad, con respecto al uso de estos avances tecnológicos.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -123,35 +123,35 @@ export default {
       {
         id: 2,
         active: true,
-        date: "30-01-2024",
-        name: "Torneo Futbol Sala",
-        image: "/images/extensionMaturin/events/evento7.jpeg",
+        date: "10-12-2023",
+        name: "Juegos Inter Escuelas de Futbol Sala",
+        image: "/images/extensionMaturin/events/evento2.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "El Deporte y la Recreación, son sin duda alguna imprescindibles, por tal razón, como parte de las actividades desarrolladas por la Coordinación de Deportes, bajo la responsabilidad del Profesor Francisco Gamboa, conociendo los talentos deportivos de nuestro Politécnico, se realizó el encuentro de Futbol Sala, entre las diferentes escuelas que conforman esta institución.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Con la nutrida participación de atletas y la concurrencia de la comunidad santiaguista, se efectuó este evento deportivo, donde se pudo observar, el gran potencial con el que cuenta nuestra institución. Esta actividad se desarrolló durante dos semanas en la Cancha Deportiva de la Avenida El Ejercito de Maturín, y en esta ocasión, se tituló campeón del encuentro, la Escuela de Ingeniería de Mantenimiento Mecánico.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -185,35 +185,97 @@ export default {
       {
         id: 3,
         active: true,
-        date: "01-11-2023",
-        name: "Torneo Ajedrez",
-        image: "/images/extensionMaturin/events/evento8.jpeg",
+        date: "23-06-2023",
+        name: "Exhibición de salsa casino",
+        image: "/images/extensionMaturin/events/evento3.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Las actividades artísticas, forman parte desde siempre, de la vida universitaria y en todos los ámbitos educativos, por tal razón, con la intención de ofrecer a la comunidad Santiaguista, la oportunidad de disfrutar de una des manifestaciones danzarías que hoy se realiza en muchos países, se efectuó la actuación de parejas de Salsa Casino.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "El Lobby del Politécnico “Santiago Mariño”, fue el escenario, donde las parejas de bailes, al son de uno de los géneros musicales más contagiosos, mostraron todo su talento e hicieron participes a los presentes, quienes disfrutaron de un rato ameno, como ínterin de las actividades académicas.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Esta actividad fue coordinada por el Departamento de DOBE, bajo la responsabilidad, de la Licenciada, Marianny Guevara.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        active: true,
+        date: "23-06-2023",
+        name: "Exhibición de esgrima",
+        image: "/images/extensionMaturin/events/evento4.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "El Lobby del Politécnico Santiago Mariño”, extensión Maturín, sirvió en esta ocasión para ofrecer a la comunidad santiaguista, una interesante muestra de una disciplina deportiva, raras veces, presentada en nuestra institución. En esta oportunidad los atletas que ofrecieron la muestra, dieron una clase magistral de su uso de la espada.",
+          },
+          {
+            id: 2,
+            description:
+              "Cabe destacar que esta exhibición, contó con la participación de atletas que cursan estudios en esta institución, quienes mostraron su alta preparación. En esta exhibición de Esgrima, el público pudo interactuar con los atletas y al final, se realizó un combate, entre parejas de estudiantes y personal del Politécnico que no practican este deporte.",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
           },
         ],
         professions: [
