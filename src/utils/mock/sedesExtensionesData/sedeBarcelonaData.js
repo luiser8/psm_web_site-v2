@@ -142,27 +142,27 @@ export default {
           {
             id: 1,
             description:
-              "Te invitamos a la III edición de la Feria Tecnológica del Politécnico Santiago Mariño sede Barcelona. Los Estudiantes de las carreras de Ingeniería Eléctrica Electrónica y Sistemas desarrollaron increíbles proyectos y prototipos tecnológicos que serán exhibidos este 08 de Febrero en nuestras instalaciones.",
+              "El futuro se encuentra con la innovación y esa fue la premisa de la III Feria Tecnológica del #PolitécnicoSantiagoMariño sede Barcelona que exhibió proyectos, prototipos y ponencias interactivas para que los asistentes vivieran una experiencia fascinante con la inteligencia artificial y la robótica.🤖",
           },
           {
             id: 2,
             description:
-              "iNo faltes, Te Esperamos!",
+              "La actividad inició con palabras de la Arq. Dorelis Márquez, Coordinadora General de Sede, quien agradeció y resaltó el compromiso y la excelencia de los docentes y los estudiantes por la calidad de los trabajos expuestos.",
           },
           {
             id: 3,
             description:
-              "¡Formación para la Excelencia!🎓",
+              "Posteriormente, iniciaron el ciclo de ponencias con el Ing. Enrique Rivero, docente de nuestra universidad quien habló acerca de la Inteligencia Artificial por dentro.",
           },
           {
             id: 4,
             description:
-              "",
+              "Los estudiantes expusieron a los asistentes sus proyectos y prototipos, entre los que se mencionan: Morrocoya Security C.A 🤖 Dado electrónico 🤖 Sensor de humo 🤖 Proyecto Pet Express 🤖 Proyecto Amadeus",
           },
           {
             id: 5,
             description:
-              "",
+              "El jurado calificador integrado por Ing. José Salazar, Pdte. de Industria Barcelona, Lcdo. Gamal Kad Bay, Coord. de Informática del Iutirla Barcelona, Ing. José Miguel López, Dir. de Informática de la Alcaldía de Barcelona junto a las autoridades y docentes del #PSMBarcelona visitaron cada stands para conocer de cerca y evaluar los proyectos presentados.",
           },
         ],
         professions: [
@@ -333,7 +333,7 @@ export default {
           {
             id: 2,
             description:
-              "Si Estudiantes del 1er y 2do semestre cursantes de la materia química desarrollaron productos artesanales demostrando los conocimientos adquiridos en clases.",
+              "Estudiantes del 1er y 2do semestre cursantes de la materia química desarrollaron productos artesanales demostrando los conocimientos adquiridos en clases.",
           },
           {
             id: 3,

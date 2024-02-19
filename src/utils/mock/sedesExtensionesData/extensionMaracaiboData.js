@@ -73,34 +73,34 @@ export default {
         id: 1,
         active: true,
         date: "30-01-2024",
-        name: "Expo Turbinas",
-        image: "/images/extensionMaracaibo/events/evento4.jpeg",
+        name: "Entrega de Reconocimientos en el marco del Día del Ingeniero",
+        image: "/images/extensionMaracaibo/events/evento1.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Politécnico Santiago Mariño, Extensión Maracaibo reconoció en el día de ayer, 30 de octubre a todo el Personal Administrativo y Docente en el marco de la celebración del Día del Ingeniero.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Asimismo, reconoció a Ingenieros distinguidos de Entes Gubernamentales y Organizaciones, por su labor y trayectoria dentro de nuestra región.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "Extendemos una vez más, nuestras más sinceras felicitaciones a todos estos maravillosos profesionales que cumplen con excelencia su rol de Ingenieros.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
           },
         ],
         professions: [
@@ -135,8 +135,70 @@ export default {
         id: 2,
         active: true,
         date: "30-01-2024",
-        name: "Expo Servicio Comunitario",
-        image: "/images/extensionMaracaibo/events/evento5.jpeg",
+        name: "Los Expertos hablan de la Revolución de la Industria 4.0",
+        image: "/images/extensionMaracaibo/events/evento2.jpg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              'En el marco de nuestro 30 Aniversario, se invitó a la comunidad universitaria a este conservatorio, "Los Expertos hablan de la Revolución de la Industria 4.0"',
+          },
+          {
+            id: 2,
+            description:
+              "Con grandes invitados, como el Arq. Rafael D´ Santiago, Ing. Evelyn Quintero, Ing. Luis Soto, Ing. Javier Ososrio, Ing. Geryk Nuñez, Ing. Carlos Cervantes e Ing. Fidel Villazmil.",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        active: true,
+        date: "01-11-2023",
+        name: 'Congreso Internacional "Sostenibilidad económica, social y medio ambiental"',
+        image: "/images/extensionMaracaibo/events/evento3.png",
         detail: "1",
         description: [
           {
@@ -194,37 +256,161 @@ export default {
         ],
       },
       {
-        id: 3,
+        id: 4,
         active: true,
         date: "01-11-2023",
-        name: "Expo Química",
-        image: "/images/extensionMaracaibo/events/evento1.jpeg",
+        name: 'Jornada de atención visual',
+        image: "/images/extensionMaracaibo/events/evento4.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "Con atención a más de 30 personas se llevó a cabo esta actividad que incluía el examen de la vista gratis, cortesía de la Óptica Finol, quienes también permitieron a todos los presentes adquirir sus productos a costos accesibles y a crédito.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Agradecemos a todos aquellos que acudieron a este llamado, como es el chequeo de uno de los sentidos más importantes del ser humano, la vista.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              "",
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        active: true,
+        date: "01-11-2023",
+        name: 'Máster Class "AI en el Emprendimiento"',
+        image: "/images/extensionMaracaibo/events/evento5.jpg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Les compartimos parte de la Máster Class, donde en conjunto con @zuliatecnologica pudimos disfrutar de todos los conocimientos del Ing. Guzmán, de los avances y las tendencias tecnológicas que rigen al mundo actualmente, a través de la Inteligencia Artificial.",
+          },
+          {
+            id: 2,
+            description:
+              "Una vez más agradecemos al Ing. Guzmán por visitarnos y a todos los estudiantes que participaron en la misma.",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        active: true,
+        date: "01-11-2023",
+        name: '2da. Expo TFU "Talleres de Formación Universitaria 2023"',
+        image: "/images/extensionMaracaibo/events/evento6.jpg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Expo donde nuestros estudiantes, nuevos ingresos, presentaron los resultados de un arduo trabajo de estudio y desenvolvimiento durante 4 semanas en el campus universitario.",
+          },
+          {
+            id: 2,
+            description:
+              "Cursos que se imparten con el fin de ayudarles a definir mejor su futuro y que fueron dictados por docentes de alta calidad, quienes en conjunto con los estudiantes presentaron sus trabajos finales de: Inglés Básico, Inteligencia Artificial, Redes Sociales, para Impactar",
+          },
+          {
+            id: 3,
+            description:
+              "Estudiantes, éste es solo el comienzo del gran camino que les espera en la vida universitaria, aquí en el Politécnico Santiago Mariño podrán convertirse en los profesionales que desean.",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
           },
         ],
         professions: [
