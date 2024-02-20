@@ -59,17 +59,79 @@ export default {
     path: "/ciudad_ojeda/eventos",
     eventos_data: [
       {
+        id: 1,
+        active: true,
+        date: "06-02-2024",
+        name: "Ciclo básico cierre de proyectos",
+        image: "/images/extensionCiudadOjeda/events/evento1.jpeg",
+        detail: "1",
+        description: [
+          {
+            id: 1,
+            description:
+              "Una jornada científica en la que los participantes de los semestres iniciales demuestran dominio de los contenidos obtenidos durante el periodo lectivo, por medio de proyectos de aula en los que asignaturas como Metodología de la Investigación, Actividad de Formación Cultural I, Actividad de Orientación y Lenguaje y Comunicación, despiertan el pensamiento crítico e incentivan a los estudiantes a incursionar como Investigadores.",
+          },
+          {
+            id: 2,
+            description:
+              "",
+          },
+          {
+            id: 3,
+            description:
+              "",
+          },
+          {
+            id: 4,
+            description:
+              "",
+          },
+          {
+            id: 5,
+            description:
+              "",
+          },
+        ],
+        professions: [
+          {
+            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
+          },
+          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
+          {
+            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
+          },
+          {
+            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
+          },
+        ],
+        experiences: [
+          { name: "Gerente General de grupo depanel (actualmente)" },
+          {
+            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
+          },
+          {
+            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
+          },
+          {
+            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
+          },
+          {
+            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
+          },
+        ],
+      },
+      {
         id: 2,
         active: true,
-        date: "30-01-2024",
-        name: "Cierre de ciclo básico",
+        date: "07-02-2024",
+        name: "Expo Laboratorios",
         image: "/images/extensionCiudadOjeda/events/evento2.jpeg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "Cierre de Ciclo Básico: Una jornada científica en la que los participantes de los semestres iniciales demuestran dominio de los contenidos obtenidos durante el periodo lectivo, por medio de proyectos de aula en los que asignaturas como Metodología de la Investigación, Actividad de Formación Cultural I, Actividad de Orientación y Lenguaje y Comunicación, despiertan el pensamiento crítico e incentivan a los estudiantes a incursionar como Investigadores.",
+              "Expolab 2023-2: Actividad en la que los estudiantes cursantes de las asignaturas con Laboratorio, presentan sus proyectos de aula, demostrando dominio sobre los contenidos estudiados",
           },
           {
             id: 2,
