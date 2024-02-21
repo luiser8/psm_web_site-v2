@@ -1,7 +1,6 @@
 const apiurl = import.meta.env.VITE_API_URL;
 
 export const get = async () => {
-    
   const url = `${apiurl}${route}`;
 
   return await fetch(url, {

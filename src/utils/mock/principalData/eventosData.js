@@ -37,33 +37,6 @@ export default {
               "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
           },
         ],
-        professions: [
-          {
-            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
-          },
-          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
-          {
-            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
-          },
-          {
-            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
-          },
-        ],
-        experiences: [
-          { name: "Gerente General de grupo depanel (actualmente)" },
-          {
-            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
-          },
-          {
-            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
-          },
-          {
-            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
-          },
-          {
-            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
-          },
-        ],
       },
       {
         id: 2,
@@ -97,33 +70,6 @@ export default {
             id: 5,
             description:
               "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
-          },
-        ],
-        professions: [
-          {
-            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
-          },
-          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
-          {
-            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
-          },
-          {
-            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
-          },
-        ],
-        experiences: [
-          { name: "Gerente General de grupo depanel (actualmente)" },
-          {
-            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
-          },
-          {
-            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
-          },
-          {
-            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
-          },
-          {
-            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
           },
         ],
       },
@@ -161,33 +107,6 @@ export default {
               "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
           },
         ],
-        professions: [
-          {
-            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
-          },
-          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
-          {
-            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
-          },
-          {
-            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
-          },
-        ],
-        experiences: [
-          { name: "Gerente General de grupo depanel (actualmente)" },
-          {
-            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
-          },
-          {
-            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
-          },
-          {
-            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
-          },
-          {
-            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
-          },
-        ],
       },
       {
         id: 4,
@@ -223,33 +142,6 @@ export default {
               "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
           },
         ],
-        professions: [
-          {
-            name: "TSU Diseño Industrial - Instituto Universitario de Tecnología Antonio José de Sucre",
-          },
-          { name: "Ing. Industrial - Politécnico Santiago Mariño" },
-          {
-            name: "Máster en Derecho y Relaciones Internacionales - Caribbeans Internacional University",
-          },
-          {
-            name: "Doc. En Ciencias Gerenciales - Caribbeans Internacional University",
-          },
-        ],
-        experiences: [
-          { name: "Gerente General de grupo depanel (actualmente)" },
-          {
-            name: "Profesor universitario en la universidad José María Vargas (actualmente)",
-          },
-          {
-            name: "Profesor de diseño en la academia Politécnica La Trinidad (actualmente)",
-          },
-          {
-            name: "Profesor de la escuela de Arquitectura en el Politécnico Santiago Mariño (actualmente)",
-          },
-          {
-            name: "Miembro activo de la red de investigadores de diseño de la universidad de Palermo.",
-          },
-        ],
       },
       {
         id: 5,
@@ -283,26 +175,6 @@ export default {
             id: 5,
             description:
               "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
-          },
-        ],
-        professions: [
-          { name: "Ing. civil - Politécnico Santiago Mariño" },
-          {
-            name: "Especialista en construcción de obras civiles mención edificaciones, Universidad Rafael Urdaneta",
-          },
-          {
-            name: "Ingeniero Constructor Titulo Revalidado Universidad de Chile Constructor Titulo Revalidado Universidad de Chile",
-          },
-        ],
-        experiences: [
-          {
-            name: "Experiencia en inspección técnica de obras, gestión, planificación y ejecución de proyectos industriales, procesos de licitación.",
-          },
-          {
-            name: "Experiencia comprobada en el mantenimiento e instalaciones eléctricas de mediana y alta tensión, incluyendo las instalaciones de tipo residenciales",
-          },
-          {
-            name: "Planificación y elaboración de plan de trabajo y seguimiento a través del diagrama de Gantt. dirección y coordinación de especialidades en el proceso constructivo de una obra.",
           },
         ],
       },

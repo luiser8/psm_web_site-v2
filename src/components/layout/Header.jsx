@@ -1,11 +1,11 @@
 import { useEffect, useState, useContext } from "react";
 import { DataContext } from "../../utils/context/UseContextProvider";
 import menuData from "../../utils/mock/common/menuData";
-import headerData from "../../utils/mock/principalData/headerData";
 import ThemeToggler from "../../utils/theme/ThemeToggler";
 import { NavLink } from "react-router-dom";
 import DropDown from "./DropDown";
 import { useLocation } from "react-router-dom";
+import headerData from "../../utils/mock/common/headerData";
 
 const Header = () => {
   const [header, setHeader] = useState([]);
