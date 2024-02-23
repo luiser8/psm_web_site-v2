@@ -143,34 +143,39 @@ export default {
         id: 3,
         active: true,
         date: "01-11-2023",
-        name: 'Congreso Internacional "Sostenibilidad económica, social y medio ambiental"',
-        image: "/images/extensionMaracaibo/events/evento3.png",
+        name: 'Santa Eucaristía e Imposición de Cenizas',
+        image: "/images/extensionMaracaibo/events/evento3.jpg",
         detail: "1",
         description: [
           {
             id: 1,
             description:
-              "El Politécnico Santiago Mariño (PSM) en conjunto con el Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú (CICSTEP) se unen para ofrecer a toda la comunidad proyectista, tecnológica, cientifica y humanística, un intercambio de conocimientos y experiencias a través de un congreso internacional, donde se unirán países como; Venezuela, Perú, Colombia, Costa Rica y Panamá.",
+              "El Politécnico Santiago Mariño, Extensión Maracaibo realizó este miércoles, 14 de febrero, la Santa Eucaristía e Imposición de Cenizas.",
           },
           {
             id: 2,
             description:
-              "Siendo así, una gran oportunidad de aprendizaje adaptado a los temas de Sostenibilidad Económica, Social y de Medio Ambiente, que se realizará desde el próximo 21 de septiembre de 2023, desde las 8.00a.m.",
+              "Con esta celebración le damos inicio a la cuaresma, la cual es un tiempo para renovar la fe, la esperanza y la caridad. El ayuno, la oración y la limosna, tal como los presenta Jesús en su predicación, son las condiciones y la expresión de nuestra conversión.",
           },
           {
             id: 3,
             description:
-              "Un evento donde se podrá disfrutar de charlas, exposiciones y networking con un robusto grupo de expertos que se unirán en pro de brindar sus aportes a las generaciones futuras. No dejes pasar esta oportunidad única de aprender y de compartir.",
+              "En esta eucaristía, contamos con la compañía de la U.E.P. Dr. José Gregorio y del Tecnológico Antonio José de Sucre, Extensión Maracaibo.",
           },
           {
             id: 4,
             description:
-              "Todas las transmisiones serán totalmente en vivo, a través de nuestra página web, y las Plataformas SAIA, YouTube y Teams, de manera gratuita.",
+              '"Tú, en cambio, cuando ayunes, perfúmate la cabeza y lávate la cara, para que tu ayuno lo note, no los hombres, sino tu Padre, que está en lo escondido; y tu Padre, que ve en lo escondido, te recompensará. Mateo, 6."',
           },
           {
             id: 5,
             description:
-              "Mantente atento(a) a nuestras publicaciones, para mayor información. ¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!.",
+              'Somos El Politécnico Santiago Mariño.',
+          },
+          {
+            id: 6,
+            description:
+              '"Formación para la Excelencia"',
           },
         ],
       },

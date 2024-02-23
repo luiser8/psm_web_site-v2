@@ -17,16 +17,16 @@ export default {
           name: "Quienes somos",
           link: "/nacional/quienes_somos",
         },
-        {
-          id: 3,
-          name: "Planes de estudio",
-          link: "/nacional/contactos",
-        },
-        {
-          id: 4,
-          name: "Trabaja con nosotros",
-          link: "/nacional/empleo",
-        },
+        // {
+        //   id: 3,
+        //   name: "Planes de estudio",
+        //   link: "/nacional/contactos",
+        // },
+        // {
+        //   id: 4,
+        //   name: "Trabaja con nosotros",
+        //   link: "/nacional/empleo",
+        // },
         {
           id: 5,
           name: "Eventos",
