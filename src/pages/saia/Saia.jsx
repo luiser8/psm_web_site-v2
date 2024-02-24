@@ -30,19 +30,17 @@ const Saia = () => {
                     </h1>
                     <span className="text-base font-normal leading-6 text-start xl:leading-8 ">
                       {componentSaiaData.data}
+                      <Link
+                        to={componentSaiaData.path}
+                        className={
+                          "font-semibold pl-2 text-base text-start hover:text-primary transition-all ease-linear"
+                        }
+                      >
+                        Más detalles
+                      </Link>
                     </span>
                   </div>
                 </section>
-                <span className="w-full flex justify-center xl:justify-items-start mt-3">
-                  <Link
-                    to={componentSaiaData.path}
-                    className={
-                      "font-semibold text-lg md:text-2xl hover:text-primary transition-all ease-linear"
-                    }
-                  >
-                    Más detalles
-                  </Link>
-                </span>
               </div>
             ) : (
               <></>
@@ -50,38 +48,39 @@ const Saia = () => {
           </section>
 
           {componentSaiaData.videoId !== "" ? <>
-          <section
-            className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
-            data-wow-delay=".15s"
-          >
-            <h1 className="text-2xl mb-4 font-bold text-start md:text-2xl xl:text-2xl">
-              Video: Instrucciones de como acceder a nuestro portal
-            </h1>
-            <div className="relative aspect-[77/40] items-center justify-center">
-              <img src={componentSaiaData.videoImage} alt="video image" />
-              <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
-                <button
-                  onClick={() => setOpen(true)}
-                  className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
-                >
-                  <svg
-                    width="16"
-                    height="18"
-                    viewBox="0 0 16 18"
-                    className="fill-current"
+            <section
+              className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
+              data-wow-delay=".15s"
+            >
+              <h1 className="text-base mb-4 font-bold text-start md:text-xl xl:text-xl">
+                Como acceder a nuestro portal
+              </h1>
+              <div className="relative aspect-[77/40] items-center justify-center">
+                <img src={componentSaiaData.videoImage} alt="video image" />
+                <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
+                  <button
+                    onClick={() => setOpen(true)}
+                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
                   >
-                    <path d="M15.5 8.13397C16.1667 8.51888 16.1667 9.48112 15.5 9.86602L2 17.6603C1.33333 18.0452 0.499999 17.564 0.499999 16.7942L0.5 1.20577C0.5 0.43597 1.33333 -0.0451549 2 0.339745L15.5 8.13397Z" />
-                  </svg>
-                </button>
+                    <svg
+                      width="16"
+                      height="18"
+                      viewBox="0 0 16 18"
+                      className="fill-current"
+                    >
+                      <path d="M15.5 8.13397C16.1667 8.51888 16.1667 9.48112 15.5 9.86602L2 17.6603C1.33333 18.0452 0.499999 17.564 0.499999 16.7942L0.5 1.20577C0.5 0.43597 1.33333 -0.0451549 2 0.339745L15.5 8.13397Z" />
+                    </svg>
+                  </button>
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
             <ModalVideo
               channel={componentSaiaData.channel}
               autoplay={true}
               start={true}
               isOpen={isOpen}
               videoId={componentSaiaData.videoId}
+              showinfo={false}
               onClose={() => setOpen(false)}
           />
             {isOpen ? (
