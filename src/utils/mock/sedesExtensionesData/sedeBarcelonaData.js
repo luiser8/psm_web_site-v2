@@ -567,12 +567,6 @@ export default {
               position: "Jefe de División de Personal",
               photo: "/images/sedeBarcelona/about/autoridad4.jpeg",
             },
-            {
-              id: 5,
-              names: "Lcda. Glormary Requena",
-              position: "Jefe de División de Admisión y Control de Estudio",
-              photo: "/images/sedeBarcelona/about/autoridad5.jpeg",
-            },
           ],
         },
       },
