@@ -21,6 +21,7 @@ import Institucion from "../../pages/about/Institucion";
 import Faq from "../../pages/faq/Faq";
 import { SedesContact } from "../../pages/sedes/SedesContact";
 import { PaymentsMethods } from "../../pages/payments/PaymentsMethods";
+import Citein from "../../pages/citein/Citein";
 
 export default function RoutesCustom() {
   const location = useLocation();
@@ -105,7 +106,10 @@ export default function RoutesCustom() {
       path: "/:id/faq",
       element: <Faq />,
     },
-
+    {
+      path: "/:id/citein",
+      element: <Citein />,
+    },
     {
       path: "/:id/metodos_de_pago",
       element: location.pathname.includes("nacional") ? (
