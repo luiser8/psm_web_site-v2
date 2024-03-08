@@ -377,16 +377,6 @@ export default {
             link: "/merida/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/merida/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/merida/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/merida/eventos",

@@ -526,7 +526,7 @@ export default {
         description1:
           "Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.",
         description2:
-          "Somos una comunidad de intereses espirituales que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
+          "Somos una comunidad de intereses estudiantiles que reúne a profesores estudiantes y personal administrativo en la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.",
         description3:
           "La enseñanza superior del Instituto Universitario Politécnico 'Santiago Mariño', se inspira en un definido espíritu de democracia, de justicia social, de solidaridad Humana y estará abierta a todas las corrientes del pensamiento universal, las cuales se expondrán y analizaran de manera rigurosamente científica.",
       },
@@ -610,16 +610,6 @@ export default {
             id: 2,
             name: "Quienes somos",
             link: "/barcelona/quienes_somos",
-          },
-          {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/barcelona/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/barcelona/empleo",
           },
           {
             id: 5,

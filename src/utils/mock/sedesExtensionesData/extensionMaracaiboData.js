@@ -572,16 +572,6 @@ export default {
             link: "/maracaibo/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/maracaibo/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/maracaibo/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/maracaibo/eventos",

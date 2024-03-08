@@ -409,16 +409,6 @@ export default {
             link: "/ciudad_ojeda/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/ciudad_ojeda/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/ciudad_ojeda/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/ciudad_ojeda/eventos",

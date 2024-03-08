@@ -444,16 +444,6 @@ export default {
             link: "/barinas/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/barinas/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/barinas/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/barinas/eventos",

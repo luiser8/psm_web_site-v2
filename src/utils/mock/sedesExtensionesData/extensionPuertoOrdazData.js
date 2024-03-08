@@ -552,16 +552,6 @@ export default {
             link: "/puerto_ordaz/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/puerto_ordaz/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/puerto_ordaz/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/puerto_ordaz/eventos",

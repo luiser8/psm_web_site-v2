@@ -558,16 +558,6 @@ export default {
             link: "/san_cristobal/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/san_cristobal/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/san_cristobal/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/san_cristobal/eventos",

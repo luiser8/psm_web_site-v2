@@ -485,16 +485,6 @@ export default {
             link: "/maturin/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/maturin/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/maturin/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/maturin/eventos",

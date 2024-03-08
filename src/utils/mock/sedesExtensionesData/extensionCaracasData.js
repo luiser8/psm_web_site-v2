@@ -547,16 +547,6 @@ export default {
               link: "/caracas/quienes_somos",
             },
             {
-              id: 3,
-              name: "Planes de estudio",
-              link: "/caracas/contactos",
-            },
-            {
-              id: 4,
-              name: "Trabaja con nosotros",
-              link: "/caracas/empleo",
-            },
-            {
               id: 5,
               name: "Eventos",
               link: "/caracas/eventos",

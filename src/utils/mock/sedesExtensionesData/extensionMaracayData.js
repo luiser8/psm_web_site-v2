@@ -549,16 +549,6 @@ export default {
             link: "/maracay/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/maracay/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/maracay/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/maracay/eventos",

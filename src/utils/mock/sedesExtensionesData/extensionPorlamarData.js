@@ -549,16 +549,6 @@ export default {
             link: "/porlamar/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/porlamar/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/porlamar/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/porlamar/eventos",

@@ -473,16 +473,6 @@ export default {
             link: "/valencia/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/valencia/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/valencia/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/valencia/eventos",

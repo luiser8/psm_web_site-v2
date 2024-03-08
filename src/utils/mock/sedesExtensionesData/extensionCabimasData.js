@@ -555,16 +555,6 @@ export default {
             link: "/cabimas/quienes_somos",
           },
           {
-            id: 3,
-            name: "Planes de estudio",
-            link: "/cabimas/contactos",
-          },
-          {
-            id: 4,
-            name: "Trabaja con nosotros",
-            link: "/cabimas/empleo",
-          },
-          {
             id: 5,
             name: "Eventos",
             link: "/cabimas/eventos",
