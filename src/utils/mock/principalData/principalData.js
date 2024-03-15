@@ -13,6 +13,16 @@ export default {
     carousel_data: [
       {
         id: 0,
+        url: "/images/nacional/carousel/web1.jpg",
+        cloudinary:
+          "",
+        link: "https://www.youtube.com/embed/l245sQd_lRY",
+        titleLink: "Ver transmisión en vivo",
+        target: "_self",
+        iframe: "https://www.youtube.com/embed/l245sQd_lRY?&autoplay=1",
+      },
+      {
+        id: 1,
         url: "/images/nacional/carousel/web4.jpg",
         cloudinary: "",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
@@ -21,7 +31,7 @@ export default {
         iframe: "",
       },
       {
-        id: 1,
+        id: 2,
         url: "/images/nacional/carousel/web0.jpg",
         cloudinary: "",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
@@ -29,16 +39,6 @@ export default {
         target: "_blank",
         iframe: "",
       },
-      // {
-      //   id: 2,
-      //   url: "/images/nacional/carousel/web1.png",
-      //   cloudinary:
-      //     "",
-      //   link: "https://www.youtube.com/embed/WNsJKB19ot8",
-      //   titleLink: "Ver transmisión en vivo",
-      //   target: "_self",
-      //   iframe: "https://www.youtube.com/embed/WNsJKB19ot8?&autoplay=1",
-      // },
     ],
   },
 };
