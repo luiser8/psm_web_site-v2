@@ -11,16 +11,16 @@ export default {
     target: "_blank",
     active_carousel: true,
     carousel_data: [
-      {
-        id: 0,
-        url: "/images/nacional/carousel/web1.jpg",
-        cloudinary:
-          "",
-        link: "https://www.youtube.com/embed/l245sQd_lRY",
-        titleLink: "Ver transmisión en vivo",
-        target: "_self",
-        iframe: "https://www.youtube.com/embed/l245sQd_lRY?&autoplay=1",
-      },
+      // {
+      //   id: 0,
+      //   url: "/images/nacional/carousel/web1.jpg",
+      //   cloudinary:
+      //     "",
+      //   link: "https://www.youtube.com/embed/l245sQd_lRY",
+      //   titleLink: "Ver transmisión en vivo",
+      //   target: "_self",
+      //   iframe: "https://www.youtube.com/embed/l245sQd_lRY?&autoplay=1",
+      // },
       {
         id: 1,
         url: "/images/nacional/carousel/web4.jpg",

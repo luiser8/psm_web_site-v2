@@ -126,6 +126,7 @@ const Header = () => {
                             <div className="flex flex-row gap-x-2">
                               <NavLink
                                 to={menuItem.path}
+                                target={`${menuItem.newTab ? '_blank' : '_self'}`}
                                 onClick={() => {
                                   if (index === 4) {
                                     setSedesOpen(!sedesOpen);
