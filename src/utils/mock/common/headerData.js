@@ -25,7 +25,7 @@ export default {
     },
     {
       id: 4,
-      title: "CITEIN",
+      title: "Revista CITEIN",
       path: "/nacional/citein",
       newTab: false,
       active: true,

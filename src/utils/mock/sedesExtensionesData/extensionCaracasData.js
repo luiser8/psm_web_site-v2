@@ -26,6 +26,13 @@ export default {
           newTab: false,
           active: true,
         },
+        {
+          id: 6,
+          title: "Consulta de notas",
+          path: "http://www.psm.edu.ve/sawebcaracas",
+          newTab: true,
+          active: true,
+        },
       ]
     },
     carousel: {
@@ -477,12 +484,12 @@ export default {
           authorities: {
             title: "Autoridades",
             data: [
-              {
-                id: 1,
-                names: "Ing. Heidy Longa",
-                position: "Coordinadora de Extensión",
-                photo: "/images/extensionCaracas/about/autoridad1.jpg"
-              },
+              // {
+              //   id: 1,
+              //   names: "Ing. Heidy Longa",
+              //   position: "Coordinadora de Extensión",
+              //   photo: "/images/extensionCaracas/about/autoridad1.jpg"
+              // },
               {
                 id: 2,
                 names: "Lic. Luis Marrufo",

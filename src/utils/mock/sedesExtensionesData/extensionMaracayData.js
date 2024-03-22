@@ -26,6 +26,13 @@ export default {
         newTab: false,
         active: true,
       },
+      {
+        id: 6,
+        title: "Consulta de notas",
+        path: "http://www.psm.edu.ve/sawebmaracay",
+        newTab: true,
+        active: true,
+      },
     ]
   },
   carousel: {
