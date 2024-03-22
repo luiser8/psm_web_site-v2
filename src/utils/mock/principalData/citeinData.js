@@ -3,6 +3,7 @@ export default {
     data: {
       name: "Revista CITEIN",
       title: "Politécnico Santiago Mariño",
+      pdf: "/docs/citein/CITEIN_N_10_CABIMAS_DEFINITIVA _14-12-2023.pdf",
       additional_data: [
           {
             id: 1,

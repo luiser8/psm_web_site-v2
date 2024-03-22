@@ -14,9 +14,9 @@ function App() {
       <ErrorBoundary>
         <UseContextProvider>
           <Router>
-            <Header />
-            <RoutesCustom />
-            <Footer />
+              <Header />
+              <RoutesCustom />
+              <Footer />
           </Router>
         </UseContextProvider>
       </ErrorBoundary>

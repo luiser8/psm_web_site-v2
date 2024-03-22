@@ -13,13 +13,13 @@ const Citein = () => {
                 {citeinData.data.name}
               </h2>
             </header>
-            <section className="pb-10 pt-10">
-              <div className="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
-                <div className="flex flex-wrap items-center justify-between gap-8 mb-2">
-                  <AccordionCustom data={citeinData.data.additional_data} type={1} />
-                </div>
-              </div>
-            </section>
+            <embed
+                    className="w-full h-[300px] sm:h-[450px] md:h-[600px] lg:h-[450px] xl:h-[600px]"
+                    src={citeinData.data.pdf}
+                    type="application/pdf"
+                    height={800}
+                    width={500}
+                  />
           </div>
         </section>
       ) : (
