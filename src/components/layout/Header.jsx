@@ -132,7 +132,7 @@ const Header = () => {
                                     setSedesOpen(!sedesOpen);
                                   }
                                 }}
-                                className={`flex py-2 text-base lg:text-nowrap transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                                className={`flex py-2 text-base ${menuItem.id === 4 ? 'italic' : '' } lg:text-nowrap transition-all font-medium ease-linear group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                               >
                                 {menuItem.title}
                               </NavLink>
