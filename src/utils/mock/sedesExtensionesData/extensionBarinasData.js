@@ -420,13 +420,13 @@ export default {
     descripcion:
       "Información de contacto acerca de las carreras y planes de estudio",
     contacto_data: {
-      telefono: "0424-7788865",
+      telefono: "0424-5404078 / 0412-0575850 / 0414-9546623",
       direccion:
-        "5838+QQM Universidad Santiago Mariño Sede 2, Av. Guzmán Lander, Barcelona 6001, Anzoátegui",
-      correo: "politecnicosantiagomariño@gmail.com",
+        "AVENIDA 23 DE ENERO C.C. FORUM",
+      correo: "barinas@psm.edu.ve",
       redes: {
-        facebook: "PSM facebook",
-        instagram: "@Psm instagram",
+        facebook: "https://www.facebook.com/itbarinas",
+        instagram: "https://www.instagram.com/barinaspsm",
       },
     },
   },
@@ -510,20 +510,14 @@ export default {
           {
             id: 1,
             name: "Facebook",
-            link: "https://www.facebook.com/psm.barcelona.10",
+            link: "https://www.facebook.com/itbarinas",
             icon: "/images/common/Icon/facebook.svg",
           },
           {
             id: 2,
             name: "Instagram",
-            link: "https://www.instagram.com/psmcaracasoficial/",
+            link: "https://www.instagram.com/barinaspsm",
             icon: "/images/common/Icon/instagram.svg",
-          },
-          {
-            id: 3,
-            name: "Twitter",
-            link: "https://twitter.com/PSMSanCristobal",
-            icon: "/images/common/Icon/twitter.svg",
           },
         ],
       },

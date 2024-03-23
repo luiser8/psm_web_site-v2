@@ -12,6 +12,7 @@ const Footer = ({ name = "" }) => {
 
   const resetDefaultFooter = () => {
     if (location.pathname.toLowerCase().includes("nacional") || location.pathname === "/"){
+      console.log(footerData)
       setFooter(footerData);
     } else {
       setFooter(getFooter());

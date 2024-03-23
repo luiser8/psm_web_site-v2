@@ -353,13 +353,14 @@ export default {
     descripcion:
       "Información de contacto acerca de las carreras y planes de estudio",
     contacto_data: {
-      telefono: "0424-7788865",
+      telefono: "0414-176-5061 / 0414-701-1447 / 0414179-6919 / 0414-1765108 / 0274-266-7255 / 2662278 / 2664390",
       direccion:
-        "5838+QQM Universidad Santiago Mariño Sede 2, Av. Guzmán Lander, Barcelona 6001, Anzoátegui",
-      correo: "politecnicosantiagomariño@gmail.com",
+        "",
+      correo: "CONTROL.ESTUDIO@PSMMERIDA.EDU.VE",
       redes: {
-        facebook: "PSM facebook",
-        instagram: "@Psm instagram",
+        facebook: "https://www.facebook.com/profile.php?id=100064623736428",
+        instagram: "https://www.instagram.com/psmmerida",
+        x: "https://twitter.com/psmmerida"
       },
     },
   },
@@ -443,19 +444,19 @@ export default {
           {
             id: 1,
             name: "Facebook",
-            link: "https://www.facebook.com/psm.barcelona.10",
+            link: "https://www.facebook.com/profile.php?id=100064623736428",
             icon: "/images/common/Icon/facebook.svg",
           },
           {
             id: 2,
             name: "Instagram",
-            link: "https://www.instagram.com/psmcaracasoficial/",
+            link: "https://www.instagram.com/psmmerida",
             icon: "/images/common/Icon/instagram.svg",
           },
           {
             id: 3,
             name: "Twitter",
-            link: "https://twitter.com/PSMSanCristobal",
+            link: "https://twitter.com/psmmerida",
             icon: "/images/common/Icon/twitter.svg",
           },
         ],
@@ -477,20 +478,20 @@ export default {
       ],
       para: ["Matrículas" , "Cuotas", "Aranceles"]
   },
-  {
-    id: 2,
-    nombre: "Servicios Estudiantiles",
-    bancos: [
-      {
-        nombre: "Banco Sofitasa",
-        titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
-        numero_de_cuenta: "0137-0029-09-0000091981",
-        cedula_rif: "J-080341660",
-        telefono: "",
-      }
-    ],
-    para: []
-  },
+  // {
+  //   id: 2,
+  //   nombre: "Servicios Estudiantiles",
+  //   bancos: [
+  //     {
+  //       nombre: "Banco Sofitasa",
+  //       titular: `Instituto Universitario Politécnico "Santiago Mariño"`,
+  //       numero_de_cuenta: "0137-0029-09-0000091981",
+  //       cedula_rif: "J-080341660",
+  //       telefono: "",
+  //     }
+  //   ],
+  //   para: []
+  // },
   {
     id: 3,
     nombre: "Pago en Bolívares",

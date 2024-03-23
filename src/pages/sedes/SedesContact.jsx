@@ -26,7 +26,7 @@ export const SedesContact = () => {
             </div>
 
             <div className=" h-36 p-5 bg-gray-50 rounded-lg flex justify-center items-start flex-col">
-              <h2 className="text-lg xl:text-xl font-semibold">Telefono</h2>
+              <h2 className="text-lg xl:text-xl font-semibold">Teléfonos</h2>
               <h3 className="text-base font-normal">
                 {data.contacto_data.telefono}
               </h3>
@@ -44,11 +44,14 @@ export const SedesContact = () => {
                 Redes Sociales
               </h2>
               <h3 className="text-base font-normal">
-                Facebook: {data.contacto_data.redes.facebook}
+                <a href={data.contacto_data.redes.facebook} target="_blank">Link Facebook</a>
               </h3>
               <h3 className="text-base font-normal">
-                Instagram: {data.contacto_data.redes.instagram}
+                <a href={data.contacto_data.redes.instagram} target="_blank">Link Instagram</a>
               </h3>
+              {data.contacto_data.redes.x !== undefined ? <h3 className="text-base font-normal">
+                <a href={data.contacto_data.redes.x} target="_blank">Link X (Twitter)</a>
+              </h3> : <></>}
             </div>
           </div>
         </section>

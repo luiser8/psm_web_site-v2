@@ -474,13 +474,13 @@ export default {
     descripcion:
       "Información de contacto acerca de las carreras y planes de estudio",
     contacto_data: {
-      telefono: "0424-7788865",
+      telefono: " 0286-9511556",
       direccion:
-        "5838+QQM Universidad Santiago Mariño Sede 2, Av. Guzmán Lander, Barcelona 6001, Anzoátegui",
-      correo: "politecnicosantiagomariño@gmail.com",
+        "",
+      correo: "ADMISIONPUERTOORDAZ@PSM.EDU.VE",
       redes: {
-        facebook: "PSM facebook",
-        instagram: "@Psm instagram",
+        facebook: "https://www.facebook.com/PSMPuertoOrdaz",
+        instagram: "https://www.instagram.com/psm.puertoordaz",
       },
     },
   },
@@ -618,20 +618,14 @@ export default {
           {
             id: 1,
             name: "Facebook",
-            link: "https://www.facebook.com/psm.barcelona.10",
+            link: "https://www.facebook.com/PSMPuertoOrdaz",
             icon: "/images/common/Icon/facebook.svg",
           },
           {
             id: 2,
             name: "Instagram",
-            link: "https://www.instagram.com/psmcaracasoficial/",
+            link: "https://www.instagram.com/psm.puertoordaz",
             icon: "/images/common/Icon/instagram.svg",
-          },
-          {
-            id: 3,
-            name: "Twitter",
-            link: "https://twitter.com/PSMSanCristobal",
-            icon: "/images/common/Icon/twitter.svg",
           },
         ],
       },

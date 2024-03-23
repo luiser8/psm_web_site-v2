@@ -534,13 +534,14 @@ export default {
     descripcion:
       "Información de contacto acerca de las carreras y planes de estudio",
     contacto_data: {
-      telefono: "0424-7788865",
+      telefono: "0276-3439195 / 0424-7176009",
       direccion:
-        "5838+QQM Universidad Santiago Mariño Sede 2, Av. Guzmán Lander, Barcelona 6001, Anzoátegui",
-      correo: "politecnicosantiagomariño@gmail.com",
+        "",
+      correo: "ADMISIONSANCRISTOBAL@PSM.EDU.VE / SANCRISTOBAL@PSM.EDU.VE",
       redes: {
-        facebook: "PSM facebook",
-        instagram: "@Psm instagram",
+        facebook: "https://www.facebook.com/PSMSanCristobal",
+        instagram: "https://www.instagram.com/psmsancristobal",
+        x: "https://twitter.com/PSMSanCristobal"
       },
     },
   },
@@ -624,13 +625,13 @@ export default {
           {
             id: 1,
             name: "Facebook",
-            link: "https://www.facebook.com/psm.barcelona.10",
+            link: "https://www.facebook.com/PSMSanCristobal",
             icon: "/images/common/Icon/facebook.svg",
           },
           {
             id: 2,
             name: "Instagram",
-            link: "https://www.instagram.com/psmcaracasoficial/",
+            link: "https://www.instagram.com/psmsancristobal",
             icon: "/images/common/Icon/instagram.svg",
           },
           {
